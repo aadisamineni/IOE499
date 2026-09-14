@@ -1,0 +1,179 @@
+{
+  "status": "validated",
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "retrieval_started_utc": "2026-09-14T15:45:26.147473+00:00",
+  "ticker": "NVDA",
+  "currency": "USD",
+  "package_versions": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "python_version": "3.13.3 (v3.13.3:6280bb54784, Apr  8 2025, 10:47:54) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "requested_dates": {
+    "start_inclusive": "2025-10-01",
+    "end_inclusive": "2026-05-31"
+  },
+  "download_settings": {
+    "interval": "1d",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "rounding": false,
+    "prepost": false,
+    "timeout": 30
+  },
+  "exception_settings": {
+    "yf.config.debug.hide_exceptions": false
+  },
+  "requests": {
+    "warmup": {
+      "start_inclusive": "2025-07-03",
+      "end_exclusive": "2025-10-01"
+    },
+    "main": {
+      "start_inclusive": "2025-10-01",
+      "end_exclusive": "2026-06-01"
+    }
+  },
+  "warmup_calendar_days": 90,
+  "adjustment_conventions": {
+    "ohlc": "Yahoo provider OHLC, generally split-adjusted, not dividend-adjusted; auto_adjust=False does not restore original pre-split traded prices.",
+    "adjusted_close": "Yahoo adjusted close reflects splits and dividend distributions; historical values may be revised after retrieval.",
+    "adjusted_open": "Computed internally as open * adjusted_close / close; intraday return = adjusted_close / adjusted_open - 1.",
+    "actions": "Provider dividends (USD/share, ex-date) and stock split ratios (new shares / old shares); provider zero denotes no action.",
+    "volume": "Provider-reported daily share volume, preserved without transformation."
+  },
+  "feature_timing": "Session dates use America/New_York. Same-day close, high, low, volume and all unlagged derived features are available only after session end. Each _lag1_session feature on date t uses the preceding exchange session's feature, including warm-up. No future targets or news joins. This is a retrospectively adjusted snapshot, not a point-in-time archive of historical provider revisions.",
+  "calendar": "pandas_market_calendars NASDAQ; includes early-close sessions",
+  "unusual_return_review_threshold": "abs(adjusted close daily return) >= 0.10",
+  "documentation": [
+    "https://ranaroussi.github.io/yfinance/reference/yfinance.price_history.html",
+    "https://help.yahoo.com/kb/SLN28256.html",
+    "https://github.com/ranaroussi/yfinance/discussions/1682",
+    "https://pandas-market-calendars.readthedocs.io/en/latest/usage.html"
+  ],
+  "paths": {
+    "raw": "data/raw/NVDA_daily_2025-10-01_2026-05-31.csv",
+    "warmup": "data/raw/NVDA_daily_warmup_2025-07-03_2025-09-30.csv",
+    "processed": "data/processed/NVDA_daily_features_2025-10-01_2026-05-31.csv",
+    "metadata": "data/raw/NVDA_daily_2025-10-01_2026-05-31_metadata.json"
+  },
+  "warmup_retrieved_utc": "2026-09-14T15:45:26.394579+00:00",
+  "retrieval_time_utc": "2026-09-14T15:45:26.468571+00:00",
+  "validation": {
+    "warmup": {
+      "passed": true,
+      "checks": {
+        "sorted_dates": true,
+        "unique_dates": true,
+        "nonempty": true,
+        "no_missing_source_values": true,
+        "finite_numeric_values": true,
+        "positive_prices": true,
+        "nonnegative_volume": true,
+        "valid_ohlc_bounds": true,
+        "all_expected_sessions_present": true,
+        "no_unexpected_sessions": true
+      },
+      "expected_session_count": 62,
+      "row_count": 62,
+      "first_trading_date": "2025-07-03",
+      "last_trading_date": "2025-09-30",
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "missing_values": {
+        "ticker": 0,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "adjusted_close": 0,
+        "volume": 0,
+        "dividends": 0,
+        "stock_splits": 0
+      },
+      "corporate_actions_for_review": [
+        {
+          "trading_date": "2025-09-11",
+          "dividends": 0.01,
+          "stock_splits": 0.0
+        }
+      ]
+    },
+    "requested": {
+      "passed": true,
+      "checks": {
+        "sorted_dates": true,
+        "unique_dates": true,
+        "nonempty": true,
+        "no_missing_source_values": true,
+        "finite_numeric_values": true,
+        "positive_prices": true,
+        "nonnegative_volume": true,
+        "valid_ohlc_bounds": true,
+        "all_expected_sessions_present": true,
+        "no_unexpected_sessions": true
+      },
+      "expected_session_count": 166,
+      "row_count": 166,
+      "first_trading_date": "2025-10-01",
+      "last_trading_date": "2026-05-29",
+      "missing_sessions": [],
+      "unexpected_sessions": [],
+      "missing_values": {
+        "ticker": 0,
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "adjusted_close": 0,
+        "volume": 0,
+        "dividends": 0,
+        "stock_splits": 0
+      },
+      "corporate_actions_for_review": [
+        {
+          "trading_date": "2025-12-04",
+          "dividends": 0.01,
+          "stock_splits": 0.0
+        },
+        {
+          "trading_date": "2026-03-11",
+          "dividends": 0.01,
+          "stock_splits": 0.0
+        }
+      ]
+    }
+  },
+  "actual_dates": {
+    "first": "2025-10-01",
+    "last": "2026-05-29"
+  },
+  "row_count": 166,
+  "processed_missing_values": {
+    "ticker": 0,
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "close": 0,
+    "adjusted_close": 0,
+    "volume": 0,
+    "dividends": 0,
+    "stock_splits": 0,
+    "adjusted_close_return_1d": 0,
+    "adjusted_open_to_close_return": 0,
+    "adjusted_close_return_5d": 0,
+    "daily_return_volatility_20d": 0,
+    "average_volume_20d": 0,
+    "adjusted_close_return_1d_lag1_session": 0,
+    "adjusted_open_to_close_return_lag1_session": 0,
+    "adjusted_close_return_5d_lag1_session": 0,
+    "daily_return_volatility_20d_lag1_session": 0,
+    "average_volume_20d_lag1_session": 0
+  },
+  "unusual_returns_for_review_including_warmup": []
+}
