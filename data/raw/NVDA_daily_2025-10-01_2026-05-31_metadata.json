@@ -175,9 +175,12 @@
     "adjusted_close_return_5d_lag1_session": 0,
     "daily_return_volatility_20d_lag1_session": 0,
     "average_volume_20d_lag1_session": 0,
-    "price_move_5pct_lag1_session": 0
+    "price_move_5pct_lag1_session": 0,
+    "price_move_1pct": 0,
+    "price_move_1pct_lag1_session": 0
   },
   "unusual_returns_for_review_including_warmup": [],
   "price_move_5pct_definition": "Adjusted close versus previous exchange session: +1 if at least 5% higher, -1 if at least 5% lower, otherwise 0; missing previous close remains missing. Same-day classification, available after close; lag1_session uses prior session.",
-  "processed_generated_utc": "2026-09-14T15:55:04.195617+00:00"
+  "processed_generated_utc": "2026-09-14T16:03:25.630409+00:00",
+  "price_move_1pct_definition": "Adjusted close versus previous exchange session: +1 if at least 1% higher, -1 if at least 1% lower, otherwise 0; missing previous close remains missing. Same-day classification, available after close; lag1_session uses prior session."
 }
