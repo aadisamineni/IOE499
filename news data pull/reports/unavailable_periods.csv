@@ -1,0 +1,3 @@
+ticker,from_date,to_date,coverage_state,interpretation
+NVDA,2026-02-26,2026-02-26,potential_truncation,Minimum-size window still met the configured truncation threshold.
+NVDA,2026-03-17,2026-03-18,potential_truncation,Minimum-size window still met the configured truncation threshold.

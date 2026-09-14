@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-11-12",
+    "to": "2025-11-18"
+  },
+  "retrieved_at_utc": "2026-09-14T15:30:25Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:30:25 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "34",
+    "x-ratelimit-reset": "1789399854"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1763472961,
+      "headline": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "id": 138438420,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=26e2782dc672a71ea0a76a90cce8e2bb48f2c7d84e09b35880014d360796e1c9"
+    },
+    {
+      "category": "company",
+      "datetime": 1763472929,
+      "headline": "Shares of software companies are trading lower amid overall market weakness as investors rotate out of the industry amid AI disruption concerns. Recent payroll economic data may impact future rate cuts as investors await Friday's CPI results.",
+      "id": 139929684,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=4b3f35cb9a2fd0a5cc911d8e411b90a1ea83ae3b8a558085ade098363695c9f3"
+    },
+    {
+      "category": "company",
+      "datetime": 1763472929,
+      "headline": "Shares of broader software stocks are trading lower. The tech sector has been under pressure amid AI valuation uncertainty and profit taking.",
+      "id": 138406748,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=d91bdbf727377141364a6bed55402c43fce886061cc5ceb9495083b8e4ac20f8"
+    },
+    {
+      "category": "company",
+      "datetime": 1763472806,
+      "headline": "Shares of broader chip stocks are trading lower. The sector has been under pressure amid AI valuation uncertainty and profit taking.",
+      "id": 138406749,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=a40435551d0206f4c35c7a0efe31448aab66856b84ee9107264c963a89ab9ef0"
+    },
+    {
+      "category": "company",
+      "datetime": 1763466285,
+      "headline": "These Fast-Rising Tech Stocks Are Surging in Growth Scores This Week",
+      "id": 138752375,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/18/Businessman-Using-Technology-Connecting-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=ff58a91a1e751776a4ef3354aaff438eb4c4db6a125a3bc23a8305444a251904"
+    },
+    {
+      "category": "company",
+      "datetime": 1763385302,
+      "headline": "Micron, Nvidia, Apple Among Q3's 'Hot List' As Hedge Funds Load Up On Tech All Over Again",
+      "id": 138406750,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/17/Financial-Technology-Concept--Stock-Char.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Hedge funds bet big on tech stocks in Q3, with Micron, ASML, Apple, Nvidia, AMD and TSM dominating.",
+      "url": "https://finnhub.io/api/news?id=ba59bb042dc7ab6b153743e544990c734732c37e3fa264e8eed45b194836359f"
+    },
+    {
+      "category": "company",
+      "datetime": 1763375572,
+      "headline": "AMD Q3: The Underdog Running Circles Around Rivals",
+      "id": 137504916,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2214312305/image_2214312305.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Advanced Micro Devices, Inc. is a Strong Buy with good AI growth, key partnerships, and next-gen chips driving long-term gains. Click for my AMD earnings update.",
+      "url": "https://finnhub.io/api/news?id=9d618439b9d1c453da685584285df72aa200aaf21f5702b35961f9950a7832c9"
+    },
+    {
+      "category": "company",
+      "datetime": 1763369940,
+      "headline": "Diamond Hill International Strategy Q3 2025 Performance Review",
+      "id": 137504584,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2224008766/image_2224008766.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Though positive on an absolute basis, Diamond Hill International Strategy portfolio modestly trailed the benchmark during the quarter. Read more here.",
+      "url": "https://finnhub.io/api/news?id=bfc8c9f67bbfcbe5ce177fdcb09cb8321f28f36b5ccff40c040eedc2eed6c0dd"
+    },
+    {
+      "category": "company",
+      "datetime": 1763312229,
+      "headline": "Consumer Tech News (Nov 10-14): China Lifts Rare Earth Export Ban to U.S., Microsoft and Google Invest Billions in AI Data Centers & More",
+      "id": 138451982,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/16/U-S---China-settle-rare-earths.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "China ends year-long gallium, germanium, and antimony export ban to the U.S., following the high-profile Trump-Xi meeting and trade negotiations. Microsoft invests $10B in AI data centers in Portugal and Atlanta; Alphabet allocates $6.4B for German infrastructure expansion.",
+      "url": "https://finnhub.io/api/news?id=a8c26cbb2b4d683f847826b5faeaeb9d77996572ff6a6e4886318a3022c5439a"
+    },
+    {
+      "category": "company",
+      "datetime": 1763179485,
+      "headline": "Elon Musk Reveals That He Pressures TSMC And Samsung To Speed Up Tesla's AI Chip Output: 'Five Years To Me Is An Eternity'",
+      "id": 138674135,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/15/Elon-Musk--Ceo-Of-Tesla--In-A-Formal-Sui.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Elon Musk says Tesla is pressuring chipmakers TSMC and Samsung to drastically speed up production of its next-generation AI chips, warning that traditional five-year semiconductor timelines are far too slow for the company&#39;s aggressive ambitions.",
+      "url": "https://finnhub.io/api/news?id=f635c2bea73dd88b0ea45d6d074e64f3eebcec2e4ec318a92da72a793a6a2380"
+    },
+    {
+      "category": "company",
+      "datetime": 1763143161,
+      "headline": "Druckenmiller Opens Position In Amazon, Closes Microsoft — Here's More Of Duquesne's Biggest Q3 Moves",
+      "id": 138555561,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/14/investor-charts-ai4.png?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Stanley Druckenmiller&#39;s Duquesne Family Office Q3 13F reinforces the firm&#39;s reputation for agile and opportunity-driven asset allocation.",
+      "url": "https://finnhub.io/api/news?id=3ca34b71d50d72ca965c8277e17fa2daad867e37485422986397a5c489208120"
+    },
+    {
+      "category": "company",
+      "datetime": 1763133384,
+      "headline": "Magnificent Seven Loving Congressman Buys Stocks Again, But This Time Only Three Of The Seven",
+      "id": 138578439,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/14/Magnificent-Seven.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "A Congressman who loves buying Magnificent Seven stocks may have narrowed down the list to three companies.",
+      "url": "https://finnhub.io/api/news?id=fd366ea29b953fb2aa718bad878d56c779b5f566ec0658e84b22b2a3f55802a7"
+    },
+    {
+      "category": "company",
+      "datetime": 1763116371,
+      "headline": "Taiwan Semiconductor's Germany Chip Plant Moves Forward With Full Support From Taiwan",
+      "id": 138668249,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/14/Taiwan-Semiconductor.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan supports TSMC&#39;s first European chip plant in Germany. The fab is expected to create 5,000 jobs and boost the city&#39;s semiconductor hub.",
+      "url": "https://finnhub.io/api/news?id=1208f93d80c4232494ded4e278812410fdc012697da429acef49205cfdf9e245"
+    },
+    {
+      "category": "company",
+      "datetime": 1763115581,
+      "headline": "Hesai Says Co Selected By NVIDIA As Lidar Partner For NVIDIA DRIVE Hyperion 10",
+      "id": 139934456,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=188b4d8ee71a8e52b66809d406cc7c293d8b00b7f1c9f28a4df221dd0b53d09c"
+    },
+    {
+      "category": "company",
+      "datetime": 1763115581,
+      "headline": "Shares of semiconductor stocks are trading lower amid continued weakness due to a broader selloff in tech and AI-related names.",
+      "id": 138406753,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=50af268f8a1eac4c71b04f896aefa256538a07640d96343f023d94088dc2d2c6"
+    },
+    {
+      "category": "company",
+      "datetime": 1763066694,
+      "headline": "Tracking Ken Fisher's Fisher Asset Management Portfolio - Q3 2025 Update",
+      "id": 137475053,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/186805810/image_186805810.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Kenneth Fisherâs Q3 2025 portfolio update: NVDA leads, Apple and Microsoft expanded. See top stock picks and portfolio shifts. Read here for more insights.",
+      "url": "https://finnhub.io/api/news?id=82565079d0e3e585ecae94be31e30982bd73627cd306f952901e881b97c65e2f"
+    },
+    {
+      "category": "company",
+      "datetime": 1763057208,
+      "headline": "David Tepper's Hedge Funds Bets On AMD, Nvidia In Q3, Takes Profits On Intel",
+      "id": 138432302,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/13/chart-investors-ai.png?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "A new 13F filing shows David Tepper&#39;s hedge fund betting on regional banks, semiconductors and more.",
+      "url": "https://finnhub.io/api/news?id=2b0c46336fc9337cb14423b7c93c028cfc8923be4585026f1f74b9e122942682"
+    },
+    {
+      "category": "company",
+      "datetime": 1763040811,
+      "headline": "Shares of chip stocks are trading lower amid a broader selloff in tech and AI-related names.",
+      "id": 138406754,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=a3759a34db19e020bee9283ef03bc8b55000b888650013d16c8a52e285309252"
+    },
+    {
+      "category": "company",
+      "datetime": 1763032164,
+      "headline": "Key AI Chip Supplier ASML Deepens Ties With Samsung and SK hynix in South Korea",
+      "id": 138406755,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/13/Veldhoven--Netherlands--July-20--2023-As.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "ASML expands in South Korea with new campus to deepen collaboration with Samsung and SK hynix, aiming to support advanced chip manufacturing.",
+      "url": "https://finnhub.io/api/news?id=989bb65558e5fcdd7c852df33f0dd000bab9bd51126a5e66149209988c751802"
+    },
+    {
+      "category": "company",
+      "datetime": 1763025348,
+      "headline": "Taiwan Semiconductor, HealthEquity, Cboe Global Markets And More: CNBC's 'Final Trades'",
+      "id": 138405227,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/13/Tokyo--Japan--March-2023-an-Image-Of-Tsm.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Stephen Weiss of Short Hills Capital Partners, named Taiwan Semiconductor Manufacturing Company as his final trade.",
+      "url": "https://finnhub.io/api/news?id=e6cec81029d027ce66e3ef02633dd3e8a124997d685f0650cd8e86cb23165c0a"
+    },
+    {
+      "category": "company",
+      "datetime": 1762956060,
+      "headline": "CNBC Halftime Report Final Trades: Taiwan Semiconductor Manufacturing, HealthEquity, State Street SPDR S&P Biotech ETF, Cboe Global Markets",
+      "id": 138405228,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=4fe44d1393ce4e87de506b21e1b91f2e66888dbd4bb814272c231cc6be0dc0b7"
+    },
+    {
+      "category": "company",
+      "datetime": 1762953141,
+      "headline": "AMD: Lisa Su Has Finally Spoken",
+      "id": 137460970,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1225671522/image_1225671522.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover how Advanced Micro Devices, Inc. plans to tap into the $1T AI compute market and compete with Nvidia. Click for this updated look at AMD stock prospects.",
+      "url": "https://finnhub.io/api/news?id=7e75d9a8f4e830d1d2397c62b4e3d14050437f665fc3345636bfbf090070f9a6"
+    },
+    {
+      "category": "company",
+      "datetime": 1762934817,
+      "headline": "Nvidia Packaging Partner Amkor Logs Momentum Gain— Up Over 30% YTD On AI Surge",
+      "id": 138621061,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/12/Tempe--Az--Asu-Research-Park---Nov-20-20.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Amkor Technologies (AMKR) hits top momentum percentile, up over 30% YTD as Nvidia&#39;s key CoWoS/HBM partner. AI surge drives gains.",
+      "url": "https://finnhub.io/api/news?id=b59e26e2cc536a1911cea1c33c1a632a864fdba3d54aafc2f96e302b604b1a45"
+    },
+    {
+      "category": "company",
+      "datetime": 1762928915,
+      "headline": "Eric Schmidt Says Free Chinese AI Models Could Overtake Western Systems In Global Use",
+      "id": 138734449,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/12/AI-and-businesses.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "\nFormer Google CEO Eric Schmidt cautions about cost and accessibility of AI models, which could lead to global reliance on Chinese technology.",
+      "url": "https://finnhub.io/api/news?id=091f26bf67097b3683fa3f20cbefd5fe1516113025b0e13854e2d0db36a3c099"
+    },
+    {
+      "category": "company",
+      "datetime": 1762923600,
+      "headline": "Baron Technology Fund Q3 2025 Top Contributors And Detractors",
+      "id": 137453581,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2221411629/image_2221411629.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "We remain confident in AIâs potential to transform the global economy and in NVIDIAâs pivotal role as the leading enabler of that transformation.",
+      "url": "https://finnhub.io/api/news?id=23ed55211d9527fd87fa0f74c9afa2026bad2ec2ad20ebd38f8eac34175b98eb"
+    }
+  ]
+}

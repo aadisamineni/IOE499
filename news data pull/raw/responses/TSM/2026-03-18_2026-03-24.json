@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2026-03-18",
+    "to": "2026-03-24"
+  },
+  "retrieved_at_utc": "2026-09-14T15:35:05Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:35:05 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "7",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1774391067,
+      "headline": "Cathie Wood Buys The Circle Dip: Ark Snaps Up $16 Million Worth Of CRCL Stock Amid Senate Stablecoin Pressure",
+      "id": 139532622,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/24/Ark-Invest-Keeps-Dumping-Tesla--Doubles-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "On Tuesday, Cathie Wood-led Ark Invest executed significant trades, including buying shares of Circle Internet Group Inc (NYSE:CRCL) and selling shares of ",
+      "url": "https://finnhub.io/api/news?id=fb641e10dcbb146e5ad4cb7c05b149cac1f36525370dea30026fd0e396feec23"
+    },
+    {
+      "category": "company",
+      "datetime": 1774371559,
+      "headline": "Arm Holdings Stock Soars As Company Targets $15 Billion In Annual Sales From New In-House Chip",
+      "id": 139532758,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/24/Arm-Holdings.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Arm Holdings shares are surging in Tuesday&#39;s after-hours session following reports that the company is targeting $15 billion in annual sales from its new in-house chip.",
+      "url": "https://finnhub.io/api/news?id=6619a17ed7e904b7e3e6746ca48fa1704c87800fadd12d29b7ba82ec6d78fcb2"
+    },
+    {
+      "category": "company",
+      "datetime": 1774370663,
+      "headline": "AI's Achilles' Heel: How A War-Led Helium Shock Is Exposing Chip ETF Risks",
+      "id": 139531848,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/24/Semiconductor--Cpu-Chip-Located-On-The-G.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Helium shock exposes a flaw in semiconductor ETFs: overexposed to AI, under-hedged on supply risks.",
+      "url": "https://finnhub.io/api/news?id=874d7a00398f24688fd59247249b84ec214c1cfabb799fd293ca23cefe454c17"
+    },
+    {
+      "category": "company",
+      "datetime": 1774332026,
+      "headline": "Broadcom Warns Taiwan Semiconductor Capacity Is Maxed Out",
+      "id": 139522088,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/24/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Broadcom warns of AI supply chain &#34;choke&#34; in 2026 as TSMC hits production limits. See how component shortages are spreading beyond chips.",
+      "url": "https://finnhub.io/api/news?id=b76230239bdf534d3db9d40ece3687a4e43ce43ad2cdff3f1034618c8881a6bd"
+    },
+    {
+      "category": "company",
+      "datetime": 1774332000,
+      "headline": "PXH: Emerging Markets ETF With Solid Value, Overweight In China",
+      "id": 139519917,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1096944686/image_1096944686.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The Invesco RAFI Emerging Markets ETF offers diversified exposure to about 350 emerging market stocks. Learn more about the PXH ETF here.",
+      "url": "https://finnhub.io/api/news?id=7b3b6dc0ea4584990ec01545329cd93347638aa5e81b2915c465de94ad2d8b3b"
+    },
+    {
+      "category": "company",
+      "datetime": 1774277909,
+      "headline": "Shares of semiconductor companies are trading higher as sentiment around the sector improves, with the broader market rebounding after President Trump announced a five-day suspension of U.S. strikes on Iran's power and energy infrastructure.",
+      "id": 139933201,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=472f4f0ce59e99d49e9851a262deafeef6ee63d74fe764a3374dedab5b9fe0b2"
+    },
+    {
+      "category": "company",
+      "datetime": 1774272916,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 139521918,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=b1a360c88e7dc969f5e0435787ac32f1f7af5144271b5a0616480a2bdc26a999"
+    },
+    {
+      "category": "company",
+      "datetime": 1774264517,
+      "headline": "The HBM Shortage May Make Micron A $1 Trillion Giant",
+      "id": 139513028,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=70843e4c20f5c25c176887cab4aee51a87d2b3ff05270c6c291918443de84c65"
+    },
+    {
+      "category": "company",
+      "datetime": 1774257915,
+      "headline": "Chip Stocks Gain As Trump Hits Pause On Iran Strikes",
+      "id": 139510477,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/23/Gold-Miners-Outpace-AI-Stocks.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Tech and chip stocks rebound as Trump signals a pause in Iran tensions. See how NVDA, AMD, and AAPL are performing in today&#39;s market.",
+      "url": "https://finnhub.io/api/news?id=96445908d5d0f8864da6c7c867ceb755d74aaee0dc0b41e476c79aa4b1fdec38"
+    },
+    {
+      "category": "company",
+      "datetime": 1774250263,
+      "headline": "Undercovered Dozen: Rayonier, Tower Semiconductor, British American Tobacco And More",
+      "id": 139509597,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/979625750/image_979625750.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover 12 undercovered stocks with fresh ratings and actionable analysisâBuy ideas, AI and income themes, and overlooked catalysts.",
+      "url": "https://finnhub.io/api/news?id=11a08bb0938d2f8c03d234bfed5f30b47b9863dfd7dc75468da551cc872c0007"
+    },
+    {
+      "category": "company",
+      "datetime": 1774004400,
+      "headline": "Asia Tech+: Ride The Tech Innovation Wave?",
+      "id": 139489021,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=107d335c0812cc9f1080cacfcf4932eb6f9f81cc8b7ac2015afaf471dd8772f7"
+    },
+    {
+      "category": "company",
+      "datetime": 1774002000,
+      "headline": "Nomura Core Equity Fund: Q4 2025 Buys, Sells, And Standouts",
+      "id": 139488449,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1226768974/image_1226768974.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Nomura Core Equity Fund underperformed the S&P 500 in Q4 2025 due to stock selection. Read the full analysis for more details.",
+      "url": "https://finnhub.io/api/news?id=112a6d58f6d563d09834a3c05f740cc0d266eb7ffe6afd85036d5f5c460bbc03"
+    },
+    {
+      "category": "company",
+      "datetime": 1773987397,
+      "headline": "Samsung Targets SK Hynix AI Lead With $73 Billion Blitz",
+      "id": 139487413,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/20/US-Revokes-Chip-Production-Permissions-I.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Can Samsung&#39;s $73B investment close the gap with SK Hynix? Inside the aggressive strategy to dominate HBM4 and AI manufacturing.",
+      "url": "https://finnhub.io/api/news?id=459fdb3b9b0cbbde17065d559d3ee1c8ad2b84396d3960cd72a2d51177d7ef84"
+    },
+    {
+      "category": "company",
+      "datetime": 1773978876,
+      "headline": "5 Ideal 'Safer' March Dividend Bloomberg Businessweek Buys",
+      "id": 139485014,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/458570229/image_458570229.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Seventeen Bloomberg 2026 Watchlist stocks are safer with 30.83% gains projected for IDEAL picks like Aviva and Continental. Check out why this yield strategy works.",
+      "url": "https://finnhub.io/api/news?id=62ed37d1fa0bea8f3c4aa91381ce1f939535bb79c27b4dac39726b761652caed"
+    },
+    {
+      "category": "company",
+      "datetime": 1773914931,
+      "headline": "Why Are Semiconductor Chip Stocks Falling On Thursday?",
+      "id": 139477508,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/19/Semiconductor.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "A potential &#34;helium crunch&#34; is sending shockwaves through the tech sector, pulling down Nvidia, AMD, and TSMC. Discover why the $3 trillion chip industry is suddenly on edge over a critical gas shortage.",
+      "url": "https://finnhub.io/api/news?id=0585d2c95938aee5e739d8e0caec0ac41e5e3c4c7a239491848effc2d57f6d3a"
+    },
+    {
+      "category": "company",
+      "datetime": 1773867300,
+      "headline": "Columbia Global Technology Growth Fund: Q4 2025 Significant Contributors And Detractors",
+      "id": 139455815,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2263910450/image_2263910450.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Columbia Global Technology Growth Fund returned 1.97% in Q4 2025, trailing its benchmark despite AI-driven gains. Read the full analysis for more details.",
+      "url": "https://finnhub.io/api/news?id=b25988506c89aa3af60dfbb3fa6b84b2555358bca7d4d0d37472ebd7f3a19808"
+    },
+    {
+      "category": "company",
+      "datetime": 1773857870,
+      "headline": "Tesla Just Snubbed TSMC — Musk Is Quietly Building A Sovereign Chip Chain",
+      "id": 139478017,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/18/Focused-Shot-Capturing-Elon-Musk-Alongsi_0.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Tesla&#39;s Samsung deal signals a shift toward a sovereign chip supply chain, reducing reliance on TSMC, insulating from geopolitical risks.",
+      "url": "https://finnhub.io/api/news?id=90d8d1a9aabf0f24d72ee5183ac694aa41994a9d046c1dcd4363caa405cfa535"
+    },
+    {
+      "category": "company",
+      "datetime": 1773833489,
+      "headline": "Taiwan Semiconductor (NYSE:TSM) Shows Strong Growth Momentum and Technical Setup",
+      "id": 139448867,
+      "image": "https://www.chartmill.com/images/uploads/HGM_Breakout_19d1a7df53.webp",
+      "related": "TSM",
+      "source": "ChartMill",
+      "summary": "TSM stock shows strong earnings growth and a positive technical setup, offering a potential entry point for momentum investors.",
+      "url": "https://finnhub.io/api/news?id=4df29d0821bcc25afb5df260e1515f3bb232021cd8704b0953d242916675ea32"
+    },
+    {
+      "category": "company",
+      "datetime": 1773827779,
+      "headline": "TSMC Claims 72% Of Global Chip Market As AI Demand Hits Record Highs",
+      "id": 139450580,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/18/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "TSMC (TSM) shares trended Wednesday as new data confirms its massive lead in the chipmaking sector. Learn how a 26% industry growth rate and a 72% market share are positioning TSMC for a record-breaking 2026.",
+      "url": "https://finnhub.io/api/news?id=5e8cfd424d010c080fae7a565796177134c645e611a61b9b4214a7cd62a8cc9d"
+    },
+    {
+      "category": "company",
+      "datetime": 1773819531,
+      "headline": "Helium Crisis Looms Over Asia's Chip Giants, Fitch Warns",
+      "id": 139449900,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/18/Helium-He--Chemical-Element--3d-Renderin.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Fitch warns of rising helium supply risks for Asia&#39;s chipmakers as the Iran conflict persists. How South Korea and Taiwan are vulnerable.",
+      "url": "https://finnhub.io/api/news?id=a3c13640c9ad765e6907d061c56d9bc3b21ade0f50553537175ebf99a6474bbe"
+    },
+    {
+      "category": "company",
+      "datetime": 1773807531,
+      "headline": "Samsung Electronics To Kickstart Tesla Chips Production In Late 2027",
+      "id": 139449901,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/18/New-York--Usa--20-Mar-2025-Selective-Foc.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Samsung Electronics (OTC:SSNLF) has announced plans to commence mass production of chips for Tesla Inc. (NASDAQ: TSLA) in the latter half of 2027.",
+      "url": "https://finnhub.io/api/news?id=4a5d530d09d6dfc7982ce2d4a52d012bfc48b3b9146df52ae814f16972cb8d9d"
+    }
+  ]
+}

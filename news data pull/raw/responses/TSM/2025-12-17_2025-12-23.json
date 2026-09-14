@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-12-17",
+    "to": "2025-12-23"
+  },
+  "retrieved_at_utc": "2026-09-14T15:34:50Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:34:50 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1766505949,
+      "headline": "Apple's 3 Big New Year Woes",
+      "id": 137884386,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1705316992/image_1705316992.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Apple Inc. stock outperformed in H2 2025, but key challenges threaten its premium valuation. Discover crucial risks for FY2026. Click for this AAPL stock update.",
+      "url": "https://finnhub.io/api/news?id=8dd9349292ee67947268da4cb60bd1b4f6a777350a098a7a6754d5d781abbeb8"
+    },
+    {
+      "category": "company",
+      "datetime": 1766492495,
+      "headline": "Developing The 6G Infrastructure Could Be Crucial For AI In 2026",
+      "id": 137882589,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2219225188/image_2219225188.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "6G infrastructure is poised to become a dominant investment theme by 2026, enabling edge AI and supporting explosive growth in select satellite and network...",
+      "url": "https://finnhub.io/api/news?id=b3a6d3801a0bece1c847ec815bb8939c2bec5337c79fb5c89e003db4a53ced03"
+    },
+    {
+      "category": "company",
+      "datetime": 1766484840,
+      "headline": "Janus Henderson Global Sustainable Equity (ADR) Managed Account Q3 2025 Portfolio Review",
+      "id": 137881816,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2226750376/image_2226750376.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Janus Henderson Global Sustainable Equity (ADR) Managed Account portfolioâs underweight positions in consumer staples, healthcare, and real estate were beneficial on a relative basis.",
+      "url": "https://finnhub.io/api/news?id=282786e15310c8de732d4417799c82afc6540d0cb5506e0e717f759e4ec0fc26"
+    },
+    {
+      "category": "company",
+      "datetime": 1766478600,
+      "headline": "2026 Market Outlook: An Underappreciated Policy Shift Could Favor The S&P 493",
+      "id": 137881234,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1936201908/image_1936201908.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover why non-tech sectors like industrials and healthcare may lead S&P 500 growth into 2026.",
+      "url": "https://finnhub.io/api/news?id=00a70efc1f17b96c9a45f998734647d2e553e8168f0da578755fbc33dd6ecfd5"
+    },
+    {
+      "category": "company",
+      "datetime": 1766408980,
+      "headline": "Broadcom: Expecting Over 150% AI Revenue And 60% FCF Growth For FY2026 (Upgrade)",
+      "id": 137873937,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1643360144/image_1643360144.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Broadcom Inc. is upgraded to Buy due to high-quality AI growth exposure and strong FCF generation. Learn more about AVGO stock here.",
+      "url": "https://finnhub.io/api/news?id=1284b11c04b88b0964b43f81575c2186a66aafb79d5e46e372d81229953f1e42"
+    },
+    {
+      "category": "company",
+      "datetime": 1766405678,
+      "headline": "AGD: Strong Tailwinds For 2026, But This Fund Is Pricey",
+      "id": 137873355,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2216425295/image_2216425295.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The abrdn Global Dynamic Dividend Fund (AGD) offers a 12.28% yield, appealing for income-focused investors seeking equity exposure. Read the full analysis here.",
+      "url": "https://finnhub.io/api/news?id=f2f037987eefd4b080da39c4f50f8439572ca5f00c0d218cc2fea8946299534e"
+    },
+    {
+      "category": "company",
+      "datetime": 1766401270,
+      "headline": "Oracle: All Eyes On The Balance Sheet",
+      "id": 137867274,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2188052792/image_2188052792.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Oracle doubles 2026 capital spending to $50B, but rising debt and AI reliance pose risks. Learn how these shifts could impact future market stability.",
+      "url": "https://finnhub.io/api/news?id=453eb1c6a9d0bf3924f0e02582f7d745fade69f98fa18566756c9c20a20f030f"
+    },
+    {
+      "category": "company",
+      "datetime": 1766380623,
+      "headline": "This Intel Supplier Sits At The Center of The AI Value Chain And The Market Is Finally Catching On: Growth Score Spikes",
+      "id": 138428613,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/22/Santa-Clara--California---April-26--2018.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Applied Materials is seeing its Growth metrics surge in Benzinga&#39;s Edge Stock Rankings, amid the unrelenting growth in AI capex spending.",
+      "url": "https://finnhub.io/api/news?id=12283dd95c4d9d243d5a2675925f29a8a127a3764d74e06167ecc98419e4f6b6"
+    },
+    {
+      "category": "company",
+      "datetime": 1766356311,
+      "headline": "Apple Targets 2026 Launch For AI Smart Glasses, Camera-Equipped AirPods, With Foxconn, TSMC Set To Play Key Roles: Report",
+      "id": 138574892,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/21/Apple_5.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Apple is reportedly targeting a 2026 launch for AI-powered smart glasses and camera-equipped AirPods.",
+      "url": "https://finnhub.io/api/news?id=26c5a07d2ddf7e63966523a0223f3e0edc526d93a764bf79d5e7d17e3115e6b1"
+    },
+    {
+      "category": "company",
+      "datetime": 1766335439,
+      "headline": "Consumer Tech News (Dec 15-19): Meta Accelerates AI Wearables Push, Trump Unveils U.S. Air Taxi Strategy, US Halts Technology Agreement With UK & More",
+      "id": 138434370,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/21/New-York-City--New-York---August-4-2025-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "White House AI czar David Sacks says AI is driving U.S. hiring and wage growth, challenging claims it threatens American jobs. Transportation Secretary Sean Duffy reveals Trump administration plan to launch U.S. air taxi operations and expand urban mobility.",
+      "url": "https://finnhub.io/api/news?id=88ca7c85bf876a1dd850e25df14ceef15b0fb45756549098264cceb339b8d84d"
+    },
+    {
+      "category": "company",
+      "datetime": 1766126557,
+      "headline": "TSMC: The Market Is Still Surprisingly Mispricing Its AI Chipmaking Dominance (Rating Upgrade)",
+      "id": 137830201,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2200526429/image_2200526429.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC has strong AI-driven demand, 50% margins, $50B CapEx, and market leadership amid geopolitical risks. Check out why TSM stock is upgraded to buy.",
+      "url": "https://finnhub.io/api/news?id=4b65663c5a326fa7ae4447a832407a2e9b5dc3d587b0c9a1b60f6df16dcec8d7"
+    },
+    {
+      "category": "company",
+      "datetime": 1766072960,
+      "headline": "Inflation Cools, Micron Shines: Tech ETFs Catch Tailwind",
+      "id": 138594144,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/18/Semiconductors.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "CPI inflation cools, Micron heats up, and falling yields give tech ETFs fresh momentum as investors price in Fed easing.",
+      "url": "https://finnhub.io/api/news?id=cd091478d340d9657af4569bad4e73406cc30c1a35dc55f66a9861e5b2f758c5"
+    },
+    {
+      "category": "company",
+      "datetime": 1766060526,
+      "headline": "Shares of broader chip stocks are trading higher after Micron beat quarterly earnings estimates and issued strong guidance. Additionally, softer-than-expected November CPI has lifted market sentiment.",
+      "id": 138406719,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=72688e9cd4f528c5eec822659c33e732c579a047753d338f208ae53a1f13bd40"
+    },
+    {
+      "category": "company",
+      "datetime": 1766057843,
+      "headline": "International Growth Outlook: Necessity Sparks Opportunity",
+      "id": 137822718,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/590071332/image_590071332.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Explore why international equities outpaced the U.S. in 2025. Discover key growth trends, market insights, and opportunities.",
+      "url": "https://finnhub.io/api/news?id=a2db1bf0e0060792de5cbbd63745c8f82b01ca45c983cd34956f018fed39df89"
+    },
+    {
+      "category": "company",
+      "datetime": 1766045987,
+      "headline": "The Biggest Market Risk Nobody Is Talking About Right Now",
+      "id": 137820788,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2229006239/image_2229006239.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover the hidden global risk threatening AI and tech dominance. Learn how to reposition your investments before market disruption hits.",
+      "url": "https://finnhub.io/api/news?id=2a08c02bab6bf451d23d323f92a48e79b4e49d29087276d4b896332a66b19039"
+    },
+    {
+      "category": "company",
+      "datetime": 1765978512,
+      "headline": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "id": 138428617,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=8ceb18b6ca133044210bdadc53371051af217417d6ca48a9da04bd7056365155"
+    },
+    {
+      "category": "company",
+      "datetime": 1765973736,
+      "headline": "Shares of chip stocks are trading lower amid reports of China working to rival the west in AI chips. Additionally, it was reported Blue Owl Capital will not provide funding for a $10 billion deal to build Oracle's next data center. This could cause AI sector uncertainty.",
+      "id": 139934916,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=bf201795acd5bd6fe0b7ee38d90bd1568d3019400d4e6b4bfbb046ee658caaee"
+    },
+    {
+      "category": "company",
+      "datetime": 1765973338,
+      "headline": "Amazon: What Should Investors Be Looking For In Trainium?",
+      "id": 137812153,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1317474419/image_1317474419.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover how Amazon.com, Inc. Trainium AI accelerators are driving AWS cloud growth and stock upside. Click for why Trainium is a key catalyst for AMZNâs future.",
+      "url": "https://finnhub.io/api/news?id=cd219e27acb3dce7629775709bdd6cccc2e6acdeacb9679b10374c54d05b8ae1"
+    },
+    {
+      "category": "company",
+      "datetime": 1765971260,
+      "headline": "'How China Built Its 'Manhattan Project' To Rival The West In AI Chips' - Reuters Exclusive",
+      "id": 138406722,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "https://www.reuters.com/world/china/how-china-built-its-manhattan-project-rival-west-ai-chips-2025-12-17/",
+      "url": "https://finnhub.io/api/news?id=1bc268573395afb11cc0e72ef892b0bb5529127f2e741f19009dfa7773eab145"
+    },
+    {
+      "category": "company",
+      "datetime": 1765970700,
+      "headline": "Janus Henderson Concentrated Growth Managed Account Q3 2025 Portfolio Review",
+      "id": 137811867,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2210565118/image_2210565118.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Appleâs stock faced headwinds earlier in 2025 because of sluggish iPhone sales, weaker consumer spending in China, and uncertainty about tariffs. Read more here.",
+      "url": "https://finnhub.io/api/news?id=6ca0bd2609cabe8aa9f44beb1e1ad913f36b80dd01c257b7783cc668d104a74b"
+    },
+    {
+      "category": "company",
+      "datetime": 1765952346,
+      "headline": "Japan's Rapidus Moves To Break Taiwan Semiconductor's Grip With Cheaper AI Chips",
+      "id": 138652723,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/17/AI--chips-shutterstock-2198551397_0.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Rapidus challenges Taiwan Semiconductor&#39;s dominance in AI chip production with cost-cutting technology, aiming for mass production in 2028.",
+      "url": "https://finnhub.io/api/news?id=2f7622548cb2a81470584b0b1fac84aa6e131bf75ef284aa23d8d3372d5f958c"
+    },
+    {
+      "category": "company",
+      "datetime": 1765941590,
+      "headline": "TSMC: U.S.-China Negotiations Over Taiwan Likely To Come",
+      "id": 137809483,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2244071819/image_2244071819.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor faces long-term margin pressure as onshoring to the US and EU increases costs, even as risk declines. Read more on TSM stock here.",
+      "url": "https://finnhub.io/api/news?id=95c29da3c5d8bea541b8388a437988dd6fa7ffe17ab76b7869d90a397e11391b"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2026-04-01",
+    "to": "2026-04-07"
+  },
+  "retrieved_at_utc": "2026-09-14T15:35:07Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:35:07 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "5",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1775585434,
+      "headline": "TSMC: Bulletproof Your Portfolio Even Though Peace Should Prevail",
+      "id": 139701275,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/965229202/image_965229202.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor Manufacturing Company Limited faces Taiwan's geopolitical risks and rich valuation as EPS growth slows. Click for this TSM stock update.",
+      "url": "https://finnhub.io/api/news?id=c77077a867f231cebc6866d5c6ed6ffbfebdecb5af049595277f7310b3c12d77"
+    },
+    {
+      "category": "company",
+      "datetime": 1775567579,
+      "headline": "What's Going On With Advanced Micro Devices Stock Tuesday?",
+      "id": 139706057,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/07/AMD-Signboard-At-Headquarters.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Advanced Micro Devices slides with broader tech weakness; Citi flags tactical upside as AI CPU demand strengthens.",
+      "url": "https://finnhub.io/api/news?id=a5e0c92f6052d3f1da9361f46d8e468a8ece4d1b5ca5fbbe35d8b56b0eceac74"
+    },
+    {
+      "category": "company",
+      "datetime": 1775556743,
+      "headline": "Beyond The Deadline: What Markets Are Still Not Pricing In",
+      "id": 139697262,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2192324474/image_2192324474.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Markets eye a rally as war tensions ease, but supply-chain damage and higher costs may hit nonâAI tech. Click for a look at how the current news affects stocks.",
+      "url": "https://finnhub.io/api/news?id=d5a1e639a3dace9186e1c4e456da9e667139f8717126e3b1bf827d732e0896ac"
+    },
+    {
+      "category": "company",
+      "datetime": 1775556699,
+      "headline": "ASML Caught In Crossfire As US-China Chip War Escalates",
+      "id": 139697397,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/07/Veldhoven--Netherlands--July-20--2023-As.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "ASML shares drop 1.2% following U.S. proposals to limit China&#39;s access to DUV lithography tools. Read the latest analyst insights here.",
+      "url": "https://finnhub.io/api/news?id=6e2742ccbff688f260cbcd450ca0a55ce344a64430f833f127caad5290617913"
+    },
+    {
+      "category": "company",
+      "datetime": 1775545537,
+      "headline": "Apple's iPhone 17 Dominated Global Sales In Q4",
+      "id": 139696351,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/07/AAPL-Price-Action-Apple-shares-were-down.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Apple (AAPL) now controls 69% of the smartphone market as the iPhone 17 Pro Max tops global sales. Discover how a 27% surge in mid-range phones is reshaping the industry.",
+      "url": "https://finnhub.io/api/news?id=9a8159798ad2280f09a5445a735685f5aad6b84e70bea5fe261fdecfe0e70e7c"
+    },
+    {
+      "category": "company",
+      "datetime": 1775544778,
+      "headline": "Samsung Cashes In Big As AI Memory Shortage Fuels Profit Explosion",
+      "id": 139696171,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/07/3d-Letter-Samsung-In-High-Technology.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Samsung projects record profits amid the AI chip boom, though supply chain risks from Middle East conflicts loom for semiconductor makers.",
+      "url": "https://finnhub.io/api/news?id=de34315dd2ce5daa3d24a84330b8abbece42bd1594dc4eac261dc2bad6572a41"
+    },
+    {
+      "category": "company",
+      "datetime": 1775542652,
+      "headline": "The Silicon Battle: China Goes After Taiwan's Most Valuable Asset",
+      "id": 139696431,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/07/Conflict-Between-China-And-Taiwan-_0.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan warns of rising China threats to steal chip tech and talent. Get the latest on TSM earnings and the global semiconductor rivalry.",
+      "url": "https://finnhub.io/api/news?id=470a1dd46b693e3c20dfc98533ae5992e62f4af4bb6f7781e6af12d6eac69005"
+    },
+    {
+      "category": "company",
+      "datetime": 1775481527,
+      "headline": "How US Export Curbs Are Fueling China's Chip Boom",
+      "id": 139696174,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/06/US-Revokes-Chip-Production-Permissions-I_0.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia curbs are &#34;rocket fuel&#34; for China&#39;s chip industry. See how local firms like Huawei are filling the AI compute gap to drive growth.",
+      "url": "https://finnhub.io/api/news?id=2c44dfa600e11cf981499be55fde78933ece2e0c0c1c45c960ab384762ee52b5"
+    },
+    {
+      "category": "company",
+      "datetime": 1775469741,
+      "headline": "Nvidia's Wartime Resilience Is Hiding A Taiwan-Sized Fragility",
+      "id": 139663797,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/06/Semiconductor-tensions-and-geopolitical-.png?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia&#39;s AI dominance depends on Taiwan&#39;s chip supply. But energy risks tied to Middle East tensions expose a hidden fragility.",
+      "url": "https://finnhub.io/api/news?id=7684e785d8389187a1fca0feff499de4c4fd49c7c7573395e1040345e5f6f790"
+    },
+    {
+      "category": "company",
+      "datetime": 1775453865,
+      "headline": "Taiwan Semiconductor's Big Day Approaches With Markets Watching AI, War And Rivals",
+      "id": 139663231,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/06/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan Semiconductor (TSM) earnings ahead: AI growth, Middle East tensions, and chip industry rivalry take center stage.",
+      "url": "https://finnhub.io/api/news?id=7e6272a8e0f7d7fa06fd2178707f25e88c6548d467d8b64bf6b2bf3c703b9063"
+    },
+    {
+      "category": "company",
+      "datetime": 1775293851,
+      "headline": "Consumer Tech News (Mar 30-Apr 2): Tesla, Nio, XPeng Drive EV Growth, Apple iPhone 17, Meta Ray-Ban Launches & More",
+      "id": 139650388,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/04/How-Can-Investors-Play-The-AI-Theme-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Microsoft, IBM, AMD, and Intel make key AI and semiconductor moves, including in-house model development, dual-architecture hardware, and full ownership of Fab 34.",
+      "url": "https://finnhub.io/api/news?id=4a5d7d05a40da5cd7d1fd0be944fcf92b2d153939fb7cee4cca653395b399e90"
+    },
+    {
+      "category": "company",
+      "datetime": 1775289675,
+      "headline": "Taiwan Semiconductor (NYSE:TSM) Combines Strong Growth with Bullish Technical Setup",
+      "id": 139648533,
+      "image": "https://www.chartmill.com/images/uploads/Strong_Growth_500_264px_webp_8f1ee6ba5b.webp",
+      "related": "TSM",
+      "source": "ChartMill",
+      "summary": "TSM stock combines strong earnings growth, high profitability, and a positive technical setup, signaling potential for a continued upward trend.",
+      "url": "https://finnhub.io/api/news?id=cfb11a4357413906a5c3eade7b5896194a5c759da06ac5ffa2c91c29d9b8b516"
+    },
+    {
+      "category": "company",
+      "datetime": 1775286470,
+      "headline": "Semiconductors Winners And Losers At The Start Of Q2 2026",
+      "id": 139649484,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1220923553/image_1220923553.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Semiconductor stocks surged then slid as Q1 2026 tailwinds turned to headwinds.",
+      "url": "https://finnhub.io/api/news?id=6213f7e594641f4a61c1249f0cbdfa9e53987bdf9db6ab9f4fc60c6868acab6f"
+    },
+    {
+      "category": "company",
+      "datetime": 1775285201,
+      "headline": "IHD: This Fund Has A Lot Going For It, But The Price Is Above Average",
+      "id": 139649407,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1567445633/image_1567445633.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Explore Voya IHDâs 9.94% EM high-dividend fund: tech-heavy AI winners, total-return history, and todayâs 4.19% NAV discount. Read here for more details.",
+      "url": "https://finnhub.io/api/news?id=745940acee3b7d7f3d93febf59cc83027d684c79b4f91667fc6c7a54346435d3"
+    },
+    {
+      "category": "company",
+      "datetime": 1775223315,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 139650384,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=062b838829c7edc116fa0e596367363332c5160246e7f80cd93ef9ebeb6b8419"
+    },
+    {
+      "category": "company",
+      "datetime": 1775210474,
+      "headline": "TDVI: The Best Way For Income Investors To Invest In Tech",
+      "id": 139620599,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2233610941/image_2233610941.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TDVI ETF delivers ~8% yield from dividend tech stocks plus covered calls.",
+      "url": "https://finnhub.io/api/news?id=0d1d95fb8c94dd5f44f18d6ea577818eee8a96c90d620f2eebf228b227123e62"
+    },
+    {
+      "category": "company",
+      "datetime": 1775149792,
+      "headline": "TSMC: The AI Foundry Supremacy Still Has Room To Run",
+      "id": 139614679,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1828680032/image_1828680032.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Bullish Taiwan Semiconductor Manufacturing Company Limited outlook ahead of Q1 2026: click for TSM guidance, margins, Nvidia Blackwell/Vera Rubin demand, and more.",
+      "url": "https://finnhub.io/api/news?id=df58d91b9834098c1a31cc14e825b5aefcbdb9124ef592a50d1de45253b60dba"
+    },
+    {
+      "category": "company",
+      "datetime": 1775148365,
+      "headline": "FLTW: An AI Infra Bet Dressed Up As An EM ETF",
+      "id": 139614618,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2013101444/image_2013101444.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "FLTW offers concentrated Taiwan semiconductor/AI exposure (21.7% TSMC).",
+      "url": "https://finnhub.io/api/news?id=78691ea978fa80d91d827b42da4f84dc91cbe55db812154036efd6a9195320f7"
+    },
+    {
+      "category": "company",
+      "datetime": 1775130982,
+      "headline": "TSMC: Much More Than Just An AI Play, Recent Jitters Present A Great Opportunity",
+      "id": 139612002,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2042486788/image_2042486788.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC remains a strong buy: AI demand, booked-out advanced nodes, 2026 growth/capex outlook, and Japan expansion.",
+      "url": "https://finnhub.io/api/news?id=8440df2551999135c0a2ea8d3358b41b2bd094a6eeb4f957d56983e3e270c90b"
+    },
+    {
+      "category": "company",
+      "datetime": 1775120452,
+      "headline": "Tech, Chip Stocks Slide As Trump's Iran Warning Rattles Markets",
+      "id": 139609153,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/02/Dubai--United-Arab-Emirates---June-26-20_1.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "US tech and chip stocks slide as geopolitical tensions and surging oil prices trigger a broad market sell-off. Get the latest market updates.",
+      "url": "https://finnhub.io/api/news?id=10e2ffedd0460f1bd8e8651a2bb392d2c9eb9c25dd86b2a8f5e4d707a5ebc256"
+    },
+    {
+      "category": "company",
+      "datetime": 1775020991,
+      "headline": "Taiwan Semiconductor Eyes Cutting-Edge 3nm Production In Japan By 2028",
+      "id": 139598179,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/01/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan Semiconductor targets 2028 for 3nm mass production in Japan. The new facility will reach a monthly capacity of 15,000 12-inch wafers.",
+      "url": "https://finnhub.io/api/news?id=c5c56dbfd7b37c798288e0155ab09fc9357f85cf31a2ccf5c0613c81a6864b6b"
+    }
+  ]
+}

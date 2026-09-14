@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-10-22",
+    "to": "2025-10-28"
+  },
+  "retrieved_at_utc": "2026-09-14T15:30:21Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:30:21 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "37",
+    "x-ratelimit-reset": "1789399854"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1761690271,
+      "headline": "Nvidia CEO Jensen Huang Delivers Stark Message In Washington — US Can't Win AI Battle By Shutting Out China's Developers: 'It Hurts Us More'",
+      "id": 138812583,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/28/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia CEO Jensen Huang warned in Washington that America cannot win the global AI race by isolating China, urging the Trump administration to balance national security with global access as Nvidia builds U.S. supercomputers and partnerships while its China market collapses to zero.",
+      "url": "https://finnhub.io/api/news?id=5e930d2f2e383cdec8c95c2cc84961b40842af21758655a2a9d6357cbf9bc13e"
+    },
+    {
+      "category": "company",
+      "datetime": 1761688800,
+      "headline": "The London Company International Equity Portfolio Top 3 Contributors And Detractors",
+      "id": 137241746,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1303046106/image_1303046106.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The London Company highlights Q3âs top contributors and detractors in its International Equity portfolio. Explore how stock selection shaped performance.",
+      "url": "https://finnhub.io/api/news?id=d4897664f6440ba30f0128697fd646cee97ec237b7c4e4f32281be5599fe84fb"
+    },
+    {
+      "category": "company",
+      "datetime": 1761659474,
+      "headline": "Belden, Caterpillar, Foxconn, Lucid Motors, Toyota, TSMC And Wistron Build Omniverse Factory Digital Twins To Accelerate AI-Driven Manufacturing",
+      "id": 138932984,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=7cc1e5c94cb943fb715e7f0730acfe8db7eca8ce58efbf9675d5761bcd4fbccc"
+    },
+    {
+      "category": "company",
+      "datetime": 1761643127,
+      "headline": "Nvidia: 2 'What Ifs' That Could Change Everything",
+      "id": 137237391,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/493247947/image_493247947.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Nvidia Corporation remains the AI leader, but I maintain a Hold rating due to high expectations and potential market risks. Click to read why NVDA is a Hold.",
+      "url": "https://finnhub.io/api/news?id=f8fb2e71ce0c78e0b7a774ab1d726e72f5f4aebb538615aca4966159e3004411"
+    },
+    {
+      "category": "company",
+      "datetime": 1761597000,
+      "headline": "Polen Global Growth's Q3 2025 Portfolio: A Mix Of Durable Earnings Growth And Conviction",
+      "id": 137232713,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1160051571/image_1160051571.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Polen Capital reviews Q3 2025 portfolio performance, AI-led positioning, and new holdings. Explore their long-term growth strategy and conviction-led decisions.",
+      "url": "https://finnhub.io/api/news?id=503b208780459242c6de944553267988ba00739733a37f55880db9e343d347d6"
+    },
+    {
+      "category": "company",
+      "datetime": 1761585161,
+      "headline": "TSMC: The Purest AI Play In The Semiconductor World",
+      "id": 137231943,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1828680032/image_1828680032.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor delivered record Q3 results, driven by surging AI chip demand and strong partnerships with Nvidia and Apple. Click here to read more.",
+      "url": "https://finnhub.io/api/news?id=8f6b039e408ec6a2ffe66ccda69e337912db019c0123b36fad87af543fe65d9b"
+    },
+    {
+      "category": "company",
+      "datetime": 1761572118,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 138420099,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=3f4937009d48702b5423ab92131f4dad26c9337716ba62ec2e6f176aeddef5fa"
+    },
+    {
+      "category": "company",
+      "datetime": 1761566657,
+      "headline": "Needham Reiterates Taiwan Semiconductor Manufacturing Company Limited - Depositary Receipt (TSM) Buy Recommendation",
+      "id": 137227901,
+      "image": "",
+      "related": "TSM",
+      "source": "Fintel",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=02a6db5c3ac6b75175d8e8e2f0f9421a1ca587ffc4d9b9430a4776929db57bd9"
+    },
+    {
+      "category": "company",
+      "datetime": 1761556892,
+      "headline": "LGI: A Good Choice For Any Income Seeker",
+      "id": 137227871,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=a33af51ab12bec2a3c9cbbac8c23b54cbc7adef0cc58b1694c232b7e2c446d13"
+    },
+    {
+      "category": "company",
+      "datetime": 1761472886,
+      "headline": "Consumer Tech News (Oct 20-Oct 24): Elon Musk Warns Against NASA-DOT Move, Apple Faces Antitrust Heat And More",
+      "id": 138434285,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/26/Big-Tech-Stocks-Mirror-Dotcom-Bubble--Sa.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Elon Musk criticizes plan to fold NASA into Department of Transportation, claims it threatens agency&#39;s independence and US space leadership.",
+      "url": "https://finnhub.io/api/news?id=e518238940bb641222a5232a429e56bc96166fab31d6908d5488ab65c1a0fb65"
+    },
+    {
+      "category": "company",
+      "datetime": 1761363414,
+      "headline": "TSMC And ASML: The Deep Value Engine Of The AI Revolution",
+      "id": 137205717,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1558034245/image_1558034245.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC and ASML posted strong Q3 2025 results with high margins, and AI-driven growth is shaping the semiconductor ecosystem. Find out why TSM stock is a buy.",
+      "url": "https://finnhub.io/api/news?id=178f3278b4dc9fdc46a55368a59ae010be1d57cd842e5b76f3ae768ffb0f9533"
+    },
+    {
+      "category": "company",
+      "datetime": 1761308033,
+      "headline": "Intel: Earnings Results Were Impressive, And Politics Remain The Play",
+      "id": 137202684,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1831946092/image_1831946092.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Intel's turnaround gains momentum with strong earnings, government support, and key partnerships. Click here to read my latest analysis of INTC stock.",
+      "url": "https://finnhub.io/api/news?id=01412e1f408247d1f0aee02ca8941ec2ebec4d4eccb38d8188a2f8eb4e4c469a"
+    },
+    {
+      "category": "company",
+      "datetime": 1761244875,
+      "headline": "Intel Q3 2025 Earnings Double Beat: The Devil Is In The Details (Downgrade)",
+      "id": 137199227,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1831946092/image_1831946092.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Intel Corporation posted strong Q3 earnings, but concerns over future growth, demand, and competition linger. Click here to read my analysis of INTC stock.",
+      "url": "https://finnhub.io/api/news?id=22d6c68187c0412555d0d395ba977857cb0f54d1a5d8685fe5103a1a79a6829c"
+    },
+    {
+      "category": "company",
+      "datetime": 1761217265,
+      "headline": "TSMC: Trimming 50% Of My Position After An Impressive Quarter",
+      "id": 137196895,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2190425426/image_2190425426.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor (TSM) remains a buy after a strong rally, with 50% of my long position closed to lock in gains.",
+      "url": "https://finnhub.io/api/news?id=eb5432da5e6d672cd2d8afa6174f83970119ed51abc6042e57c07e51b877c4b4"
+    },
+    {
+      "category": "company",
+      "datetime": 1761208338,
+      "headline": "Here's Why TSMC Didn't Rise Despite Record Profits In Q3 2025",
+      "id": 137196430,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2042492720/image_2042492720.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor Manufacturing Company Limited reported strong Q3 results, with revenue up 33-35% and EPS up 13-14%. Read more on TSM stock here.",
+      "url": "https://finnhub.io/api/news?id=678e656531d1655df782e2e2cfc41d8ac4e6ce90258cb4bc217a6c11b3824f45"
+    },
+    {
+      "category": "company",
+      "datetime": 1761176610,
+      "headline": "Militia Long/Short Equity ETF: This Hedge Fund-Style Investment Is Off To A Good Start",
+      "id": 137193938,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/536278573/image_536278573.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The Militia Long/Short Equity ETF offers retail investors access to a hedge fund-style, global long/short equity strategy. Read why ORR is a Buy.",
+      "url": "https://finnhub.io/api/news?id=dacf424c84f117d742720753f67636efad02c6a3904c0409d1cc8c6536449646"
+    },
+    {
+      "category": "company",
+      "datetime": 1761145842,
+      "headline": "Is A 'Critical Software' Ban On China Next? Trump Weighs New Sanctions",
+      "id": 138794794,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/22/Trump-Praises-Indias-Pledge.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Trump considers sanctions on China&#39;s software exports in response to their restrictions on rare earth minerals. Tech stocks resilient, semiconductors hit.",
+      "url": "https://finnhub.io/api/news?id=a49f3a1727c824c8b225f3804032c45a1b9663e48cc9ae37177ddfa24d43e0a6"
+    },
+    {
+      "category": "company",
+      "datetime": 1761125399,
+      "headline": "SCHMID Group Lands Two Major AI Server Equipment Projects",
+      "id": 138702643,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/22/Engineer-Walking-In-Server-Room-Housing-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "SCHMID Group (SHMD) received major orders for AI server production, boosting confidence in its cutting-edge technology and growth potential.",
+      "url": "https://finnhub.io/api/news?id=de8987f3defd9b17214be494de52b19b13673cc75fd6c1f6ba7d0d5bc77a2601"
+    },
+    {
+      "category": "company",
+      "datetime": 1761105600,
+      "headline": "China's Position In The AI Landscape",
+      "id": 137185474,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2200709049/image_2200709049.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Anthropic, Google DeepMind, and xAI quickly joined the race and accelerated the pace of innovation by advancing benchmark performance and increasing real-world usability.",
+      "url": "https://finnhub.io/api/news?id=0cfb4ad91472711f0335f3bef0050c788f71119232c44162838ffdd9e0267ada"
+    }
+  ]
+}

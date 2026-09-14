@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-09-14T15:28:55Z",
+  "requested_start_date": "2025-10-01",
+  "requested_end_date": "2026-05-01",
+  "coverage_verified": true,
+  "verification_method": "Successful non-empty NVDA responses at both ends of the requested range. This verifies endpoint access, not source completeness.",
+  "probes": [
+    {
+      "label": "oldest_requested_dates",
+      "ticker": "NVDA",
+      "from_date": "2025-10-01",
+      "to_date": "2025-10-02",
+      "http_status": 200,
+      "article_count": 128,
+      "status": "confirmed_nonempty",
+      "retrieved_at_utc": "2026-09-14T15:28:54Z",
+      "raw_file": "raw/preflight/NVDA_2025-10-01_2025-10-02.json"
+    },
+    {
+      "label": "newest_requested_dates",
+      "ticker": "NVDA",
+      "from_date": "2026-04-30",
+      "to_date": "2026-05-01",
+      "http_status": 200,
+      "article_count": 249,
+      "status": "confirmed_nonempty",
+      "retrieved_at_utc": "2026-09-14T15:28:55Z",
+      "raw_file": "raw/preflight/NVDA_2026-04-30_2026-05-01.json"
+    }
+  ]
+}

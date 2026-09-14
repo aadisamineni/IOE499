@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2026-02-18",
+    "to": "2026-02-24"
+  },
+  "retrieved_at_utc": "2026-09-14T15:35:00Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:35:00 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "11",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1771960500,
+      "headline": "Emerging Markets And The AI Surge",
+      "id": 139202595,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=6ec64278115ab87cf12c1ca29e6bca07142a7340ca312044420f96e4adf1debf"
+    },
+    {
+      "category": "company",
+      "datetime": 1771956951,
+      "headline": "Tim Cook 'Sleeps With One Eye Open' After CIA Taiwan Warning, But Do Prediction Markets Agree He Should Be Worried?",
+      "id": 139207343,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/Apple-Ceo-Tim-Cook-Attends-The-Grand-Ope.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Apple, Nvidia, and AMD CEOs were briefed by CIA in 2023 on potential China-Taiwan conflict. Market predictions show concern with 10% chance of invasion and 14% chance of military clash.",
+      "url": "https://finnhub.io/api/news?id=a43b904063b7bc1035adae38241ac1f12f432fbb1d3f245eab30d5f873347864"
+    },
+    {
+      "category": "company",
+      "datetime": 1771955820,
+      "headline": "The Reason Tim Cook 'Sleeps With One Eye Open': What An Invasion Of Taiwan Would Do To Apple And Nvidia",
+      "id": 139207344,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/Apple-CEO-Tim-Cook-On-Field-Before-Super_0.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Apple CEO Tim Cook, Nvidia CEO Jensen Huang, and AMD CEO Lisa Su were told China may invade Taiwan by 2027, causing global economic and tech chaos.",
+      "url": "https://finnhub.io/api/news?id=cf3e19c7d4356b03a52c7434c278eefdc3fee7a5be621441f93309ac893a41a5"
+    },
+    {
+      "category": "company",
+      "datetime": 1771953501,
+      "headline": "AI Trade: Short CapEx, Long Profits",
+      "id": 139201976,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=1f2b4e0ba9f7f8159abac2ffddd58dd7c20b8b5cc55f869d10bea049079c76d6"
+    },
+    {
+      "category": "company",
+      "datetime": 1771945062,
+      "headline": "Tim Cook, Jensen Huang, Lisa Su Were Reportedly Warned Of Potential China Move On Taiwan By 2027",
+      "id": 139207345,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/A-Boxing-Match-Between-China-And-Taiwan.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Top U.S. chip executives were privately warned in 2023 that China could move on Taiwan within the decade, underscoring mounting geopolitical risks to the global semiconductor supply chain",
+      "url": "https://finnhub.io/api/news?id=fb0dc3b4833e60a1fe04c83c9f7ac99a63359d467579c6dcb67bd4c40a5eb0a7"
+    },
+    {
+      "category": "company",
+      "datetime": 1771940547,
+      "headline": "Qualcomm Stock Rises Following Dual Upgrades",
+      "id": 139207346,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/Qualcomm.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Qualcomm Inc (NASDAQ:QCOM) shares are popping Tuesday after the chipmaker received a pair of bullish upgrades.",
+      "url": "https://finnhub.io/api/news?id=0f0179420fd17a683d526f7c604659152158661efd5406cd53562385a283432e"
+    },
+    {
+      "category": "company",
+      "datetime": 1771919773,
+      "headline": "US Claims China's DeepSeek Used Banned Nvidia Blackwell Chips",
+      "id": 139195063,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/Nvidia-AI.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "U.S.-China AI tensions rise over DeepSeek&#39;s use of Nvidia&#39;s most advanced chips to train upcoming model, raising export control concerns.",
+      "url": "https://finnhub.io/api/news?id=b0fdc54b145add1e063bcc643057f02b839bb5dc6fcb36d50272f8d7fc9a7bee"
+    },
+    {
+      "category": "company",
+      "datetime": 1771915336,
+      "headline": "ASML's Latest EUV Breakthrough Puts Would-Be Rivals Further Behind",
+      "id": 139194913,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/Veldhoven--The-Netherlands--June-9-2023-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "ASML pushes chipmaking limits with EUV power breakthrough, targeting 50% increase in output and record 2025 results driven by AI demand.",
+      "url": "https://finnhub.io/api/news?id=8dcc4ac3836983418548d6de3d6a134fd58ef63905fdba06eaf1aa2bbcc50cd7"
+    },
+    {
+      "category": "company",
+      "datetime": 1771913850,
+      "headline": "Trade Truce On Edge: Taiwan Rushes To Shield US Tariff Cuts",
+      "id": 139194914,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/Taiwan-Defense-Commitment.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan races to preserve U.S. trade benefits after a landmark Supreme Court ruling on tariffs. Read Trump&#39;s latest remarks.",
+      "url": "https://finnhub.io/api/news?id=829e1b7b8f8183c0c8d1ef6094879bd1ae2ad1955682ae172f91179cbb2b0f18"
+    },
+    {
+      "category": "company",
+      "datetime": 1771885836,
+      "headline": "Cathie Wood Is Buying DoorDash Stock After Identifying AI As Most 'Disruptive' Innovation In History: ARK Also Snaps Up AMD and Alphabet",
+      "id": 139195066,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/23/Ark-Invest-Cathie-Wood.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "On Monday, Feb. 23, 2026, ARK Invest bought $11.8M in Figma, $6.8M in AMD, $6M in Alphabet, and $5.4M in DoorDash\n",
+      "url": "https://finnhub.io/api/news?id=2fa29f7e24420df61cb8da2a3bb2c1e6c15a469cb64507418c66f667d2ab561e"
+    },
+    {
+      "category": "company",
+      "datetime": 1771858989,
+      "headline": "Nvidia: Preparing For Blockbuster Earnings Amid ASIC Fears",
+      "id": 139187503,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1141488976/image_1141488976.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Nvidia Corporation is poised for blockbuster earnings, with a Buy rating and a $245 price target reiterated ahead of its report. Click to read why NVDA is a Buy.",
+      "url": "https://finnhub.io/api/news?id=41f8721bd40eb6180c0a0c36830101cfc353b033a9a7b2391aeba2579690c110"
+    },
+    {
+      "category": "company",
+      "datetime": 1771834122,
+      "headline": "Trump Rips Into Taiwan After Supreme Court Tariff Blow",
+      "id": 139184210,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/23/House-Delivers-Rare-Rebuke-to-Trump.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Trump targets Taiwan&#39;s chip industry after Supreme Court ruling on tariffs. Concerns rise about the impact on trade negotiations.",
+      "url": "https://finnhub.io/api/news?id=cebef24bb63694e575b99b13bf61ab46c3ba5e70b220160210663bd7e5e43115"
+    },
+    {
+      "category": "company",
+      "datetime": 1771830715,
+      "headline": "AI Rally Expands Beyond 'Exhausted' Mag7, Analysts Say—See Broadcom Overtaking Microsoft In Cash Flow",
+      "id": 139183861,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/23/ChatGPT-Search-Queries-Revealed.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "As &#39;Magnificent Seven&#39; stocks experience a downturn amid concerns over escalating investments in data centers and high earnings growth expectations, analysts see a shift into &#34;cyclical areas&#34; of the market.",
+      "url": "https://finnhub.io/api/news?id=91c042f5e28ab1faf65155800b9f4cbf368311af9dd5538682b316e506efbc67"
+    },
+    {
+      "category": "company",
+      "datetime": 1771768560,
+      "headline": "Baron Emerging Markets Fund Q4 2025 Portfolio Activity",
+      "id": 139178322,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=8e5337f2a3ad618084afd36795c381c3de510598a9b5a651a2b61e9c2276b9d8"
+    },
+    {
+      "category": "company",
+      "datetime": 1771594513,
+      "headline": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "id": 139169327,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=5f0dd5f41210a9e0be33e359f851d29d5dcecebe47e01f042a11e8a37fe2dafb"
+    },
+    {
+      "category": "company",
+      "datetime": 1771588625,
+      "headline": "Taiwan Just Overtook China — And AI Is The Reason Why",
+      "id": 139169331,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/20/Affleck-Doubts-AI-Films.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "AI boom boosts Taiwan past China as top US supplier, as imports from Taiwan doubled to $24.7B.",
+      "url": "https://finnhub.io/api/news?id=16020604c35637d86778898520687c30c9c0b485543fe65d83c3c4e4de06f576"
+    },
+    {
+      "category": "company",
+      "datetime": 1771582255,
+      "headline": "Taiwan Semiconductor (NYSE:TSM) Shows Strong Growth Momentum and Bullish Chart Setup",
+      "id": 139157396,
+      "image": "https://www.chartmill.com/images/uploads/HGM_Breakout_19d1a7df53.webp",
+      "related": "TSM",
+      "source": "ChartMill",
+      "summary": "TSM stock combines strong earnings growth with a bullish technical setup, offering a high-growth momentum play in the semiconductor sector.",
+      "url": "https://finnhub.io/api/news?id=acacbdf88c71ba7b5e76367c12447b7625977b1c59c11309d2a3a5ac2e05560b"
+    },
+    {
+      "category": "company",
+      "datetime": 1771569647,
+      "headline": "'Silicon Shield' Holds Strong: Taiwan Set To Dominate AI Chip Supply For Years",
+      "id": 139158913,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/20/Microprocessor-With-Taiwan-Flag--Semicon.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan will remain dominant in chip production, aided by growth of AI. Exports up 70% due to AI, boosts GDP &amp; exports significantly.",
+      "url": "https://finnhub.io/api/news?id=b587ec83fa06a7387343e209408feb6319a9daef9755098c2e831b90cd26eb4a"
+    },
+    {
+      "category": "company",
+      "datetime": 1771521600,
+      "headline": "This Is A Stock Picker's Market",
+      "id": 139152389,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2221147115/image_2221147115.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Next-gen investing expertsÂ Julia Ostian, Jack Bowman, and Kenio FontesÂ share their investment strategies and top stock picks.",
+      "url": "https://finnhub.io/api/news?id=1fef686c9d9521f74cfa19c11b0b9da8fd6332ca8675952b5ce817c2d31ea0ca"
+    },
+    {
+      "category": "company",
+      "datetime": 1771508113,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 139158916,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=57b3e60e2ead86281358a133bd679eb25fa935f461dace8162796b210ca24c7f"
+    },
+    {
+      "category": "company",
+      "datetime": 1771486671,
+      "headline": "Is Taiwan Semiconductor Too Expensive Now?",
+      "id": 139145519,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=9184910917648f8608676e9692222b9e8b3a363cfa6a832a40d141373420432e"
+    },
+    {
+      "category": "company",
+      "datetime": 1771447500,
+      "headline": "Can Emerging Markets ETFs Enhance Your Technology Exposure?",
+      "id": 139140855,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=90566d6fbc7e594336ba01187930dae66452c63445842025dfd5d3b82bef2d67"
+    },
+    {
+      "category": "company",
+      "datetime": 1771419257,
+      "headline": "Musk Issues Rare Direct Appeal To South Korean Talent As Tesla Pivots to In-House AI Silicon",
+      "id": 139146819,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/18/MrBeast-Drops-Future-Bomb--Elon-Musk-Fir.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Elon Musk has launched a high-priority recruitment drive in South Korea, urging the country&#39;s top semiconductor experts to join Tesla.",
+      "url": "https://finnhub.io/api/news?id=d49e1e49e148f24088ef0e55b3825eb88971c183b7650363ec38242d3af50ceb"
+    },
+    {
+      "category": "company",
+      "datetime": 1771412619,
+      "headline": "NBXG: Distribution Yield Climbs To 10%+ As Discount Widens Further",
+      "id": 139136889,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=eb62b851345dd2338cf1dd333e318ed770069446ecf8aaf2ce601758f7261c4c"
+    },
+    {
+      "category": "company",
+      "datetime": 1771412470,
+      "headline": "Behind the Scenes of Taiwan Semiconductor's Latest Options Trends",
+      "id": 139147635,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=5407fdf097af6938a01c83cc06cf478a614c181cea0f462ef669411bd898c8fd"
+    },
+    {
+      "category": "company",
+      "datetime": 1771408852,
+      "headline": "$100 Invested In Taiwan Semiconductor 5 Years Ago Would Be Worth This Much Today",
+      "id": 139135561,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=64d47892351a1b87b2e048e0fcd5bcc480214d70a2e5a14e7bf999fb5b49f0d9"
+    },
+    {
+      "category": "company",
+      "datetime": 1771401241,
+      "headline": "Apple: The Tech Giant To Sell",
+      "id": 139133218,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1705316992/image_1705316992.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Apple (AAPL) rated Sell: overvaluation, slowing innovation, iPhone dependence, a weak AI strategy, and Vision Pro flop. Read here for more analysis.",
+      "url": "https://finnhub.io/api/news?id=6ee286e0360ebc7ea0d534d3d4e682ddc658b24aa9a5472431e5648a41201966"
+    },
+    {
+      "category": "company",
+      "datetime": 1771395674,
+      "headline": "Tiger Global Dials Back AI Heavyweight Bets In Q4 Amid Valuation Concerns",
+      "id": 139133477,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/18/Stuttgart--Germany---06-06-2021-Person-H.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Hedge fund Tiger Global Management reduced its holdings in several major AI-linked technology companies in the fourth quarter of 2025.",
+      "url": "https://finnhub.io/api/news?id=82dade949b17b7dc39c5cab9665c40c55d2a174a53c76a283079bbe4a31bc464"
+    },
+    {
+      "category": "company",
+      "datetime": 1771385301,
+      "headline": "Daniel Loeb's Third Point Loads Up On Chipotle, Constellation, Alibaba While Slashing TSM, Amazon in Q4 Shake-Up",
+      "id": 139133703,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/18/Stuttgart--Germany---03-05-2021-Person-H.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Hedge fund billionaire Daniel Loeb reshuffled positions at Third Point LLC in the fourth quarter, adding several new consumer and international plays while trimming exposure to select mega-cap and semiconductor names.",
+      "url": "https://finnhub.io/api/news?id=dde6688d808fa7407796e4f431fe23a0c3e90d1d596ebc644916ab1caff73748"
+    }
+  ]
+}

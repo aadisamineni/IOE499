@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-11-26",
+    "to": "2025-12-02"
+  },
+  "retrieved_at_utc": "2026-09-14T15:30:27Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:30:27 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "32",
+    "x-ratelimit-reset": "1789399854"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1764706688,
+      "headline": "Tracking Prem Watsa's Fairfax Financial Holdings Portfolio - Q3 2025 Update",
+      "id": 137665742,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1264256639/image_1264256639.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Prem Watsaâs Fairfax Financial Holdings 13F portfolio rose to $2.06B in Q3 2025. Click here to read more about the portfolio.",
+      "url": "https://finnhub.io/api/news?id=1a9be43b0f63f29b6c37f4746496bd1a3a10e36fd31004ca6fea73318973ca6b"
+    },
+    {
+      "category": "company",
+      "datetime": 1764634979,
+      "headline": "Howard Lutnick Says Trump Administration Chip R&D Partnership With Former Intel CEO Pat Gelsinger's Startup Can 'Fundamentally Rewrite The Limits'",
+      "id": 138406734,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/01/Shot-Of-Computer-Processor-Production-Li.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "The Trump administration is making its first major CHIPS R&amp;D move with a potential $150 million investment in Pat Gelsinger&#39;s xLight, aiming to develop a next-generation EUV laser and accelerate America&#39;s broader push to reclaim leadership in advanced semiconductor manufacturing.",
+      "url": "https://finnhub.io/api/news?id=56a9d2230e6a14d6a9cbf37fb0de660b7f8e0f174af88e655a18b3130d12ae56"
+    },
+    {
+      "category": "company",
+      "datetime": 1764605811,
+      "headline": "RSSB: A Leveraged 50/50 Portfolio",
+      "id": 137655482,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1495028365/image_1495028365.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The Return Stacked Global Stocks & Bonds ETF delivers 2x leveraged exposure to a 50/50 global equities and U.S. Treasuries portfolio. Click for more on RSSB.",
+      "url": "https://finnhub.io/api/news?id=0d0b61697e9445e77165a40b392b241fd7b055eb74bce4ee1c911cef7780210c"
+    },
+    {
+      "category": "company",
+      "datetime": 1764582782,
+      "headline": "Tesla: The New AI Chips Could Bring In $11.4B In Annual Robotaxi Savings By 2028",
+      "id": 137652914,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2188561526/image_2188561526.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover why Tesla, Inc.'s AI chip roadmap could boost robotaxi profits by 2028. Explore TSLA's growth risks and potential. Click for this TSLA update.",
+      "url": "https://finnhub.io/api/news?id=1a5fd7e07bf5990c61a4d68137062128d263f374af6b9716781e2a3e85fed8bf"
+    },
+    {
+      "category": "company",
+      "datetime": 1764574200,
+      "headline": "BLOX: Buy The Crypto Dip And Collect Tax-Efficient Weekly Income Along The Way",
+      "id": 137652197,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2175970892/image_2175970892.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Explore BLOX ETF for unique crypto investingâcapital growth, steady income, and tax-favored distributions. See how BLOX outperforms peers.",
+      "url": "https://finnhub.io/api/news?id=bfb9e3b9f2039bd3d79487971194e192a1ca1898953a85eaf62d99c85f017341"
+    },
+    {
+      "category": "company",
+      "datetime": 1764570900,
+      "headline": "Weekly Market Pulse: A Lot To Be Thankful For",
+      "id": 137651890,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2223715503/image_2223715503.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "This week will just be a short update on how markets have performed year-to-date. International markets have been the stars so far this year.",
+      "url": "https://finnhub.io/api/news?id=330885db6f97daf108d6568aa3c316bfb56bcefc9850c2dd3808ee5617679282"
+    },
+    {
+      "category": "company",
+      "datetime": 1764530833,
+      "headline": "Tracking Chase Coleman's Tiger Global Portfolio - Q3 2025 Update",
+      "id": 137647017,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1126216811/image_1126216811.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Tiger Global Management's Q3 2025 13F portfolio value declined to $32.36B. Click here to read more about the portfolio.",
+      "url": "https://finnhub.io/api/news?id=790f7d195901b6f2b503f0dcd79ec220bac7e79c4c7a0a1d17dc25bcac6a309a"
+    },
+    {
+      "category": "company",
+      "datetime": 1764493236,
+      "headline": "Consumer Tech News (Nov 24-28): Lawmakers Target Meta Over Alleged Fraudulent Ads, U.S. Pushes Taiwan To Boost Chipmaking Investment In America & More",
+      "id": 138418894,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/30/7--Meta-Platforms-Inc-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Chinese President Xi Jinping emphasized progress in U.S.–China trade relations after speaking with President Donald Trump, following reports the U.S. may allow Nvidia (NASDAQ: NVDA) to resume AI chip sales to China. Tesla reported 6,964 new European registrations in October, down 48.5% YoY. U.S. Senators Richard Blumenthal (D-Conn.) and Josh Hawley (R-Mo.) called for investigations into Meta (NASDAQ: META) over alleged profits from fraudulent ads.",
+      "url": "https://finnhub.io/api/news?id=0b96c0fa097b7738fc0b56c7c9ffae5680188b0a79e85e502b958f91bf364a0a"
+    },
+    {
+      "category": "company",
+      "datetime": 1764320880,
+      "headline": "Janus Henderson Global Sustainable Equity Fund Q3 2025 Portfolio Review",
+      "id": 137628550,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2213627041/image_2213627041.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The following segment was excerpted from the Janus Henderson Global Sustainable Equity Fund Q3 2025 Commentary.Janus Henderson Global Sustainable Equity...",
+      "url": "https://finnhub.io/api/news?id=648e2c42914514851006864d16950af6a3b05d8002ad1fdbf8dbcb9de27c6bf3"
+    },
+    {
+      "category": "company",
+      "datetime": 1764250517,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 138438416,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=02cd387dfa30faa159234becfebf89367c7104b9580f59cf56bc8b2c21edea6a"
+    },
+    {
+      "category": "company",
+      "datetime": 1764223680,
+      "headline": "AI: Real Revenues, Real Cash Flow, Real Infrastructure - And This Is Only Phase One",
+      "id": 137619702,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1370479417/image_1370479417.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Claims that AI growth is merely a bubble ignore the broader picture. Revenues are real, cash flow is strong, and global demand is deep and diverse.",
+      "url": "https://finnhub.io/api/news?id=cfb4aa3ca4662bdb41edadc834b66bf3ac273310ae051a20cafd1c409d06c68a"
+    },
+    {
+      "category": "company",
+      "datetime": 1764174553,
+      "headline": "Shares of companies within the broader tech sector are trading higher amid a rebound. Also, the sector may be moving higher in sympathy with Dell Technologies and Palantir Technologies' inclusion in the S&P 500 index.",
+      "id": 139930140,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=b7e4a12b0aef17ddae9f49e9724a4ea728f8dea7908f3921bcd0866e70168710"
+    },
+    {
+      "category": "company",
+      "datetime": 1764174553,
+      "headline": "Shares of companies within the broader tech sector are trading higher amid the overall market strength. The sector may be experiencing momentum in reaction to Dell's Q3 earnings and strong guidance.",
+      "id": 138406737,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=aee97c28fb8eeae5d37532d1543d6adbe08d9d1ca3ec01b984787385e40404cb"
+    },
+    {
+      "category": "company",
+      "datetime": 1764165706,
+      "headline": "Here's Why Alphabet's TPU Acceleration Could Be A Breakout Catalyst For Intel",
+      "id": 137614805,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2160010090/image_2160010090.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Explore how Google's AI chip advances boost Intel Corporation's custom silicon business, fueling new growth in AI compute. Click for this INTC stock update.",
+      "url": "https://finnhub.io/api/news?id=0123715879f59238146e835138532d9602e53e7cebe7931cea0cd11c08d57545"
+    },
+    {
+      "category": "company",
+      "datetime": 1764121200,
+      "headline": "Touchstone Sands Capital Select Growth Fund Q3 Contributors And Detractors",
+      "id": 137609219,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1363638933/image_1363638933.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Touchstone Sands Capital Select Growth Fund Q3 review highlights AI-driven gains and challenges. Explore insights and positioning for future growth.",
+      "url": "https://finnhub.io/api/news?id=52c83e2bcd59ed232276e58f9d3f0f67bc56989da1c3e1a1ae679e65c6116f2b"
+    }
+  ]
+}

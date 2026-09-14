@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-12-24",
+    "to": "2025-12-30"
+  },
+  "retrieved_at_utc": "2026-09-14T15:34:51Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:34:52 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "19",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1767090601,
+      "headline": "2026 S&P 500 Outlook: Why The Index Will Hit 8,300",
+      "id": 137940590,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1213764535/image_1213764535.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "S&P 500 (SPY) could reach 8,300 in 2026, driven by AI, capex growth, and policy tailwinds. Click here for a detailed analysis.",
+      "url": "https://finnhub.io/api/news?id=0303a293370535b112da0a2fcc66df4235d121b0d9d82c05b0039abb22eeb58e"
+    },
+    {
+      "category": "company",
+      "datetime": 1767088903,
+      "headline": "US Grants Samsung, SK Hynix One-Year License To Ship Chip Tools To China",
+      "id": 138674103,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/30/Samsung.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "US policy changes and tight memory chip market put South Korea&#39;s largest semiconductor makers under scrutiny.",
+      "url": "https://finnhub.io/api/news?id=9f09bba27309e5e4ef2c98630cdb567f43d6cb173c6a7243d979230533350af3"
+    },
+    {
+      "category": "company",
+      "datetime": 1767043577,
+      "headline": "Tracking The $13.74B Lone Pine Capital Portfolio - Q3 2025 Update",
+      "id": 137936206,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=07c6a6581054119b72e2feaab4363ba32aa6949f07ee27c1a4dfbcc7e3855fe3"
+    },
+    {
+      "category": "company",
+      "datetime": 1767002397,
+      "headline": "Intel's AI Reset Gets $5 Billion Boost From Nvidia",
+      "id": 138610790,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/29/Santa-Clara--Ca--Usa---Nov-22--2023-Inte.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Intel completes $5B private placement with Nvidia, issuing 214M shares at $23.28 per share. Strategic reset under new CEO pushes turnaround.",
+      "url": "https://finnhub.io/api/news?id=aa3b3a329e0e98e334cd5f735bc51bb975f9f2fdf5304177705b6664ef326122"
+    },
+    {
+      "category": "company",
+      "datetime": 1766990673,
+      "headline": "Stock Market Today: Dow Futures Rise, S&P 500, Nasdaq Slip Ahead Of New Year's Week—Target, Coupang, Taiwan Semiconductor In Focus",
+      "id": 138450475,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/29/Wall-Street.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "U.S. stock futures swung between gains and losses on Monday after Friday’s slightly lower close. Futures of major benchmark indices were mixed.\n\n\n\nThis will be a light week with respect to the releases of economic data, and the markets will be closed for trading on New Year’s Day, falling on Thursday.",
+      "url": "https://finnhub.io/api/news?id=60539df40dcaf0cbba1c7be17f5c71a6a843c1d57790256d821f8e66b8849662"
+    },
+    {
+      "category": "company",
+      "datetime": 1766954929,
+      "headline": "Tracking Philippe Laffont's ~$41B Coatue Management Portfolio - Q3 2025 Update",
+      "id": 137926558,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/472298390/image_472298390.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Coatue Management's Q3 2025 13F portfolio rose to $40.79B, with 75 positions. Check out the stake increases, decreases, and new positions in the portfolio here.",
+      "url": "https://finnhub.io/api/news?id=07c72a90a2364ae983513242dcf2e814048a59a8417c1927c413184299f896f9"
+    },
+    {
+      "category": "company",
+      "datetime": 1766809828,
+      "headline": "Intel CEO Lip-Bu Tan Calls 2025 'Defining Year' As Stock Soars 79%, Nvidia And SoftBank Deals Fuel Turnaround Despite Trump Conflict",
+      "id": 138610792,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/27/Haifa--Israel---November-1--2022-Intel-R.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Intel CEO Lip-Bu Tan said 2025 was a defining turning point for the company as major AI funding deals with Nvidia and SoftBank, a 79% stock surge and improving financial results helped fuel Intel&#39;s turnaround despite political scrutiny and conflict concerns.",
+      "url": "https://finnhub.io/api/news?id=68bc6ca568ce07b6f275f733e52fcae8ec49ac8df00563c89a33cec2da89f132"
+    },
+    {
+      "category": "company",
+      "datetime": 1766751060,
+      "headline": "TSMC: Why 2026 Will Be Even Bigger",
+      "id": 137908150,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2200526429/image_2200526429.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC stock forecast: Discover why rising AI/HPC demand, tech innovation, and strong Q3 results support continued growth into 2026. Click for this TSM update.",
+      "url": "https://finnhub.io/api/news?id=931d45efde397e7b0b346f56cf9c5f4401a77cd3f0a19b0eb2340058ac6b94ed"
+    },
+    {
+      "category": "company",
+      "datetime": 1766750909,
+      "headline": "China Sanctions Boeing, Northrop, Anduril Founder",
+      "id": 138755109,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/26/China-Flag-And-Taiwan-Flag-On-Cracked-Wa.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "China imposes sanctions on 20 U.S. defense companies and 10 executives over Taiwan tensions. Beijing targets firms like Northrop Grumman.",
+      "url": "https://finnhub.io/api/news?id=96e6335063aa7653eeff91d215d146e8292bfd71eb50b6653d3fb4ef8833a8d5"
+    },
+    {
+      "category": "company",
+      "datetime": 1766733989,
+      "headline": "Samsung To Unveil First In-House GPU For Exynos 2600",
+      "id": 138674107,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/26/Ho-Chi-Minh-City--Vietnam---June-4--2023_1.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Samsung debuts in-house GPU in Exynos 2600 chip, aiming for full control by 2027. AMD stock gains on strong demand for AI chips.",
+      "url": "https://finnhub.io/api/news?id=8b99ca2cb2aa29ce24940ae5d066b1689dd715b31fee968d29e73b98f3adbde2"
+    },
+    {
+      "category": "company",
+      "datetime": 1766698855,
+      "headline": "Tracking Ole Andreas Halvorsen's Viking Global Portfolio - Q3 2025 Update",
+      "id": 137903006,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/200502280/image_200502280.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Explore Viking Global's Q3 2025 portfolio moves - new stocks, major disposals, and top holdings insights. Read more analysis here.",
+      "url": "https://finnhub.io/api/news?id=fe37224e8c36a00993d0f130c22b4d38eafd5644719a042c1730bb5e52a1ee4c"
+    },
+    {
+      "category": "company",
+      "datetime": 1766576046,
+      "headline": "2026 Bloomberg Watch List Has 4 Ideal \"Safer\" DiviDog Buys",
+      "id": 137891273,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/512344182/image_512344182.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover Bloomberg's 2026 Dividend Focus picksâtop stocks with high yields & cash flow. See potential gainers & learn contrarian strategies.",
+      "url": "https://finnhub.io/api/news?id=4478ee4529696e0ae622ea8ba640d24970aad6444f5122555085cef2a17e9e6f"
+    },
+    {
+      "category": "company",
+      "datetime": 1766538234,
+      "headline": "The AI Bubble Is A Myth: Why I'm Concentrating Into Networking And Cooling",
+      "id": 137887901,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2158302115/image_2158302115.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "AI stock valuations in public markets are largely reasonable, with bubble concerns overstated versus S&P 500 multiples and underlying growth rates.",
+      "url": "https://finnhub.io/api/news?id=b2bb96b398bd93cff491424a346705518ad5c6be7431c69d908f28c83661b86c"
+    }
+  ]
+}

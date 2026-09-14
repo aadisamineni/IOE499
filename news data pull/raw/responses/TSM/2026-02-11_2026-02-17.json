@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2026-02-11",
+    "to": "2026-02-17"
+  },
+  "retrieved_at_utc": "2026-09-14T15:34:59Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:34:59 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "12",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1771353780,
+      "headline": "David Tepper's Appaloosa Ups Micron Stake By 250%, Trims Nvidia And Amazon",
+      "id": 139133480,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/17/Hedge-Funds--The-Word-Hedge-Funds-In-The.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "David Tepper&#39;s Appaloosa turns red hot for Micron, increasing its stake by 250%.",
+      "url": "https://finnhub.io/api/news?id=65ce4d19837f1de0cf36d97a1219c19d9540f8d927642195ab7dfdb670005bee"
+    },
+    {
+      "category": "company",
+      "datetime": 1771342697,
+      "headline": "Why Investors Are Quietly Rotating Out Of Semiconductor Stocks",
+      "id": 139134808,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=3ae0e32322ffa6619d14e83ff86e0dac185769cf76b6200c98b6ebb39db3a67d"
+    },
+    {
+      "category": "company",
+      "datetime": 1771333680,
+      "headline": "Big Tech Market Caps Slide As AI Spending Faces Scrutiny",
+      "id": 139133709,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/17/Nvidia-Logo-On-Smartphone.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Reassessment of AI spending hurts tech stocks, erasing $1.3T from Microsoft, Amazon, Nvidia, Apple, &amp; Alphabet.",
+      "url": "https://finnhub.io/api/news?id=f6d07528e7ebee66b1dc7c69b66cf876e579512d9dc90e01cd8a7d3b603fff7f"
+    },
+    {
+      "category": "company",
+      "datetime": 1771333449,
+      "headline": "Nvidia: Robust Growth Outlook With Minimal Supply Disruption Risk",
+      "id": 139125385,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=c10498b614cebe49095a86eeec82006b8d1a49ea03b3ca2e6f499312fb9fba70"
+    },
+    {
+      "category": "company",
+      "datetime": 1771313620,
+      "headline": "Technology Dashboard For February And Focus On BCTK ETF",
+      "id": 139121640,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=953f7b7762b3b3ce82618edabb1c8198fba1d73428d00d672c256af758bb6a79"
+    },
+    {
+      "category": "company",
+      "datetime": 1771299699,
+      "headline": "DA Davidson Initiates Coverage of Taiwan Semiconductor Manufacturing Company Limited - Depositary Receipt (TSM) with Buy Recommendation",
+      "id": 139119635,
+      "image": "",
+      "related": "TSM",
+      "source": "Fintel",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=6dbecfa913ba3c1ee2ce0139edc523ad5f5e4ee592f6f2fa8b649efcd7ff2658"
+    },
+    {
+      "category": "company",
+      "datetime": 1771248912,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 139121932,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=9111d55c676425d5f27aef8f64f331142d005d63dd0352137897d2683d931c3c"
+    },
+    {
+      "category": "company",
+      "datetime": 1771230120,
+      "headline": "Nvidia Supplier TSMC Sees Momentum Surge As Global AI Demand Hits Fever Pitch",
+      "id": 139114361,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/16/Exterior-Of-TSMC-Facility-In-Phoenix-Ari.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia supplier TSM sees its Momentum score surge to 92.92 as Big Tech AI spending hits $600B. See the latest Benzinga Edge rankings.",
+      "url": "https://finnhub.io/api/news?id=036e0c00a362a816e3120b1785b6a4a699b7711e110955387aa352cbf706183d"
+    },
+    {
+      "category": "company",
+      "datetime": 1770996146,
+      "headline": "Broadcom: Why AI Vibe-Coding Is Not A Threat To Its Infrastructure Software Segment",
+      "id": 139088440,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1224500457/image_1224500457.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Broadcom Inc. upgraded to Strong Buy: AI trifecta, VMware moat, and rising capex tailwinds support FCF and dividends. Click to read why AVGO is a Strong Buy.",
+      "url": "https://finnhub.io/api/news?id=66e086f5943d31279f8d4850b0bc2d516d9090bf04fa59881f71cc52a0a68631"
+    },
+    {
+      "category": "company",
+      "datetime": 1770991677,
+      "headline": "Taiwan Semiconductor Trades Near 52-Week High After AI Demand, Big Tech Spending Lift Shares",
+      "id": 139096132,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/13/Hsinchu-City--Taiwan--August-19--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan Semiconductor (TSM) is trading near record highs after January revenue surged 37%, far outstripping even the most optimistic forecasts. As Big Tech giants like Google and Amazon prepare to pour over $600 billion into AI infrastructure, TSMC is accelerating its production of next-generation chips to meet the world&#39;s &#34;insatiable&#34; demand.",
+      "url": "https://finnhub.io/api/news?id=3ca63777dde13c5355da28cfbd2baa9baa25ceb204b43f9023fcfcfc794e99ca"
+    },
+    {
+      "category": "company",
+      "datetime": 1770989715,
+      "headline": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "id": 139095506,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=e030e3cbb56bd99eabc748cc5dc720d12bb42812979deb8796fab40caa87889c"
+    },
+    {
+      "category": "company",
+      "datetime": 1770979013,
+      "headline": "This Taiwan Semiconductor Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Friday",
+      "id": 139083213,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/13/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=4fe7e915e49e185ac6764a801560922a6af2ff8d4329bf656e8bccbe7e912d23"
+    },
+    {
+      "category": "company",
+      "datetime": 1770977493,
+      "headline": "DA Davidson Initiates Coverage On Taiwan Semiconductor with Buy Rating, Announces Price Target of $450",
+      "id": 139096868,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "DA Davidson  analyst Gil Luria   initiates coverage on Taiwan Semiconductor (NYSE:TSM) with a Buy rating and announces Price Target of $450.",
+      "url": "https://finnhub.io/api/news?id=17dea4f4342293fb84deec09b89c3a429b132039660daa0aef58e7838fda5f99"
+    },
+    {
+      "category": "company",
+      "datetime": 1770968182,
+      "headline": "The AI Boom Is Real, And Taiwan Is Cashing The Checks",
+      "id": 139080561,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/13/Microprocessor-With-Taiwan-Flag--Semicon.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan&#39;s 2026 economic growth outlook raised due to booming AI-driven exports, with TSM playing a crucial role.",
+      "url": "https://finnhub.io/api/news?id=73d440da5078aa112db06c540dc5a491adfab2467c46b8a88f0154470c775b2c"
+    },
+    {
+      "category": "company",
+      "datetime": 1770951438,
+      "headline": "US, Taiwan Seal Trade Pact With $84 Billion Purchase Commitment, Lower Tariffs",
+      "id": 139080782,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/13/Waving-Flags-Of-The-United-States-And-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "The United States and Taiwan have signed a trade agreement, which will lower tariffs on Taiwanese exports to 15% and open Taiwan&#39;s market to U.S. goods.",
+      "url": "https://finnhub.io/api/news?id=907d1697b61d2d9e8b80e5e893903dbc62f0b468e82edd83f37fdf6dc98c943c"
+    },
+    {
+      "category": "company",
+      "datetime": 1770914400,
+      "headline": "Tech Tug Of War: Fear Vs. Greed",
+      "id": 139074610,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1388507523/image_1388507523.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Tech ContrariansÂ take on tech's tug of war between fear and greed.",
+      "url": "https://finnhub.io/api/news?id=70d1a1d03e9c71770d5c6eb277d294fa168f798d61e1217b47d26f97e3620f81"
+    },
+    {
+      "category": "company",
+      "datetime": 1770908805,
+      "headline": "Apple, Nvidia And Other 8 Tech Stocks Just Wiped Out $500 Billion As A New Threat Emerges",
+      "id": 139080568,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/12/Tech-stocks-slide.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Tech giants erased $500B on Thursday as Cisco&#39;s weak margin outlook and memory shortages deepened the sector&#39;s AI-driven selloff.",
+      "url": "https://finnhub.io/api/news?id=62486df492bc7d06e1bb569842e19df0355fd1d025e24bf00316a2843f93f901"
+    },
+    {
+      "category": "company",
+      "datetime": 1770906324,
+      "headline": "Shares of semiconductor companies are trading lower amid overall market weakness as investors rotate out of the industry. Recent payroll economic data may impact future rate cuts as investors await Friday's CPI results.",
+      "id": 139931426,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=90c5bb2ecf739d70b2e14ebfa39259d8b3ceddea577644c44b573f7e4f5cca3c"
+    },
+    {
+      "category": "company",
+      "datetime": 1770896077,
+      "headline": "Taiwan Semiconductor: Transition From An iPhone To An AI Era",
+      "id": 139062522,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2227734428/image_2227734428.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor Manufacturing Company Limitedâs Q4 2025 shift to AI chipsâled by Nvidiaâboosts pricing power and margins. Click for this TSM stock update.",
+      "url": "https://finnhub.io/api/news?id=b1324498ed8ab2e32f064576aafa484633321ddbfafe36818fd97414619760b8"
+    },
+    {
+      "category": "company",
+      "datetime": 1770894090,
+      "headline": "Market Whales and Their Recent Bets on TSM Options",
+      "id": 139080786,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=876263298cc8712fd91ac835c6df2439cbce952e35e97e1e6567833284fe5e22"
+    },
+    {
+      "category": "company",
+      "datetime": 1770876544,
+      "headline": "'Taipei Is Home': Nvidia Seals The Deal On Massive New Taiwan Headquarters",
+      "id": 139055818,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/12/Microprocessor-With-Taiwan-Flag--Semicon.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan cements role as global AI and semiconductor hub as Nvidia Corp (NVDA) plans for new Taipei HQ. Govt approves plan.",
+      "url": "https://finnhub.io/api/news?id=82445fe6177ea210ff58db2ca71af9159fc3d0bbfc9afaa35faf9b50e4703fb4"
+    },
+    {
+      "category": "company",
+      "datetime": 1770850555,
+      "headline": "Tracking William Von Mueffling's Cantillon Capital Management Portfolio - Q4 2025 Update",
+      "id": 139052262,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=e6e4798152e96670c0503e9df9c92123ac01373baf6237c77d912a394a502444"
+    },
+    {
+      "category": "company",
+      "datetime": 1770834834,
+      "headline": "Bloomberg's 2026 Watch List Flags 5 Ideal 'Safer' February Dividend Buys",
+      "id": 139050330,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/512344182/image_512344182.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Bloomberg's 2026 Dividend Focus list highlights 16 'safer' stocks with free cash flow yields exceeding dividend yields. Read full analysis here.",
+      "url": "https://finnhub.io/api/news?id=60dfe369b77c08b73e3e6e285bfa9ef30927f10e9c21a68be97c1bef06a0a0b2"
+    },
+    {
+      "category": "company",
+      "datetime": 1770818850,
+      "headline": "Taiwan Semiconductor Stock Hits 52-Week High: What's Happening Today?",
+      "id": 139055819,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/11/Tokyo--Japan--March-2023-an-Image-Of-Tsm.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan Semiconductor shares are trading higher Wednesday. Wedbush reiterated its Outperform rating following TSMC&#39;s strong sales.",
+      "url": "https://finnhub.io/api/news?id=5a565c48e4b3adeaf8a50481b2ad31f6e28dc05464bff1911620032ec3f84485"
+    },
+    {
+      "category": "company",
+      "datetime": 1770806100,
+      "headline": "The 'Nvidia Moment' For Semiconductor Supply Just Arrived",
+      "id": 139044907,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1468266144/image_1468266144.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "We may have \"the moment\" for the world's most advanced AI chips -Taiwan Semiconductor. And this is the proxy for the health of the entire hardware ecosystem. Read more here...",
+      "url": "https://finnhub.io/api/news?id=3a0cd28fd219d18652efa53e790abf185e0c7217dfa9125a5f9a4c3967fff86d"
+    },
+    {
+      "category": "company",
+      "datetime": 1770795322,
+      "headline": "Lutnick Signals No Wiggle Room For Nvidia On China Chip Controls",
+      "id": 139042514,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/11/Nvidia-Logo-On-Smartphone.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "US Commerce Secretary Lutnick addressed licensing requirements for Nvidia&#39;s AI chips in China. Delays, competition create uncertainty.",
+      "url": "https://finnhub.io/api/news?id=7bde9597b9d56b7f1851b907ffe9e12dee59b9e5ea309a73c33aec452ed64cdd"
+    },
+    {
+      "category": "company",
+      "datetime": 1770790062,
+      "headline": "AI Anxiety Rattles Wall Street's Old Guard",
+      "id": 139040223,
+      "image": "https://www.chartmill.com/images/uploads/THUMBNAILS_CHARTMILL_1000_528_4e743e3f43.webp",
+      "related": "TSM",
+      "source": "ChartMill",
+      "summary": "While the Dow Jones managed to notch another record high, the broader market felt the chill of \"AI creep\" as investors began dumping financial stocks over fears of automation. Coupled with a massive $8.2 billion loss at Ford and lukewarm retail data, the day served as a stark reminder that the AI revolution is now coming for the service sector's bottom line.",
+      "url": "https://finnhub.io/api/news?id=cbc677e3ee5ad9eeed128fd0f15eabcf1763ab561a197090f4ca80142fc5ccda"
+    }
+  ]
+}

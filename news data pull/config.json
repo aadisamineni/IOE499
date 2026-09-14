@@ -1,0 +1,140 @@
+{
+  "api": {
+    "base_url": "https://finnhub.io/api/v1",
+    "company_news_endpoint": "/company-news",
+    "timeout_seconds": 30,
+    "request_delay_seconds": 1.1,
+    "max_retries": 5,
+    "backoff_initial_seconds": 2.0,
+    "backoff_max_seconds": 60.0,
+    "initial_window_days": 7,
+    "minimum_window_days": 1,
+    "potential_truncation_count": 240
+  },
+  "collection": {
+    "start_date": "2025-10-01",
+    "end_date": "2026-05-01",
+    "tickers": [
+      "NVDA",
+      "AMD",
+      "TSM",
+      "MU",
+      "AVGO",
+      "MSFT",
+      "AMZN",
+      "GOOGL",
+      "META"
+    ],
+    "primary_ticker": "NVDA"
+  },
+  "relevance": {
+    "direct_keywords": ["Nvidia", "NVDA"],
+    "entity_aliases": {
+      "NVDA": ["Nvidia", "NVDA"],
+      "AMD": ["AMD", "Advanced Micro Devices", "Instinct", "MI300", "MI325", "MI350", "MI400"],
+      "TSM": ["TSMC", "Taiwan Semiconductor", "TSM"],
+      "MU": ["Micron", "MU"],
+      "AVGO": ["Broadcom", "AVGO"],
+      "MSFT": ["Microsoft", "MSFT", "Azure", "Maia"],
+      "AMZN": ["Amazon", "AMZN", "AWS", "Trainium", "Inferentia"],
+      "GOOGL": ["Google", "Alphabet", "GOOGL", "TPU"],
+      "META": ["Meta", "META", "MTIA"]
+    },
+    "event_categories": [
+      {
+        "name": "export_controls_market_access",
+        "terms": ["export control", "export restriction", "export ban", "chip restriction", "china sales", "china market", "license requirement", "smuggling", "middle east export", "market access"]
+      },
+      {
+        "name": "ai_infrastructure_spending",
+        "terms": ["ai infrastructure", "capital spending", "capital expenditure", "capex", "data center", "datacenter", "gpu purchase", "gpu order", "accelerator purchase", "accelerator order", "compute capacity", "ai factory", "cloud spending"]
+      },
+      {
+        "name": "manufacturing_packaging_hbm",
+        "terms": ["advanced packaging", "cowos", "high bandwidth memory", "hbm", "hbm3", "hbm3e", "hbm4", "foundry capacity", "wafer capacity", "3nm", "2nm", "chip supply", "memory supply", "packaging capacity"]
+      },
+      {
+        "name": "competing_accelerators_custom_chips",
+        "terms": ["ai accelerator", "ai processor", "custom chip", "custom silicon", "asic", "tpu", "trainium", "inferentia", "maia", "mtia", "instinct", "mi300", "mi325", "mi350", "mi400", "gaudi"]
+      },
+      {
+        "name": "partnership_contract",
+        "terms": ["partnership", "partnerships", "partners with", "contract", "contracts", "supply agreement", "deal", "selected", "deployment", "order", "orders", "purchase", "purchases", "purchase agreement", "strategic alliance", "collaboration"]
+      },
+      {
+        "name": "product_delay_supply_constraint",
+        "terms": ["product delay", "delayed", "postponed", "supply constraint", "shortage", "bottleneck", "production issue", "design flaw", "overheating"]
+      },
+      {
+        "name": "regulatory_action",
+        "terms": ["regulator", "regulatory", "antitrust", "investigation", "subpoena", "justice department", "commerce department", "sec probe", "eu commission", "fine"]
+      },
+      {
+        "name": "product_announcement",
+        "terms": ["launches", "launched", "unveils", "unveiled", "announces", "introduced", "new gpu", "new chip", "blackwell", "rubin", "grace hopper", "dgx", "cuda"]
+      }
+    ],
+    "indirect_rules": [
+      {
+        "category": "export_controls_market_access",
+        "topic_terms": ["export control", "export restriction", "export ban", "chip restriction", "license requirement", "chip smuggling", "trade restriction", "market access restriction"],
+        "connection_terms": ["ai chip", "advanced chip", "gpu", "accelerator", "advanced semiconductor"],
+        "reason": "AI-chip trade restrictions or market-access changes can alter Nvidia's addressable markets and compliant product mix."
+      },
+      {
+        "category": "ai_infrastructure_spending",
+        "required_term_groups": [
+          ["microsoft", "azure", "amazon", "aws", "google", "alphabet", "meta", "hyperscaler"],
+          ["ai infrastructure", "artificial intelligence", "ai compute", "gpu", "ai accelerator", "compute capacity", "ai factory"],
+          ["capital spending", "capital expenditure", "capex", "cloud spending", "spending plan", "investment plan", "invests", "order", "orders", "purchase", "deployment", "build", "expansion"]
+        ],
+        "reason": "Hyperscaler AI-infrastructure commitments can change demand for Nvidia GPUs and networking systems."
+      },
+      {
+        "category": "manufacturing_packaging_hbm",
+        "topic_terms": ["advanced packaging", "cowos", "high bandwidth memory", "hbm", "hbm3e", "hbm4", "foundry capacity", "wafer capacity", "packaging capacity", "memory supply"],
+        "connection_terms": ["tsmc", "taiwan semiconductor", "micron", "sk hynix", "samsung", "ai chip", "gpu", "accelerator"],
+        "reason": "Foundry, advanced-packaging, or HBM capacity can constrain Nvidia accelerator shipments."
+      },
+      {
+        "category": "competing_accelerators_custom_chips",
+        "topic_terms": ["ai accelerator", "custom chip", "custom silicon", "asic", "tpu", "trainium", "inferentia", "maia", "mtia", "instinct", "mi300", "mi325", "mi350", "mi400", "gaudi"],
+        "connection_terms": ["amd", "advanced micro devices", "broadcom", "google", "alphabet", "amazon", "aws", "microsoft", "meta", "intel", "cloud"],
+        "reason": "A competing accelerator or customer-designed chip can affect Nvidia's share of AI-compute spending."
+      },
+      {
+        "category": "partnership_contract",
+        "required_term_groups": [
+          ["partnership", "partners with", "contract", "supply agreement", "purchase agreement", "deployment", "strategic alliance", "selected"],
+          ["ai chip", "ai accelerator", "gpu", "advanced packaging", "hbm", "custom silicon"]
+        ],
+        "reason": "A material AI-compute partnership or contract can shift demand, supply, or competitive positioning relevant to Nvidia."
+      },
+      {
+        "category": "product_delay_supply_constraint",
+        "topic_terms": ["product delay", "delayed", "postponed", "supply constraint", "shortage", "bottleneck", "production issue", "overheating"],
+        "connection_terms": ["ai chip", "ai accelerator", "gpu", "advanced packaging", "cowos", "hbm", "data center", "datacenter"],
+        "reason": "A delay or supply constraint in the AI-compute chain can affect Nvidia's deliveries or competitive timing."
+      },
+      {
+        "category": "regulatory_action",
+        "topic_terms": ["regulator", "regulatory", "antitrust", "investigation", "subpoena", "justice department", "commerce department", "eu commission"],
+        "connection_terms": ["ai chip", "advanced chip", "gpu", "ai accelerator", "custom silicon", "advanced semiconductor"],
+        "reason": "A regulatory action affecting advanced AI chips can alter Nvidia's sales channels or competitive conditions."
+      }
+    ],
+    "exclusions": {
+      "earnings": ["earnings", "quarterly results", "quarter results", "financial results", "q1 results", "q2 results", "q3 results", "q4 results", "first quarter results", "second quarter results", "third quarter results", "fourth quarter results", "quarterly profit", "profit up", "profit rises", "profit falls", "profit jumps", "profit surges", "profit climbs", "profit drops", "earnings call", "earnings preview", "earnings recap", "profit beats", "revenue beats", "revenue above estimates", "forecasts fiscal", "revenue forecast", "profit forecast", "eps beats", "eps misses"],
+      "recommendation_listicle": ["stocks to buy", "stock to buy", "best stocks", "top stocks", "better buy", "should you buy", "and so should you", "buy the dip", "is it time to buy", "billionaire buys", "billionaire investor", "cathie wood", "buys shares", "millionaire maker", "bull case", "investment story", "investment ideas", "stock bets", "stock forecast", "valuation", "top ai pick", "top pick", "strong buy", "on sale", "ways to play", "how to play", "how investors", "metrics capture", "podcast", "daily open", "morning brief", "market roundup", "week in review", "trades near flat", "prediction:", "price prediction", "lifts pt", "raises pt", "cuts pt", "price target", "analyst rating", "buy rating", "sell rating", "analyst says buy", "wall street says"],
+      "technical_analysis": ["technical analysis", "moving average", "relative strength index", "rsi", "support level", "resistance level", "golden cross", "death cross", "chart pattern", "bollinger", "fibonacci"],
+      "past_price_movement": ["stock rose", "stock rises", "stock jumped", "stock jumps", "stock surged", "stock surges", "stock fell", "stock falls", "stock dropped", "stock drops", "stock is sinking", "stocks are taking a beating", "stock crashed", "stocks crashed", "shares rose", "shares fell", "shares plunge", "shares slump", "sell-off", "selloff", "why the stock is up", "why the stock is down", "why nvda is up", "why nvda is down", "did nvidia crash"],
+      "material_underlying_terms": ["announces", "launches", "unveils", "contract", "partnership", "export", "restriction", "regulator", "investigation", "order", "purchase", "delay", "shortage", "capacity", "data center", "datacenter", "capex", "acquisition", "approval", "ai processor", "custom chip", "gaining ground"]
+    },
+    "similarity": {
+      "headline_sequence_threshold": 0.86,
+      "headline_token_jaccard_threshold": 0.78,
+      "event_window_hours": 72,
+      "minimum_shared_tokens": 2
+    }
+  }
+}
