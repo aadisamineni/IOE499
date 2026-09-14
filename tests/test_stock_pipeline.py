@@ -46,6 +46,16 @@ class PipelineTests(unittest.TestCase):
         self.assertFalse(report["checks"]["valid_ohlc_bounds"])
         self.assertFalse(report["checks"]["no_missing_source_values"])
 
+    def test_five_percent_inclusive_thresholds_and_missing_history(self):
+        frame = self.frame.iloc[:9].copy()
+        frame["adjusted_close"] = [100, 105, 100, 95, 100, 104.99, 100, 94.99, np.nan]
+        result = derive_features(frame)
+        expected = pd.Series([np.nan, 1, 0, -1, 1, 0, 0, -1, np.nan],
+                             index=frame.index, name="price_move_5pct")
+        pd.testing.assert_series_equal(result.price_move_5pct, expected)
+        pd.testing.assert_series_equal(result.price_move_5pct_lag1_session,
+                                       expected.shift(1), check_names=False)
+
     def test_actions_retained_and_no_weekend_rows(self):
         self.frame.loc[self.index[2], "dividends"] = 0.01
         report = validate(self.frame, "2025-08-01", "2025-10-08")

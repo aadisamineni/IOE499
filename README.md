@@ -27,7 +27,7 @@ package index is needed for installation; Yahoo access is needed for each run.
 - `data/raw/NVDA_daily_warmup_2025-07-03_2025-09-30.csv`: separate 90-calendar-day
   warm-up request; weekends/holidays do not receive rows.
 - `data/processed/NVDA_daily_features_2025-10-01_2026-05-31.csv`: source columns
-  plus ten derived columns, trimmed after computing features and lags.
+  plus twelve derived columns, trimmed after computing features and lags.
 - `data/raw/NVDA_daily_2025-10-01_2026-05-31_metadata.json`: successful retrieval
   times (UTC), versions, request settings, actual coverage, counts, validation,
   corporate-action and unusual-return review records, and conventions.
@@ -79,11 +79,13 @@ CSV missing values are blank, never filled with zero.
 | `adjusted_close_return_5d` | `A[t] / A[t-5] - 1`; five-session trailing return. |
 | `daily_return_volatility_20d` | Sample standard deviation (`ddof=1`) of 20 daily returns ending at t, no annualization. |
 | `average_volume_20d` | Mean volume over 20 sessions ending at t, in shares. |
+| `price_move_5pct` | Adjusted close change from the previous session: `1` for at least +5%, `-1` for at most -5%, otherwise `0`. Inclusive thresholds; unavailable changes remain blank. Known after today's close, not a future target. |
 | `adjusted_close_return_1d_lag1_session` | Previous session's adjusted daily return. |
 | `adjusted_open_to_close_return_lag1_session` | Previous session's adjusted intraday return. |
 | `adjusted_close_return_5d_lag1_session` | Previous session's trailing five-session return. |
 | `daily_return_volatility_20d_lag1_session` | Previous session's trailing daily-return volatility. |
 | `average_volume_20d_lag1_session` | Previous session's trailing average volume. |
+| `price_move_5pct_lag1_session` | Previous session's 5% movement classification; available for today's premarket use. |
 
 Rolling windows require all observations. Warm-up supplies the earlier closes,
 returns and volumes, including the first output row's lagged features. The script

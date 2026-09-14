@@ -26,7 +26,12 @@ SETTINGS = dict(interval="1d", auto_adjust=False, back_adjust=False,
                 prepost=False, timeout=30)
 FEATURES = ["adjusted_close_return_1d", "adjusted_open_to_close_return",
             "adjusted_close_return_5d", "daily_return_volatility_20d",
-            "average_volume_20d"]
+            "average_volume_20d", "price_move_5pct"]
+MOVE_DEFINITION = (
+    "Adjusted close versus previous exchange session: +1 if at least 5% higher, "
+    "-1 if at least 5% lower, otherwise 0; missing previous close remains missing. "
+    "Same-day classification, available after close; lag1_session uses prior session."
+)
 CONVENTIONS = {
     "ohlc": "Yahoo provider OHLC, generally split-adjusted, not dividend-adjusted; "
             "auto_adjust=False does not restore original pre-split traded prices.",
@@ -127,6 +132,11 @@ def derive_features(frame):
     result[FEATURES[2]] = adj.pct_change(periods=5, fill_method=None)
     result[FEATURES[3]] = result[FEATURES[0]].rolling(20, min_periods=20).std(ddof=1)
     result[FEATURES[4]] = frame.volume.rolling(20, min_periods=20).mean()
+    previous = adj.shift(1)
+    move = pd.Series(0.0, index=frame.index)
+    move.loc[adj >= previous * 1.05] = 1
+    move.loc[adj <= previous * 0.95] = -1
+    result["price_move_5pct"] = move.where(adj.notna() & previous.notna())
     for feature in FEATURES:
         result[f"{feature}_lag1_session"] = result[feature].shift(1)
     return result
@@ -156,6 +166,7 @@ def main():
             "main": {"start_inclusive": str(START), "end_exclusive": str(END + timedelta(days=1))}},
         "warmup_calendar_days": (START - WARM_START).days,
         "adjustment_conventions": CONVENTIONS, "feature_timing": TIMING,
+        "price_move_5pct_definition": MOVE_DEFINITION,
         "calendar": "pandas_market_calendars NASDAQ; includes early-close sessions",
         "unusual_return_review_threshold": "abs(adjusted close daily return) >= 0.10",
         "documentation": [
@@ -195,11 +206,14 @@ def main():
             k: int(v) for k, v in processed.isna().sum().items()}
         if not np.isfinite(derived.to_numpy()).all():
             raise RuntimeError("Derived features contain missing/nonfinite values despite warm-up")
+        for column in ("price_move_5pct", "price_move_5pct_lag1_session"):
+            processed[column] = processed[column].astype("int64")
         unusual = featured.loc[featured[FEATURES[0]].abs() >= 0.10, [FEATURES[0]]].reset_index()
         unusual["trading_date"] = unusual.trading_date.dt.strftime("%Y-%m-%d")
         metadata["unusual_returns_for_review_including_warmup"] = json.loads(
             unusual.to_json(orient="records"))
         processed.to_csv(paths["processed"], date_format="%Y-%m-%d")
+        metadata["processed_generated_utc"] = utc_now()
         metadata["status"] = "validated"
         write_json(paths["metadata"], metadata)
         print(json.dumps({"paths": metadata["paths"], "actual_dates": metadata["actual_dates"],
