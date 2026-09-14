@@ -1,0 +1,8 @@
+# Local Finnhub credential; never commit.
+DataPull/Aadi_apikey.txt
+Aadi_apikey.txt
+
+# Local Python environments and bytecode for the news pipeline.
+news data pull/.venv/
+news data pull/**/__pycache__/
+news data pull/**/*.py[cod]

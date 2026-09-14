@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-11-19",
+    "to": "2025-11-25"
+  },
+  "retrieved_at_utc": "2026-09-14T15:30:26Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:30:26 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "33",
+    "x-ratelimit-reset": "1789399854"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1764099026,
+      "headline": "Marjorie Taylor Greene, Dan Ives Bet On The Same 16 Stocks – Some Might Surprise You",
+      "id": 138444978,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/25/Marjorie-Taylor-Greene-on-stage-in-a-red.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Rep. Marjorie Taylor Greene has disclosed numerous stock trades in 2025 and since 2021. Many of those stocks are also owned in the Dan Ives AI ETF.",
+      "url": "https://finnhub.io/api/news?id=9926bb840a9785309bb28061c808d357b4c7454dcb5d99212944e87a1fa56604"
+    },
+    {
+      "category": "company",
+      "datetime": 1764091530,
+      "headline": "Alphabet Gives Thanks For Gemini: AI Breakthrough Fuels Gains",
+      "id": 137607113,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2240501302/image_2240501302.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The AI trade has rebounded as Alphabet âs Gemini surge lifts tech, but Taiwan Semiconductor Manufacturing Company still looks like the better-valued long-term play.",
+      "url": "https://finnhub.io/api/news?id=681e1a210c0dbd52f23ae404b7072f492734aaae1774e16ed25245e2b7043b88"
+    },
+    {
+      "category": "company",
+      "datetime": 1764067254,
+      "headline": "Tracking Renaissance Technologies (RenTec) 13F Portfolio - Q3 2025 Update",
+      "id": 137604086,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1204194686/image_1204194686.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Explore Renaissance Technologies' Q3 2025 13F portfolio changes. See top stock holdings, key buys & sells, and what it means for your investment strategy.",
+      "url": "https://finnhub.io/api/news?id=28e8cae43dd922a8d30bac3d055df24c4cad28fe8f7a944b116293348a263878"
+    },
+    {
+      "category": "company",
+      "datetime": 1764060266,
+      "headline": "Apple, Taiwan Semiconductor Manufacturing And More On CNBC's 'Final Trades'",
+      "id": 138405223,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/25/Apple-Reports-Flat-iPad-Sales--Record-Re.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Apple will roll out three new iPhone models and is just pennies away from an all-time high. It&#39;s expected to have a solid quarter.",
+      "url": "https://finnhub.io/api/news?id=541d462971ece9650d414795b8b49fbe45afdf8c9eca82d554d0edcdac07d38d"
+    },
+    {
+      "category": "company",
+      "datetime": 1764059580,
+      "headline": "Touchstone Emerging Markets Growth Fund Q3 2025 Portfolio Review",
+      "id": 137603378,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2175893664/image_2175893664.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The following segment was excerpted from the Touchstone Sands Capital Emerging Markets Growth Fund Q3 2025 Commentary.The Touchstone Sands Capital Emerging...",
+      "url": "https://finnhub.io/api/news?id=f5b55176d5052bcfdfcebbfe6d95499c862875ca9a8bbdaeed99eefbab4ac470"
+    },
+    {
+      "category": "company",
+      "datetime": 1764053751,
+      "headline": "Taiwan Semiconductor Doubles Down On 2nm Chips As AI Frenzy Fuels Billion-Dollar Buildout",
+      "id": 138674127,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/25/Tainan--Taiwan--September-30--2021-Taiwa.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan Semiconductor is expanding 2nm facilities, investing $28B in new fabs, targeting 2026 for mass production and scaling globally.",
+      "url": "https://finnhub.io/api/news?id=f0d2847e92aa4886f3e13fadb6a209558238628f7a2f9f1b67336b63505b7f13"
+    },
+    {
+      "category": "company",
+      "datetime": 1764001245,
+      "headline": "IDACORP: Fast-Rising Demand Meets A Fully Priced Stock",
+      "id": 137593917,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1852122719/image_1852122719.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "IDACORP, Inc. is positioned for strong electricity demand growth from data centers and industrial projects. Learn more about IDA stock here.",
+      "url": "https://finnhub.io/api/news?id=bb0dd2caf88e2bd1c0d3dcaf767405f4e7b679bf075f1d6768c91a4b4778a9ca"
+    },
+    {
+      "category": "company",
+      "datetime": 1763994900,
+      "headline": "Alger International Opportunities Fund Q3 2025 Portfolio Update",
+      "id": 137592450,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2231926077/image_2231926077.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Class A shares of the Alger International Opportunities Fund underperformed the MSCI ACWI ex USA Index during the third quarter of 2025. Read more here.",
+      "url": "https://finnhub.io/api/news?id=ff764ef843e463c56dca5e56d4c830f3ae2bd8a5852b46b5b47325120684a7ac"
+    },
+    {
+      "category": "company",
+      "datetime": 1763992838,
+      "headline": "CNBC Halftime Report Final Trades: Citigroup, Morgan Stanley, CBRE Group, State Street SPDR S&P Biotech ETF",
+      "id": 139932182,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=1bd4840f48687d7dee556126ed36153e1c6316990ac9a8f9a59ef1b85348504f"
+    },
+    {
+      "category": "company",
+      "datetime": 1763992838,
+      "headline": "CNBC Halftime Report Final Trades: Taiwan Semiconductor Manufacturing, Apple Inc., State Street SPDR S&P Biotech ETF",
+      "id": 138405224,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=de958f13ad597da51c329d6e9800c259aa010d8a1c63d0dfc5d59bafb3ecf708"
+    },
+    {
+      "category": "company",
+      "datetime": 1763989454,
+      "headline": "Shares of semiconductor stocks are trading higher amid a broader rebound in tech names. Stocks across sectors are also higher amid Fed Governor Waller backing a December rate cut.",
+      "id": 138406740,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=8b68938394b7d647cf1cb3bf18091b0f1b4c337c88d128e7447133041e174656"
+    },
+    {
+      "category": "company",
+      "datetime": 1763982023,
+      "headline": "Congressional Trading Report: Rep. Lisa McClain Sold Over $398K In Apple Stock",
+      "id": 138794507,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=8c11b5504cc798e64245f3dd824000eb0a756ac22e093437e0ce3d8529820582"
+    },
+    {
+      "category": "company",
+      "datetime": 1763967892,
+      "headline": "Samsung's Chip Ramp-Up Revives Talk Of Closing The Taiwan Semiconductor Gap",
+      "id": 138674128,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/24/Samsung-Photo-by-Arcansel-via-Shuttersto.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Samsung is rebuilding its technological moat and expected to increase 2 nm production by 163%, securing major orders.",
+      "url": "https://finnhub.io/api/news?id=13626817317dec149591cfd937300a9cd7cab0d035f55bff8711d366cd82d671"
+    },
+    {
+      "category": "company",
+      "datetime": 1763946789,
+      "headline": "Elon Musk Says Tesla Will Build More AI Chips Than Everyone Else Combined, Unveils Major Hiring Drive: 'I'm Not Kidding'",
+      "id": 138674129,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/24/shutterstock-2651725745.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Elon Musk says Tesla aims to outproduce every rival AI chipmaker while launching an aggressive hiring push, even as delays to its next-generation AI5 and AI6 chips push large-scale production into 2027.",
+      "url": "https://finnhub.io/api/news?id=c683cd513db18ca92c3f934b3c304b90b5692bf8c608b0e18da6ebc6d9116cef"
+    },
+    {
+      "category": "company",
+      "datetime": 1763892083,
+      "headline": "Consumer Tech News (Nov 17-21): U.S. Jobs Surge in September, Trump Considers Delaying Semiconductor Tariffs & More",
+      "id": 138403767,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/23/Chips--semiconductor-shutterstock-219855.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "U.S. labor market rebounds in September, boosting growth optimism and raising questions over a potential Federal Reserve rate cut in December. Trump administration considers delaying semiconductor tariffs, signaling a major policy shift for U.S. tech imports and global supply chains.",
+      "url": "https://finnhub.io/api/news?id=921784da4c0ff0c2e1e2508f77f44b80b0400f8563394f23d0fee7e6bd06b7b3"
+    },
+    {
+      "category": "company",
+      "datetime": 1763887394,
+      "headline": "TSMC: Pricing Power And Profitability",
+      "id": 137583286,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1199346959/image_1199346959.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC is an unrivaled technology leader, central to the global AI boom and foundational to industry giants like Nvidia and Intel. Read why TSM stock is a Buy.",
+      "url": "https://finnhub.io/api/news?id=2c6483e650e17a5033413191579cb825639b63e6fcbf13e257d8dffb9851ec64"
+    },
+    {
+      "category": "company",
+      "datetime": 1763884866,
+      "headline": "iPhone Pocket, China Sales, $600 Million Patent Case And More: This Week In Appleverse",
+      "id": 138406741,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/23/Apple_0.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Apple made headlines this weekend with a record-breaking TV drama, a viral new accessory, surging iPhone 17 sales in China, and a major $600 million patent ruling.",
+      "url": "https://finnhub.io/api/news?id=d9feeb759a734aa93b32d316c3fe5f40b8e66418d5125c985b7747e20397d7ac"
+    },
+    {
+      "category": "company",
+      "datetime": 1763732117,
+      "headline": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "id": 138532719,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=2f7780fc0fed08d79c0b25b365742f949f28e034c5e5b06be8cb375562faf0de"
+    },
+    {
+      "category": "company",
+      "datetime": 1763725603,
+      "headline": "Congressman Bringing Back FAANG? Invests $750K In Netflix Stock While Avoiding Tesla",
+      "id": 138896883,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/21/FAANG-stocks.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "A Congressman who has been buying millions of dollars in Magnificent Seven stocks adds Netflix stock to his shopping list.",
+      "url": "https://finnhub.io/api/news?id=19ed8201c46bfe4dec5fd5e9102ce24b46eb62971558c923a86f46c8fa6e814b"
+    },
+    {
+      "category": "company",
+      "datetime": 1763637676,
+      "headline": "Shares of chip stocks are trading higher after NVIDIA reported better-than-expected quarterly results and issued strong guidance.",
+      "id": 138406745,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=e5d745a39888c5037f3dd61745c72b2a86406a4324f8150e33f39c85e0bf0457"
+    },
+    {
+      "category": "company",
+      "datetime": 1763637478,
+      "headline": "Nvidia's Big Earnings And Tariff Pause Rumors Lift Semiconductor Stocks",
+      "id": 138983461,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/20/Nvidia-Corporation-NVDA.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia&#39;s strong earnings and potential tariff policy relaxation by the Trump administration led to a rally in the semiconductor sector.",
+      "url": "https://finnhub.io/api/news?id=17ac41e28ca8430c92155fc2a07066b13cd889084dc3f9ec3c0e2126ba7443f8"
+    },
+    {
+      "category": "company",
+      "datetime": 1763629587,
+      "headline": "Trump Administration Mulls Delaying Semiconductor Tariffs To Avoid China Clash: Report",
+      "id": 138674130,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/20/shutterstock-2287024087.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "The Trump administration is reportedly contemplating a delay in imposing tariffs on semiconductors, a move that marks a significant shift from the President Donald Trump&#39;s earlier stance.",
+      "url": "https://finnhub.io/api/news?id=dd6009cf90c859b4a81ad81439d4be7c90f4a4310b5b2154725836d8cd7244de"
+    },
+    {
+      "category": "company",
+      "datetime": 1763574357,
+      "headline": "Dan Loeb Raises Microsoft Stake 175% In Big-Tech Push, Dumps Workday And More (CORRECTED)",
+      "id": 138419574,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/19/chart-investors-ai.png?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Dan Loeb&#39;s Third Point doubled its Microsoft stake and boosted Meta, Amazon, and Nvidia while fully exiting Workday and multiple industrial names in Q3.",
+      "url": "https://finnhub.io/api/news?id=6e56315d4b54f5f9114aec811ab2fc18ef998b9d5e7a82ce7a10a187db765f56"
+    }
+  ]
+}

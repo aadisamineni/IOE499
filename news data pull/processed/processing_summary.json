@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-09-14T16:01:21Z",
+  "raw_observations": 80647,
+  "unique_articles_after_id_url_deduplication": 53073,
+  "exact_duplicate_observations_removed": 27574,
+  "signal_articles_after_exclusions_and_event_grouping": 6751,
+  "retained_direct": 5996,
+  "retained_indirect": 755,
+  "sentiment_classification": "not_performed",
+  "note": "Relevance uses configured headline/summary/entity rules. Sentiment is deliberately not inferred and no confidence score is generated."
+}

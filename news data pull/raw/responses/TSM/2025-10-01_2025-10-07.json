@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-10-01",
+    "to": "2025-10-07"
+  },
+  "retrieved_at_utc": "2026-09-14T15:30:18Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:30:18 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "40",
+    "x-ratelimit-reset": "1789399854"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1759840007,
+      "headline": "Going All-In On US AI Stocks? You're Missing The China Trade, Alpine Macro Says",
+      "id": 138717337,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/07/Ai-Stock-Market-Graph-Trading-Analysis-I.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "As U.S.-China tensions reshape the AI landscape, analysts say investors should hedge U.S. tech bets with Chinese exposure.",
+      "url": "https://finnhub.io/api/news?id=99592e8f44c6944047eaf4fe267453d29ba9d4a6bc740360bc7042cee7574af9"
+    },
+    {
+      "category": "company",
+      "datetime": 1759827600,
+      "headline": "Stock Picks From Seeking Alpha's September 2025 New Analysts",
+      "id": 136998164,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2162397667/image_2162397667.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "In September, Seeking Alpha welcomed 21 new analysts. Check out some of their top picks here.",
+      "url": "https://finnhub.io/api/news?id=b85924c0208b5f5174c5fda4dd8a7590df645be97fa2bd3518b509c8fe6c29d9"
+    },
+    {
+      "category": "company",
+      "datetime": 1759764961,
+      "headline": "Shares of semiconductor companies are trading higher. The sector may be seeing strength amid sympathy to Advanced Micro Devices, which announced a multi‑year contract with OpenAI to deploy AMD GPUs.",
+      "id": 138464123,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=89bed2b406109e7c25a7645e58c5e34b53872adc7dde26d202a184a58df2866f"
+    },
+    {
+      "category": "company",
+      "datetime": 1759663316,
+      "headline": "Semiconductors Winners And Losers At The Start Of Q4 2025",
+      "id": 136978769,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2207530331/image_2207530331.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover how strong Q3 2025 results & government actions are propelling semiconductor stocks for Q4 growth.",
+      "url": "https://finnhub.io/api/news?id=b8361a82f85baa9f0f2047b676225342bcf4879eb744eddb7ae031e9b0a59689"
+    },
+    {
+      "category": "company",
+      "datetime": 1759623397,
+      "headline": "OpenAI's Sam Altman Turns To Asia, Middle East For Funds Amid Multitrillion-Dollar Push To Build Next-Gen Data Centers",
+      "id": 138610814,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/05/Openai-Ceo-Sam-Altman-Attends-The-Artifi.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "OpenAI CEO Sam Altman launches campaign to secure chips, partners, and funding for company&#39;s trillion-dollar AI expansion.",
+      "url": "https://finnhub.io/api/news?id=1f49991e82b9bbe92927d383e42ddcdf91b3081300996c9eb4409cc61cfafea7"
+    },
+    {
+      "category": "company",
+      "datetime": 1759507522,
+      "headline": "TSMC Q3 Preview: A Dividend Compounder Hiding In Plain Sight",
+      "id": 136966863,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1828680032/image_1828680032.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover why TSMC is a top Strong Buy with robust revenue, attractive dividend growth, and AI-driven potential. Click for my TSM stock earnings preview.",
+      "url": "https://finnhub.io/api/news?id=3b633e69c119c445219b1c9d277eaf658e50bd80f60d04dc2fdd3cea6dd87578"
+    },
+    {
+      "category": "company",
+      "datetime": 1759499234,
+      "headline": "Middle Coast Investing Q3 2025 Letter: Artificial Intelligence, Natural Caution",
+      "id": 136966163,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2166752170/image_2166752170.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Middle Coast Investing had a solid Q3, powered by four buyouts of portfolio companies and strong performance from several stocks. Read the full letter here.",
+      "url": "https://finnhub.io/api/news?id=69aa27c7ea3b14260ebf74bcd283a858499b09a59e358b6b98ce6849ebdc7a65"
+    },
+    {
+      "category": "company",
+      "datetime": 1759479729,
+      "headline": "Intel: From Rival To Partner, How The Chip Game Is Changing",
+      "id": 136963886,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2225440846/image_2225440846.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Intel's foundry shift sparks investor interest, but weak financials make INTC a high-risk, high-reward stock.",
+      "url": "https://finnhub.io/api/news?id=94b3ec38f8be325d8e3d831924e2852c840d946fbdd086f7881626fe7f5df197"
+    },
+    {
+      "category": "company",
+      "datetime": 1759451683,
+      "headline": "Trump Scores Better Than Warren Buffett On This Metric, Says Investor Chamath Palihapitiya: President's Intel Deal An 'Incredible Win'",
+      "id": 138639297,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/03/Intel-Apple-Talks.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Investor Chamath Palihapitiya praised President Donald Trump&#39;s recent deal with Intel Corp. (NASDAQ: INTC), calling it an &#34;incredible&#34; win for American taxpayers. ",
+      "url": "https://finnhub.io/api/news?id=3c686069bfc9d053da8bbb75211a7d9ae751d7193aed07271f991e47be3dd8e9"
+    },
+    {
+      "category": "company",
+      "datetime": 1759312374,
+      "headline": "OpenAI Taps Samsung And SK Hynix For Massive AI Data Push, Including New Korea Data Center",
+      "id": 138639301,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/10/01/OpenAI.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Samsung and SK Hynix secure deals to supply chips and equipment for Microsoft-backed OpenAI&#39;s Stargate project, while Samsung SDS and SK Telecom explore collaborations.",
+      "url": "https://finnhub.io/api/news?id=20c25c72010e1a4bdf9d2a4c7aeeaecb54556f13d3185b73d879ead1a0cb163d"
+    },
+    {
+      "category": "company",
+      "datetime": 1759300183,
+      "headline": "Wall Street Breakfast Podcast: Senate Vote Triggers Government Shutdown, Data Delays",
+      "id": 136943627,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1492055264/image_1492055264.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "U.S. government shutdown officially begins. Taiwan says no to making 50% of its chips in U.S. Nvidia tops $4.5 trillion market cap.",
+      "url": "https://finnhub.io/api/news?id=77450285176e2f85cc468f7484b6764c4881c5a1046892f781dfd6c5c6affefd"
+    }
+  ]
+}

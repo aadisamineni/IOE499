@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-12-03",
+    "to": "2025-12-09"
+  },
+  "retrieved_at_utc": "2026-09-14T15:30:28Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:30:28 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "31",
+    "x-ratelimit-reset": "1789399854"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1765295921,
+      "headline": "Tracking Dan Loeb's Third Point Portfolio - Q3 2025 Update",
+      "id": 137743470,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/186805810/image_186805810.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Third Point's Q3 2025 13F reveals new SPY Puts, top holdings, and major stock shifts.",
+      "url": "https://finnhub.io/api/news?id=163fbfdfed6472c3fd6700b5b6b9b429980388a4cdcea8f7b3af975e4504ead1"
+    },
+    {
+      "category": "company",
+      "datetime": 1765287359,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 138510356,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=4f3aba9c018d571e0cadd6cfd5e413947baf2a7219713022ff32440036845bf6"
+    },
+    {
+      "category": "company",
+      "datetime": 1765238740,
+      "headline": "Bernstein Maintains Taiwan Semiconductor Manufacturing Company Limited - Depositary Receipt (TSM) Outperform Recommendation",
+      "id": 137735370,
+      "image": "",
+      "related": "TSM",
+      "source": "Fintel",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=9cf91d497c4c9d93b94810750527de2131f08675b4628dbd7d51013a627aa736"
+    },
+    {
+      "category": "company",
+      "datetime": 1765202846,
+      "headline": "Taiwan Semiconductor Stock: Why Nvidia's Loss Is TSMC's Gain",
+      "id": 137734307,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2200526429/image_2200526429.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC's record-breaking revenue and margins position it to gain as AI demand grows and competition shifts. Click for this updated look at TSM stock.",
+      "url": "https://finnhub.io/api/news?id=2f6324a85b9c51d21dbed03a6adbc2ee9bc77ddfb4af1bb6453e47fd929a0d2f"
+    },
+    {
+      "category": "company",
+      "datetime": 1765187913,
+      "headline": "Mastercard To Rally Around 16%? Here Are 10 Top Analyst Forecasts For Monday",
+      "id": 138423062,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/08/Mastercard-flag-on-NYC-building.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=f942ed1c3ec87a685ed7927d1151d8f0ef3486272e622e619887b7285262e4ef"
+    },
+    {
+      "category": "company",
+      "datetime": 1765167055,
+      "headline": "Nvidia, Google, Amazon And MediaTek Demand Is Making TSMC Turn To Partners: Report",
+      "id": 138873766,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/08/Hsinchu-City--Taiwan--June-24--2024-Clos.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "TSMC is scrambling to expand and outsource its advanced CoWoS packaging as soaring AI chip demand overwhelms its capacity.",
+      "url": "https://finnhub.io/api/news?id=d4f185f08d3501c10ad02201712244f671a101d9db287f1e6629c13bba93d9f1"
+    },
+    {
+      "category": "company",
+      "datetime": 1765160892,
+      "headline": "TSMC: Wide Moat Remains, But Intel Just Got A Second Life (Rating Downgrade)",
+      "id": 137729725,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1412214383/image_1412214383.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC drives the AI boom with tight supply, a wide moat, growth, Intel gaining progress and potential business shifts. See why TSM stock is downgraded to buy.",
+      "url": "https://finnhub.io/api/news?id=9774596872b2b2b3fb1f6bafce08ec76e1134d4e46cfda52076a16a6e4d0de89"
+    },
+    {
+      "category": "company",
+      "datetime": 1765156204,
+      "headline": "Is TSMC Slowing Down? Not For Long",
+      "id": 137729461,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2158315834/image_2158315834.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor's record operational execution is reflected in sharp wafer shipment growth. Read why I reiterate my Buy rating for TSM stock.",
+      "url": "https://finnhub.io/api/news?id=db72a2a50cf60c527dbddfef1f004fb02165082801b2bfcf04aa2395906f0d2a"
+    },
+    {
+      "category": "company",
+      "datetime": 1765141970,
+      "headline": "Taiwan Semiconductor: Undervalued AI Infrastructure Backbone With Multi-Year Upside",
+      "id": 137728357,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/880940426/image_880940426.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover why TSMC is rated Strong Buy with 35% upside. Explore growth, robust margins, and AI-driven demand.",
+      "url": "https://finnhub.io/api/news?id=db447664dbc3170a07f5fe5e821ed54a5102e5b7d795458ff0968f894d00d627"
+    },
+    {
+      "category": "company",
+      "datetime": 1765133803,
+      "headline": "Tracking Stanley Druckenmiller's Duquesne Family Office Portfolio - Q3 2025 Update",
+      "id": 137727715,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1473159542/image_1473159542.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Duquesne Family Office's ~$4.06B 13F portfolio remains concentrated, with the top five holdingsâNatera, Insmed, Teva Pharma, Taiwan Semi, and...",
+      "url": "https://finnhub.io/api/news?id=66657b847919a5ce7bfbcf453aff95c0cb047bddd14e9f33f65918d299cab219"
+    },
+    {
+      "category": "company",
+      "datetime": 1765104370,
+      "headline": "Consumer Tech News (Dec 1-5): Trump Says He's Back in Elon Musk's Social Circle, U.S. Suspends China MSS Sanctions & More",
+      "id": 138470819,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/07/Donald-Trumps-Conversation-With-Elon-Mus.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Trump claims he has restored ties with Elon Musk, signaling a thaw in their relationship after earlier conflicts, sparking attention in the tech and political world. Conservative advocacy groups, including Steve Bannon, urge Trump administration to stop Big Tech from using copyrighted content for AI training without permission.",
+      "url": "https://finnhub.io/api/news?id=4dc6c3758df8c95ce3de958ed4da9cf88fb0e4cc2d9ca8c1f9a80e0c7dc65a8d"
+    },
+    {
+      "category": "company",
+      "datetime": 1765090286,
+      "headline": "TSMC: Foundry Monopoly, Inelastic Demand, Robust Pricing Power, And Cheap Valuations",
+      "id": 137723666,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1213764535/image_1213764535.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC leads the foundry market with 71% share, strong CoWoS demand, rising margins, and 3Y PEG of 0.93x with $446.80 target. Check out why TSM stock is a buy.",
+      "url": "https://finnhub.io/api/news?id=75c7c3f0d6839bf640d43532f78677d587ce2e03e744e93c99bc1e4910ca6b4f"
+    },
+    {
+      "category": "company",
+      "datetime": 1765069728,
+      "headline": "TSMC: Unmatched Moat, Secular AI Tailwinds, And Still A Buy At Highs",
+      "id": 137722145,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2214693325/image_2214693325.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover why TSMC's AI-driven growth, tech leadership, and strong margins justify a Buy rating and potential 30% returns.",
+      "url": "https://finnhub.io/api/news?id=d908b894cc01641080cffa1d2a58f01c82a3a61e6916494ea46f51cd9c3ff9e9"
+    },
+    {
+      "category": "company",
+      "datetime": 1765014142,
+      "headline": "The One AI Chart That Completely Reshaped My Portfolio",
+      "id": 137718087,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/640351101/image_640351101.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "AI is transforming markets and reshaping the economy with significant implications for investments and portfolio strategies. Learn why this matters for investors.",
+      "url": "https://finnhub.io/api/news?id=a5e759e5b67be480646bee94ea659a7bcb5f693dd53e837fa00b8a7650c369de"
+    },
+    {
+      "category": "company",
+      "datetime": 1765009996,
+      "headline": "TSMC: An Underrated Gem In The AI Chip Era",
+      "id": 137717832,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1136382321/image_1136382321.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC drives the AI chip boom with advanced nodes, strong Q3 growth, high margins, and expanding CoWoS demand. Check out why TSM stock is a buy.",
+      "url": "https://finnhub.io/api/news?id=9fcc44e3b07b11585183c86810f45c968715cc5f2cebc8bf09ec0c6cc4936632"
+    },
+    {
+      "category": "company",
+      "datetime": 1764943355,
+      "headline": "Taiwan Semiconductor: I Don't Think Growth Is About To End",
+      "id": 137704042,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2200526429/image_2200526429.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor is rated a Buy with robust AI-driven demand and strong execution supporting continued growth. Learn more about TSM stock here.",
+      "url": "https://finnhub.io/api/news?id=418232d0cf93f77a70e8b0fb32f3c2802799f1cabad88649911da40c74b48363"
+    },
+    {
+      "category": "company",
+      "datetime": 1764913860,
+      "headline": "TSMC: The Demand Remains Unmet, And Prices Will Increase In 2026",
+      "id": 137694851,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2186449988/image_2186449988.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC drives global chip supply, serves top AI and smartphone clients, plans price hikes, and holds strong margin and growth potential. See why TSM stock is a buy.",
+      "url": "https://finnhub.io/api/news?id=0de3a2eda0cdd12ec99d751024249a536934542fea332a5cc75adf1dbe406271"
+    },
+    {
+      "category": "company",
+      "datetime": 1764829309,
+      "headline": "Intel Ditches Sale Talks And Reinvents Networking Business Inside Its AI Strategy",
+      "id": 138674119,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/04/Santa-Clara--Ca--Usa---Nov-22--2023-Inte.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Intel Corp&#39;s latest strategic shift keeps its networking division in-house, doubling down on integrating it into core operations.",
+      "url": "https://finnhub.io/api/news?id=7d08766d44afd1e983cdcff757b6183f68eb79f569fd3f3019e37e89ff7c2df8"
+    },
+    {
+      "category": "company",
+      "datetime": 1764803274,
+      "headline": "SCHD ETF Alternative Strategy Aimed For Higher Total Return",
+      "id": 137675798,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2148089915/image_2148089915.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Read here for a proven dividend growth stock strategy outperforming SCHD ETF. See top picks, performance data, and key metrics.",
+      "url": "https://finnhub.io/api/news?id=c017a105b901f94983ddecbb010e4c5c7e370bb1ce5cba3a64441da8f18c95b6"
+    },
+    {
+      "category": "company",
+      "datetime": 1764799426,
+      "headline": "Tracking Ruane, Cunniff, & Goldfarb's Portfolio - Q3 2025 Update",
+      "id": 137675505,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1323041315/image_1323041315.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Ruane, Cunniff, & Goldfarb's Q3 2025 13F portfolio rose to $6.04B with 48 holdings. Click here to read more about the portfolio.",
+      "url": "https://finnhub.io/api/news?id=45bdbc50708f30c2a49160c2d48dfda6ad414650e006f7f227011766041541a7"
+    }
+  ]
+}

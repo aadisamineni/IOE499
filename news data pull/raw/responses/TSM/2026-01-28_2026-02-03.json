@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2026-01-28",
+    "to": "2026-02-03"
+  },
+  "retrieved_at_utc": "2026-09-14T15:34:57Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:34:57 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "14",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1770156096,
+      "headline": "The SCHD ETF Alternative Strategy Started 2026 Strong",
+      "id": 138349494,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2214049905/image_2214049905.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Explore a SCHD-inspired 4-factor dividend growth portfolio using quality metrics to beat SCHD and target 12%+ CAGR.",
+      "url": "https://finnhub.io/api/news?id=593bfb3fa6b8b24976aad81c06a1d9fee2515a3228fe5782abf9b477d401f30a"
+    },
+    {
+      "category": "company",
+      "datetime": 1770138926,
+      "headline": "Here's How Much You Would Have Made Owning Taiwan Semiconductor Stock In The Last 20 Years",
+      "id": 138669556,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=13d7f83daefce2102dfd612fef334fe7e02393adfec8624dd5bf67cf821c658e"
+    },
+    {
+      "category": "company",
+      "datetime": 1770120300,
+      "headline": "The AI Conversation Shifts: Davos, Siri, And Claude, Oh My!",
+      "id": 138343428,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=633522b6436a550f68e139b0b0ed556e354a8a15a189882fe67774a3d158e6ea"
+    },
+    {
+      "category": "company",
+      "datetime": 1770114600,
+      "headline": "Taiwan Semiconductor: Winner Of AI Boom As The Critical Foundry Supplier",
+      "id": 138342404,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2159943769/image_2159943769.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSM remains a great Buy despite the outsized rally, driven by the robust AI-related demand, the strong pricing power, and the industry-leading foundry...",
+      "url": "https://finnhub.io/api/news?id=7d08552303ae7c61fa57509ba2f79a9e24c409eccb276052b71ecc642cbe0294"
+    },
+    {
+      "category": "company",
+      "datetime": 1770114259,
+      "headline": "TSM Stock Closes Higher After Key Trading Signal",
+      "id": 138669557,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/03/image.png?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "A key trading signal flashed for TSMC shares at a price of $337.15, after which TSM closed higher for the day.",
+      "url": "https://finnhub.io/api/news?id=f07f2e35b382bd03a6e96119f60acc540a49fb0573a89ecbfd569d8893ce559b"
+    },
+    {
+      "category": "company",
+      "datetime": 1770112905,
+      "headline": "The Future Of AI Stocks? TSMC Commentary Suggests AI Megatrend",
+      "id": 138342287,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=fa2197cc42e5eb64a08581286802b064fc2c998b617c02cb597d4a36b927267b"
+    },
+    {
+      "category": "company",
+      "datetime": 1770039312,
+      "headline": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "id": 138449941,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=f4d8d8b9c692048f8d694027790a0f96ac1c416539f7d7a0329ae5640d195a17"
+    },
+    {
+      "category": "company",
+      "datetime": 1770033629,
+      "headline": "Is the Market Bullish or Bearish on Taiwan Semiconductor Manufacturing Co Ltd?",
+      "id": 138669559,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=3811cbd3cd8c7aec32fb90fa840dfc57f9a9cea3ee04ef1bb9cdbf4d5e94d18f"
+    },
+    {
+      "category": "company",
+      "datetime": 1770011194,
+      "headline": "Nvidia's AI Takeover Leaves Apple Fighting For Supply",
+      "id": 138449945,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/02/New-York---July-21-Apple-Store-On-Fifth-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "TSMC accelerates capacity expansion due to high AI demand from Nvidia, putting pressure on long-standing partners like Apple.",
+      "url": "https://finnhub.io/api/news?id=14dc91357e1791d541b91f072de40cff0b3c9fdcd833a99b26848f542d285fb1"
+    },
+    {
+      "category": "company",
+      "datetime": 1770002104,
+      "headline": "Jensen Huang Has No Fear Of Custom Chips From Tech Giants Eclipsing GPUs: 'Doesn't Make Sense'",
+      "id": 138599076,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/02/Taipei--Taiwan-On-June-1--2023--Jen-hsun.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia CEO Jensen Huang dismissed claims that cloud providers&#39; custom AI chips could overtake Nvidia&#39;s GPUs, arguing that the company&#39;s massive R&amp;D spending, rising chip complexity and full-stack AI infrastructure create a moat competitors are unlikely to match.",
+      "url": "https://finnhub.io/api/news?id=12f384426808cc0ed65f5c8f1c08ac1c33599648e445799f662189a38087926e"
+    },
+    {
+      "category": "company",
+      "datetime": 1769853600,
+      "headline": "Apple: Comeback Starts Now As AI Bubble Fears Hit Peers (Rating Upgrade)",
+      "id": 138315515,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1705316992/image_1705316992.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Appleâs Q1 results show resilient iPhone demand in China, record Services revenue, and strong cash flowâsee why AAPL may have bottomed.",
+      "url": "https://finnhub.io/api/news?id=b852661427679e0d595505217ffe531f3289504b926a12909ff1fc6ea45654f9"
+    },
+    {
+      "category": "company",
+      "datetime": 1769833540,
+      "headline": "TSMC Founder Morris Chang Makes First Public Appearance In A Year, Meets Nvidia CEO Jensen Huang For Dinner In Taipei",
+      "id": 138669562,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/31/Morris-Chang--Founder-Of-Tsmc-taiwan-Sem.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "TSMC founder Morris Chang ended a year-long public absence with a private Taipei dinner alongside Nvidia CEO Jensen Huang, reassuring the semiconductor industry of his sharpness and underscoring TSMC&#39;s continued central role as global chip capacity expands worldwide.",
+      "url": "https://finnhub.io/api/news?id=2305f473c572d7b820a90165acbef133432458a4854498af216dffafc2e7f005"
+    },
+    {
+      "category": "company",
+      "datetime": 1769795597,
+      "headline": "Could A $1 Trillion OpenAI IPO Save The Day For Nvidia, Microsoft?",
+      "id": 138449950,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/30/Smartphone-Displaying-The-Chatgpt-Logo-W.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "OpenAI and Anthropic are expected to have IPOs in 2026, potentially driving up AI infrastructure spending and benefiting companies like Nvidia, Amazon, and Microsoft.",
+      "url": "https://finnhub.io/api/news?id=dd6e74c90f1ca2f7b8c9c1d20e626dd1c4c8d677cf54daad02b15b7da7e86078"
+    },
+    {
+      "category": "company",
+      "datetime": 1769777675,
+      "headline": "Norway's $2.2T Sovereign Fund Models 'AI Correction' Crashing Nvidia, Broadcom—And The Results Are Brutal",
+      "id": 138509872,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/30/Ai-Stock-Market-Graph-Trading-Analysis-I.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "NBIM&#39;s stress test shows a 53% drop in equities and 35% decrease in fund value in their AI correction scenario. Bonds could offset losses.",
+      "url": "https://finnhub.io/api/news?id=5732cf669565b9196ea7e1d9d40d08c680a4ccd3dd11bc44fd79267c6850bce3"
+    },
+    {
+      "category": "company",
+      "datetime": 1769777100,
+      "headline": "Can Semiconductor Stocks Keep Delivering?",
+      "id": 138307155,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1621808036/image_1621808036.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Semi stocks have helped push markets higher, but volatility remains a risk. TD Asset Management's Andrew McKendry discusses how chip stocks can live up to the potential for AI profitability.",
+      "url": "https://finnhub.io/api/news?id=b1e5f98b0f7fd1cf86f19b9fe06c6ee58d1b9f6b1e19c2d2417dd38d0b83b973"
+    },
+    {
+      "category": "company",
+      "datetime": 1769776930,
+      "headline": "AIO: Discount Can Bring Opportunity After Drop From Premium Levels (Upgrade)",
+      "id": 138307157,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/679379743/image_679379743.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The Virtus Artificial Intelligence & Technology Opportunities Fund has solid returns, depending on who you ask. Here's what investors need to know.",
+      "url": "https://finnhub.io/api/news?id=32f4f7707a9a5dd72f1465039658a82b964be16e2966f6204b079138d2009ce3"
+    },
+    {
+      "category": "company",
+      "datetime": 1769761885,
+      "headline": "Taiwan's economy grows 8.6% in 2025, fastest pace in 15 years",
+      "id": 138303736,
+      "image": "",
+      "related": "TSM",
+      "source": "Fintel",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=18a02b18254db0facff120649dac1fbbdc47a20106492a502ee5ff5c5f1016d6"
+    },
+    {
+      "category": "company",
+      "datetime": 1769756541,
+      "headline": "Apple Chooses High-End Buyers As Chips Run Out",
+      "id": 138669565,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/30/Punjab-India-September-12-2022-Iphone-14.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Apple&#39;s 2026 roadmap focuses on premium devices due to chip shortages. The company will prioritize production of its highest-end devices.",
+      "url": "https://finnhub.io/api/news?id=360b2a3ec8a93f78e7063fd4ef93619b5739d6cf00cd87bb51f8279d82ac9485"
+    },
+    {
+      "category": "company",
+      "datetime": 1769725469,
+      "headline": "Nvidia CEO Jensen Huang Says AI Memory Needs Are Rising During Taiwan Trip, Backs TSMC's Global Expansion, Dismisses China H200 Rumors",
+      "id": 138669566,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/29/Santa-Clara--Ca-Us---September-28--2025-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia CEO Jensen Huang said during a Taiwan visit that AI&#39;s rapidly rising memory needs are reshaping the chip industry.",
+      "url": "https://finnhub.io/api/news?id=6b6c0a1517b673fc49ccac41016726cef3f26fcf2d950380459874123986279d"
+    },
+    {
+      "category": "company",
+      "datetime": 1769702468,
+      "headline": "Nvidia Secures Approval For $105 Million Taiwan Hub To Fuel AI Expansion",
+      "id": 138669567,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/29/Taipei--Taiwan--November-23--2023-Close-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia wins approval for a $105 million Taiwan headquarters as AI demand strengthens its partnership with TSMC, which is expanding overseas to meet global chip needs and manage geopolitical risks.",
+      "url": "https://finnhub.io/api/news?id=51451e40881b0202baa548ed225d61f134b67783af68b63541c79298391bc9eb"
+    },
+    {
+      "category": "company",
+      "datetime": 1769702028,
+      "headline": "Are Gold And Silver The New Bitcoin? Why Precious Metals Are Teaching An Unforgiving Lesson",
+      "id": 138449966,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/29/gold-bitcoin-gemini.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Gold and silver are teaching a hard lesson to a generation of investors raised on tech stocks, meme names and digital coins.",
+      "url": "https://finnhub.io/api/news?id=1e8040555aa96667e654b1b1d2f569eb93753505d74408525b089f0487756b47"
+    },
+    {
+      "category": "company",
+      "datetime": 1769699481,
+      "headline": "ASE Technology: AI Is Driving A Great LEAP Forward",
+      "id": 138298966,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2232863800/image_2232863800.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "ASE Technology stock is poised for AI-driven packaging growth from 2026 as TSMC outsources CoWoS. Learn more about the company and its upside potential.",
+      "url": "https://finnhub.io/api/news?id=a6f8de529532cfaa41bdd1d6606093fe1a874e469b5751e3420ae0a6d3073ac5"
+    },
+    {
+      "category": "company",
+      "datetime": 1769699339,
+      "headline": "Why Taiwan Semiconductor's Capacity Nightmare Is Intel's Foundry Dream",
+      "id": 138509874,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/29/Blue-Cube-Sign-With-The-Intel-Logo.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Intel (INTC) benefits from AI-driven chip shortage as Apple (AAPL) &amp; Nvidia (NVDA) redirect orders from Taiwan Semiconductor.",
+      "url": "https://finnhub.io/api/news?id=68f4f2acdf835b4d0dd8839c8762aee413db8948eeab5cf9d931960a5260ec3d"
+    },
+    {
+      "category": "company",
+      "datetime": 1769693810,
+      "headline": "ASML Finally Breaks Out. But, Valuation Says Don't Chase Now",
+      "id": 138297891,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1200828781/image_1200828781.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "ASML Holding N.V.âs EUV monopoly powers AI chips as Q4 bookings shift to memory. Click for this look at ASML and its most recent earnings release.",
+      "url": "https://finnhub.io/api/news?id=e26d624e090ed82598bdc4fb88458753fefead0b44b7726b24a576c5ddd5707f"
+    },
+    {
+      "category": "company",
+      "datetime": 1769676900,
+      "headline": "Interim Data Spotlight: Taiwan Semiconductor, Tesla, Costco",
+      "id": 138294605,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2096075337/image_2096075337.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Market-moving information surfaces between earnings events, reshaping expectations before quarterly reporting cycles.",
+      "url": "https://finnhub.io/api/news?id=67a908a512a589fd3d3092bd4683b2a1e2455eeb4734476d5f806b0cb51f9157"
+    },
+    {
+      "category": "company",
+      "datetime": 1769645100,
+      "headline": "The Market Can Do Weird Things But Quality Usually Wins",
+      "id": 138291833,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2250688209/image_2250688209.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Giverny Capital analyzes Q4 2025 results amid mega-cap tech dominance and outlines their mid-cap strategy. Review their outlook on AI and market valuations.",
+      "url": "https://finnhub.io/api/news?id=e393f847f1f79c162bee284157e5db36ecb756bea203ff6a670ac13b3b301e57"
+    },
+    {
+      "category": "company",
+      "datetime": 1769612669,
+      "headline": "ASML: Not Cheap, But The 2027-28 Setup Looks Real (Upgrade)",
+      "id": 138287777,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1200829368/image_1200829368.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "ASML Holding N.V. upgraded to Buy as semi capex cycle builds for 2027-28. Click for this updated look at ASML stock following the latest earnings release.",
+      "url": "https://finnhub.io/api/news?id=4a3d88ffe69c2fe85763d572c8f17b6b23bc7c9f963679b70e765f3f3c6cdaed"
+    },
+    {
+      "category": "company",
+      "datetime": 1769599849,
+      "headline": "Insiders Bought The Dip, Now Nasdaq Eyes All-Time Highs",
+      "id": 138282102,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=bcb478b941346c34edc84eb736686a763f6f92beee068a0c876887800f5605c1"
+    },
+    {
+      "category": "company",
+      "datetime": 1769593547,
+      "headline": "ASML: Good Results, But Don't Buy",
+      "id": 138281137,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1200828781/image_1200828781.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "ASML Holding N.V. Q4 results show strong bookings and demand from memory chipmakers, but valuation is rich at 45x forward P/E. Click for this ASML earnings update.",
+      "url": "https://finnhub.io/api/news?id=43bac6d47d4c1c9f2d3546ff706a93b3f3defae666301fc744fd5be4181a6fbe"
+    },
+    {
+      "category": "company",
+      "datetime": 1769592637,
+      "headline": "Taiwan Semiconductor: The AI Boom Is Coming To An End",
+      "id": 138281107,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=f251071120570eaf3dc8379ac1e02f40019f2a8c6b83aa58c41db22cf66f860d"
+    },
+    {
+      "category": "company",
+      "datetime": 1769587585,
+      "headline": "Texas Instruments, ASML Lift Chip Stocks Higher",
+      "id": 138406679,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/01/28/Advanced-Technology-Concept-Visualizatio.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Semiconductor stocks rise on strong quarterly results and positive outlook from ASML and Texas Instruments.",
+      "url": "https://finnhub.io/api/news?id=ae40a3b158df15df125057189d1fd0e564c9904a9c9d3efbed0a38f68032b825"
+    }
+  ]
+}

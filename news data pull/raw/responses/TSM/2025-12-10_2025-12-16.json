@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2025-12-10",
+    "to": "2025-12-16"
+  },
+  "retrieved_at_utc": "2026-09-14T15:34:49Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:34:49 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1765908639,
+      "headline": "Billionaire Investor Adds To Nvidia Position As AI Conviction Builds",
+      "id": 138480821,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/16/Kyiv--Ukraine---January-29--2025-Nvidia-_2.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Third Point raised its NVIDIA stake to 2.85M shares as Q3 revenue hits $57B and AI chip demand accelerates for Blackwell and Rubin platforms.",
+      "url": "https://finnhub.io/api/news?id=60b20c040b6c3ce60a25827e75ace3637de64f635068ec040c0cc97c2f13aafa"
+    },
+    {
+      "category": "company",
+      "datetime": 1765896504,
+      "headline": "Taiwan Semiconductor: This Is The GARP Moment You've Waited For",
+      "id": 137804582,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2203993843/image_2203993843.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Taiwan Semiconductor has become a strong GARP candidate with the update provided in its FQ3 2025 results and price change afterward. Read my TSM stock update.",
+      "url": "https://finnhub.io/api/news?id=7ab676f4df20fad88ca005d694e96e7136a25be3891c9bcf8b15fcd0776895bf"
+    },
+    {
+      "category": "company",
+      "datetime": 1765895100,
+      "headline": "Goldman Sachs International Equity ESG Fund Q3 2025 Contributors And Detractors",
+      "id": 137804364,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1946243788/image_1946243788.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The Goldman Sachs International Equity ESG Fund Institutional Share Class underperformed its benchmark, the MSCI EAFE Index. Read more here.",
+      "url": "https://finnhub.io/api/news?id=a24fe110ad2ade50fe47b9aea7bc741b59308f3753afa66ce18e1efe2e6f86ab"
+    },
+    {
+      "category": "company",
+      "datetime": 1765892114,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 138438691,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=8b5ce08e3231f4fd0325e845e907fcd9ce4086f27af31fa1f4376b8291394543"
+    },
+    {
+      "category": "company",
+      "datetime": 1765868400,
+      "headline": "Touchstone Sands Capital International Growth Equity Fund Q3 2025 Portfolio Update",
+      "id": 137801265,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1351962935/image_1351962935.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The Touchstone Sands Capital International Growth Fund (Class A Shares, Load Waived) underperformed the MSCI ACWI ex-U.S. Index for the quarter ended September 30, 2025. Read more here.",
+      "url": "https://finnhub.io/api/news?id=59a0bb26e96da2f6d4abaab47a223cbd767424892cded24de78e6e4b68a86b4b"
+    },
+    {
+      "category": "company",
+      "datetime": 1765858980,
+      "headline": "Harbor Capital Appreciation Fund Q3 2025 Portfolio Review",
+      "id": 137800358,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2208308729/image_2208308729.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Microsoft shares underperformed due to concerns about its relationship with OpenAI following the Oracle/OpenAI deal announcement.",
+      "url": "https://finnhub.io/api/news?id=3e402cc9773e88eaf0f318a38ac63f80f3c61093c6d3ac34ae1842c51679213d"
+    },
+    {
+      "category": "company",
+      "datetime": 1765803600,
+      "headline": "2026 Market Outlook: My Big Bet On Real Assets As AI Optimism Peaks",
+      "id": 137794759,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2225310528/image_2225310528.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover the emerging risks facing markets in 2026 and how to position your portfolio differently.",
+      "url": "https://finnhub.io/api/news?id=da1e6b822d0bf935623aeda54f6176ce230ae27ac68db59116445766b344cca5"
+    },
+    {
+      "category": "company",
+      "datetime": 1765802700,
+      "headline": "Macquarie Core Equity Fund Q3 2025 Contributors And Detractors",
+      "id": 137794577,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2191628799/image_2191628799.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "For 3Q25, Macquarie Core Equity Fund Institutional Class shares underperformed the Fundâs benchmark, the S&P 500 Index. Read more here.",
+      "url": "https://finnhub.io/api/news?id=d19f97e4a07b2f0f3663dfb953ea7c04b9f4afd334a55f09fb89af8d4782dd7b"
+    },
+    {
+      "category": "company",
+      "datetime": 1765791345,
+      "headline": "Undercovered Dozen: Capital Southwest, The Trade Desk, Energy Transfer And More",
+      "id": 137791606,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/516003394/image_516003394.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover 12 undercovered stocks with strong potential highlighted by experts. Uncover fresh investment ideas and join the discussion.",
+      "url": "https://finnhub.io/api/news?id=124d4dabc181e0418f12fa4232b0ff6a2c699b79121fabfec1bc8b03f1fe4aca"
+    },
+    {
+      "category": "company",
+      "datetime": 1765773960,
+      "headline": "Janus Henderson Small Cap Value Fund Q3 2025 Portfolio Review",
+      "id": 137790159,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2226750376/image_2226750376.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Janus Henderson Small Cap Value Fund portfolio ended the quarter overweight in the financials, consumer staples, information technology, and materials sectors.",
+      "url": "https://finnhub.io/api/news?id=c8e0b4e94b4300efc9fe915f1aa894b62e44da1254bb303fd9472265d51ff3d2"
+    },
+    {
+      "category": "company",
+      "datetime": 1765715852,
+      "headline": "EOD: Well-Positioned If The USA Outperforms The EU Going Forward",
+      "id": 137785086,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2227015600/image_2227015600.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Discover the Allspring Global Dividend Opportunity Fund's 9.02% yield, capital preservation, and solid valueâsee if EOD fits your investment strategy today!",
+      "url": "https://finnhub.io/api/news?id=b83e949d3e9464412dc3970b58e787ec6d41e1df0112b5488f5f9c6dc8e5ef63"
+    },
+    {
+      "category": "company",
+      "datetime": 1765613100,
+      "headline": "JIVE: This Hidden Gem ETF Is A Superb Blend Of Diversification, Growth, And Alpha",
+      "id": 137775413,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1803620893/image_1803620893.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "JPMorgan International Value ETF returned 36% last year, targets undervalued foreign large-caps, holds 36% financials, and yields 1.72%. Learn why JIVE ETF is a buy.",
+      "url": "https://finnhub.io/api/news?id=5e00776c68e684e5e41a85ce3a2ce6e44b858ff7b0b6bbc0fe09b927fa2cbcf2"
+    },
+    {
+      "category": "company",
+      "datetime": 1765552460,
+      "headline": "ASML Stock Retreats Despite Strong YTD Run As CEO Highlights EUV Strength, 3D Packaging Push, Durable AI Growth",
+      "id": 138406725,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/12/Veldhoven--Netherlands--July-20--2023-As.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "ASML CEO Christophe Fouquet explains why lithography remains essential for next-generation AI chips.",
+      "url": "https://finnhub.io/api/news?id=b5e0463028e327044606936bb97e98e944640dfb570b824f090e1b5e3d218352"
+    },
+    {
+      "category": "company",
+      "datetime": 1765539264,
+      "headline": "Shares of broader chip stocks are trading lower amid a pullback in Broadcom, which has weighed on AI and tech stocks.",
+      "id": 138406726,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=e83ad063e6314284388cfc33e87ee4e1e40bee815d4d1724eb3f6f6202e75b43"
+    },
+    {
+      "category": "company",
+      "datetime": 1765531223,
+      "headline": "How Nvidia Grew Data Center Market Share In Q3",
+      "id": 137767739,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1412721464/image_1412721464.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Nvidia Corporation leads over 50% of the data center gear market with soaring AI revenue. Click for this updated look at NVDA stock following Q3 earnings.",
+      "url": "https://finnhub.io/api/news?id=aa698e1c51c1496210ca3c771e6014e70262cd80704e8ce2c4a21660f4583fba"
+    },
+    {
+      "category": "company",
+      "datetime": 1765528828,
+      "headline": "Why Broadcom's Outlook Spooked Chip Stocks",
+      "id": 138873238,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/12/Haley-Warns-Backfire.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Semiconductor stocks fell after Broadcom&#39;s cautious outlook for profits dampened confidence in the AI-driven chip rally.",
+      "url": "https://finnhub.io/api/news?id=2b0cc5cc5dfd8ae87dfab2a949526b9838a35a92dca676a5e951cfed68dca885"
+    },
+    {
+      "category": "company",
+      "datetime": 1765526743,
+      "headline": "Intel's Chip Ambitions Stir Alarm Over China-Linked Tech",
+      "id": 138794779,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/12/Intel-Fab-Resurgence.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Intel Corp (NASDAQ: INTC) tested chipmaking tools this year from ACM Research Inc (NASDAQ: ACMR), despite U.S. sanctions concerns.",
+      "url": "https://finnhub.io/api/news?id=959fbef4b448e4d7557ed5442124a6ad2acfef27765544bbee9d1c95b1b5e443"
+    },
+    {
+      "category": "company",
+      "datetime": 1765472480,
+      "headline": "Musk, Huang, Zuckerberg Top Time's 2025 Person Of The Year List: Who Are The Architects Of AI?",
+      "id": 138406727,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/11/Time-magazine.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "The 2025 Time Person of the Year is several executives in the AI sector. Here&#39;s a look at who made the cut and why they were selected.",
+      "url": "https://finnhub.io/api/news?id=7b0d41b282a3a505463bfbf3b4d38a8d31f530ca6cfe843fdc535023cbdbdbf7"
+    },
+    {
+      "category": "company",
+      "datetime": 1765462578,
+      "headline": "Are You Prepared For A Bear Market? Best Stocks To Target Now",
+      "id": 137760686,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1609437977/image_1609437977.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The best stocks to buy in a bear market are AI revolution companies, industrials, and communications sector bets. Click here to see the 5 top stocks.",
+      "url": "https://finnhub.io/api/news?id=cce29fda9b03ce50e204609db4c55a4a3604756b361a1f9e958f7290f9c2023b"
+    },
+    {
+      "category": "company",
+      "datetime": 1765461615,
+      "headline": "Synopsys Is A Smart AI Bet, Analysts Say",
+      "id": 138715870,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/11/Synopsys--Inc-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Synopsys reports strong Q4 results, projects upbeat outlook for 2026. Analysts upgrade stock, with BofA raising forecast to $560.",
+      "url": "https://finnhub.io/api/news?id=a40306c724398f54da35439f343d6d13901625aad2e34559e93ac4934d83ba71"
+    },
+    {
+      "category": "company",
+      "datetime": 1765443231,
+      "headline": "TSMC Mulls Advanced Chip Production At Japan Plant To Meet Soaring AI Demand: Report",
+      "id": 138674115,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/11/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan Semiconductor Manufacturing Co. (TSMC) is reportedly contemplating the production of more advanced chips at its second Japanese plant to meet the escalating demand for AI-related products.",
+      "url": "https://finnhub.io/api/news?id=70cf277b6810ad6fb88eb7687ab6165a4b5fcd5ef9e512cb693151c41f6cea1c"
+    },
+    {
+      "category": "company",
+      "datetime": 1765443191,
+      "headline": "Semiconductor Stocks Sell Off After Oracle's Results Spoil AI Party",
+      "id": 138873240,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/12/11/Haley-Warns-Backfire_0.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Semiconductor stocks fell as Oracle&#39;s mixed quarterly report dragged major chip names lower. Oracle plans to invest $15B in AI infra.",
+      "url": "https://finnhub.io/api/news?id=e5554e5df1de68e7a2b39ce95da77893edef68085fc58fb12accc40af425d365"
+    },
+    {
+      "category": "company",
+      "datetime": 1765435755,
+      "headline": "Taiwan to keep production of \"most advanced\" chips at home — deputy FM",
+      "id": 137754622,
+      "image": "",
+      "related": "TSM",
+      "source": "Fintel",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=f01f29e86a48a4bd326ab01f2328af9bf468f712321a5bb2b1a01242eb7c30ab"
+    },
+    {
+      "category": "company",
+      "datetime": 1765369800,
+      "headline": "Nvidia And The H200 Landscape; Broadcom's Strategic Positioning",
+      "id": 137748462,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1422453695/image_1422453695.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Tech Contrarians offer context about how we should be thinking about President Trump approving Nvidia's H200 GPUs to China.Â Broadcom's AI positioning.",
+      "url": "https://finnhub.io/api/news?id=8f29412595cbb0559f409e30d36a773b92bc1780cb427ce519bba9bed9838793"
+    },
+    {
+      "category": "company",
+      "datetime": 1765338338,
+      "headline": "TSMC: China's Tech Independence Ambitions Create Serious Risks",
+      "id": 137746252,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2200526429/image_2200526429.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "TSMC's strong market share and AI-driven growth is balanced by geopolitical risks. See here for an analysis of TSM stock and why I rate it a buy.",
+      "url": "https://finnhub.io/api/news?id=52b51fb6316cb9956a68b3a4125fc3c1972f9aea5ba45771e0b2b6dacf9ca84e"
+    }
+  ]
+}

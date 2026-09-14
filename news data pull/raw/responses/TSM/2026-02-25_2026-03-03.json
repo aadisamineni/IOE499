@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2026-02-25",
+    "to": "2026-03-03"
+  },
+  "retrieved_at_utc": "2026-09-14T15:35:01Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:35:01 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "10",
+    "x-ratelimit-reset": "1789400107"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1772560636,
+      "headline": "TSMC Shares Sink Amid Iran Tensions and Tech Selloff",
+      "id": 139318302,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSM",
+      "source": "Yahoo",
+      "summary": "Why TSMC Shares Are Down Today",
+      "url": "https://finnhub.io/api/news?id=08bae4d7be7cfce36eceaf9111dd9802d3ff8ce6ec065ac13d5727f9a513b1d0"
+    },
+    {
+      "category": "company",
+      "datetime": 1772551697,
+      "headline": "Why Onto (ONTO) Should Be Considered A Semiconductor Play In 2026",
+      "id": 139290156,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSM",
+      "source": "Yahoo",
+      "summary": "Summary: During a recent episode of The AI Investor Podcast, co-host Eric Bleeker cited Onto Innovation as a smart investment play in 2026. Onto is an American semiconductor company which was formed in 2019, and has recently began getting more attention from investors after a period of strong multi year total returns. Bleeker discussed ... Why Onto (ONTO) Should Be Considered A Semiconductor Play In 2026",
+      "url": "https://finnhub.io/api/news?id=5b77f7fe6c53d0e016ec853380e910279b46ae1f75348c77b0b0b79fbbce4b70"
+    },
+    {
+      "category": "company",
+      "datetime": 1772548098,
+      "headline": "Intel (INTC) Hopes To Continue Surge And Avoid Another Disappointment",
+      "id": 139288522,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSM",
+      "source": "Yahoo",
+      "summary": "Summary: At the start of 2026, 24/7 Wall St. Analyst and AI Investor Podcast co-host, Eric Bleeker, said that Intel was one stock that was really standing out to him as a potential buy. Bleeker recently went further in depth about why he still likes Intel, but does acknowledge that it does face potential challenges. ... Intel (INTC) Hopes To Continue Surge And Avoid Another Disappointment",
+      "url": "https://finnhub.io/api/news?id=1fc3f48ea03e4ce5016b4e6f19b13e825ee0ce7eb580c855575fbe67d2eea814"
+    },
+    {
+      "category": "company",
+      "datetime": 1772545475,
+      "headline": "Taiwan Semiconductor's AI Breakthroughs Don't Calm Wall Street—Profits Are The Flashpoint",
+      "id": 139297306,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/03/Taiwan-Semiconductor.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "TSM shares fell alongside the broader chip index Tuesday as investors weigh geopolitical tensions and high AI costs. Discover how partners like Nvidia and Broadcom are fighting back with new &#34;Sovereign AI&#34; tech to save on energy and hardware.",
+      "url": "https://finnhub.io/api/news?id=fa7af4e6fac964479d970c29db1d12f19d890926436fcd4b150b8bf165aefa93"
+    },
+    {
+      "category": "company",
+      "datetime": 1772544916,
+      "headline": "10 Information Technology Stocks With Whale Alerts In Today's Session",
+      "id": 139296252,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_2.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=abb9c38fc3cf1d617e9813e2e7194efedc86b2e00c9aa98c879f1611571cf858"
+    },
+    {
+      "category": "company",
+      "datetime": 1772541216,
+      "headline": "Shares of semiconductors companies are trading higher amid overall market strength after Iran announced the reopening of the Strait of Hormuz for the remainder of the ceasefire on the heels of a 10-day armistice between Israel and Lebanon. This alleviates the ongoing supply disruption and lessens energy costs.",
+      "id": 139934901,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=0defceeda756699afaa05ecba484148c115246d7bf0194cefa210010965509e4"
+    },
+    {
+      "category": "company",
+      "datetime": 1772541216,
+      "headline": "Shares of semiconductor companies are trading lower amid overall market weakness due to the Middle East conflict. The industry is weighed down by disruption to energy supplies and critical infrastructure.",
+      "id": 139295533,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=206e43b1d72bc8986a0b6bc50b4fb2b3fd1a048c5bb4f585211defd2dfbfa6cf"
+    },
+    {
+      "category": "company",
+      "datetime": 1772540046,
+      "headline": "The $600 Billion Tech Wipeout: These 10 Stocks Are Cracking As Energy Prices Surge",
+      "id": 139295797,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/03/Stock-Market-Chart-Showing-Falling-Equit.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "More than $600 billion was wiped from global tech and semiconductor stocks as the Iran conflict sparked an oil surge, volatility spike and broad risk-off selloff led by AI chipmakers.",
+      "url": "https://finnhub.io/api/news?id=d65a5c19583e8df2a4c53919fbead514a3877f4f46e93f2f7282e7dd590415e0"
+    },
+    {
+      "category": "company",
+      "datetime": 1772532665,
+      "headline": "4 Factor Dividend Growth Strategy Remains Ahead Of Its Benchmark",
+      "id": 139288364,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=24e854bd9c4699f40c8ea163e84294d46a6ceb77de9741be02e07d297b6df822"
+    },
+    {
+      "category": "company",
+      "datetime": 1772518772,
+      "headline": "Nvidia Pumps $4 Billion Into Laser Tech To Fuel Next AI Supercycle",
+      "id": 139285661,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/03/Paris--France---January-23--2026-The-Nvi.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia invests $4B in photonics partners and expands into 6G with telecom companies for AI-driven networks.",
+      "url": "https://finnhub.io/api/news?id=437e180f869acee3a553475ee11b73e9024cb495c188f00fa6d290306c63a60d"
+    },
+    {
+      "category": "company",
+      "datetime": 1772517295,
+      "headline": "ASML Moves Beyond EUV As AI Chip Arms Race Heats Up",
+      "id": 139285867,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/03/Veldhoven--The-Netherlands--June-9-2023-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "ASML is expanding into advanced packaging for AI chips, aiming to enhance performance and speed. Stock up 103% over the past year.",
+      "url": "https://finnhub.io/api/news?id=190cf5b004030aff77e1aec2e1a7267229e3366b0afbb18ac5df15362bf3f8a9"
+    },
+    {
+      "category": "company",
+      "datetime": 1772458519,
+      "headline": "10 Information Technology Stocks Whale Activity In Today's Session",
+      "id": 139285868,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=8877f041d780e5071bfb05290094e2186380ca0205634ecbf4b18f5dfb1820d4"
+    },
+    {
+      "category": "company",
+      "datetime": 1772447827,
+      "headline": "Alibaba Unifies AI Brand, Goes All-In On 'Qwen'",
+      "id": 139277055,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/02/In-This-Photo-Illustration--The-Qwen-ali.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Alibaba (BABA) is ditching multiple confusing names to unite its entire AI empire under one brand: Qwen. From foundation models to a new flagship app, see how the &#34;Amazon of China&#34; is simplifying its tech to win the global AI race.",
+      "url": "https://finnhub.io/api/news?id=8fc8b4e860e5801544f0afa44e39e5863d9443053c30b78e995837cffd09e8d0"
+    },
+    {
+      "category": "company",
+      "datetime": 1772447088,
+      "headline": "AMD Just Unleashed World's First Copilot+ AI Desktop Chips",
+      "id": 139277267,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/02/Shanghai-china-nov-22nd-2025-Amd-Company.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "AMD unveils new AI-focused desktop processors at Mobile World Congress 2026, expanding its Ryzen AI lineup and targeting demanding use cases.",
+      "url": "https://finnhub.io/api/news?id=fc20496066e5677c16aab4fbc2a204341d90ae5b1de0643d16003bde3c138163"
+    },
+    {
+      "category": "company",
+      "datetime": 1772436554,
+      "headline": "Nvidia, World Telecom Leaders Launch AI-Driven Blueprint For 6G",
+      "id": 139276003,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/03/02/Nvidia-Unveils-Vera-Rubin.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia unveils 6G initiative with global partners at MWC. AI-driven network designs aim to improve security/trust.",
+      "url": "https://finnhub.io/api/news?id=f79b2dc235dd89435d392cc1b6642d1414ad8f8c9fe59978977104d646c44961"
+    },
+    {
+      "category": "company",
+      "datetime": 1772195006,
+      "headline": "Why Nvidia's Record Profits Weren't Enough: Chip Stocks Tumble As AI Hype Hits A Wall",
+      "id": 139262443,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/27/Artificial-Intelligence-Simplifying-Task.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Even with a 73% revenue jump, Nvidia (NVDA) stock fell 5%, dragging AMD and Intel down with it. Discover why Wall Street is suddenly worried about AI profitability and how rising oil prices are adding to the market chaos on Friday.",
+      "url": "https://finnhub.io/api/news?id=8fbd8595c37615be987825142645c8c71d1758e28247c0f7865ca983a872d817"
+    },
+    {
+      "category": "company",
+      "datetime": 1772193637,
+      "headline": "Nvidia: Becoming The Berkshire Of Technology Is Bullish For Shareholders",
+      "id": 139251625,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=d766c85cd935269fea67a7a7fcdc50e190f5f61b9ffba62e8aac5aefa51b852e"
+    },
+    {
+      "category": "company",
+      "datetime": 1772175000,
+      "headline": "Baron International Growth Fund Q4 2025: Contributors, Detractors, And Trades",
+      "id": 139245954,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=37baf0c1f4522927d8b2a5245ff4522bf99aa533691ed69d6608f9378ee38f40"
+    },
+    {
+      "category": "company",
+      "datetime": 1772172509,
+      "headline": "ASML's $400 Million Beast Arrives To Power The Next AI Leap",
+      "id": 139247698,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/27/Veldhoven--The-Netherlands--June-9-2023-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "ASML&#39;s High-NA EUV machines ready for mass production, promising to simplify chip manufacturing &amp; accelerate AI hardware rollout.",
+      "url": "https://finnhub.io/api/news?id=c8bbc65bf7aa6b904cf4859e2af0b286fb81d8d85aa59075afc8d81a80398617"
+    },
+    {
+      "category": "company",
+      "datetime": 1772141583,
+      "headline": "Tracking George Soros's 13F Portfolio - Q4 2025 Update",
+      "id": 139242246,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=1be07a7874f2d91be561ab44f7855082b3a32c60b30252efb9e9b67adb8817e2"
+    },
+    {
+      "category": "company",
+      "datetime": 1772119641,
+      "headline": "What's Driving The Weakness In Broadcom Stock Thursday?",
+      "id": 139247699,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/26/New-York-City--New-York---August-5-2025-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Broadcom Inc (NASDAQ:AVGO) shares are dropping on Thursday as a sector‑wide sell‑off triggered by Nvidia Corp&#39;s (NASDAQ:NVDA) post‑earnings decline weighs on chip stocks.",
+      "url": "https://finnhub.io/api/news?id=80f0daa9949f7577ae87b6e2b3878bfcde4924f798629a06f47c465e8dca1a50"
+    },
+    {
+      "category": "company",
+      "datetime": 1772110286,
+      "headline": "The White House Portfolio Is Now Worth $9.7 Trillion — And It's Telling Investors Exactly What To Buy",
+      "id": 139246679,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/26/White-House-In-Washington-Dc--The-White-.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "The White House&#39;s $9.7T investment wave is heavily concentrated in AI, chips, and energy—boosting Nvidia, Microsoft, Oracle, and GE Vernova.",
+      "url": "https://finnhub.io/api/news?id=140ff1690088a9a8b74bd369e847dd4c8905868a6c9e2f025c4da4d4211cf46a"
+    },
+    {
+      "category": "company",
+      "datetime": 1772089580,
+      "headline": "Tracking Ruane, Cunniff, & Goldfarb's Portfolio - Q4 2025 Update",
+      "id": 139231097,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=bfe251b22ae6145233ca4d73fad477635ff4e374e9610af02dffa6ab54f47ef7"
+    },
+    {
+      "category": "company",
+      "datetime": 1772086589,
+      "headline": "Taiwan Semiconductor Joins The $2 Trillion Elite Club",
+      "id": 139232321,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/26/Tainan--Taiwan--September-30--2021-Taiwa.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "TSM reaches $2 trillion milestone, produces chips for major customers like Nvidia, Broadcom, Tesla, and Apple.",
+      "url": "https://finnhub.io/api/news?id=20b81256997d12510d3d9402d037272dd1be1e7b3f65e1854931905e4525a789"
+    },
+    {
+      "category": "company",
+      "datetime": 1772070600,
+      "headline": "Baron Durable Advantage Fund Q4 2025 Contributors And Detractors",
+      "id": 139228954,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=71d1e545eaf1be537ef8b81cd2628659863c655b5a27d0e7d0406a33f9bebdd4"
+    },
+    {
+      "category": "company",
+      "datetime": 1772024915,
+      "headline": "Nvidia's Rise Just Created A New $2 Trillion Giant",
+      "id": 139232444,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/25/Hsinchu-City--Taiwan--June-24--2024-Clos.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Taiwan Semiconductor Mfg aka TSMC crossed $2T as Nvidia&#39;s AI surge accelerates chip demand, reshaping the global tech hierarchy.",
+      "url": "https://finnhub.io/api/news?id=d3d2b35edbea294decc9618f9caf5d18a803e0283f3d4c9cc61131b5dccbddf8"
+    },
+    {
+      "category": "company",
+      "datetime": 1772016146,
+      "headline": "Nvidia Earnings Prediction Market Preview: What Will Jensen Huang Say?",
+      "id": 139209267,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/25/Months-After-Hitting-4-Trillion.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia is reporting fiscal Q4 earnings after the bell today. They have consistently beaten revenue and earnings estimates for the past 13 and 12 quarters respectively.",
+      "url": "https://finnhub.io/api/news?id=b110c8adbe9a46e48ce56794389d0fd4a3f49114543e304e168eccb39dcc48ff"
+    },
+    {
+      "category": "company",
+      "datetime": 1772006813,
+      "headline": "China's Top Chipmakers Race To Scale Advanced AI Chips Despite US Curbs As Demand Surges: Report",
+      "id": 139207341,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/25/Chip-War-Concept--China-Flag-On-Chip--Cp.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "China&#39;s leading chipmakers are reportedly accelerating plans to scale up production of advanced semiconductors, aiming to meet surging demand from domestic AI developers despite ongoing U.S. export restrictions.",
+      "url": "https://finnhub.io/api/news?id=68d99a82dbc9f944e344caecf0d8e38ea369a29d556d800ac4ca55fbe5e2b93b"
+    },
+    {
+      "category": "company",
+      "datetime": 1772000502,
+      "headline": "Washington's Nightmare: Why America's AI Future Is Stuck On A Small Island Near China",
+      "id": 139207342,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/02/25/Taiwan-Defense-Commitment.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Geopolitical tensions in Taiwan could disrupt the U.S. tech industry&#39;s supply of advanced semiconductors, highlighting the dependency.",
+      "url": "https://finnhub.io/api/news?id=dc61d979c265bc36d8f379c6d88b3a9fd04ee123dbbf3d0b9c9106def3fb2bc1"
+    }
+  ]
+}

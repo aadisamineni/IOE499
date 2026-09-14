@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "TSM",
+    "from": "2026-04-29",
+    "to": "2026-05-01"
+  },
+  "retrieved_at_utc": "2026-09-14T15:35:11Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Mon, 14 Sep 2026 15:35:11 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "56",
+    "x-ratelimit-reset": "1789400168"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1777647532,
+      "headline": "'That's Ridiculous': Nvidia CEO Rejects Forecast That AI Wipes Out 50% Of New Grad Jobs",
+      "id": 140137131,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/05/01/Nvidias-Ceo--Jensen-Huang--Presenting-Th.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Nvidia CEO Jensen Huang called the forecast that AI will wipe out 50% of entry-level jobs &#34;ridiculous.&#34; Kalshi and Polymarket traders are siding with him.",
+      "url": "https://finnhub.io/api/news?id=8a3f64616a59c978697becc6930f61d6a94fdb134d301838eb1349721b6f605d"
+    },
+    {
+      "category": "company",
+      "datetime": 1777641172,
+      "headline": "AMD Has An Intel Problem",
+      "id": 140135074,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=ef43defe8ca170fa7ddae204d892caa05bce51115e3e848564c3993297e768b2"
+    },
+    {
+      "category": "company",
+      "datetime": 1777641162,
+      "headline": "Blowout Earnings From SanDisk And Western Digital But Stock Reaction Is A Tell; 'Most Popular Ever' iPhone",
+      "id": 140136327,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "\n\n\n\nImportant Tell For Stock Market\n\n\n",
+      "url": "https://finnhub.io/api/news?id=70e35a92c0d1801a523d4d8118d91e2d872669f28dad3d175d3fdae349e8c11c"
+    },
+    {
+      "category": "company",
+      "datetime": 1777632435,
+      "headline": "Semiconductor ETFs SOXX, SMH Just Logged Their Best Month Ever — What's Driving This Rally?",
+      "id": 140133955,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/05/01/Creative-Ai-Background-With-Forex-Chart-_1.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "SOXX posts its largest monthly return in 25 years. SMH had its best month since November 2003. Yet Nvidia — the AI hardware leader of the prior cycle — was the slowest-moving mega-cap chipmaker in the basket. Intel, AMD, Micron and Marvell did the work.",
+      "url": "https://finnhub.io/api/news?id=70158942535031a1e17d6df23ee2023ae3583e2c5008e74dc2f8fdc131761d79"
+    },
+    {
+      "category": "company",
+      "datetime": 1777629070,
+      "headline": "'AI Investor Coatue Joins Data Center Frenzy With New Venture to Buy Land' - Wall Street Journal",
+      "id": 140133907,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "https://www.wsj.com/tech/ai/ai-investor-coatue-joins-data-center-frenzy-with-new-venture-to-buy-land-9f4c374f?reflink=desktopwebshare_permalink",
+      "url": "https://finnhub.io/api/news?id=a626492f1ae3f2df66b535b1416ae0bbf9d559d6500b54a1299402682c917199"
+    },
+    {
+      "category": "company",
+      "datetime": 1777625580,
+      "headline": "Invesco International Growth Fund Q1 2026 Portfolio Review",
+      "id": 140132150,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2270500237/image_2270500237.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "We sold OBIC Business Consultants and Rightmove due to concerns about AI-driven disruption for these established platforms.",
+      "url": "https://finnhub.io/api/news?id=e254d20af784708a0892db7ac044bb229992846e527aff0bea78f6839e72b7d3"
+    },
+    {
+      "category": "company",
+      "datetime": 1777551520,
+      "headline": "AI Chip Shortage Warning: TSM Ramps Up Production",
+      "id": 140120237,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/30/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "TSMC (TSM) unveils a massive $56 billion investment plan to scale AI chip production amid persistent global supply shortages. Learn how the chipmaking giant is fighting off rising competition from Samsung to maintain its 2nm technology lead.",
+      "url": "https://finnhub.io/api/news?id=d8f622f263b989cd029583a9c97e8ee679dd06a304d8984f496d12d2a700328a"
+    },
+    {
+      "category": "company",
+      "datetime": 1777543500,
+      "headline": "Allspring Growth Fund Q1 2026 Contributors And Detractors",
+      "id": 140118093,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1428726796/image_1428726796.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Comfort Systems USA entered 2026 with a robust backlog and high visibility into projected revenue for complex projects, benefiting from increased adoption...",
+      "url": "https://finnhub.io/api/news?id=5fff3e6a5ca9592947fa0aa0b469ee46861cfc07d551997f3599f5fa13e7c7c6"
+    },
+    {
+      "category": "company",
+      "datetime": 1777542934,
+      "headline": "Intel's 115% Stock Boom Is Shattering Records After Years Of Doubt",
+      "id": 140118540,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/30/Stone-Uk---September-2-2020-New-Intel-Lo.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Intel stock is set to close out April with its best monthly rally ever, up 115%.",
+      "url": "https://finnhub.io/api/news?id=75a6fb5b6ee8a07c9f2fecdfc82a55a351800297da8c4e823fe80a999a072292"
+    },
+    {
+      "category": "company",
+      "datetime": 1777536246,
+      "headline": "Northland Power Signs Corporate Purchase Agreement With Taiwan Semiconductor Manufacturing For Additional Power From Its Hai Long Offshore Wind Project",
+      "id": 140122614,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "Northland Power Inc. (&#34;Northland&#34;) (TSX:NPI) today announced the signing of a long-term Corporate Power Purchase Agreement (&#34;CPPA&#34;) with Taiwan Semiconductor Manufacturing Company (&#34;TSMC&#34;) for additional",
+      "url": "https://finnhub.io/api/news?id=16ecb22d61ca6e78d18eeb8fd2361336a60297840aa59005ef639095d48df7fc"
+    },
+    {
+      "category": "company",
+      "datetime": 1777504729,
+      "headline": "TSMC: Expect More All-Time Highs Ahead",
+      "id": 140101853,
+      "image": "",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=5c482161b945a4ce722909d6ca17e2aad95f3a319a4525e40e351766a94d814f"
+    },
+    {
+      "category": "company",
+      "datetime": 1777486581,
+      "headline": "Here's How Much You Would Have Made Owning Taiwan Semiconductor Stock In The Last 15 Years",
+      "id": 140110666,
+      "image": "",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": " ",
+      "url": "https://finnhub.io/api/news?id=98761d16c14fe504699fce519c59e814ee91c4f0d0c1d90bf4d7b4e2527abc9e"
+    },
+    {
+      "category": "company",
+      "datetime": 1777486133,
+      "headline": "The AI Bubble Is Starting To Crack",
+      "id": 140038577,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2238010796/image_2238010796.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "The AI supercycle remains strong, but early warning signs suggest upside may be limited. Read more on how investors should prepare portfolios around an AI crash.",
+      "url": "https://finnhub.io/api/news?id=996e5bbeda873d7f2c3dfc3835dbd565bad19335edd4ab361278f50abb7d2fcc"
+    },
+    {
+      "category": "company",
+      "datetime": 1777457740,
+      "headline": "Tesla: The Future Is Promising, The Valuation Assumes It's Here",
+      "id": 139941855,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1542588811/image_1542588811.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Tesla's valuation looks stretched as auto revenue slows and credit income fades by 2027. Read why I rate TSLA stock a Hold right now.",
+      "url": "https://finnhub.io/api/news?id=d971917c6c8447f92b77f0e4127ffb1ac1f8eea1ecc9800146f0c7dba0541fd4"
+    },
+    {
+      "category": "company",
+      "datetime": 1777452000,
+      "headline": "Wall Street Breakfast Podcast: Trump Accounts Hit Robinhood Expenses",
+      "id": 139929099,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1291817095/image_1291817095.jpg?io=getty-c-w1536",
+      "related": "TSM",
+      "source": "SeekingAlpha",
+      "summary": "Robinhood revenue misses, Trump Accounts hit expenses. Trump extends pressure on Iran over Hormuz blockade. Disney keeping ESPN as streaming strategy takes priority.",
+      "url": "https://finnhub.io/api/news?id=5bca022086a8834b6640eb187021caff3793ca6682c6730fc27fc46e0dbe0e03"
+    },
+    {
+      "category": "company",
+      "datetime": 1777440793,
+      "headline": "What's Going On With Taiwan Semiconductor Stock Tuesday?",
+      "id": 139968587,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/04/29/Hsinchu-City--Taiwan--August-18--2022-Ta.jpeg?width=2048&height=1536",
+      "related": "TSM",
+      "source": "Benzinga",
+      "summary": "From selling Arm shares to scaling 2nm fabs, Taiwan Semiconductor is restructuring for AI growth. Read why analysts remain bullish.",
+      "url": "https://finnhub.io/api/news?id=376ee29fb2a4a183a07acbfb506229ce47326dfd7103bb2b5ec5bc4bb4620b7f"
+    }
+  ]
+}

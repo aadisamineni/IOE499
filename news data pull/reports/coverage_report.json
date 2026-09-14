@@ -1,0 +1,202 @@
+{
+  "generated_at_utc": "2026-09-14T16:01:27Z",
+  "requested_start_date": "2025-10-01",
+  "requested_end_date": "2026-05-01",
+  "tickers": [
+    "NVDA",
+    "AMD",
+    "TSM",
+    "MU",
+    "AVGO",
+    "MSFT",
+    "AMZN",
+    "GOOGL",
+    "META"
+  ],
+  "preflight": {
+    "generated_at_utc": "2026-09-14T15:28:55Z",
+    "requested_start_date": "2025-10-01",
+    "requested_end_date": "2026-05-01",
+    "coverage_verified": true,
+    "verification_method": "Successful non-empty NVDA responses at both ends of the requested range. This verifies endpoint access, not source completeness.",
+    "probes": [
+      {
+        "label": "oldest_requested_dates",
+        "ticker": "NVDA",
+        "from_date": "2025-10-01",
+        "to_date": "2025-10-02",
+        "http_status": 200,
+        "article_count": 128,
+        "status": "confirmed_nonempty",
+        "retrieved_at_utc": "2026-09-14T15:28:54Z",
+        "raw_file": "raw/preflight/NVDA_2025-10-01_2025-10-02.json"
+      },
+      {
+        "label": "newest_requested_dates",
+        "ticker": "NVDA",
+        "from_date": "2026-04-30",
+        "to_date": "2026-05-01",
+        "http_status": 200,
+        "article_count": 249,
+        "status": "confirmed_nonempty",
+        "retrieved_at_utc": "2026-09-14T15:28:55Z",
+        "raw_file": "raw/preflight/NVDA_2026-04-30_2026-05-01.json"
+      }
+    ]
+  },
+  "request_status_counts": {
+    "split_potential_truncation": 241,
+    "success": 517,
+    "success_truncation_suspected": 3
+  },
+  "summary": {
+    "fully_verified_window_coverage": false,
+    "successful_terminal_windows": 520,
+    "failed_terminal_windows": 0,
+    "unavailable_terminal_windows": 0,
+    "empty_unverified_terminal_windows": 0,
+    "potentially_truncated_terminal_windows": 3,
+    "raw_observations": 80647,
+    "unique_articles": 53073,
+    "exact_duplicate_observations_removed": 27574,
+    "multi_article_event_groups": 308,
+    "event_duplicate_articles_suppressed": 257,
+    "retained_direct": 5996,
+    "retained_indirect": 755
+  },
+  "sample_summary": {
+    "requested_direct": 10,
+    "actual_direct": 10,
+    "requested_indirect": 10,
+    "actual_indirect": 10,
+    "total": 20
+  },
+  "monthly_counts": [
+    {
+      "month": "2025-10",
+      "unique_articles": 5232,
+      "classified_direct": 931,
+      "classified_indirect": 83,
+      "excluded_articles": 4508,
+      "duplicate_event_articles_suppressed": 17,
+      "retained_direct_signals": 658,
+      "retained_indirect_signals": 66
+    },
+    {
+      "month": "2025-11",
+      "unique_articles": 5107,
+      "classified_direct": 1207,
+      "classified_indirect": 73,
+      "excluded_articles": 4315,
+      "duplicate_event_articles_suppressed": 16,
+      "retained_direct_signals": 727,
+      "retained_indirect_signals": 65
+    },
+    {
+      "month": "2025-12",
+      "unique_articles": 5014,
+      "classified_direct": 855,
+      "classified_indirect": 85,
+      "excluded_articles": 4313,
+      "duplicate_event_articles_suppressed": 18,
+      "retained_direct_signals": 633,
+      "retained_indirect_signals": 68
+    },
+    {
+      "month": "2026-01",
+      "unique_articles": 6859,
+      "classified_direct": 1290,
+      "classified_indirect": 114,
+      "excluded_articles": 5845,
+      "duplicate_event_articles_suppressed": 52,
+      "retained_direct_signals": 918,
+      "retained_indirect_signals": 96
+    },
+    {
+      "month": "2026-02",
+      "unique_articles": 9127,
+      "classified_direct": 1550,
+      "classified_indirect": 176,
+      "excluded_articles": 8080,
+      "duplicate_event_articles_suppressed": 49,
+      "retained_direct_signals": 906,
+      "retained_indirect_signals": 141
+    },
+    {
+      "month": "2026-03",
+      "unique_articles": 10418,
+      "classified_direct": 1776,
+      "classified_indirect": 167,
+      "excluded_articles": 9004,
+      "duplicate_event_articles_suppressed": 51,
+      "retained_direct_signals": 1283,
+      "retained_indirect_signals": 131
+    },
+    {
+      "month": "2026-04",
+      "unique_articles": 10896,
+      "classified_direct": 1164,
+      "classified_indirect": 217,
+      "excluded_articles": 9874,
+      "duplicate_event_articles_suppressed": 53,
+      "retained_direct_signals": 842,
+      "retained_indirect_signals": 180
+    },
+    {
+      "month": "2026-05",
+      "unique_articles": 420,
+      "classified_direct": 44,
+      "classified_indirect": 8,
+      "excluded_articles": 383,
+      "duplicate_event_articles_suppressed": 1,
+      "retained_direct_signals": 29,
+      "retained_indirect_signals": 8
+    }
+  ],
+  "exclusion_counts": [
+    {
+      "exclusion_reason": "insufficient_nvidia_connection",
+      "article_count": 43333
+    },
+    {
+      "exclusion_reason": "generic_recommendation_or_listicle",
+      "article_count": 5208
+    },
+    {
+      "exclusion_reason": "earnings_report_preview_or_recap",
+      "article_count": 3439
+    },
+    {
+      "exclusion_reason": "summary_only_mention_without_material_nvidia_event",
+      "article_count": 1147
+    },
+    {
+      "exclusion_reason": "past_price_movement_without_new_information",
+      "article_count": 1145
+    },
+    {
+      "exclusion_reason": "duplicate_event_coverage",
+      "article_count": 257
+    },
+    {
+      "exclusion_reason": "technical_analysis_only",
+      "article_count": 39
+    }
+  ],
+  "unavailable_periods": [
+    {
+      "ticker": "NVDA",
+      "from_date": "2026-02-26",
+      "to_date": "2026-02-26",
+      "coverage_state": "potential_truncation",
+      "interpretation": "Minimum-size window still met the configured truncation threshold."
+    },
+    {
+      "ticker": "NVDA",
+      "from_date": "2026-03-17",
+      "to_date": "2026-03-18",
+      "coverage_state": "potential_truncation",
+      "interpretation": "Minimum-size window still met the configured truncation threshold."
+    }
+  ]
+}
