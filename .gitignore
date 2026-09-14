@@ -1,3 +1,10 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/*_failure.json
+
 # Local Finnhub credential; never commit.
 DataPull/Aadi_apikey.txt
 Aadi_apikey.txt
