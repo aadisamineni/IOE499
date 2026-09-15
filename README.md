@@ -118,3 +118,11 @@ Run the focused offline checks with:
 ```sh
 .venv/bin/python -m unittest discover -s tests -v
 ```
+
+The separate [news matching program](matching/README.md) links the existing
+movement flags to articles published before the prior session's close, without
+changing this stock dataset:
+
+```sh
+.venv/bin/python matching/match_news.py --start 2025-09-15 --end 2026-05-15
+```

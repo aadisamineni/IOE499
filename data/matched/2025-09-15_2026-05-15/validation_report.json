@@ -1,0 +1,125 @@
+{
+  "generated_at_utc": "2026-09-14T23:53:19.056219+00:00",
+  "requested_start": "2025-09-15",
+  "requested_end": "2026-05-15",
+  "stock_path": "data/processed/NVDA_daily_features_2025-10-01_2026-05-31.csv",
+  "news_path": "news data pull/processed/all_classified_articles.csv",
+  "source_sha256": {
+    "data/processed/NVDA_daily_features_2025-10-01_2026-05-31.csv": "d1786c3c736567ca124a6d0fab727d5b7aabed4621e19ea7b3c952d07cb8df27",
+    "news data pull/processed/all_classified_articles.csv": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9",
+    "news data pull/config.json": "ded82ac6771845b1e116a44250f18390d59904ab0027fb6348c388830e9dcabc",
+    "news data pull/raw/request_manifest.jsonl": "5293be08a9af887d9b86e327d2484d2353f956593a2c2547b1b2fba19be03fac",
+    "NvidiaDatapull.py": "45a9dcb02fc1dbcb615197d8f104ea202e783b5b50ca961a0bae98218f6f7e9b"
+  },
+  "source_files_unchanged": true,
+  "package_versions": {
+    "pandas": "3.0.5",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "source_stock_date_range": [
+    "2025-10-01",
+    "2026-05-29"
+  ],
+  "source_news_publication_range_utc": [
+    "2025-10-01T00:30:00Z",
+    "2026-05-01T23:55:00Z"
+  ],
+  "timing": "documented_adjusted_close_to_close_previous_NASDAQ_session_close",
+  "flag_encoding": "Two original -1/0/+1 columns encode four directions; direction views are exact equality checks, not recalculated returns.",
+  "indicator_mapping": {
+    "1pct_up": [
+      "price_move_1pct",
+      "1"
+    ],
+    "1pct_down": [
+      "price_move_1pct",
+      "-1"
+    ],
+    "5pct_up": [
+      "price_move_5pct",
+      "1"
+    ],
+    "5pct_down": [
+      "price_move_5pct",
+      "-1"
+    ]
+  },
+  "category_event_counts": {
+    "1pct_up": 58,
+    "1pct_down": 45,
+    "5pct_up": 4,
+    "5pct_down": 1
+  },
+  "category_pair_counts": {
+    "1pct_up": 16311,
+    "1pct_down": 15496,
+    "5pct_up": 1069,
+    "5pct_down": 493
+  },
+  "overlap_1pct_5pct_up": 4,
+  "overlap_1pct_5pct_down": 1,
+  "flagged_event_count": 103,
+  "event_article_pair_count": 31807,
+  "unique_matched_articles": 9669,
+  "input_article_count": 53073,
+  "selected_existing_direct_indirect_articles": 9740,
+  "unmatched_event_days": [
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-15"
+  ],
+  "missing_stock_sessions": [
+    "2025-09-15",
+    "2025-09-16",
+    "2025-09-17",
+    "2025-09-18",
+    "2025-09-19",
+    "2025-09-22",
+    "2025-09-23",
+    "2025-09-24",
+    "2025-09-25",
+    "2025-09-26",
+    "2025-09-29",
+    "2025-09-30"
+  ],
+  "invalid_stock_date_rows": 0,
+  "timestamp_review_rows": 0,
+  "pair_exclusion_count": 0,
+  "article_exclusion_counts": {
+    "existing_relevance_not_direct_or_indirect": 43333,
+    "no_eligible_event_window_or_pair_excluded": 71
+  },
+  "events_with_coverage_issues": 19,
+  "events_with_known_collection_gaps": 9,
+  "events_with_potential_truncation": 10,
+  "raw_terminal_response_files_audited": 520,
+  "raw_article_fields": [
+    "category",
+    "datetime",
+    "headline",
+    "id",
+    "image",
+    "related",
+    "source",
+    "summary",
+    "url"
+  ],
+  "articles_with_raw_content_variants": 66,
+  "known_revision_timestamp_articles": 0,
+  "historical_availability_uncertain_pairs": 31807,
+  "limitations": [
+    "No original stock flags exist for September 15\u201330; warm-up prices are not used to invent flags.",
+    "News was collected only October 1\u2013May 1, by UTC publication date.",
+    "Finnhub snapshots lack revision timestamps and historical article versions; retrieval time is not publication time.",
+    "Upstream ID/URL deduplication can collapse content variants; raw variant counts flag potential revisions/identity conflicts, not proven update times.",
+    "Existing direct/indirect classifications are reused, including previously excluded content and distinct same-event coverage; no new labels.",
+    "Verified collection windows do not establish complete publisher coverage or historical availability."
+  ],
+  "validation": {
+    "all_flagged_days_present": true,
+    "original_indicators_unchanged": true,
+    "strictly_pre_cutoff": true,
+    "unique_event_article_pairs": true,
+    "window_membership_and_counts_consistent": true
+  }
+}
