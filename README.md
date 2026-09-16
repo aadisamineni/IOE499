@@ -126,3 +126,35 @@ changing this stock dataset:
 ```sh
 .venv/bin/python matching/match_news.py --start 2025-09-15 --end 2026-05-15
 ```
+
+## News theme analysis and research outputs
+
+The project now includes a theme-analysis workflow for the matched NVDA
+news/event data. It uses TF-IDF and non-negative matrix factorization (NMF) to
+identify recurring news topics, then compares their prevalence around 1% up
+and down price-movement events. The analysis is exploratory: theme prevalence
+does not establish that a theme caused a stock movement.
+
+Run the theme analysis from the project root with:
+
+```sh
+python3 Theme_analysis/find_themes.py
+```
+
+Outputs are written to `Theme_analysis/output/`:
+
+- `topic_words.csv` — highest-weight words and phrases for each topic.
+- `article_topic_assignments.csv` — dominant topic and topic weights for each
+  article-event match.
+- `theme_event_summary.csv` — topic prevalence by up/down event direction.
+- `category_event_summary.csv` — rule-based category prevalence by direction.
+- `theme_analysis_summary.svg` — readable chart comparing up and down event
+  theme prevalence and topic keywords.
+
+The results show that AI infrastructure and investor commentary are common
+around both positive and negative NVDA events. Smaller differences in
+export-control, competitor, and HBM/memory coverage provide hypotheses for
+follow-up event-study testing rather than standalone causal conclusions.
+
+Additional project outputs include the `News_word_frequency/` analysis,
+`PROJECT_REPORT.md`, and `NVDA_news_market_research_deck.pptx`.
