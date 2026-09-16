@@ -1,0 +1,155 @@
+{"kind":"deck","id":"pr/qpkkd6","name":"Deck"}
+{"kind":"layout","layoutId":"52993721-d87b-417a-98df-dcf5c9125abf","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"116baa70-f18c-4e63-8551-dce3bfb8aad9","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/vb1ozr","slide":1,"title":"NVDA news & market movement research","textShapes":7}
+{"kind":"textbox","id":"sh/qhg7yh4z","slide":1,"text":"NVDA news & market movement research","textPreview":"NVDA news & market movement research","textChars":36,"textLines":1,"bbox":[72,94,920,100]}
+{"kind":"textbox","id":"sh/x4r69cna","slide":1,"text":"A reproducible pipeline for linking pre-session news to large Nvidia price moves","textPreview":"A reproducible pipeline for linking pre-session news to large Nvidia price moves","textChars":80,"textLines":1,"bbox":[76,218,820,50]}
+{"kind":"shape","id":"sh/c3ip07mp","slide":1,"bbox":[76,320,1128,8]}
+{"kind":"textbox","id":"sh/z69obm5g","slide":1,"text":"Project overview  |  October 2025–May 2026 data window","textPreview":"Project overview  |  October 2025–May 2026 data window","textChars":54,"textLines":1,"bbox":[76,366,700,28]}
+{"kind":"textbox","id":"sh/y5072h4v","slide":1,"text":"IOE 499","textPreview":"IOE 499","textChars":7,"textLines":1,"bbox":[76,610,300,30]}
+{"kind":"textbox","id":"sh/l8r6dwnm","slide":1,"text":"September 2026","textPreview":"September 2026","textChars":14,"textLines":1,"bbox":[76,646,300,24]}
+{"kind":"textbox","id":"sh/k7ip4rm1","slide":1,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/7atofm5c","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/vb1ozr","slide":1,"text":""}
+{"kind":"slide","id":"sl/zk0vnv","slide":2,"title":"The project asks a focused timing question","textShapes":10}
+{"kind":"textbox","id":"sh/5cjulg72","slide":2,"text":"The project asks a focused timing question","textPreview":"The project asks a focused timing question","textChars":42,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"textbox","id":"sh/ipsbq18b","slide":2,"text":"What relevant information appeared before unusually large NVDA moves?","textPreview":"What relevant information appeared before unusually large NVDA moves?","textChars":69,"textLines":1,"bbox":[72,112,1136,30]}
+{"kind":"shape","id":"sh/jq1cz6pw","slide":2,"bbox":[72,156,1136,2]}
+{"kind":"textbox","id":"sh/wnatobq5","slide":2,"text":"Research question","textPreview":"Research question","textChars":17,"textLines":1,"bbox":[72,204,360,32]}
+{"kind":"textbox","id":"sh/hojuxw7q","slide":2,"text":"Are relevant news stories temporally associated with sessions where NVDA’s adjusted close moves at least 1% or 5%?","textPreview":"Are relevant news stories temporally associated with sessions where NVDA’s adjusted close moves at least 1% or 5%?","textChars":114,"textLines":1,"bbox":[72,248,470,110]}
+{"kind":"shape","id":"sh/ul8bm18z","slide":2,"bbox":[650,210,2,300]}
+{"kind":"textbox","id":"sh/vm1cv6pk","slide":2,"text":"What the dataset can support","textPreview":"What the dataset can support","textChars":28,"textLines":1,"bbox":[704,204,430,32]}
+{"kind":"textbox","id":"sh/8jqtkrq9","slide":2,"text":"• Event-level news inventories\n• Lookback-window comparisons\n• Coverage and timing audits\n• Inputs for a later predictive study","textPreview":"• Event-level news inventories | • Lookback-window comparisons | • Coverage and timing audits | • Inputs for a later predictive study","textChars":127,"textLines":4,"bbox":[704,252,450,190]}
+{"kind":"textbox","id":"sh/9kzutw7u","slide":2,"text":"What it cannot claim yet","textPreview":"What it cannot claim yet","textChars":24,"textLines":1,"bbox":[704,466,430,32]}
+{"kind":"textbox","id":"sh/dsba5kbq","slide":2,"text":"Causality, sentiment, investment advice, or out-of-sample predictive performance.","textPreview":"Causality, sentiment, investment advice, or out-of-sample predictive performance.","textChars":81,"textLines":1,"bbox":[704,510,450,70]}
+{"kind":"textbox","id":"sh/sr29wzu5","slide":2,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/rqt83ut0","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/zk0vnv","slide":2,"text":""}
+{"kind":"slide","id":"sl/8rq3q4","slide":3,"title":"Three stages turn raw records into an auditable research table","textShapes":12}
+{"kind":"textbox","id":"sh/ru9oji10","slide":3,"text":"Three stages turn raw records into an auditable research table","textPreview":"Three stages turn raw records into an auditable research table","textChars":62,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"shape","id":"sh/cfi5sni5","slide":3,"bbox":[72,156,1136,2]}
+{"kind":"shape","id":"sh/dgr6lsjq","slide":3,"bbox":[72,220,300,300]}
+{"kind":"textbox","id":"sh/eh0nux0b","slide":3,"text":"1  Market data","textPreview":"1  Market data","textChars":14,"textLines":1,"bbox":[96,244,250,32]}
+{"kind":"shape","id":"sh/zi9on21w","slide":3,"bbox":[96,292,252,2]}
+{"kind":"textbox","id":"sh/0ji5wnih","slide":3,"text":"Yahoo Finance\n↓\nValidated NASDAQ sessions\n↓\nReturns, volatility, volume, flags","textPreview":"Yahoo Finance | ↓ | Validated NASDAQ sessions | ↓ | Returns, volatility, volume, flags","textChars":78,"textLines":5,"bbox":[96,322,250,160]}
+{"kind":"textbox","id":"sh/1kr6psz2","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[388,334,52,40]}
+{"kind":"shape","id":"sh/ulwnit07","slide":3,"bbox":[430,220,300,300]}
+{"kind":"textbox","id":"sh/vm5oby1s","slide":3,"text":"2  News data","textPreview":"2  News data","textChars":12,"textLines":1,"bbox":[454,244,250,32]}
+{"kind":"shape","id":"sh/valcjel4","slide":3,"bbox":[454,292,252,2]}
+{"kind":"textbox","id":"sh/a9cvq9kj","slide":3,"text":"Finnhub metadata\n↓\nDeduplication + rule-based relevance\n↓\nDirect / indirect articles","textPreview":"Finnhub metadata | ↓ | Deduplication + rule-based relevance | ↓ | Direct / indirect articles","textChars":84,"textLines":5,"bbox":[454,322,250,160]}
+{"kind":"textbox","id":"sh/xc3ulo3u","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[746,334,52,40]}
+{"kind":"shape","id":"sh/wbudsj29","slide":3,"bbox":[788,220,300,300]}
+{"kind":"textbox","id":"sh/n61cfels","slide":3,"text":"3  Temporal matching","textPreview":"3  Temporal matching","textChars":20,"textLines":1,"bbox":[812,244,250,32]}
+{"kind":"shape","id":"sh/m5svm9k7","slide":3,"bbox":[812,292,252,2]}
+{"kind":"textbox","id":"sh/98juh43y","slide":3,"text":"Previous-session close\n↓\n24h, 72h, 7-calendar-day windows\n↓\nEvent/article pairs + audits","textPreview":"Previous-session close | ↓ | 24h, 72h, 7-calendar-day windows | ↓ | Event/article pairs + audits","textChars":88,"textLines":5,"bbox":[812,322,250,160]}
+{"kind":"textbox","id":"sh/87adoj2d","slide":3,"text":"The design separates acquisition, interpretation, and matching so each layer can be validated independently.","textPreview":"The design separates acquisition, interpretation, and matching so each layer can be validated independently.","textChars":108,"textLines":1,"bbox":[72,574,1000,34]}
+{"kind":"textbox","id":"sh/zi1cbulw","slide":3,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/yhsbip4b","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/8rq3q4","slide":3,"text":""}
+{"kind":"slide","id":"sl/tsnzgu","slide":4,"title":"Market features are engineered for timing, not hindsight","textShapes":11}
+{"kind":"textbox","id":"sh/1cnm5w3a","slide":4,"text":"Market features are engineered for timing, not hindsight","textPreview":"Market features are engineered for timing, not hindsight","textChars":56,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"textbox","id":"sh/e9c3ah4z","slide":4,"text":"The same-day bar is only usable after the close; lagged fields support premarket use.","textPreview":"The same-day bar is only usable after the close; lagged fields support premarket use.","textChars":85,"textLines":1,"bbox":[72,112,1136,30]}
+{"kind":"shape","id":"sh/fal43m5k","slide":4,"bbox":[72,156,1136,2]}
+{"kind":"textbox","id":"sh/ofelgrm1","slide":4,"text":"Source fields","textPreview":"Source fields","textChars":13,"textLines":1,"bbox":[72,205,260,30]}
+{"kind":"textbox","id":"sh/p0nm9w3m","slide":4,"text":"Open • high • low • close\nAdjusted close • volume\nDividends • stock splits","textPreview":"Open • high • low • close | Adjusted close • volume | Dividends • stock splits","textChars":74,"textLines":3,"bbox":[72,250,280,130]}
+{"kind":"textbox","id":"sh/2dw3eh4v","slide":4,"text":"Derived features","textPreview":"Derived features","textChars":16,"textLines":1,"bbox":[432,205,300,30]}
+{"kind":"textbox","id":"sh/3e547mlg","slide":4,"text":"1d and 5d returns\n20-session volatility\n20-session average volume\n±1% and ±5% movement flags","textPreview":"1d and 5d returns | 20-session volatility | 20-session average volume | ±1% and ±5% movement flags","textChars":92,"textLines":4,"bbox":[432,250,310,160]}
+{"kind":"textbox","id":"sh/4jal47mx","slide":4,"text":"Timing rule","textPreview":"Timing rule","textChars":11,"textLines":1,"bbox":[824,205,280,30]}
+{"kind":"shape","id":"sh/54j2xsni","slide":4,"bbox":[824,262,320,80]}
+{"kind":"textbox","id":"sh/94bmlcje","slide":4,"text":"Premarket date t\nuses t−1 lagged features","textPreview":"Premarket date t | uses t−1 lagged features","textChars":41,"textLines":2,"bbox":[848,280,275,45]}
+{"kind":"textbox","id":"sh/8325srit","slide":4,"text":"No future target is created. Movement flags describe what already happened at the close.","textPreview":"No future target is created. Movement flags describe what already happened at the close.","textChars":88,"textLines":1,"bbox":[824,382,320,100]}
+{"kind":"textbox","id":"sh/n2t4jm1o","slide":4,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/m1knqh03","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/tsnzgu","slide":4,"text":""}
+{"kind":"slide","id":"sl/1al725","slide":5,"title":"The news pipeline preserves context while applying explicit relevance rules","textShapes":13}
+{"kind":"textbox","id":"sh/o3qhgfax","slide":5,"text":"The news pipeline preserves context while applying explicit relevance rules","textPreview":"The news pipeline preserves context while applying explicit relevance rules","textChars":75,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"shape","id":"sh/n2h07a9c","slide":5,"bbox":[72,156,1136,2]}
+{"kind":"textbox","id":"sh/218ze5sr","slide":5,"text":"Nine queried tickers","textPreview":"Nine queried tickers","textChars":20,"textLines":1,"bbox":[72,202,350,30]}
+{"kind":"textbox","id":"sh/10zy50r6","slide":5,"text":"NVDA  |  AMD  |  TSM  |  MU  |  AVGO\nMSFT  |  AMZN  |  GOOGL  |  META","textPreview":"NVDA  |  AMD  |  TSM  |  MU  |  AVGO | MSFT  |  AMZN  |  GOOGL  |  META","textChars":69,"textLines":2,"bbox":[72,250,420,70]}
+{"kind":"textbox","id":"sh/0z6hcva1","slide":5,"text":"Themes retained","textPreview":"Themes retained","textChars":15,"textLines":1,"bbox":[600,202,350,30]}
+{"kind":"textbox","id":"sh/fyxg3q9g","slide":5,"text":"Export controls and market access\nAI infrastructure spending\nPackaging / HBM / supply\nCompetition, partnerships, regulation, products","textPreview":"Export controls and market access | AI infrastructure spending | Packaging / HBM / supply | Competition, partnerships, regulation, products","textChars":133,"textLines":4,"bbox":[600,250,500,135]}
+{"kind":"shape","id":"sh/edozalsv","slide":5,"bbox":[72,410,1050,2]}
+{"kind":"textbox","id":"sh/dcfy10ra","slide":5,"text":"80,647","textPreview":"80,647","textChars":6,"textLines":1,"bbox":[72,458,230,62]}
+{"kind":"textbox","id":"sh/sb6h8vap","slide":5,"text":"raw ticker observations","textPreview":"raw ticker observations","textChars":23,"textLines":1,"bbox":[72,525,260,25]}
+{"kind":"textbox","id":"sh/qd0rqhw7","slide":5,"text":"53,073","textPreview":"53,073","textChars":6,"textLines":1,"bbox":[400,458,230,62]}
+{"kind":"textbox","id":"sh/by9szmds","slide":5,"text":"unique after ID/URL deduplication","textPreview":"unique after ID/URL deduplication","textChars":33,"textLines":1,"bbox":[400,525,300,25]}
+{"kind":"textbox","id":"sh/czitsred","slide":5,"text":"9,740","textPreview":"9,740","textChars":5,"textLines":1,"bbox":[800,458,230,62]}
+{"kind":"textbox","id":"sh/d0ra1cvy","slide":5,"text":"direct/indirect articles selected","textPreview":"direct/indirect articles selected","textChars":33,"textLines":1,"bbox":[800,525,280,25]}
+{"kind":"textbox","id":"sh/29grmxwb","slide":5,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/3apsv2dw","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/1al725","slide":5,"text":""}
+{"kind":"slide","id":"sl/ptl7vc","slide":6,"title":"The matcher uses the previous NASDAQ close as the event cutoff","textShapes":11}
+{"kind":"textbox","id":"sh/kr2tc7y5","slide":6,"text":"The matcher uses the previous NASDAQ close as the event cutoff","textPreview":"The matcher uses the previous NASDAQ close as the event cutoff","textChars":62,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"textbox","id":"sh/j69c32h0","slide":6,"text":"This aligns the article window with a close-to-close movement label.","textPreview":"This aligns the article window with a close-to-close movement label.","textChars":68,"textLines":1,"bbox":[72,112,1136,30]}
+{"kind":"shape","id":"sh/y50baxgf","slide":6,"bbox":[72,156,1136,2]}
+{"kind":"shape","id":"sh/twbu9cz2","slide":6,"bbox":[100,260,190,82]}
+{"kind":"textbox","id":"sh/8v2dg7yh","slide":6,"text":"Prior session\nclose","textPreview":"Prior session | close","textChars":19,"textLines":2,"bbox":[100,282,190,44]}
+{"kind":"textbox","id":"sh/7utc7mhw","slide":6,"text":"← 24h →","textPreview":"← 24h →","textChars":7,"textLines":1,"bbox":[332,285,160,32]}
+{"kind":"shape","id":"sh/6tkbehgb","slide":6,"bbox":[520,260,190,82]}
+{"kind":"textbox","id":"sh/h0vudwfy","slide":6,"text":"Event date t\nclose","textPreview":"Event date t | close","textChars":18,"textLines":2,"bbox":[520,282,190,44]}
+{"kind":"textbox","id":"sh/gzmdkryd","slide":6,"text":"← 72 hours / 7 calendar days →","textPreview":"← 72 hours / 7 calendar days →","textChars":30,"textLines":1,"bbox":[740,285,330,32]}
+{"kind":"textbox","id":"sh/il4v6543","slide":6,"text":"Publication rule","textPreview":"Publication rule","textChars":16,"textLines":1,"bbox":[100,410,270,30]}
+{"kind":"textbox","id":"sh/3mdwfa5o","slide":6,"text":"window_start ≤ published_at < cutoff","textPreview":"window_start ≤ published_at < cutoff","textChars":36,"textLines":1,"bbox":[100,452,520,36]}
+{"kind":"textbox","id":"sh/4nmd8vm9","slide":6,"text":"• Exact cutoff excluded\n• Exact 24h and 72h boundaries included\n• Seven-day window preserves New York wall-clock time across DST\n• Missing or timezone-ambiguous timestamps are reviewed, not guessed","textPreview":"• Exact cutoff excluded | • Exact 24h and 72h boundaries included | • Seven-day window preserves New York wall-clock time across DST | • ...","textChars":197,"textLines":4,"bbox":[100,520,920,110]}
+{"kind":"textbox","id":"sh/5oveh0nu","slide":6,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/qp4fa54f","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/ptl7vc","slide":6,"text":""}
+{"kind":"slide","id":"sl/s1yfpt","slide":7,"title":"The current run produces a strong event-level evidence base","textShapes":15}
+{"kind":"textbox","id":"sh/r65g3uhc","slide":7,"text":"The current run produces a strong event-level evidence base","textPreview":"The current run produces a strong event-level evidence base","textChars":59,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"shape","id":"sh/s7yhwzyx","slide":7,"bbox":[72,156,1136,2]}
+{"kind":"textbox","id":"sh/d87y54z2","slide":7,"text":"Flagged event days by direction and threshold","textPreview":"Flagged event days by direction and threshold","textChars":45,"textLines":1,"bbox":[72,202,650,30]}
+{"kind":"textbox","id":"sh/ihwzqp0f","slide":7,"text":"1% up","textPreview":"1% up","textChars":5,"textLines":1,"bbox":[72,260,120,26]}
+{"kind":"shape","id":"sh/3i5gzuh0","slide":7,"bbox":[205,262,580,28]}
+{"kind":"textbox","id":"sh/4jehszil","slide":7,"text":"58","textPreview":"58","textChars":2,"textLines":1,"bbox":[805,260,55,28]}
+{"kind":"textbox","id":"sh/54ny14z6","slide":7,"text":"1% down","textPreview":"1% down","textChars":7,"textLines":1,"bbox":[72,324,120,26]}
+{"kind":"shape","id":"sh/2dgz2tgz","slide":7,"bbox":[205,326,450,28]}
+{"kind":"textbox","id":"sh/ne9gvehk","slide":7,"text":"45","textPreview":"45","textChars":2,"textLines":1,"bbox":[675,324,55,28]}
+{"kind":"textbox","id":"sh/va5czqlo","slide":7,"text":"5% up","textPreview":"5% up","textChars":5,"textLines":1,"bbox":[72,388,120,26]}
+{"kind":"shape","id":"sh/u9wv6lk3","slide":7,"bbox":[205,390,40,28]}
+{"kind":"textbox","id":"sh/hc7u1g3u","slide":7,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[265,388,55,28]}
+{"kind":"textbox","id":"sh/wbyd8b29","slide":7,"text":"5% down","textPreview":"5% down","textChars":7,"textLines":1,"bbox":[72,452,120,26]}
+{"kind":"shape","id":"sh/jepc3ql0","slide":7,"bbox":[205,454,10,28]}
+{"kind":"textbox","id":"sh/idgvalkf","slide":7,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[235,452,55,28]}
+{"kind":"shape","id":"sh/5g7u503q","slide":7,"bbox":[760,220,380,300]}
+{"kind":"textbox","id":"sh/4fydcv25","slide":7,"text":"31,807","textPreview":"31,807","textChars":6,"textLines":1,"bbox":[800,258,300,70]}
+{"kind":"textbox","id":"sh/ri9c7alw","slide":7,"text":"event/article pairs","textPreview":"event/article pairs","textChars":19,"textLines":1,"bbox":[800,336,280,28]}
+{"kind":"shape","id":"sh/6hgve5kb","slide":7,"bbox":[800,390,280,2]}
+{"kind":"textbox","id":"sh/2dkf694j","slide":7,"text":"103 flagged sessions\n9,669 unique matched articles\n5% categories overlap 1% categories","textPreview":"103 flagged sessions | 9,669 unique matched articles | 5% categories overlap 1% categories","textChars":86,"textLines":3,"bbox":[800,420,280,82]}
+{"kind":"textbox","id":"sh/3etgfu54","slide":7,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/oz2x8zmp","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/s1yfpt","slide":7,"text":""}
+{"kind":"slide","id":"sl/s35eaw","slide":8,"title":"Auditability is a feature—and the main caveat is historical availability","textShapes":8}
+{"kind":"textbox","id":"sh/qtk7ahwv","slide":8,"text":"Auditability is a feature—and the main caveat is historical availability","textPreview":"Auditability is a feature—and the main caveat is historical availability","textChars":72,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"shape","id":"sh/dgbq5wfm","slide":8,"bbox":[72,156,1136,2]}
+{"kind":"textbox","id":"sh/cf2pcre1","slide":8,"text":"Validated","textPreview":"Validated","textChars":9,"textLines":1,"bbox":[72,206,250,30]}
+{"kind":"textbox","id":"sh/zid876dc","slide":8,"text":"✓ Original indicators unchanged\n✓ Strictly pre-cutoff matching\n✓ Unique event/article pairs\n✓ Window counts consistent\n✓ Input files hash-checked","textPreview":"✓ Original indicators unchanged | ✓ Strictly pre-cutoff matching | ✓ Unique event/article pairs | ✓ Window counts consistent | ✓ Input fi...","textChars":145,"textLines":5,"bbox":[72,252,390,160]}
+{"kind":"textbox","id":"sh/yhk7e1wr","slide":8,"text":"Needs interpretation","textPreview":"Needs interpretation","textChars":20,"textLines":1,"bbox":[640,206,300,30]}
+{"kind":"textbox","id":"sh/lkvq9gvi","slide":8,"text":"19 events with coverage issues\n9 with known collection gaps\n10 near potential truncation\n31,807 pairs marked historically uncertain\n66 possible raw content variants","textPreview":"19 events with coverage issues | 9 with known collection gaps | 10 near potential truncation | 31,807 pairs marked historically uncertain...","textChars":164,"textLines":5,"bbox":[640,252,430,180]}
+{"kind":"textbox","id":"sh/0jm9gbex","slide":8,"text":"A successful request is not proof of complete publisher coverage, and a September 2026 snapshot is not proof an article was available before the event.","textPreview":"A successful request is not proof of complete publisher coverage, and a September 2026 snapshot is not proof an article was available bef...","textChars":151,"textLines":1,"bbox":[72,516,1030,66]}
+{"kind":"textbox","id":"sh/7md8b6do","slide":8,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/ml4ri1w3","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/s35eaw","slide":8,"text":""}
+{"kind":"slide","id":"sl/ync9ao","slide":9,"title":"The next layer should test association before attempting prediction","textShapes":17}
+{"kind":"textbox","id":"sh/vy5wjudw","slide":9,"text":"The next layer should test association before attempting prediction","textPreview":"The next layer should test association before attempting prediction","textChars":67,"textLines":1,"bbox":[72,48,1136,60]}
+{"kind":"shape","id":"sh/wzedszeh","slide":9,"bbox":[72,156,1136,2]}
+{"kind":"textbox","id":"sh/h07el4v2","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,224,70,40]}
+{"kind":"shape","id":"sh/i1gvupwn","slide":9,"bbox":[72,278,220,2]}
+{"kind":"textbox","id":"sh/j2pwnud8","slide":9,"text":"Complete and align","textPreview":"Complete and align","textChars":18,"textLines":1,"bbox":[72,306,220,32]}
+{"kind":"textbox","id":"sh/43ydwzet","slide":9,"text":"Extend stock/news periods and resolve flagged coverage gaps.","textPreview":"Extend stock/news periods and resolve flagged coverage gaps.","textChars":60,"textLines":1,"bbox":[72,354,220,120]}
+{"kind":"textbox","id":"sh/547ep4ve","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[358,224,70,40]}
+{"kind":"shape","id":"sh/y5cvi5wj","slide":9,"bbox":[358,278,220,2]}
+{"kind":"textbox","id":"sh/z6lcbad4","slide":9,"text":"Aggregate and compare","textPreview":"Aggregate and compare","textChars":21,"textLines":1,"bbox":[358,306,220,32]}
+{"kind":"textbox","id":"sh/jmxkzupc","slide":9,"text":"Summarize by event/category; add non-event control days.","textPreview":"Summarize by event/category; add non-event control days.","textChars":56,"textLines":1,"bbox":[358,354,220,120]}
+{"kind":"textbox","id":"sh/iloj698r","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[644,224,70,40]}
+{"kind":"shape","id":"sh/58f2147i","slide":9,"bbox":[644,278,220,2]}
+{"kind":"textbox","id":"sh/47618zqx","slide":9,"text":"Model carefully","textPreview":"Model carefully","textChars":15,"textLines":1,"bbox":[644,306,220,32]}
+{"kind":"textbox","id":"sh/vidkvupg","slide":9,"text":"Chronological splits, lagged news features, market controls.","textPreview":"Chronological splits, lagged news features, market controls.","textChars":60,"textLines":1,"bbox":[644,354,220,120]}
+{"kind":"textbox","id":"sh/uh4j2p8v","slide":9,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[930,224,70,40]}
+{"kind":"shape","id":"sh/hkf2x47m","slide":9,"bbox":[930,278,220,2]}
+{"kind":"textbox","id":"sh/wjm14zq1","slide":9,"text":"Evaluate honestly","textPreview":"Evaluate honestly","textChars":17,"textLines":1,"bbox":[930,306,220,32]}
+{"kind":"textbox","id":"sh/7ed0rap4","slide":9,"text":"Baselines, effect sizes, uncertainty intervals, leakage checks.","textPreview":"Baselines, effect sizes, uncertainty intervals, leakage checks.","textChars":63,"textLines":1,"bbox":[930,354,220,120]}
+{"kind":"textbox","id":"sh/md4jyp8j","slide":9,"text":"Bottom line","textPreview":"Bottom line","textChars":11,"textLines":1,"bbox":[72,548,250,30]}
+{"kind":"textbox","id":"sh/a9k3a5sr","slide":9,"text":"The project has built a disciplined, auditable foundation for studying news around NVDA price moves. The causal and predictive questions remain open.","textPreview":"The project has built a disciplined, auditable foundation for studying news around NVDA price moves. The causal and predictive questions ...","textChars":149,"textLines":1,"bbox":[72,590,1000,50]}
+{"kind":"textbox","id":"sh/batkjatc","slide":9,"text":"IOE 499  •  NVDA news-and-market-movement research","textPreview":"IOE 499  •  NVDA news-and-market-movement research","textChars":50,"textLines":1,"bbox":[72,680,700,24]}
+{"kind":"textbox","id":"sh/cb2lcfah","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1165,680,45,24]}
+{"kind":"notes","id":"nt/ync9ao","slide":9,"text":""}
