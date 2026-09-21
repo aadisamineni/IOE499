@@ -1,0 +1,5 @@
+group,flagged_days,days_with_matches,unique_articles,event_article_pairs,filtered_tokens,unfiltered_tokens,no_match_days,days_with_coverage_issues
+1pct_up,58,56,8931,16311,305465,477897,2026-05-13|2026-05-14,11
+3pct_up,11,10,2162,2570,76282,119917,2026-05-14,2
+1pct_down,45,44,7884,15496,270550,423109,2026-05-15,8
+3pct_down,17,16,4901,5837,169483,265221,2026-05-15,5
