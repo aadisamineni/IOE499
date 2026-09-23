@@ -1,5 +1,13 @@
-"""Download and validate NVDA research data; run with .venv/bin/python NvidiaDatapull.py."""
+"""Download and validate NVDA research data.
 
+Run the existing daily feature pipeline:
+    .venv/bin/python NvidiaDatapull.py
+
+Download regular-session hourly bars without replacing daily files:
+    .venv/bin/python NvidiaDatapull.py --hourly
+"""
+
+import argparse
 from datetime import date, datetime, timedelta, timezone
 from importlib.metadata import version
 import json
@@ -24,6 +32,7 @@ RENAME = {
 SETTINGS = dict(interval="1d", auto_adjust=False, back_adjust=False,
                 actions=True, repair=False, keepna=True, rounding=False,
                 prepost=False, timeout=30)
+HOURLY_SETTINGS = dict(SETTINGS, interval="1h")
 FEATURES = ["adjusted_close_return_1d", "adjusted_open_to_close_return",
             "adjusted_close_return_5d", "daily_return_volatility_20d",
             "average_volume_20d", "price_move_5pct", "price_move_1pct"]
@@ -67,9 +76,9 @@ def sessions(start, end):
         start_date=start, end_date=end).index
 
 
-def download(start, end_exclusive):
+def download(start, end_exclusive, settings=SETTINGS):
     frame = yf.Ticker(TICKER).history(
-        start=str(start), end=str(end_exclusive), **SETTINGS)
+        start=str(start), end=str(end_exclusive), **settings)
     if frame.empty:
         raise RuntimeError(f"Yahoo returned no rows for {start} to {end_exclusive} exclusive")
     missing = set(RENAME) - set(frame.columns)
@@ -78,8 +87,12 @@ def download(start, end_exclusive):
     if frame.index.tz is None:
         raise RuntimeError("Provider returned dates without an exchange timezone")
     frame = frame[list(RENAME)].rename(columns=RENAME).copy()
-    frame.index = frame.index.tz_convert("America/New_York").tz_localize(None).normalize()
-    frame.index.name = "trading_date"
+    frame.index = frame.index.tz_convert("America/New_York")
+    if settings["interval"] == "1d":
+        frame.index = frame.index.tz_localize(None).normalize()
+        frame.index.name = "trading_date"
+    else:
+        frame.index.name = "trading_timestamp"
     frame.insert(0, "ticker", TICKER)
     return frame
 
@@ -124,6 +137,105 @@ def validate(frame, start, end):
     }
 
 
+def validate_hourly(frame, start, end):
+    """Validate regular-session 1-hour bars, including early-close counts."""
+    schedule = mcal.get_calendar("NASDAQ").schedule(start_date=start, end_date=end)
+    numeric = frame[list(RENAME.values())]
+    prices = frame[["open", "high", "low", "close", "adjusted_close"]]
+    local_index = frame.index.tz_convert("America/New_York")
+    utc_index = local_index.tz_convert("UTC")
+    local_dates = local_index.tz_localize(None).normalize()
+    observed_sessions = pd.DatetimeIndex(local_dates.unique()).sort_values()
+    missing_sessions = schedule.index.difference(observed_sessions)
+    unexpected_sessions = observed_sessions.difference(schedule.index)
+
+    within_regular_session = []
+    aligned_to_hourly_grid = []
+    for stamp_utc, session_date in zip(utc_index, local_dates):
+        if session_date not in schedule.index:
+            within_regular_session.append(False)
+            aligned_to_hourly_grid.append(False)
+            continue
+        market_open = schedule.loc[session_date, "market_open"]
+        market_close = schedule.loc[session_date, "market_close"]
+        within_regular_session.append(bool(market_open <= stamp_utc < market_close))
+        offset_seconds = (stamp_utc - market_open).total_seconds()
+        aligned_to_hourly_grid.append(bool(offset_seconds >= 0 and offset_seconds % 3600 == 0))
+
+    actual_counts = pd.Series(local_dates).value_counts().sort_index()
+    expected_counts = {
+        session_date: int(np.ceil(
+            (row.market_close - row.market_open).total_seconds() / 3600))
+        for session_date, row in schedule.iterrows()
+    }
+    bar_count_review = []
+    for session_date, expected_count in expected_counts.items():
+        actual_count = int(actual_counts.get(session_date, 0))
+        if actual_count != expected_count:
+            bar_count_review.append({
+                "trading_date": str(session_date.date()),
+                "expected_bar_count": expected_count,
+                "actual_bar_count": actual_count,
+            })
+
+    missing_price_bars = []
+    for timestamp, row in frame.loc[prices.isna().any(axis=1)].iterrows():
+        missing_price_bars.append({
+            "trading_timestamp": timestamp.isoformat(),
+            "missing_fields": [column for column in prices.columns if pd.isna(row[column])],
+            "volume": int(row.volume),
+        })
+
+    checks = {
+        "sorted_timestamps": bool(frame.index.is_monotonic_increasing),
+        "unique_timestamps": bool(frame.index.is_unique),
+        "timezone_aware_timestamps": bool(frame.index.tz is not None),
+        "nonempty": bool(len(frame)),
+        "no_missing_source_values": bool(frame.notna().all().all()),
+        "finite_numeric_values": bool(np.isfinite(numeric.to_numpy()).all()),
+        "positive_prices": bool((prices > 0).all().all()),
+        "nonnegative_volume": bool((frame.volume >= 0).all()),
+        "valid_ohlc_bounds": bool(((frame.high >= frame.open) &
+            (frame.high >= frame.close) & (frame.low <= frame.open) &
+            (frame.low <= frame.close) & (frame.high >= frame.low)).all()),
+        "all_expected_sessions_present": len(missing_sessions) == 0,
+        "no_unexpected_sessions": len(unexpected_sessions) == 0,
+        "all_bars_within_regular_session": bool(all(within_regular_session)),
+        "all_bars_aligned_to_market_open_hour_grid": bool(all(aligned_to_hourly_grid)),
+        "expected_bar_count_each_session": len(bar_count_review) == 0,
+    }
+    structural_check_names = [
+        "sorted_timestamps", "unique_timestamps", "timezone_aware_timestamps",
+        "nonempty", "nonnegative_volume", "all_expected_sessions_present",
+        "no_unexpected_sessions", "all_bars_within_regular_session",
+        "all_bars_aligned_to_market_open_hour_grid", "expected_bar_count_each_session",
+    ]
+    actions = frame.loc[(frame.dividends.ne(0) | frame.stock_splits.ne(0)),
+                        ["dividends", "stock_splits"]].reset_index()
+    actions["trading_timestamp"] = actions.trading_timestamp.map(
+        lambda value: value.isoformat())
+    return {
+        "passed": all(checks.values()),
+        "structural_validation_passed": all(checks[name] for name in structural_check_names),
+        "complete_price_data": len(missing_price_bars) == 0,
+        "checks": checks,
+        "expected_session_count": len(schedule),
+        "observed_session_count": len(observed_sessions),
+        "row_count": len(frame),
+        "first_timestamp": frame.index.min().isoformat() if len(frame) else None,
+        "last_timestamp": frame.index.max().isoformat() if len(frame) else None,
+        "missing_sessions": date_list(missing_sessions),
+        "unexpected_sessions": date_list(unexpected_sessions),
+        "bar_count_review": bar_count_review,
+        "missing_price_bar_count": len(missing_price_bars),
+        "usable_price_bar_count": len(frame) - len(missing_price_bars),
+        "missing_price_bar_review": missing_price_bars,
+        "missing_values": {key: int(value) for key, value in frame.isna().sum().items()},
+        "corporate_actions_for_review": json.loads(
+            actions.to_json(orient="records", date_format="iso")),
+    }
+
+
 def derive_features(frame):
     result = frame.copy()
     adj = frame.adjusted_close
@@ -143,6 +255,96 @@ def derive_features(frame):
     for feature in FEATURES:
         result[f"{feature}_lag1_session"] = result[feature].shift(1)
     return result
+
+
+def hourly_main():
+    """Download a separate raw hourly dataset and validation metadata."""
+    raw_dir = ROOT / "data/raw"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    stem = f"{TICKER}_hourly_{START}_{END}"
+    paths = {
+        "raw": raw_dir / f"{stem}.csv",
+        "metadata": raw_dir / f"{stem}_metadata.json",
+    }
+    failure_path = raw_dir / f"{stem}_failure.json"
+    metadata = {
+        "status": "started",
+        "source": "Yahoo Finance via yfinance.Ticker.history",
+        "retrieval_started_utc": utc_now(),
+        "ticker": TICKER,
+        "currency": "USD",
+        "interval": "1h",
+        "timestamp_column": "trading_timestamp",
+        "timestamp_timezone": "America/New_York with explicit UTC offset",
+        "session_scope": "regular NASDAQ session only; prepost=False",
+        "bar_timestamp_convention": "Provider timestamp marks the beginning of each hourly bar.",
+        "package_versions": {package: version(package) for package in
+            ["yfinance", "pandas", "numpy", "pandas_market_calendars"]},
+        "python_version": sys.version,
+        "requested_dates": {
+            "start_inclusive": str(START),
+            "end_inclusive": str(END),
+            "end_exclusive_sent_to_provider": str(END + timedelta(days=1)),
+        },
+        "download_settings": HOURLY_SETTINGS,
+        "exception_settings": {"yf.config.debug.hide_exceptions": False},
+        "adjustment_conventions": {
+            **CONVENTIONS,
+            "volume": "Provider-reported share volume for each hourly bar.",
+        },
+        "calendar": "pandas_market_calendars NASDAQ; includes early-close sessions",
+        "paths": {key: str(value.relative_to(ROOT)) for key, value in paths.items()},
+        "documentation": [
+            "https://ranaroussi.github.io/yfinance/reference/yfinance.price_history.html",
+            "https://help.yahoo.com/kb/SLN28256.html",
+            "https://pandas-market-calendars.readthedocs.io/en/latest/usage.html",
+        ],
+    }
+    try:
+        yf.set_tz_cache_location(str(ROOT / ".cache/yfinance"))
+        yf.config.debug.hide_exceptions = False
+        hourly = download(START, END + timedelta(days=1), settings=HOURLY_SETTINGS)
+        metadata["retrieval_time_utc"] = utc_now()
+        # The ISO-like format keeps the New York UTC offset on every row. This
+        # avoids ambiguous local times across daylight-saving transitions.
+        hourly.to_csv(paths["raw"], date_format="%Y-%m-%dT%H:%M:%S%z")
+        report = validate_hourly(hourly, START, END)
+        metadata["validation"] = report
+        metadata["actual_timestamps"] = {
+            "first": report["first_timestamp"],
+            "last": report["last_timestamp"],
+        }
+        metadata["row_count"] = len(hourly)
+        if not report["structural_validation_passed"]:
+            raise RuntimeError(
+                "Hourly source structure validation failed; raw download was retained for review")
+        metadata["status"] = (
+            "validated" if report["complete_price_data"] else
+            "validated_with_provider_gaps")
+        metadata["provider_gap_policy"] = (
+            "Missing provider bars are retained with null prices and zero reported volume; "
+            "no price is imputed and no placeholder row is silently removed.")
+        write_json(paths["metadata"], metadata)
+        failure_path.unlink(missing_ok=True)
+        print(json.dumps({
+            "paths": metadata["paths"],
+            "actual_timestamps": metadata["actual_timestamps"],
+            "row_count": len(hourly),
+            "usable_price_bar_count": report["usable_price_bar_count"],
+            "missing_price_bar_count": report["missing_price_bar_count"],
+            "observed_session_count": report["observed_session_count"],
+            "status": metadata["status"],
+            "validation": report["checks"],
+        }, indent=2))
+        print("\nFirst five hourly rows:\n" + hourly.head().to_string())
+        return 0
+    except Exception as exc:
+        metadata.update(
+            status="failed", failure_time_utc=utc_now(),
+            error=f"{type(exc).__name__}: {exc}")
+        write_json(failure_path, metadata)
+        print(f"FAILED: {metadata['error']}\nFailure details: {failure_path}", file=sys.stderr)
+        return 1
 
 
 def main():
@@ -238,5 +440,14 @@ def main():
         return 1
 
 
+def cli():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--hourly", action="store_true",
+        help="download a separate regular-session 1-hour raw dataset")
+    args = parser.parse_args()
+    return hourly_main() if args.hourly else main()
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(cli())

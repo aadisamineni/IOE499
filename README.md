@@ -1,7 +1,9 @@
-# NVDA daily stock research dataset
+# NVDA daily and hourly stock research datasets
 
-The existing entry point, `NvidiaDatapull.py`, downloads Yahoo Finance daily data
-through yfinance for **2025-10-01 through 2026-05-31 inclusive**. Work belongs on
+The existing entry point, `NvidiaDatapull.py`, downloads Yahoo Finance daily or
+hourly data through yfinance for **2025-10-01 through 2026-05-31 inclusive**. The
+hourly mode writes separate raw files and does not replace daily inputs used by
+the downstream analyses. Work belongs on
 `ZAS`; incorporate upstream updates from `origin/Developing` and push with
 `git push origin HEAD:ZAS`.
 
@@ -13,6 +15,12 @@ From the repository root (tested with Python 3.13):
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python NvidiaDatapull.py
+```
+
+Download regular-session hourly bars with:
+
+```sh
+.venv/bin/python NvidiaDatapull.py --hourly
 ```
 
 `requirements.txt` pins the installed environment, including transitive packages.
@@ -31,6 +39,18 @@ package index is needed for installation; Yahoo access is needed for each run.
 - `data/raw/NVDA_daily_2025-10-01_2026-05-31_metadata.json`: successful retrieval
   times (UTC), versions, request settings, actual coverage, counts, validation,
   corporate-action and unusual-return review records, and conventions.
+- `data/raw/NVDA_hourly_2025-10-01_2026-05-31.csv`: provider 1-hour bars with
+  timezone-aware New York timestamps and explicit UTC offsets.
+- `data/raw/NVDA_hourly_2025-10-01_2026-05-31_metadata.json`: hourly retrieval
+  settings, validation, session counts, and an itemized provider-gap review.
+
+The hourly snapshot contains all 1,156 expected timestamp slots across 166
+NASDAQ sessions. Yahoo returned 1,145 usable price bars and 11 zero-volume
+placeholder rows with null OHLC values. The placeholders are retained exactly
+as returned and listed in metadata; the script does not impute prices or silently
+drop them. Consequently this snapshot has status
+`validated_with_provider_gaps` even though its timestamps and session structure
+pass validation.
 
 The script prints paths, first/last dates, count, first five source rows,
 missing-value counts, and validation findings. Reruns refresh the files; Yahoo
@@ -125,6 +145,24 @@ changing this stock dataset:
 
 ```sh
 .venv/bin/python matching/match_news.py --start 2025-09-15 --end 2026-05-15
+```
+
+For an exact previous-calendar-day dataset, the
+[one-day matcher](matched_one_day/README.md) pairs every stock session with
+direct/indirect news from the preceding New York date. It also creates an
+inclusive `price_move_2pct` feature (`-1` at or below -2%, `1` at or above +2%,
+and `0` otherwise):
+
+```sh
+.venv/bin/python matched_one_day/match_previous_day.py
+```
+
+The [TF-IDF stock-direction experiment](tf-idf/README.md) aggregates those
+previous-day headlines and summaries to one document per session and compares a
+three-class text model with class-prior and market-control baselines:
+
+```sh
+.venv/bin/python tf-idf/tfidf_stock_direction.py
 ```
 
 ## News theme analysis and research outputs

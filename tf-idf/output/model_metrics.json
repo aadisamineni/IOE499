@@ -1,0 +1,237 @@
+{
+  "generated_at_utc": "2026-09-21T16:36:10.365954+00:00",
+  "objective": "Predict -1/0/+1 NVDA adjusted-close movement using previous-day news.",
+  "target": {
+    "column": "price_move_2pct",
+    "encoding": {
+      "-1": "return <= -2%",
+      "0": "-2% < return < 2%",
+      "1": "return >= 2%"
+    }
+  },
+  "unit_of_analysis": "one NVDA trading session",
+  "news_rule": "Representative direct/indirect articles from the previous New York calendar date.",
+  "source_sha256": {
+    "matched_one_day/output/daily_stock_news_summary.csv": "4c543792588ffb8b7ef5b1f0f83cbef87851768f68b0b243c61fb0e9886c6d07",
+    "matched_one_day/output/stock_news_matches.csv": "e11fdf39ce1cd9fc8ebd804222e25de171ff44598e88e896f41219e0d99ed304",
+    "matched_one_day/output/validation_report.json": "da282b0cb2655cb72dbcf9dc5abb1a5531a8816f2ff2b1c1acb9a59eab004b38"
+  },
+  "source_files_unchanged": true,
+  "package_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.1"
+  },
+  "sample": {
+    "eligible_sessions": 146,
+    "date_range": [
+      "2025-10-02",
+      "2026-05-01"
+    ],
+    "class_counts": {
+      "-1": 25,
+      "0": 96,
+      "1": 25
+    },
+    "train_sessions": 102,
+    "train_date_range": [
+      "2025-10-02",
+      "2026-02-27"
+    ],
+    "train_class_counts": {
+      "-1": 20,
+      "0": 65,
+      "1": 17
+    },
+    "test_sessions": 44,
+    "test_date_range": [
+      "2026-03-02",
+      "2026-05-01"
+    ],
+    "test_class_counts": {
+      "-1": 5,
+      "0": 31,
+      "1": 8
+    }
+  },
+  "tfidf": {
+    "text": "headline and summary concatenated per session",
+    "lowercase": true,
+    "strip_accents": "unicode",
+    "stop_words": "english",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 3,
+    "max_df": 0.9,
+    "max_features": 500,
+    "sublinear_tf": true,
+    "norm": "l2",
+    "fit_policy": "fit independently inside each training fold and once on final training data"
+  },
+  "market_features": [
+    "prior_return",
+    "prior_volatility_20d",
+    "log1p_article_count"
+  ],
+  "classifier": "class-balanced L2 multinomial logistic regression",
+  "chronological_evaluation": {
+    "train_fraction": 0.7,
+    "cv_splits": 4,
+    "c_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "selection_metric": "mean macro F1; balanced accuracy and log loss break ties"
+  },
+  "selected_hyperparameters": {
+    "market_only": {
+      "c": 0.1,
+      "mean_cv_macro_f1": 0.21562881562881564,
+      "mean_cv_balanced_accuracy": 0.3042443667443668,
+      "mean_cv_log_loss": 1.1520359522385757
+    },
+    "tfidf_only": {
+      "c": 10.0,
+      "mean_cv_macro_f1": 0.3021978021978022,
+      "mean_cv_balanced_accuracy": 0.3363927738927739,
+      "mean_cv_log_loss": 1.0149670346611475
+    },
+    "market_plus_tfidf": {
+      "c": 0.1,
+      "mean_cv_macro_f1": 0.21562881562881564,
+      "mean_cv_balanced_accuracy": 0.3042443667443668,
+      "mean_cv_log_loss": 1.1470538279658449
+    }
+  },
+  "final_feature_counts": {
+    "market_only": 3,
+    "tfidf_only": 500,
+    "market_plus_tfidf": 503
+  },
+  "held_out_metrics": {
+    "class_prior": {
+      "n": 44,
+      "accuracy": 0.7045454545454546,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.27555555555555555,
+      "log_loss": 0.8283734158528069,
+      "macro_ovr_auc": 0.5,
+      "per_class": {
+        "down": {
+          "support": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "neutral": {
+          "support": 31,
+          "precision": 0.7045454545454546,
+          "recall": 1.0,
+          "f1": 0.8266666666666667
+        },
+        "up": {
+          "support": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "market_only": {
+      "n": 44,
+      "accuracy": 0.25,
+      "balanced_accuracy": 0.3728494623655914,
+      "macro_f1": 0.22930700735578782,
+      "log_loss": 1.140652358610622,
+      "macro_ovr_auc": 0.5617159498207885,
+      "per_class": {
+        "down": {
+          "support": 5,
+          "precision": 0.13333333333333333,
+          "recall": 0.8,
+          "f1": 0.22857142857142856
+        },
+        "neutral": {
+          "support": 31,
+          "precision": 0.6,
+          "recall": 0.1935483870967742,
+          "f1": 0.2926829268292683
+        },
+        "up": {
+          "support": 8,
+          "precision": 0.25,
+          "recall": 0.125,
+          "f1": 0.16666666666666666
+        }
+      }
+    },
+    "tfidf_only": {
+      "n": 44,
+      "accuracy": 0.6136363636363636,
+      "balanced_accuracy": 0.34623655913978496,
+      "macro_f1": 0.3178743961352657,
+      "log_loss": 0.8721063724941532,
+      "macro_ovr_auc": 0.5368922893116442,
+      "per_class": {
+        "down": {
+          "support": 5,
+          "precision": 0.2,
+          "recall": 0.2,
+          "f1": 0.2
+        },
+        "neutral": {
+          "support": 31,
+          "precision": 0.6842105263157895,
+          "recall": 0.8387096774193549,
+          "f1": 0.7536231884057971
+        },
+        "up": {
+          "support": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "market_plus_tfidf": {
+      "n": 44,
+      "accuracy": 0.22727272727272727,
+      "balanced_accuracy": 0.3061827956989247,
+      "macro_f1": 0.20896464646464644,
+      "log_loss": 1.123931505595405,
+      "macro_ovr_auc": 0.5661835998529546,
+      "per_class": {
+        "down": {
+          "support": 5,
+          "precision": 0.1111111111111111,
+          "recall": 0.6,
+          "f1": 0.1875
+        },
+        "neutral": {
+          "support": 31,
+          "precision": 0.46153846153846156,
+          "recall": 0.1935483870967742,
+          "f1": 0.2727272727272727
+        },
+        "up": {
+          "support": 8,
+          "precision": 0.25,
+          "recall": 0.125,
+          "f1": 0.16666666666666666
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Only 146 fully covered sessions are available; estimates have high sampling uncertainty.",
+    "The neutral class is substantially larger than the up and down classes.",
+    "TF-IDF measures term importance, not linguistic sentiment or causal impact.",
+    "Previous-calendar-day matching excludes same-day premarket news and, for Monday sessions, Friday and Saturday news.",
+    "Retrospectively collected article metadata cannot guarantee historical text availability or completeness.",
+    "Top coefficients are exploratory associations selected on the same training sample."
+  ]
+}

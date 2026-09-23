@@ -1,0 +1,241 @@
+model,class_label,class_name,association,rank,term,coefficient
+tfidf_only,-1,down,positive,1,market cap,1.7139441608928248
+tfidf_only,-1,down,positive,2,bloomberg,1.643526880099522
+tfidf_only,-1,down,positive,3,plan,1.6117890367125849
+tfidf_only,-1,down,positive,4,q3,1.485542225798354
+tfidf_only,-1,down,positive,5,100 billion,1.4850954808398935
+tfidf_only,-1,down,positive,6,november,1.4174253250253
+tfidf_only,-1,down,positive,7,100,1.3209295426439887
+tfidf_only,-1,down,positive,8,giants,1.2404449397857042
+tfidf_only,-1,down,positive,9,buying,1.231313497079784
+tfidf_only,-1,down,positive,10,products,1.210310627077077
+tfidf_only,-1,down,positive,11,minute,1.1960920698847566
+tfidf_only,-1,down,positive,12,autonomous,1.1955134003756154
+tfidf_only,-1,down,positive,13,house,1.1929835894966894
+tfidf_only,-1,down,positive,14,spending,1.181349842271714
+tfidf_only,-1,down,positive,15,late,1.1687147958953323
+tfidf_only,-1,down,positive,16,000,1.1159516008100092
+tfidf_only,-1,down,positive,17,donald trump,1.0977541992215551
+tfidf_only,-1,down,positive,18,donald,1.0977541992215551
+tfidf_only,-1,down,positive,19,nvidia earnings,1.0950543573231695
+tfidf_only,-1,down,positive,20,ahead nvidia,1.0726978663968647
+tfidf_only,-1,down,negative,1,edge,-1.3295860349236701
+tfidf_only,-1,down,negative,2,watch,-1.1500322336871514
+tfidf_only,-1,down,negative,3,tuesday,-1.1409692259296298
+tfidf_only,-1,down,negative,4,security,-1.1312286689634716
+tfidf_only,-1,down,negative,5,robotics,-1.051354176554105
+tfidf_only,-1,down,negative,6,micron,-1.0005486852118495
+tfidf_only,-1,down,negative,7,meta,-0.9965300889291527
+tfidf_only,-1,down,negative,8,systems,-0.9753758779926613
+tfidf_only,-1,down,negative,9,dominance,-0.9326356887118872
+tfidf_only,-1,down,negative,10,amazon,-0.9051517028591608
+tfidf_only,-1,down,negative,11,prices,-0.900825148963944
+tfidf_only,-1,down,negative,12,competition,-0.8978417341436117
+tfidf_only,-1,down,negative,13,partnerships,-0.8781607215357011
+tfidf_only,-1,down,negative,14,launch,-0.824278080444681
+tfidf_only,-1,down,negative,15,tsmc,-0.8181722944436318
+tfidf_only,-1,down,negative,16,series,-0.8178693617813017
+tfidf_only,-1,down,negative,17,valuation,-0.79894781036834
+tfidf_only,-1,down,negative,18,level,-0.7934625293916286
+tfidf_only,-1,down,negative,19,stock nvidia,-0.7891149237851629
+tfidf_only,-1,down,negative,20,bitcoin,-0.782005518384437
+tfidf_only,0,neutral,positive,1,india,1.3387872951034712
+tfidf_only,0,neutral,positive,2,intel,1.1802326861963437
+tfidf_only,0,neutral,positive,3,stock nvidia,1.1655030531725792
+tfidf_only,0,neutral,positive,4,series,1.1440658248950841
+tfidf_only,0,neutral,positive,5,prices,1.1303004401670265
+tfidf_only,0,neutral,positive,6,meta,1.1181788737021876
+tfidf_only,0,neutral,positive,7,avgo,1.1108828211456823
+tfidf_only,0,neutral,positive,8,long term,1.0512741623994644
+tfidf_only,0,neutral,positive,9,partner,1.039915596327895
+tfidf_only,0,neutral,positive,10,coreweave,1.0326986528863689
+tfidf_only,0,neutral,positive,11,ces,1.0032629658933134
+tfidf_only,0,neutral,positive,12,says,0.9761500406123242
+tfidf_only,0,neutral,positive,13,value,0.955559934321597
+tfidf_only,0,neutral,positive,14,partners,0.9309219921186804
+tfidf_only,0,neutral,positive,15,open,0.9194449277687667
+tfidf_only,0,neutral,positive,16,ai driven,0.9073191811472574
+tfidf_only,0,neutral,positive,17,collaboration,0.8458873971568963
+tfidf_only,0,neutral,positive,18,term,0.8267523877730668
+tfidf_only,0,neutral,positive,19,google,0.8186606758560767
+tfidf_only,0,neutral,positive,20,massive,0.8051193142198734
+tfidf_only,0,neutral,negative,1,minute,-1.848117649471719
+tfidf_only,0,neutral,negative,2,q3,-1.7561964536195118
+tfidf_only,0,neutral,negative,3,quarterly,-1.472335203306938
+tfidf_only,0,neutral,negative,4,plan,-1.4692427646480786
+tfidf_only,0,neutral,negative,5,tech stocks,-1.4062589260248113
+tfidf_only,0,neutral,negative,6,administration,-1.3951048162407709
+tfidf_only,0,neutral,negative,7,chief,-1.3683902825282268
+tfidf_only,0,neutral,negative,8,trump,-1.212944123217597
+tfidf_only,0,neutral,negative,9,november,-1.2074216996705431
+tfidf_only,0,neutral,negative,10,donald trump,-1.167305831506004
+tfidf_only,0,neutral,negative,11,donald,-1.167305831506004
+tfidf_only,0,neutral,negative,12,export,-1.0418199310954608
+tfidf_only,0,neutral,negative,13,partnerships,-1.037273992874063
+tfidf_only,0,neutral,negative,14,run,-0.9917715233454661
+tfidf_only,0,neutral,negative,15,market cap,-0.9790566987764647
+tfidf_only,0,neutral,negative,16,equity,-0.9718543661155596
+tfidf_only,0,neutral,negative,17,amzn,-0.9546465426827125
+tfidf_only,0,neutral,negative,18,msft,-0.9301726733872843
+tfidf_only,0,neutral,negative,19,34,-0.9269772572398137
+tfidf_only,0,neutral,negative,20,rating,-0.9170589752192928
+tfidf_only,1,up,positive,1,administration,2.056198052567749
+tfidf_only,1,up,positive,2,partnerships,1.9154347144097645
+tfidf_only,1,up,positive,3,chief,1.865689822653285
+tfidf_only,1,up,positive,4,launch,1.3135129973994624
+tfidf_only,1,up,positive,5,msft,1.3037865601571776
+tfidf_only,1,up,positive,6,amzn,1.2389324820517564
+tfidf_only,1,up,positive,7,trump,1.1854219724835968
+tfidf_only,1,up,positive,8,moves,1.165757874748248
+tfidf_only,1,up,positive,9,read,1.1272323710228043
+tfidf_only,1,up,positive,10,hbm,1.126806367811576
+tfidf_only,1,up,positive,11,edge,1.0919617423995152
+tfidf_only,1,up,positive,12,bitcoin,1.0795743178831563
+tfidf_only,1,up,positive,13,led,1.005853498282596
+tfidf_only,1,up,positive,14,performance,0.9891112677958597
+tfidf_only,1,up,positive,15,ai bubble,0.9832678745234276
+tfidf_only,1,up,positive,16,security,0.973050226716411
+tfidf_only,1,up,positive,17,outperform,0.9676920996613653
+tfidf_only,1,up,positive,18,amazon,0.9349321190646854
+tfidf_only,1,up,positive,19,new ai,0.9112917752942304
+tfidf_only,1,up,positive,20,memory,0.9059728958619752
+tfidf_only,1,up,negative,1,india,-1.5774376200540574
+tfidf_only,1,up,negative,2,taiwan semiconductor,-1.45216075497851
+tfidf_only,1,up,negative,3,bloomberg,-1.40003567003505
+tfidf_only,1,up,negative,4,compute,-1.255250704351888
+tfidf_only,1,up,negative,5,super,-1.2408672964661298
+tfidf_only,1,up,negative,6,group,-1.2383572278255557
+tfidf_only,1,up,negative,7,samsung,-1.2176092164225052
+tfidf_only,1,up,negative,8,q4,-1.2128030738488502
+tfidf_only,1,up,negative,9,taiwan,-1.2029005384343703
+tfidf_only,1,up,negative,10,open,-1.137787538422601
+tfidf_only,1,up,negative,11,100 billion,-1.1197773406243925
+tfidf_only,1,up,negative,12,firms,-1.1026983880065102
+tfidf_only,1,up,negative,13,ai stocks,-1.0944876175974079
+tfidf_only,1,up,negative,14,portfolio,-1.0689455730700976
+tfidf_only,1,up,negative,15,google,-1.058708099530934
+tfidf_only,1,up,negative,16,100,-1.0362734522101866
+tfidf_only,1,up,negative,17,long term,-1.0155425176764727
+tfidf_only,1,up,negative,18,products,-0.9948428188069597
+tfidf_only,1,up,negative,19,multi,-0.9947547569782421
+tfidf_only,1,up,negative,20,record,-0.9942762872970451
+market_plus_tfidf,-1,down,positive,1,bloomberg,0.052399947298705174
+market_plus_tfidf,-1,down,positive,2,market cap,0.04760225281041596
+market_plus_tfidf,-1,down,positive,3,q3,0.047585404198725034
+market_plus_tfidf,-1,down,positive,4,musk,0.046585514977209724
+market_plus_tfidf,-1,down,positive,5,plan,0.04512473710456088
+market_plus_tfidf,-1,down,positive,6,100 billion,0.039018896868278585
+market_plus_tfidf,-1,down,positive,7,elon musk,0.03895736271811868
+market_plus_tfidf,-1,down,positive,8,elon,0.03895736271811868
+market_plus_tfidf,-1,down,positive,9,export,0.03870135684907126
+market_plus_tfidf,-1,down,positive,10,donald trump,0.03797673617994391
+market_plus_tfidf,-1,down,positive,11,donald,0.03797673617994391
+market_plus_tfidf,-1,down,positive,12,november,0.03783009319839785
+market_plus_tfidf,-1,down,positive,13,autonomous,0.035959906439545844
+market_plus_tfidf,-1,down,positive,14,spending,0.03558189087524694
+market_plus_tfidf,-1,down,positive,15,gpu,0.03369721492049184
+market_plus_tfidf,-1,down,positive,16,sales,0.03356432795761245
+market_plus_tfidf,-1,down,positive,17,firm,0.03344468087491958
+market_plus_tfidf,-1,down,positive,18,house,0.03335793835738031
+market_plus_tfidf,-1,down,positive,19,products,0.033171841352080754
+market_plus_tfidf,-1,down,positive,20,micro devices,0.03147495534464054
+market_plus_tfidf,-1,down,negative,1,watch,-0.03965072470113336
+market_plus_tfidf,-1,down,negative,2,edge,-0.03906394613683039
+market_plus_tfidf,-1,down,negative,3,tuesday,-0.03657454134848969
+market_plus_tfidf,-1,down,negative,4,amazon,-0.03584664165074925
+market_plus_tfidf,-1,down,negative,5,partnerships,-0.03415348079591805
+market_plus_tfidf,-1,down,negative,6,meta,-0.033962048336917856
+market_plus_tfidf,-1,down,negative,7,micron,-0.033482583798127276
+market_plus_tfidf,-1,down,negative,8,launch,-0.03218080795189792
+market_plus_tfidf,-1,down,negative,9,prices,-0.031226354249663513
+market_plus_tfidf,-1,down,negative,10,security,-0.03041915960861168
+market_plus_tfidf,-1,down,negative,11,systems,-0.0284602625565088
+market_plus_tfidf,-1,down,negative,12,sell,-0.02836904650776776
+market_plus_tfidf,-1,down,negative,13,magnificent,-0.028325636347783786
+market_plus_tfidf,-1,down,negative,14,biggest,-0.026597314941558675
+market_plus_tfidf,-1,down,negative,15,plans,-0.025045243097462814
+market_plus_tfidf,-1,down,negative,16,competition,-0.024599473812323747
+market_plus_tfidf,-1,down,negative,17,dominance,-0.02417114094539397
+market_plus_tfidf,-1,down,negative,18,chief,-0.023309858707704488
+market_plus_tfidf,-1,down,negative,19,broader,-0.023064662596131737
+market_plus_tfidf,-1,down,negative,20,earlier,-0.022823426110806014
+market_plus_tfidf,0,neutral,positive,1,india,0.04167132223825865
+market_plus_tfidf,0,neutral,positive,2,partner,0.033336964506534915
+market_plus_tfidf,0,neutral,positive,3,series,0.03129356383620806
+market_plus_tfidf,0,neutral,positive,4,prices,0.03099733272873855
+market_plus_tfidf,0,neutral,positive,5,stock nvidia,0.03065235589727837
+market_plus_tfidf,0,neutral,positive,6,intel,0.03013485641043918
+market_plus_tfidf,0,neutral,positive,7,2026,0.02832605064424457
+market_plus_tfidf,0,neutral,positive,8,open,0.02822352119890827
+market_plus_tfidf,0,neutral,positive,9,value,0.028201951965148606
+market_plus_tfidf,0,neutral,positive,10,ces,0.02795789395285782
+market_plus_tfidf,0,neutral,positive,11,2026 nvidia,0.026839897849083902
+market_plus_tfidf,0,neutral,positive,12,coreweave,0.026683955760990627
+market_plus_tfidf,0,neutral,positive,13,says,0.0265942798144902
+market_plus_tfidf,0,neutral,positive,14,building,0.026073905353956147
+market_plus_tfidf,0,neutral,positive,15,wall,0.02570435000988106
+market_plus_tfidf,0,neutral,positive,16,partners,0.025590435941939545
+market_plus_tfidf,0,neutral,positive,17,meta,0.025267949169800033
+market_plus_tfidf,0,neutral,positive,18,ai driven,0.024036693807742846
+market_plus_tfidf,0,neutral,positive,19,compute,0.02373917102711293
+market_plus_tfidf,0,neutral,positive,20,return,0.02354173625623575
+market_plus_tfidf,0,neutral,negative,1,q3,-0.05683162898493413
+market_plus_tfidf,0,neutral,negative,2,trump,-0.052635863184559116
+market_plus_tfidf,0,neutral,negative,3,donald,-0.04268470377108328
+market_plus_tfidf,0,neutral,negative,4,donald trump,-0.04268470377108328
+market_plus_tfidf,0,neutral,negative,5,administration,-0.04162486968467409
+market_plus_tfidf,0,neutral,negative,6,china,-0.041325460480959086
+market_plus_tfidf,0,neutral,negative,7,business,-0.03970650609794735
+market_plus_tfidf,0,neutral,negative,8,export,-0.03857786452104155
+market_plus_tfidf,0,neutral,negative,9,plan,-0.0380057292265332
+market_plus_tfidf,0,neutral,negative,10,minute,-0.037565040294474016
+market_plus_tfidf,0,neutral,negative,11,chief,-0.0370930941673264
+market_plus_tfidf,0,neutral,negative,12,musk,-0.03496559210312317
+market_plus_tfidf,0,neutral,negative,13,quarterly,-0.03488437131655458
+market_plus_tfidf,0,neutral,negative,14,tech stocks,-0.03354001205838349
+market_plus_tfidf,0,neutral,negative,15,tariff,-0.03237133005672661
+market_plus_tfidf,0,neutral,negative,16,october,-0.031714872574432534
+market_plus_tfidf,0,neutral,negative,17,run,-0.031145243034168775
+market_plus_tfidf,0,neutral,negative,18,quantum,-0.030256276993530253
+market_plus_tfidf,0,neutral,negative,19,market cap,-0.030178526488502413
+market_plus_tfidf,0,neutral,negative,20,xai,-0.02892188632332455
+market_plus_tfidf,1,up,positive,1,administration,0.06253113167598622
+market_plus_tfidf,1,up,positive,2,partnerships,0.06062062840275158
+market_plus_tfidf,1,up,positive,3,chief,0.06040295287503094
+market_plus_tfidf,1,up,positive,4,launch,0.04191011168037711
+market_plus_tfidf,1,up,positive,5,trump,0.0414802615679453
+market_plus_tfidf,1,up,positive,6,edge,0.041283506508198085
+market_plus_tfidf,1,up,positive,7,hbm,0.041255299889360116
+market_plus_tfidf,1,up,positive,8,moves,0.04124864448902794
+market_plus_tfidf,1,up,positive,9,amzn,0.03816349230906375
+market_plus_tfidf,1,up,positive,10,msft,0.037572802175895585
+market_plus_tfidf,1,up,positive,11,amazon,0.03731670671060228
+market_plus_tfidf,1,up,positive,12,read,0.03703736280320308
+market_plus_tfidf,1,up,positive,13,watch,0.03623397639553265
+market_plus_tfidf,1,up,positive,14,new ai,0.034276786250197595
+market_plus_tfidf,1,up,positive,15,session,0.032992857937937166
+market_plus_tfidf,1,up,positive,16,business,0.03246939098468093
+market_plus_tfidf,1,up,positive,17,consumer,0.032416346950681574
+market_plus_tfidf,1,up,positive,18,bitcoin,0.032194247365980026
+market_plus_tfidf,1,up,positive,19,tariff,0.03138868571740879
+market_plus_tfidf,1,up,positive,20,ai data,0.030809421424113564
+market_plus_tfidf,1,up,negative,1,taiwan semiconductor,-0.045801034884959624
+market_plus_tfidf,1,up,negative,2,compute,-0.04300301182741638
+market_plus_tfidf,1,up,negative,3,bloomberg,-0.04171385773344701
+market_plus_tfidf,1,up,negative,4,taiwan,-0.040769354330397904
+market_plus_tfidf,1,up,negative,5,india,-0.03832231129858181
+market_plus_tfidf,1,up,negative,6,super,-0.03747152812974096
+market_plus_tfidf,1,up,negative,7,100 billion,-0.03634784421335898
+market_plus_tfidf,1,up,negative,8,group,-0.035255594902823
+market_plus_tfidf,1,up,negative,9,ai stocks,-0.03374334423853955
+market_plus_tfidf,1,up,negative,10,firms,-0.03294003641589706
+market_plus_tfidf,1,up,negative,11,samsung,-0.03262365995838657
+market_plus_tfidf,1,up,negative,12,open,-0.03083838765511799
+market_plus_tfidf,1,up,negative,13,q4,-0.030740520578600397
+market_plus_tfidf,1,up,negative,14,best,-0.03069087543945969
+market_plus_tfidf,1,up,negative,15,rival,-0.030594484332178606
+market_plus_tfidf,1,up,negative,16,analysts,-0.029129356530131184
+market_plus_tfidf,1,up,negative,17,2026 nvidia,-0.029088452537914755
+market_plus_tfidf,1,up,negative,18,dollar,-0.02906756711203898
+market_plus_tfidf,1,up,negative,19,products,-0.02900830228101812
+market_plus_tfidf,1,up,negative,20,100,-0.028345063610981713
