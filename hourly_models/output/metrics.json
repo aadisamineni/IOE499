@@ -1,0 +1,257 @@
+{
+  "generated_utc": "2026-10-05T15:33:42.980156+00:00",
+  "hourly_source_commit": "c024dae052f7b5fca064e67e8242b054b8d005a6",
+  "source_sha256": {
+    "data/raw/NVDA_hourly_2025-10-01_2026-05-31.csv": "5bca93c7c272dbf2239bdc4c14dde26ff3f36cf5648d301f2e77ce9938597bba",
+    "news data pull/processed/all_classified_articles.csv": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9",
+    "data/matched/2025-09-15_2026-05-15/collection_coverage_by_day.csv": "a739eff33ca2faa5823ff04bccddbbbaeba62fa44c57e99195ffe3ac200002b8"
+  },
+  "versions": {
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "pandas_market_calendars": "5.4.0",
+    "matplotlib": "3.11.2"
+  },
+  "threshold": 0.01,
+  "return_definition": "same full 60-minute bar close / open - 1; regular session; no overnight target",
+  "news_windows": "[start-1h,start) and [start-24h,start); UTC comparisons, NASDAQ calendar with DST/early closes",
+  "settings": {
+    "logistic_C": 0.1,
+    "ridge_alpha": 10,
+    "logistic_probability_threshold": 0.5,
+    "train_day_fraction": 0.7,
+    "overlap_embargo_hours": 24
+  },
+  "input_bars": 1156,
+  "usable_hours": 796,
+  "train": {
+    "hours": 550,
+    "days": 94,
+    "large_moves": 79,
+    "start": "2025-10-06T15:30:00+00:00",
+    "end": "2026-02-25T20:30:00+00:00"
+  },
+  "test": {
+    "hours": 246,
+    "days": 41,
+    "large_moves": 35,
+    "start": "2026-03-02T14:30:00+00:00",
+    "end": "2026-05-01T19:30:00+00:00"
+  },
+  "embargo_hours": 0,
+  "exclusion_reason_counts_nonexclusive": {
+    "missing_prior_market_controls": 215,
+    "incomplete_or_uncertain_news_coverage": 175,
+    "not_full_60_minute_bar": 166,
+    "missing_or_invalid_current_prices": 11
+  },
+  "news_timestamp_rejections": 0,
+  "feature_sets": {
+    "market_only": [
+      "prior_return",
+      "prior_abs_return",
+      "prior_volatility_20bars",
+      "log_prior_volume",
+      "log_average_volume_20bars",
+      "minutes_since_open",
+      "hours_since_prior_bar"
+    ],
+    "market_plus_news_count": [
+      "prior_return",
+      "prior_abs_return",
+      "prior_volatility_20bars",
+      "log_prior_volume",
+      "log_average_volume_20bars",
+      "minutes_since_open",
+      "hours_since_prior_bar",
+      "log_article_count_1h",
+      "log_article_count_24h"
+    ],
+    "market_plus_news_words": [
+      "prior_return",
+      "prior_abs_return",
+      "prior_volatility_20bars",
+      "log_prior_volume",
+      "log_average_volume_20bars",
+      "minutes_since_open",
+      "hours_since_prior_bar",
+      "log_article_count_1h",
+      "log_article_count_24h",
+      "log_ai_articles_1h",
+      "log_chip_articles_1h",
+      "log_earnings_articles_1h",
+      "log_infrastructure_articles_1h",
+      "log_demand_articles_1h",
+      "log_china_articles_1h",
+      "log_hit_articles_1h",
+      "log_ai_articles_24h",
+      "log_chip_articles_24h",
+      "log_earnings_articles_24h",
+      "log_infrastructure_articles_24h",
+      "log_demand_articles_24h",
+      "log_china_articles_24h",
+      "log_hit_articles_24h"
+    ]
+  },
+  "logistic": {
+    "constant": {
+      "n": 246,
+      "positive_events": 35,
+      "prevalence": 0.14227642276422764,
+      "roc_auc": 0.5,
+      "average_precision": 0.14227642276422764,
+      "accuracy": 0.8577235772357723,
+      "balanced_accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "brier_score": 0.1220356917288181,
+      "log_loss": 0.40908196654436246,
+      "confusion_matrix_actual_rows_0_1": [
+        [
+          211,
+          0
+        ],
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    "market_only": {
+      "n": 246,
+      "positive_events": 35,
+      "prevalence": 0.14227642276422764,
+      "roc_auc": 0.7110358835477318,
+      "average_precision": 0.2658483590954342,
+      "accuracy": 0.8536585365853658,
+      "balanced_accuracy": 0.4976303317535545,
+      "precision": 0.0,
+      "recall": 0.0,
+      "brier_score": 0.11445787305229674,
+      "log_loss": 0.37708781820935483,
+      "confusion_matrix_actual_rows_0_1": [
+        [
+          210,
+          1
+        ],
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    "market_plus_news_count": {
+      "n": 246,
+      "positive_events": 35,
+      "prevalence": 0.14227642276422764,
+      "roc_auc": 0.7133378469871361,
+      "average_precision": 0.26755510492487167,
+      "accuracy": 0.8536585365853658,
+      "balanced_accuracy": 0.4976303317535545,
+      "precision": 0.0,
+      "recall": 0.0,
+      "brier_score": 0.11461708590131227,
+      "log_loss": 0.3766917074822897,
+      "confusion_matrix_actual_rows_0_1": [
+        [
+          210,
+          1
+        ],
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    "market_plus_news_words": {
+      "n": 246,
+      "positive_events": 35,
+      "prevalence": 0.14227642276422764,
+      "roc_auc": 0.7114421123899797,
+      "average_precision": 0.2712033316912584,
+      "accuracy": 0.8495934959349594,
+      "balanced_accuracy": 0.495260663507109,
+      "precision": 0.0,
+      "recall": 0.0,
+      "brier_score": 0.11553461478712435,
+      "log_loss": 0.3804373879320686,
+      "confusion_matrix_actual_rows_0_1": [
+        [
+          209,
+          2
+        ],
+        [
+          35,
+          0
+        ]
+      ]
+    }
+  },
+  "ridge": {
+    "training_mean": {
+      "mae": 0.003667207731369801,
+      "rmse": 0.005472322209271778,
+      "r2": -0.00013082851356127634,
+      "mean_prediction": 0.005064144539958312
+    },
+    "training_median": {
+      "mae": 0.0034397794490978514,
+      "rmse": 0.005809846497076963,
+      "r2": -0.12730857118762273,
+      "mean_prediction": 0.0031743182979321327
+    },
+    "market_only": {
+      "mae": 0.0036173561643174272,
+      "rmse": 0.005293945441730939,
+      "r2": 0.06400739915873066,
+      "mean_prediction": 0.005164954646758305,
+      "negative_raw_test_predictions_clipped": 0
+    },
+    "market_plus_news_count": {
+      "mae": 0.00362577752017373,
+      "rmse": 0.00528895154191484,
+      "r2": 0.06577245271420173,
+      "mean_prediction": 0.005279869624708193,
+      "negative_raw_test_predictions_clipped": 0
+    },
+    "market_plus_news_words": {
+      "mae": 0.003631547005345583,
+      "rmse": 0.0053788468161628895,
+      "r2": 0.033744796887393846,
+      "mean_prediction": 0.004972412746361049,
+      "negative_raw_test_predictions_clipped": 0
+    }
+  },
+  "paired_uncertainty": {
+    "method": "2000 paired trading-day bootstrap samples; fixed fitted models; seed=42",
+    "news_minus_market_brier_95pct": [
+      -0.003826258935271617,
+      0.0064257316467768175
+    ],
+    "news_minus_market_MAE_95pct": [
+      -0.00011272093390631612,
+      0.000138982373434402
+    ],
+    "interpretation": "Negative favors news. Conditional sampling uncertainty, not a causal/significance guarantee."
+  },
+  "limitations": [
+    "One stock and already explored historical period; not a pristine prospective test.",
+    "News collected retrospectively; versions and publisher coverage are not guaranteed.",
+    "Known hourly price gaps remain missing; no interpolation. Final half-hour bars excluded as outcomes.",
+    "Seven words fixed for this run; hit was motivated by prior full-sample exploration.",
+    "Hourly rows within a day are dependent. News repeats across windows; test is separated by days and 24-hour embargo.",
+    "Preceding windows are elapsed hours, not full weekend aggregation. First-hour targets omit overnight price jumps.",
+    "Absolute return is a magnitude proxy, not a full measure of realized volatility. No causal interpretation."
+  ],
+  "validation": {
+    "source_files_unchanged": true,
+    "news_strictly_before_open": true,
+    "controls_available_by_open": true,
+    "only_full_hour_targets": true,
+    "train_test_dates_disjoint": true,
+    "train_test_article_ids_disjoint": true,
+    "scaling_fitted_on_training_only": true,
+    "models_converged": true
+  }
+}
