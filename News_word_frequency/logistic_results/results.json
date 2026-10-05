@@ -1,0 +1,113 @@
+{
+  "outcome": "abs(adjusted_close_return_1d) >= 0.01",
+  "news_window": "72 hours before previous NASDAQ close",
+  "words_prespecified": [
+    "ai",
+    "chip",
+    "earnings",
+    "infrastructure",
+    "demand",
+    "china"
+  ],
+  "features": {
+    "baseline": [
+      "prior_abs_return",
+      "prior_volatility_20d",
+      "article_count"
+    ],
+    "with_news_words": [
+      "prior_abs_return",
+      "prior_volatility_20d",
+      "article_count",
+      "word_ai",
+      "word_chip",
+      "word_earnings",
+      "word_infrastructure",
+      "word_demand",
+      "word_china"
+    ]
+  },
+  "model": "L2 logistic regression; log1p counts; predictors scaled using training data only; C=1",
+  "sample": {
+    "usable_sessions": 138,
+    "train_sessions": 96,
+    "test_sessions": 42,
+    "train_large_moves": 61,
+    "test_large_moves": 29,
+    "train_date_range": [
+      "2025-10-07",
+      "2026-02-24"
+    ],
+    "test_date_range": [
+      "2026-02-25",
+      "2026-05-04"
+    ],
+    "excluded_for_incomplete_news_collection": 28,
+    "excluded_for_missing_market_controls": 0,
+    "rejected_news_publication_timestamps": 0
+  },
+  "held_out_metrics": {
+    "training_rate_only": {
+      "n": 42,
+      "large_moves": 29,
+      "auc": 0.5,
+      "brier": 0.21675037202380956,
+      "log_loss": 0.6254227900300171,
+      "accuracy": 0.6904761904761905,
+      "balanced_accuracy": 0.5,
+      "precision": 0.6904761904761905,
+      "recall": 1.0
+    },
+    "baseline": {
+      "n": 42,
+      "large_moves": 29,
+      "auc": 0.4615384615384615,
+      "brier": 0.22206581202587478,
+      "log_loss": 0.638207349894372,
+      "accuracy": 0.6904761904761905,
+      "balanced_accuracy": 0.5,
+      "precision": 0.6904761904761905,
+      "recall": 1.0
+    },
+    "with_news_words": {
+      "n": 42,
+      "large_moves": 29,
+      "auc": 0.5994694960212201,
+      "brier": 0.21367701617202906,
+      "log_loss": 0.6209577912336519,
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.5039787798408488,
+      "precision": 0.6923076923076923,
+      "recall": 0.9310344827586207
+    }
+  },
+  "difference_news_minus_baseline": {
+    "auc": 0.13793103448275862,
+    "brier": -0.00838879585384572,
+    "log_loss": -0.017249558660720088
+  },
+  "training_odds_ratio_per_one_standard_deviation": {
+    "baseline": {
+      "prior_abs_return": 1.2291519801162232,
+      "prior_volatility_20d": 1.1193581536877042,
+      "article_count": 1.3335940903888646
+    },
+    "with_news_words": {
+      "prior_abs_return": 1.2298233563006709,
+      "prior_volatility_20d": 1.145811827072688,
+      "article_count": 1.2874814826514487,
+      "word_ai": 1.2022813852459562,
+      "word_chip": 1.1390511523907154,
+      "word_earnings": 1.0480840566372107,
+      "word_infrastructure": 0.9911330681488477,
+      "word_demand": 0.6475547011181633,
+      "word_china": 1.1685215042297663
+    }
+  },
+  "limitations": [
+    "Small, single chronological test period; results do not establish statistical significance.",
+    "Odds ratios are from regularized models and do not have p-values.",
+    "News was collected retrospectively; historical article availability and text revisions are not fully verifiable.",
+    "Verified collection windows do not guarantee complete publisher coverage."
+  ]
+}
