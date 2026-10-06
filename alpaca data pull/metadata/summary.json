@@ -1,0 +1,74 @@
+{
+  "generated_at_utc": "2026-10-06T06:08:23.479121+00:00",
+  "status": "in_progress",
+  "symbol": "NVDA",
+  "start_inclusive": "2025-10-01",
+  "end_inclusive": "2026-05-01",
+  "selected_feeds": [
+    "sip",
+    "boats"
+  ],
+  "feed_probe": {
+    "sip": "available",
+    "boats": "available"
+  },
+  "credentials_logged": false,
+  "file_format": "gzip-compressed newline-delimited JSON; Alpaca fields preserved",
+  "manifest_entries": 1086,
+  "by_feed_and_kind": {
+    "sip": {
+      "bars": {
+        "files": 213,
+        "rows": 139268,
+        "compressed_bytes": 3315290
+      },
+      "trades": {
+        "files": 213,
+        "rows": 375508186,
+        "compressed_bytes": 4279316676
+      },
+      "quotes": {
+        "files": 19,
+        "rows": 36282429,
+        "compressed_bytes": 295536570
+      },
+      "auctions": {
+        "files": 213,
+        "rows": 147,
+        "compressed_bytes": 41465
+      }
+    },
+    "boats": {
+      "bars": {
+        "files": 213,
+        "rows": 63955,
+        "compressed_bytes": 1207112
+      },
+      "trades": {
+        "files": 213,
+        "rows": 3914953,
+        "compressed_bytes": 43019279
+      },
+      "quotes": {
+        "files": 1,
+        "rows": 66441,
+        "compressed_bytes": 421007
+      }
+    },
+    "reference": {
+      "corporate_actions": {
+        "files": 1,
+        "rows": 3,
+        "compressed_bytes": 343
+      }
+    }
+  },
+  "api_requests_this_run": 25397,
+  "documentation": {
+    "bars": "https://docs.alpaca.markets/us/reference/stockbarsingle-1",
+    "trades": "https://docs.alpaca.markets/us/v1.4.2/reference/stocktradesingle-1",
+    "quotes": "https://docs.alpaca.markets/us/reference/stockquotes-1",
+    "auctions": "https://docs.alpaca.markets/us/reference/stockauctions-1",
+    "corporate_actions": "https://docs.alpaca.markets/us/reference/corporateactions-1"
+  }
+}

@@ -165,6 +165,15 @@ three-class text model with class-prior and market-control baselines:
 .venv/bin/python tf-idf/tfidf_stock_direction.py
 ```
 
+The separate [hourly TF-IDF experiment](tf-idf-hourly/README.md) assigns newly
+available representative news to non-overlapping hourly prediction windows. It
+tests both next-bar direction and a fixed ±0.5% movement band, with all model
+selection and held-out splits blocked by complete trading dates:
+
+```sh
+.venv/bin/python tf-idf-hourly/hourly_tfidf.py
+```
+
 ## News theme analysis and research outputs
 
 The project now includes a theme-analysis workflow for the matched NVDA

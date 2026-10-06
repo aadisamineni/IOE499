@@ -9,6 +9,11 @@ data/raw/*_failure.json
 DataPull/Aadi_apikey.txt
 Aadi_apikey.txt
 
+# Local Alpaca credentials and resumable bulk market-data downloads.
+Alpaca_api_key/
+alpaca data pull/raw/
+alpaca data pull/.state/
+
 # Local Python environments and bytecode for the news pipeline.
 news data pull/.venv/
 news data pull/**/__pycache__/
