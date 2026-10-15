@@ -1,0 +1,5 @@
+numpy>=2.0,<3
+orjson>=3.10,<4
+pandas>=2.2,<3
+pandas-market-calendars>=4.4,<6
+pyarrow>=17,<23
