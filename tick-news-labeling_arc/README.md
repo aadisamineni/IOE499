@@ -1,6 +1,7 @@
 # Tick/news event-dataset builder
 
-This folder contains preprocessing code only. It does not train a model.
+This folder contains the event-dataset builder and an event-level TF-IDF
+training workflow. Dataset building and model training are separate commands.
 
 The pipeline converts deduplicated news into fixed, non-chaining five-minute
 event clusters and joins each cluster to SIP quote midpoints. It produces
@@ -110,6 +111,53 @@ deliberately partial research run.
 
 With `--write-csv`, CSV copies of the two Parquet datasets are also created.
 Parquet is strongly preferred for the training cluster.
+
+The many files under `output/.minute_cache/` are restartable price caches, not
+independent training examples. Train from the consolidated
+`output/news_price_events.parquet` file, which contains one row, one combined
+news document, and one set of outcome labels per event cluster. The optional
+`news_price_events.csv` copy is also accepted by the trainer.
+
+## Train the TF-IDF model
+
+After `build_dataset.py` completes, update the same virtual environment from
+the ARC requirements and train the default clean five-minute model:
+
+```sh
+python -m pip install -r tick-news-labeling_arc/requirements.txt
+python tick-news-labeling_arc/train_tfidf_arc.py \
+  --input tick-news-labeling_arc/output/news_price_events.parquet \
+  --output-dir tick-news-labeling_arc/tfidf_output
+```
+
+The trainer uses `combined_text` as its input and `label_code_5m` as its target.
+It fits TF-IDF and logistic regression on the chronological training split,
+selects regularization on validation, refits on training plus validation, and
+evaluates the test split once. Vocabulary and inverse-document frequencies are
+never fit on held-out test text.
+
+To train a different horizon or use an output folder in another location:
+
+```sh
+python tick-news-labeling_arc/train_tfidf_arc.py \
+  --input /path/to/output/news_price_events.parquet \
+  --horizon 15 \
+  --output-dir /path/to/tfidf_output
+```
+
+By default, only events with `clean_<horizon> == true` are used. Pass
+`--include-contaminated` only for a deliberate comparison that includes later
+news inside the outcome window. Pass `--overwrite` to replace an existing set
+of model outputs.
+
+Training writes:
+
+- `tfidf_model.joblib`: fitted vectorizer and logistic-regression classifier;
+- `validation_metrics.csv`: regularization selection results;
+- `test_predictions.csv`: held-out labels, predictions, and probabilities;
+- `confusion_matrix.csv`: TF-IDF and class-prior confusion matrices;
+- `top_terms_by_class.csv`: strongest class-associated terms; and
+- `model_metrics.json`: settings, counts, hashes, and held-out metrics.
 
 ## Label definition
 

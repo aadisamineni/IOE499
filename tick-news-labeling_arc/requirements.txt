@@ -3,3 +3,5 @@ orjson>=3.10,<4
 pandas>=2.2,<3
 pandas-market-calendars>=4.4,<6
 pyarrow>=17,<23
+joblib>=1.4,<2
+scikit-learn>=1.5,<2
