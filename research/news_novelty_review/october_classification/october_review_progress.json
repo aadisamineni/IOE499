@@ -1,0 +1,32 @@
+{
+  "collection_articles": 53073,
+  "october_articles": 5232,
+  "october_content_assessed": 1934,
+  "october_content_assessed_percent": 36.96,
+  "october_pending": 3298,
+  "direct_indirect_assessed": 1014,
+  "upstream_rejects_assessed": 920,
+  "upstream_rejects_pending": 3298,
+  "reject_review_through_id": 920,
+  "reject_review_through_utc": "2025-10-07T23:30:50Z",
+  "articles_with_linked_web_evidence": 385,
+  "novelty_counts": {
+    "not_established": 1302,
+    "candidate_timing_unresolved": 327,
+    "earlier_disclosure_found": 186,
+    "release_time_supported": 15,
+    "new_detail_candidate": 46,
+    "revision_history_unresolved": 14,
+    "followup_reporting": 36,
+    "timestamp_conflict": 8
+  },
+  "relevance_reconsideration_records": 146,
+  "full_collection_pending": 51139,
+  "full_october_novelty_verification_complete": false,
+  "full_task_complete": false,
+  "first_release_proven_count": 0,
+  "price_outcomes_used": false,
+  "input_sha256": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9",
+  "assessment_limit": "Saved headlines and summaries/excerpts; targeted external checks, not every full article or first disclosure.",
+  "review_date": "2026-10-26"
+}

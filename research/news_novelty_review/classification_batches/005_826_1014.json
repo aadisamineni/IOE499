@@ -1,0 +1,839 @@
+{
+  "sources": {
+    "rainier": {
+      "url": "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+      "time": "2025-10-29 reporting; company-page first minute unresolved",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Operational milestone distinct from earlier project plans."
+    },
+    "verily": {
+      "url": "https://verily.com/newsroom/verily-nvidia-precision-health-ai-collaboration",
+      "time": "2025-10-28 displayed company date",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company page predates saved October 30 wire; version history unresolved."
+    },
+    "seeqc": {
+      "url": "https://www.prnewswire.com/news-releases/seeqc-enables-real-time-digital-quantumgpu-connectivity-with-nvidia-nvqlink-302599489.html",
+      "time": "2025-10-30T13:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Wire index displays 09:00 ET matching saved release minute; integration distinct from October 28 NVQLink architecture."
+    },
+    "sk_q3": {
+      "url": "https://news.skhynix.com/en/sk-hynix-announces-3q25-financial-results/",
+      "time": "2025-10-29",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms quarterly results; intraday release minute unresolved."
+    },
+    "samsung_q3": {
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results",
+      "time": "2025-10-30",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms results; intraday first availability unresolved."
+    },
+    "oracle_sovereign": {
+      "url": "https://blogs.nvidia.com/blog/oracle-nvidia-accelerate-sovereign-ai-abu-dhabi/",
+      "time": "2025-10-14",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Official collaboration post predates October 30 recap."
+    },
+    "korea_260k": {
+      "url": "https://nvidianews.nvidia.com/news/south-korea-ai-infrastructure",
+      "time": "2025-10-30 displayed; Korea reporting October 31",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms planned infrastructure; timezone and first minute unresolved."
+    },
+    "palantir": {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-palantir-ai-enterprise-data-intelligence/",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company release precedes later investment interpretations."
+    },
+    "poolside_report": {
+      "url": "https://www.streetinsider.com/Hot%2BM%2Band%2BA/NVIDIA%2B%28NVDA%29%2BTo%2BInvest%2BUp%2BTo%2B%241%2BBillion%2BIn%2BAi%2BStartup%2BPoolside%2B-%2BBloomberg/25529749.html",
+      "time": "2025-10-30T19:23:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Secondary Bloomberg-attributed headline; original Bloomberg first version not recovered. Minute rounding matters."
+    },
+    "blackwell_not_discussed": {
+      "url": "https://www.marketscreener.com/news/trump-says-nvidia-s-high-end-blackwell-chip-did-not-figure-in-talks-with-china-s-xi-ce7d5dd3d981f526",
+      "time": "2025-10-30T05:04:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Located Reuters flash precedes later explainers; source reports 01:04 EDT."
+    },
+    "aws_korea": {
+      "url": "https://www.korea.net/Government/Current-Affairs/National-Affairs/view?affairId=2785&articleId=281345&subId=173&viewId=74589",
+      "time": "2025-10-29 event date; publication minute unresolved",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Government account corroborates investment pledge, distinct from June Ulsan plan."
+    },
+    "foxconn_robots": {
+      "url": "https://www.investing.com/news/stock-market-news/foxconn-to-deploy-humanoid-robots-at-houston-ai-server-plant-4315135",
+      "time": "2025-10-28 statement; October 29 reporting",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirmation follows June talks; confirmation can be incremental."
+    },
+    "techforce": {
+      "url": "https://www.nasdaq.com/press-release/techforce-robotics-accepted-nvidia-connect-program-strengthening-position-ai-driven",
+      "time": "2025-10-30T12:30:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company-wire membership announcement; does not establish major NVDA revenue."
+    },
+    "endoquest": {
+      "url": "https://markets.financialcontent.com/dowtheoryletters/article/gnwcq-2025-10-30-endoquest-to-advance-next-generation-surgical-robotics-powered-by-nvidia-igx-thor",
+      "time": "2025-10-30T13:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company wire describes planned integration and commercialization progress, not deployed product."
+    },
+    "credo_board": {
+      "url": "https://www.nasdaq.com/press-release/credo-announces-changes-board-appointing-brian-kelleher-former-senior-vice-president",
+      "time": "2025-10-30 release; appointment effective October 27",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Effective appointment date is not established public disclosure date; NVDA relevance peripheral."
+    },
+    "cfas": {
+      "url": "https://finance.yahoo.com/news/center-frontier-ai-security-cfas-211600382.html",
+      "time": "2025-10-30",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Organization-issued launch announcement; first meeting earlier in October is not a verified earlier publication."
+    }
+  },
+  "groups": [
+    [
+      [
+        828,
+        832,
+        839,
+        843,
+        844,
+        847,
+        850,
+        852,
+        868,
+        885,
+        890,
+        895,
+        897,
+        898,
+        899,
+        901,
+        904,
+        905,
+        907,
+        911,
+        912,
+        923,
+        924,
+        933,
+        947,
+        950,
+        951,
+        953,
+        954,
+        956,
+        957,
+        958,
+        959,
+        961,
+        964,
+        965,
+        969,
+        975,
+        976,
+        979,
+        982,
+        985,
+        986,
+        987,
+        993,
+        995,
+        998,
+        1000,
+        1002,
+        1007,
+        1011
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Available headline and saved summary/excerpt primarily offer interpretation, recommendation, background or portfolio discussion. Embedded facts are not certified novel or old.",
+      [],
+      ""
+    ],
+    [
+      [
+        827,
+        838,
+        841,
+        845,
+        846,
+        848,
+        849,
+        851,
+        854,
+        858,
+        859,
+        860,
+        863,
+        864,
+        865,
+        867,
+        869,
+        870,
+        871,
+        873,
+        874,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        887,
+        889,
+        892,
+        893,
+        894,
+        896,
+        908,
+        909,
+        910,
+        914,
+        915,
+        918,
+        919,
+        920,
+        922,
+        925,
+        929,
+        934,
+        935,
+        936,
+        937,
+        948,
+        949,
+        970,
+        974,
+        980,
+        981,
+        984,
+        988,
+        992,
+        994,
+        1006,
+        1009,
+        1010,
+        1012,
+        1013
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Available text describes observed markets, roundups or live coverage. Newly disclosed embedded facts remain unverified; no price move establishes causality.",
+      [],
+      ""
+    ],
+    [
+      [
+        826,
+        837,
+        875,
+        883
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "joby_nvidia",
+      "Price coverage follows previous-day company collaboration announcement.",
+      [
+        "joby"
+      ],
+      ""
+    ],
+    [
+      [
+        829
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "foxconn_robots",
+      "Company confirmation may advance earlier reported talks; first confirmation minute unresolved.",
+      [
+        "foxconn_robots"
+      ],
+      ""
+    ],
+    [
+      [
+        830
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "uber_robotaxi",
+      "Reports partnership announced the preceding day; any incremental CEO interview statements need separate timing.",
+      [
+        "uber_robotaxi"
+      ],
+      ""
+    ],
+    [
+      [
+        831,
+        855
+      ],
+      "supplier_results",
+      "candidate_timing_unresolved",
+      "sk_hynix_q3",
+      "Specific supplier results and guidance corroborated; original minute and article-level incremental content unresolved.",
+      [
+        "sk_q3"
+      ],
+      ""
+    ],
+    [
+      [
+        833,
+        834
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "aws_korea",
+      "Investment pledge corroborated; initial government announcement minute not established.",
+      [
+        "aws_korea"
+      ],
+      ""
+    ],
+    [
+      [
+        835,
+        836,
+        866,
+        900
+      ],
+      "speech_reporting",
+      "candidate_timing_unresolved",
+      "trump_blackwell_preview",
+      "Specific pre-summit presidential remarks may be new; common speech/report origin must be timed before treating articles as independent events.",
+      [],
+      ""
+    ],
+    [
+      [
+        840,
+        857
+      ],
+      "analyst_action",
+      "candidate_timing_unresolved",
+      "post_gtc_targets",
+      "Specific analyst actions potentially new; individual note dissemination and first public-report times unresolved.",
+      [],
+      "Empty summary for ID840"
+    ],
+    [
+      [
+        842
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "nvqlink",
+      "Rating interpretation follows prior-day architecture release.",
+      [
+        "nvqlink"
+      ],
+      ""
+    ],
+    [
+      [
+        853
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "dataiku_accelerator",
+      "Saved article attributes accelerator announcement to October 28 company wire; original wire not independently recovered here.",
+      [],
+      "Attribution in saved text is not an independently timed external source"
+    ],
+    [
+      [
+        856,
+        884
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "rainier_operational",
+      "Operational availability can be new despite earlier construction announcements; first release minute unresolved.",
+      [
+        "rainier"
+      ],
+      ""
+    ],
+    [
+      [
+        861,
+        917,
+        991
+      ],
+      "mixed_opinion_price",
+      "earlier_disclosure_found",
+      "nokia_investment",
+      "Later interpretation or price coverage follows prior-day alliance and investment disclosure.",
+      [
+        "nokia_investment",
+        "nokia_partnership"
+      ],
+      ""
+    ],
+    [
+      [
+        862
+      ],
+      "mixed_price_development",
+      "new_detail_candidate",
+      "nokia_zayo",
+      "Includes prior-day NVIDIA investment and separate Zayo partnership. Zayo announcement history requires its own check.",
+      [
+        "nokia_investment"
+      ],
+      ""
+    ],
+    [
+      [
+        872
+      ],
+      "mixed_price_development",
+      "revision_history_unresolved",
+      "marketcap_5t",
+      "Close-above milestone wording attached to an earlier saved record may reflect a later revision; original version needs checking.",
+      [],
+      "Do not match updated closing claims to an initial publication clock"
+    ],
+    [
+      [
+        882
+      ],
+      "analyst_action",
+      "not_established",
+      "da_davidson",
+      "Saved summary dates reiteration October 27; original analyst note/report chronology not independently checked.",
+      [],
+      ""
+    ],
+    [
+      [
+        886,
+        888,
+        891,
+        978,
+        1004
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "palantir_nvidia",
+      "Investment interpretation follows October 28 collaboration release.",
+      [
+        "palantir"
+      ],
+      ""
+    ],
+    [
+      [
+        902
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "lilly_nvidia",
+      "Reports previous-day supercomputer collaboration.",
+      [
+        "lilly"
+      ],
+      ""
+    ],
+    [
+      [
+        903
+      ],
+      "speech_reporting",
+      "followup_reporting",
+      "huang_china_gtc",
+      "Summary explicitly reports Tuesday remarks in later coverage; exact original speech minute unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        906
+      ],
+      "policy_speech",
+      "candidate_timing_unresolved",
+      "powell_oct29",
+      "Reports Federal Reserve chair comments; original press conference minute unresolved. NVDA price context is not a company announcement.",
+      [],
+      ""
+    ],
+    [
+      [
+        913
+      ],
+      "opinion_background",
+      "new_detail_candidate",
+      "microsoft_openai_restructure",
+      "Interpretation references new corporate structure and ownership terms; chronology must be checked separately from older NVIDIA infrastructure agreement.",
+      [],
+      ""
+    ],
+    [
+      [
+        916
+      ],
+      "company_political_reporting",
+      "candidate_timing_unresolved",
+      "huang_ballroom",
+      "Specific personal donation statement; original public statement time unresolved and direct NVDA business relevance uncertain.",
+      [],
+      ""
+    ],
+    [
+      [
+        921
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "meta_blueowl",
+      "Investment narrative follows October 21 company joint-venture disclosure.",
+      [
+        "meta_blueowl"
+      ],
+      ""
+    ],
+    [
+      [
+        926,
+        930
+      ],
+      "supplier_results",
+      "candidate_timing_unresolved",
+      "samsung_q3",
+      "Specific quarterly results corroborated; intraday release chronology unresolved.",
+      [
+        "samsung_q3"
+      ],
+      ""
+    ],
+    [
+      [
+        927
+      ],
+      "original_interview",
+      "new_detail_candidate",
+      "uber_prediction",
+      "CEO interview may add a new prediction to previous collaboration; interview release minute unresolved.",
+      [
+        "uber_robotaxi"
+      ],
+      ""
+    ],
+    [
+      [
+        928,
+        968
+      ],
+      "speech_reporting",
+      "followup_reporting",
+      "gtc_revenue_visibility",
+      "Revenue-visibility statement attributed to earlier GTC presentation; precise wording and first utterance need original keynote check.",
+      [],
+      "Bookings, revenue visibility and recognized revenue are not interchangeable"
+    ],
+    [
+      [
+        931,
+        940,
+        944,
+        946,
+        952,
+        989,
+        1001
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "blackwell_not_discussed",
+      "Reports post-summit statement already in located earlier Reuters flash.",
+      [
+        "blackwell_not_discussed"
+      ],
+      ""
+    ],
+    [
+      [
+        932
+      ],
+      "opinion_background",
+      "not_established",
+      "cramer_gtc",
+      "Retrospective commentary predates GTC in narrative; original broadcast history unverified.",
+      [],
+      ""
+    ],
+    [
+      [
+        938
+      ],
+      "peripheral_company_release",
+      "release_time_supported",
+      "techforce_connect",
+      "Company-wire release minute matches saved record. Membership is not proof of material NVDA sales.",
+      [
+        "techforce"
+      ],
+      ""
+    ],
+    [
+      [
+        939
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "huang_korea_meeting",
+      "Specific executive meeting report; original wire/speech minute unresolved, distinct from later infrastructure agreement.",
+      [],
+      ""
+    ],
+    [
+      [
+        941
+      ],
+      "development_reporting",
+      "release_time_supported",
+      "endoquest_igx",
+      "Company-wire integration announcement matches saved release minute.",
+      [
+        "endoquest"
+      ],
+      "Product integration plans do not establish deployed commercial volume"
+    ],
+    [
+      [
+        942
+      ],
+      "development_reporting",
+      "release_time_supported",
+      "seeqc_nvqlink",
+      "Company-wire partner integration release matches saved minute; architecture announcement earlier.",
+      [
+        "seeqc",
+        "nvqlink"
+      ],
+      ""
+    ],
+    [
+      [
+        943
+      ],
+      "company_personnel",
+      "candidate_timing_unresolved",
+      "credo_board",
+      "Personnel announcement corroborated; effective appointment date is not first publication.",
+      [
+        "credo_board"
+      ],
+      ""
+    ],
+    [
+      [
+        945
+      ],
+      "background_recap",
+      "earlier_disclosure_found",
+      "oracle_sovereign",
+      "Saved summary explicitly references October 14 announcement; official post confirms.",
+      [
+        "oracle_sovereign"
+      ],
+      ""
+    ],
+    [
+      [
+        955
+      ],
+      "original_interview",
+      "new_detail_candidate",
+      "lilly_nvidia",
+      "Older partnership context plus possible incremental interview detail; interview release timeline unresolved.",
+      [
+        "lilly"
+      ],
+      ""
+    ],
+    [
+      [
+        960
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "verily_nvidia",
+      "Company page displays October 28 before saved October 30 release; historical versions still unresolved.",
+      [
+        "verily"
+      ],
+      ""
+    ],
+    [
+      [
+        962
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "poolside_investment",
+      "Specific funding report; secondary Bloomberg-attributed headline located within same minute, original publication history unresolved.",
+      [
+        "poolside_report"
+      ],
+      ""
+    ],
+    [
+      [
+        963
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "poolside_investment",
+      "Reuters attributes news to Bloomberg; located earlier secondary headline corroborates prior circulation.",
+      [
+        "poolside_report"
+      ],
+      ""
+    ],
+    [
+      [
+        966
+      ],
+      "peripheral_company_release",
+      "candidate_timing_unresolved",
+      "cfas_launch",
+      "Organization launch corroborated; earlier meeting date is not independently established prior disclosure.",
+      [
+        "cfas"
+      ],
+      ""
+    ],
+    [
+      [
+        967,
+        997
+      ],
+      "financing_reporting",
+      "candidate_timing_unresolved",
+      "meta_bonds",
+      "Specific bond offering; initial filing acceptance and original news release time not checked. Later article likely follows earlier filing; cannot assign exact first release.",
+      [],
+      ""
+    ],
+    [
+      [
+        971
+      ],
+      "supplier_results",
+      "new_detail_candidate",
+      "stellantis_q3",
+      "Quarterly results can be new while autonomous collaboration predates results; original results release minute unresolved.",
+      [
+        "stellantis"
+      ],
+      ""
+    ],
+    [
+      [
+        972,
+        990,
+        1005
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "korea_260k",
+      "Company confirms Korea infrastructure and mobility plans; October 30 company page versus October 31 local-date reporting requires timezone-aware chronology.",
+      [
+        "korea_260k"
+      ],
+      ""
+    ],
+    [
+      [
+        973
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "tsmc_a16_exclusivity",
+      "Specific exclusivity claim; original technical/business source and report time not independently verified.",
+      [],
+      ""
+    ],
+    [
+      [
+        977
+      ],
+      "speech_reporting",
+      "candidate_timing_unresolved",
+      "huang_china_korea",
+      "Specific executive remarks potentially new; original interview/speech minute unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        983,
+        1003
+      ],
+      "reactive_reporting",
+      "not_established",
+      "amazon_q3",
+      "Price reporting references prior evening Amazon earnings; exact earnings/CEO remark chronology not independently checked in this batch.",
+      [],
+      ""
+    ],
+    [
+      [
+        996
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "qualcomm_launch",
+      "Investment interpretation follows October 27 chip-launch reporting.",
+      [
+        "qualcomm_early"
+      ],
+      ""
+    ],
+    [
+      [
+        999
+      ],
+      "unclear",
+      "not_established",
+      "",
+      "Rival-stock headline with empty summary; insufficient substantive text to assess novelty.",
+      [],
+      ""
+    ],
+    [
+      [
+        1008
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "core_scientific_vote",
+      "Saved summary reports rejected merger; vote occurred previous day according to located coverage, but original public vote time unresolved.",
+      [],
+      "Do not treat later SEC description as contemporaneous public availability"
+    ],
+    [
+      [
+        1014
+      ],
+      "earnings_preview",
+      "not_established",
+      "amd_preview",
+      "Forecast ahead of future results; no actual earnings release established.",
+      [],
+      ""
+    ]
+  ]
+}

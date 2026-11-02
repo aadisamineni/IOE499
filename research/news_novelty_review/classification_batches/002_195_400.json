@@ -1,0 +1,820 @@
+{
+  "sources": {
+    "xai_round": {
+      "url": "https://www.bloomberg.com/news/articles/2025-10-07/musk-s-xai-nears-20-billion-capital-raise-tied-to-nvidia-chips",
+      "time": "2025-10-07T23:11:00Z",
+      "precision": "minute_original_metadata_conflict",
+      "note": "Current original-page metadata conflicts with an earlier-clock saved article; versions and initial release unresolved."
+    },
+    "pubmatic": {
+      "url": "https://pubmatic.com/news/pubmatic-delivers-5x-faster-smarter-advertising-decisions-with-nvidia/",
+      "time": "2025-10-08",
+      "precision": "date_only",
+      "note": "Company reports new performance results from an older collaboration; not a newly formed partnership."
+    },
+    "hoth": {
+      "url": "https://www.prnewswire.com/news-releases/hoth-therapeutics-expands-artificial-intelligence-initiative-selects-nvidia-ai-enterprise-platform-302578060.html",
+      "time": "2025-10-08T12:02:00Z",
+      "precision": "minute_release_syndication",
+      "note": "Wire syndication displays 08:02 EDT; earlier-clock saved license headline needs provenance validation."
+    },
+    "huang_visa": {
+      "url": "https://fortune.com/2025/10/08/jensen-huan-nvidia-ceo-h1b-visa-workers-donald-trump/",
+      "time": "2025-10-08T15:42:00Z",
+      "precision": "minute_original_metadata",
+      "note": "Original article publication metadata; prior interview timing unknown."
+    },
+    "huang_amd": {
+      "url": "https://www.benzinga.com/markets/tech/25/10/48116340/nvidia-ceo-jensen-huang-says-hes-surprised-amd-would-give-away-10-of-the-company-in-its-deal-with-openai-its-clever-i-guess",
+      "time": "2025-10-08",
+      "precision": "date_only",
+      "note": "Original coverage refers to Wednesday CNBC comments; exact first speech/report minute unverified."
+    },
+    "realsense": {
+      "url": "https://finance.yahoo.com/news/realsense-spins-intel-secures-50-000200223.html",
+      "time": "2025-10-09",
+      "precision": "date_only",
+      "note": "Company-issued Business Wire announcement found; components of announcement may have different prior histories."
+    },
+    "uae_approval": {
+      "url": "https://uk.marketscreener.com/news/us-approves-some-nvidia-uae-sales-bloomberg-news-reports-ce7d5bd3dd88f724",
+      "time": "2025-10-09",
+      "precision": "date_only",
+      "note": "Reuters attributes approvals to Bloomberg; original first-release minute not recovered."
+    },
+    "lyft_tensor": {
+      "url": "https://www.tensor.auto/press/lyft2025",
+      "time": "2025-10-09",
+      "precision": "date_only",
+      "note": "Company release confirms planned partnership; saved early clock conflicts with 13:00 UTC public reporting and needs verification."
+    },
+    "mobilicom": {
+      "url": "https://www.globenewswire.com/search/organization/Mobilicom%2520Limited/load/more?page=3&pageSize=10",
+      "time": "2025-10-09T11:00:00Z",
+      "precision": "minute_wire_listing",
+      "note": "Company wire listing displays 07:00 ET matching saved time."
+    },
+    "si2": {
+      "url": "https://si2.org/si2-names-nvidia-synopsys-technologists-to-lead-new-llm-benchmarking-coalition/",
+      "time": "2025-10-08",
+      "precision": "date_only",
+      "note": "Company release dated October 8 while saved wire dated October 9; preserve discrepancy."
+    },
+    "qumulus": {
+      "url": "https://investors.qumulusai.com/news/news-details/2025/QumulusAI-Secures-500M-Non-Recourse-Financing-Facility-through-USD-AI-to-Accelerate-AI-Infrastructure-Growth/default.aspx",
+      "time": "2025-10-09",
+      "precision": "date_only",
+      "note": "Company confirms financing facility; first minute unresolved."
+    },
+    "reflection_oct": {
+      "url": "https://reflection.ai/blog/frontier-open-intelligence/",
+      "time": "2025-10-09",
+      "precision": "date_only",
+      "note": "Company confirms funding and model development; first minute unresolved."
+    },
+    "n8n": {
+      "url": "https://blog.n8n.io/series-c/",
+      "time": "2025-10-09",
+      "precision": "date_only",
+      "note": "Company confirms round; Bloomberg Law shows coverage at 06:06 UTC before sampled afternoon item."
+    },
+    "n8n_early": {
+      "url": "https://news.bloomberglaw.com/artificial-intelligence/ai-startup-n8n-nets-2-5-billion-valuation-with-nvidia-backing",
+      "time": "2025-10-09T06:06:00Z",
+      "precision": "minute_report_metadata",
+      "note": "Earlier public report of same funding."
+    },
+    "senate_gain": {
+      "url": "https://ari.us/senate-passes-gain-ai-act-in-the-ndaa/",
+      "time": "2025-10-09",
+      "precision": "date_only",
+      "note": "Same-day statement corroborates passage in Senate NDAA; this is not enactment into law."
+    },
+    "customs": {
+      "url": "https://www.streetinsider.com/Reuters/China%2Btightens%2Bchecks%2Bon%2BNvidia%2BAI%2Bchips%2Bat%2Bmajor%2Bports%2C%2BFT%2Breports/25441936.html",
+      "time": "2025-10-10T04:10:00Z",
+      "precision": "minute_syndication",
+      "note": "Reuters syndicated report attributes new enforcement reporting to FT."
+    },
+    "wayve_talks": {
+      "url": "https://www.streetinsider.com/Trader%2BTalk/Wayve%2Bis%2Bin%2Btalks%2Bwith%2BMicrosoft%2C%2BSoftbank%2Bto%2Braise%2Bup%2Bto%2B%242B%2B-%2BFT/25446737.html",
+      "time": "2025-10-13T10:05:00Z",
+      "precision": "minute_syndication",
+      "note": "FT-attributed report of talks; transaction not completed."
+    },
+    "powi800": {
+      "url": "https://investors.power.com/news/news-details/2025/Power-Integrations-Details-1250-V-and-1700-V-PowiGaN-Technology-for-Next-Generation-800-VDC-AI-Data-Centers/default.aspx?language=en",
+      "time": "2025-10-13",
+      "precision": "date_only",
+      "note": "Company white-paper and technology announcement; broader architecture predates release."
+    },
+    "spectrum": {
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Spectrum-X-Ethernet-Switches-Speed-Up-Networks-for-Meta-and-Oracle/",
+      "time": "2025-10-13",
+      "precision": "date_only",
+      "note": "Company release confirms customer adoption; first minute unresolved."
+    },
+    "pegatron_oct": {
+      "url": "https://www.prnewswire.com/news-releases/pegatron-powers-the-future-of-data-centers-with-advanced-ocp-solutions-at-ocp-global-summit-2025-302581970.html",
+      "time": "2025-10-13T15:00:00Z",
+      "precision": "minute_company_wire",
+      "note": "Company wire release time matches saved timestamp."
+    },
+    "vertiv800": {
+      "url": "https://investors.vertiv.com/news/news-details/2025/From-Vision-to-Readiness-Vertiv-Collaborates-with-NVIDIA-to-Advance-800-VDC-Platform-Designs-to-Power-the-Next-Generation-of-AI-Factories/",
+      "time": "2025-10-13",
+      "precision": "date_only",
+      "note": "Company reports engineering milestone after May alignment; milestone can be new despite older collaboration."
+    }
+  },
+  "groups": [
+    [
+      [
+        196,
+        198,
+        200,
+        201,
+        202,
+        204,
+        205,
+        207,
+        208,
+        209,
+        210,
+        212,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        228,
+        230,
+        237,
+        238,
+        242,
+        244,
+        246,
+        251,
+        254,
+        257,
+        259,
+        262,
+        263,
+        264,
+        265,
+        266,
+        268,
+        269,
+        274,
+        275,
+        276,
+        277,
+        281,
+        282,
+        284,
+        285,
+        286,
+        288,
+        291,
+        292,
+        294,
+        295,
+        296,
+        298,
+        299,
+        300,
+        304,
+        310,
+        311,
+        314,
+        316,
+        317,
+        320,
+        321,
+        322,
+        323,
+        327,
+        331,
+        334,
+        336,
+        337,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        351,
+        352,
+        354,
+        355,
+        357,
+        359,
+        360,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        374,
+        375,
+        376,
+        377,
+        378,
+        382,
+        386,
+        387,
+        390,
+        393
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Available text primarily gives investment interpretation, recommendations, profiles or background. No assertion that all embedded information is old.",
+      [],
+      ""
+    ],
+    [
+      [
+        195,
+        224,
+        229,
+        231,
+        239,
+        241,
+        245,
+        247,
+        249,
+        250,
+        252,
+        253,
+        256,
+        258,
+        260,
+        261,
+        270,
+        278,
+        290,
+        303,
+        305,
+        306,
+        307,
+        309,
+        312,
+        325,
+        326,
+        329,
+        330,
+        332,
+        333,
+        335,
+        339,
+        340,
+        356,
+        361,
+        379,
+        383,
+        385,
+        389,
+        391,
+        392,
+        395,
+        396
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Primarily reports observed moves or a multi-story roundup. Embedded factual developments require separate source-time checks; not a verified first-release document.",
+      [],
+      ""
+    ],
+    [
+      [
+        197
+      ],
+      "development_reporting",
+      "timestamp_conflict",
+      "xai_oct",
+      "Saved October 7 22:32 timestamp predates displayed original Bloomberg 23:11 time. Substantive financing report, but ordering unresolved.",
+      [
+        "xai_round"
+      ],
+      "Do not guess a corrected timestamp"
+    ],
+    [
+      [
+        199,
+        203,
+        213,
+        234,
+        236
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "xai_oct",
+      "Repeats Bloomberg-attributed financing report; no incremental fact established.",
+      [
+        "xai_round"
+      ],
+      ""
+    ],
+    [
+      [
+        206,
+        211
+      ],
+      "analyst_action",
+      "not_established",
+      "",
+      "Summary explicitly dates action earlier than article; original analyst-note history not verified.",
+      [],
+      "Summary-only earlier-action evidence"
+    ],
+    [
+      [
+        214
+      ],
+      "development_reporting",
+      "timestamp_conflict",
+      "hoth_ai",
+      "Saved early-clock headline predates located company wire release; source/version history unresolved.",
+      [
+        "hoth"
+      ],
+      ""
+    ],
+    [
+      [
+        223
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "pubmatic_performance",
+      "Performance results may be incremental news from an established collaboration.",
+      [
+        "pubmatic"
+      ],
+      "Old partnership does not imply old performance result"
+    ],
+    [
+      [
+        225
+      ],
+      "development_reporting",
+      "release_time_supported",
+      "hoth_ai",
+      "Company-issued wire release aligns with saved minute.",
+      [
+        "hoth"
+      ],
+      "Earlier saved headline also exists; historical ordering unresolved"
+    ],
+    [
+      [
+        226
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "nvidia_openai_partnership",
+      "Partnership announced September 22, not newly formed on October 8.",
+      [
+        "openai"
+      ],
+      ""
+    ],
+    [
+      [
+        227
+      ],
+      "mixed_roundup",
+      "candidate_timing_unresolved",
+      "boe_ai_warning",
+      "Multiple items include central-bank valuation warning and prior Oracle reporting; first warning-release time unresolved.",
+      [
+        "oracle_margins"
+      ],
+      "Do not assign one disclosure time to all roundup facts"
+    ],
+    [
+      [
+        232,
+        235,
+        240,
+        248,
+        255
+      ],
+      "speech_reporting",
+      "new_detail_candidate",
+      "huang_oct8_interview",
+      "Interview comments or confirmation may add information beyond prior reporting. First interview time and incremental claims unresolved.",
+      [
+        "huang_amd",
+        "xai_round"
+      ],
+      ""
+    ],
+    [
+      [
+        243
+      ],
+      "speech_reporting",
+      "candidate_timing_unresolved",
+      "huang_visa",
+      "Original article time located; first interview disclosure unknown.",
+      [
+        "huang_visa"
+      ],
+      ""
+    ],
+    [
+      [
+        233
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "xai_oct",
+      "Observed stock movement follows prior-night financing report.",
+      [
+        "xai_round"
+      ],
+      ""
+    ],
+    [
+      [
+        267
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "realsense_nvidia",
+      "Company-issued release confirms collaboration, spinout and funding; distinguish dates of each component.",
+      [
+        "realsense"
+      ],
+      ""
+    ],
+    [
+      [
+        271,
+        272,
+        273
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "uae_approval",
+      "Approval reporting differs from May agreement and October delay reporting. Original first-release minute unresolved.",
+      [
+        "uae_approval"
+      ],
+      ""
+    ],
+    [
+      [
+        279
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "google_belgium",
+      "Specific investment claim but original-source release history not recovered in targeted check.",
+      [],
+      "Do not mark new without original source"
+    ],
+    [
+      [
+        280
+      ],
+      "development_reporting",
+      "timestamp_conflict",
+      "lyft_tensor",
+      "Company confirms same-date planned partnership, but saved early-clock time requires validation.",
+      [
+        "lyft_tensor"
+      ],
+      "Date-only evidence cannot resolve early-clock timestamp"
+    ],
+    [
+      [
+        283
+      ],
+      "supplier_results",
+      "candidate_timing_unresolved",
+      "tsmc_revenue",
+      "Reports actual supplier revenue; do not confuse revenue release with later earnings release.",
+      [],
+      "Original company release time still required"
+    ],
+    [
+      [
+        287
+      ],
+      "development_reporting",
+      "release_time_supported",
+      "mobilicom",
+      "Company wire listing matches release minute.",
+      [
+        "mobilicom"
+      ],
+      ""
+    ],
+    [
+      [
+        289
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "si2_llm",
+      "Company page dates announcement October 8 before sampled October 9 release.",
+      [
+        "si2"
+      ],
+      "Dates may reflect site/version differences"
+    ],
+    [
+      [
+        293
+      ],
+      "speech_reporting",
+      "earlier_disclosure_found",
+      "huang_oct8_interview",
+      "October 9 recap of Wednesday investment confirmation.",
+      [
+        "huang_amd",
+        "xai_round"
+      ],
+      ""
+    ],
+    [
+      [
+        297
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "qumulus_financing",
+      "Company confirms financing facility; first minute unresolved.",
+      [
+        "qumulus"
+      ],
+      ""
+    ],
+    [
+      [
+        301
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "reflection_oct",
+      "Company confirms same-date funding; first minute unresolved.",
+      [
+        "reflection_oct"
+      ],
+      ""
+    ],
+    [
+      [
+        302,
+        319
+      ],
+      "speech_reporting",
+      "earlier_disclosure_found",
+      "huang_oct8_interview",
+      "Thursday coverage of Wednesday AMD comments.",
+      [
+        "huang_amd"
+      ],
+      ""
+    ],
+    [
+      [
+        308
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "uae_approval",
+      "Later coverage of same approval reporting; precise shipment scope must not be inferred from broad framework.",
+      [
+        "uae_approval"
+      ],
+      ""
+    ],
+    [
+      [
+        313
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "n8n_seriesc",
+      "Company confirms funding; located 06:06 UTC report predates afternoon article.",
+      [
+        "n8n",
+        "n8n_early"
+      ],
+      ""
+    ],
+    [
+      [
+        315
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "asus_p700",
+      "Specific Canadian product availability announcement; first release history unresolved.",
+      [],
+      "NVIDIA is a component supplier; material relevance not established"
+    ],
+    [
+      [
+        318
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "amd_mi450_details",
+      "CEO process-node details could be incremental to October 6 agreement; transcript required.",
+      [
+        "amd_openai"
+      ],
+      ""
+    ],
+    [
+      [
+        324
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "hbm_research",
+      "Research-publication announcement; underlying report first availability not verified.",
+      [],
+      "Peripheral industry research, not necessarily NVDA announcement"
+    ],
+    [
+      [
+        328
+      ],
+      "policy_reporting",
+      "candidate_timing_unresolved",
+      "senate_gain",
+      "Senate passage corroborated; article explicitly updated with company response.",
+      [
+        "senate_gain"
+      ],
+      "Passage in Senate is not enactment; updated text may be post-timestamp"
+    ],
+    [
+      [
+        338
+      ],
+      "benchmark_reporting",
+      "candidate_timing_unresolved",
+      "inferencemax",
+      "Potentially new benchmark results; initial benchmark publication minute unresolved.",
+      [],
+      "Vendor performance claims require benchmark-source verification"
+    ],
+    [
+      [
+        350
+      ],
+      "mixed_price_development",
+      "candidate_timing_unresolved",
+      "iren_contracts",
+      "Summary says contracts announced in past week; date of each contract requires original-source checks.",
+      [],
+      "Retrospective framing; no verified first release"
+    ],
+    [
+      [
+        353,
+        358
+      ],
+      "analyst_action",
+      "not_established",
+      "cantor_target300",
+      "Summary dates target action October 9 before later publication; analyst note not independently verified.",
+      [],
+      "Summary-only chronology"
+    ],
+    [
+      [
+        372,
+        373
+      ],
+      "analyst_action",
+      "not_established",
+      "",
+      "Summary dates specific analyst actions earlier; note publication history unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        380
+      ],
+      "earnings_preview",
+      "not_established",
+      "tsmc_preview",
+      "Forecasts upcoming results rather than reporting those results.",
+      [],
+      ""
+    ],
+    [
+      [
+        381,
+        399
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "wayve_talks",
+      "Reports FT-attributed funding talks; earlier syndication located, not a completed investment.",
+      [
+        "wayve_talks"
+      ],
+      ""
+    ],
+    [
+      [
+        384
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "powi800",
+      "White paper and device detail may be new even though 800V collaboration is older.",
+      [
+        "powi800"
+      ],
+      ""
+    ],
+    [
+      [
+        388
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "trendforce_capex",
+      "Forecast release may be newly published research; first-source timestamp unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        394
+      ],
+      "background_recap",
+      "not_established",
+      "ai_deal_factbox",
+      "Factbox consolidates multiple agreements; possible current-day additions need separate anchors.",
+      [
+        "amd_openai",
+        "openai"
+      ],
+      ""
+    ],
+    [
+      [
+        397
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "spectrum_adoption",
+      "Company confirms customer adoption on same date; first minute unresolved.",
+      [
+        "spectrum"
+      ],
+      ""
+    ],
+    [
+      [
+        398
+      ],
+      "company_showcase",
+      "release_time_supported",
+      "pegatron_ocp",
+      "Company-issued showcase release matches saved minute.",
+      [
+        "pegatron_oct"
+      ],
+      "Does not prove every displayed product was newly disclosed"
+    ],
+    [
+      [
+        400
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "vertiv800",
+      "Company announces engineering readiness milestone after prior May partnership.",
+      [
+        "vertiv800"
+      ],
+      ""
+    ]
+  ]
+}

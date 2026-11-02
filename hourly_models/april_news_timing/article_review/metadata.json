@@ -1,0 +1,42 @@
+{
+  "input_sha256": "b2407bdd1626771a5637545cc18bdedbdf08c39479dc10ae3898fbd593bffbb5",
+  "unique_articles": 80,
+  "pairs": 92,
+  "label_origin": "assistant provisional content review, not human consensus",
+  "validation": "Every selected article reviewed exactly once; source unchanged; many-to-one link integrity; NVDA movement implies any-company movement",
+  "group_counts": [
+    {
+      "group": "before",
+      "unique_articles": 40,
+      "concrete_development_reported": 28,
+      "existing_price_movement_any_company": 10,
+      "existing_nvda_price_movement": 5,
+      "opinion_or_analysis": 15,
+      "insufficient_or_ambiguous_content": 1,
+      "both_development_and_nvda_movement": 2,
+      "timestamp_or_revision_warnings": 1
+    },
+    {
+      "group": "during",
+      "unique_articles": 26,
+      "concrete_development_reported": 17,
+      "existing_price_movement_any_company": 15,
+      "existing_nvda_price_movement": 8,
+      "opinion_or_analysis": 11,
+      "insufficient_or_ambiguous_content": 4,
+      "both_development_and_nvda_movement": 5,
+      "timestamp_or_revision_warnings": 2
+    },
+    {
+      "group": "after",
+      "unique_articles": 26,
+      "concrete_development_reported": 12,
+      "existing_price_movement_any_company": 15,
+      "existing_nvda_price_movement": 13,
+      "opinion_or_analysis": 13,
+      "insufficient_or_ambiguous_content": 2,
+      "both_development_and_nvda_movement": 5,
+      "timestamp_or_revision_warnings": 3
+    }
+  ]
+}

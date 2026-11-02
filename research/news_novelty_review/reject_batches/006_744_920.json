@@ -1,0 +1,586 @@
+{
+  "sources": {
+    "reject_iren_contracts": {
+      "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-secures-new-multi-year-ai-cloud-contracts",
+      "time": "2025-10-07",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms additional cloud contracts for NVIDIA Blackwell deployments; exact first minute unresolved.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_ibm_anthropic": {
+      "url": "https://newsroom.ibm.com/2025-10-07-2025-ibm-and-anthropic-partner-to-advance-enterprise-software-development-with-proven-security-and-governance",
+      "time": "2025-10-07",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms partnership; first disclosure minute unresolved.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_sap_bdc": {
+      "url": "https://news.sap.com/2025/10/sap-connect-business-suite-unites-ai-data-applications/",
+      "time": "2025-10-07",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company event release distinguishes new connector capabilities from earlier Databricks collaboration; availability dates vary.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_anthropic_india": {
+      "url": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+      "time": "2025-10-07",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms planned office, not completed opening; possible Reliance talks need separate source confirmation.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_iren_wire": {
+      "url": "https://www.globenewswire.com/news-release/2025/10/7/3162322/0/en/iren-secures-new-multi-year-ai-cloud-contracts.html",
+      "time": "2025-10-07T10:17:00Z",
+      "precision": "minute_company_wire",
+      "note": "Company wire displays 06:17 ET; precedes saved 13:22/16:14 UTC coverage. Not absolute first disclosure proof.",
+      "checked_on": "2026-10-26"
+    }
+  },
+  "groups": [
+    [
+      [
+        744,
+        745,
+        746,
+        749,
+        754,
+        757,
+        759,
+        761,
+        762,
+        765,
+        766,
+        768,
+        769,
+        770,
+        780,
+        781,
+        785,
+        790,
+        793,
+        794,
+        795,
+        798,
+        799,
+        800,
+        803,
+        807,
+        813,
+        815,
+        817,
+        821,
+        824,
+        825,
+        833,
+        836,
+        838,
+        840,
+        842,
+        845,
+        850,
+        853,
+        856,
+        859,
+        871,
+        873,
+        875,
+        876,
+        879,
+        880,
+        883,
+        885,
+        888,
+        889,
+        890,
+        891,
+        892,
+        903,
+        910,
+        913,
+        915,
+        917,
+        920
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Saved headline and available summary/excerpt primarily interpretation, recommendation, retrospective analysis, industry background or stock selection. Novelty of embedded factual claims unverified.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        748,
+        750,
+        751,
+        752,
+        753,
+        756,
+        760,
+        763,
+        764,
+        775,
+        783,
+        787,
+        788,
+        791,
+        804,
+        814,
+        818,
+        819,
+        820,
+        823,
+        826,
+        828,
+        839,
+        848,
+        851,
+        852,
+        855,
+        860,
+        864,
+        866,
+        868,
+        869,
+        870,
+        882,
+        887,
+        896,
+        898,
+        904,
+        905,
+        908,
+        912,
+        916
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Observed prices, live coverage, market or analyst roundup dominates available text. Individual factual disclosures are not independently timed by this label.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        747
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "tesla_fsd14",
+      "Expected software release distinct from actual availability; original executive post and release timing unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        755
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "sap_bdc_connect",
+      "Company confirms new enterprise-data connectors and platform updates; old partnerships versus new availability need claim-level chronology.",
+      [
+        "reject_sap_bdc"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        758
+      ],
+      "earnings_call_transcript",
+      "new_detail_candidate",
+      "amd_openai_call",
+      "Transcript of special call may add answers beyond company press release; event time, transcript first-public time and historical text need validation.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        767
+      ],
+      "mixed_price_development",
+      "revision_history_unresolved",
+      "market_futures_oct7",
+      "Saved text explicitly says lede and futures quotes updated. Later text cannot be assumed present at initial timestamp.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        771,
+        834,
+        862
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "",
+      "Industry research publication or forecast potentially new; original report availability and direct NVDA materiality unresolved.",
+      [],
+      "",
+      "possible_ai_industry_context"
+    ],
+    [
+      [
+        772
+      ],
+      "legal_reporting",
+      "revision_history_unresolved",
+      "sap_teradata",
+      "Explicit update adds SAP response to previous-day court decision. Separate decision time and response time.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        773
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "ntt_broadcom_optics",
+      "Saved coverage attributes technical plan to Nikkei; exact report and original announcement history unresolved.",
+      [],
+      "Longstanding collaboration does not establish when specific new optical roadmap became public",
+      "possible_ai_networking_competition_context"
+    ],
+    [
+      [
+        774,
+        792,
+        858
+      ],
+      "company_personnel",
+      "candidate_timing_unresolved",
+      "plug_ceo_transition",
+      "Specific succession release; effective president/CEO dates are not first disclosure dates. Original release minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        776,
+        786,
+        806,
+        822
+      ],
+      "event_preview",
+      "not_established",
+      "",
+      "Upcoming event publicity; original event announcement history not checked, participation alone is not a material NVDA development.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        778,
+        779,
+        784,
+        789,
+        797,
+        801,
+        802,
+        805,
+        808,
+        809,
+        810,
+        816,
+        830,
+        831,
+        832,
+        857,
+        861,
+        863,
+        881,
+        884,
+        897,
+        899,
+        901,
+        902,
+        914,
+        918
+      ],
+      "peripheral_company_release",
+      "candidate_timing_unresolved",
+      "",
+      "Specific personnel, service, acquisition, legal, product, operational or promotional update. Initial public history and NVDA linkage unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        782,
+        844,
+        886
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "ibm_anthropic",
+      "Company confirms enterprise partnership; original public minute and incremental follow-up detail unresolved.",
+      [
+        "reject_ibm_anthropic"
+      ],
+      "",
+      "possible_ai_workload_context"
+    ],
+    [
+      [
+        796
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "dataiku_agent_hub",
+      "Specific governance/collaboration product milestone; original release history unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        811
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "coreweave_meta",
+      "Investment interpretation follows September agreement disclosure.",
+      [
+        "coreweave_meta"
+      ],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        812,
+        865
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "iren_blackwell_contracts",
+      "Located company wire at 10:17 UTC precedes saved 13:22/16:14 UTC coverage of additional Blackwell cloud contracts; no incremental terms established in saved excerpts.",
+      [
+        "reject_iren_contracts",
+        "reject_iren_wire"
+      ],
+      "",
+      "nvda_gpu_link_confirmed_in_external_source"
+    ],
+    [
+      [
+        827,
+        846,
+        849,
+        854,
+        872,
+        911
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "amd_openai",
+      "Coverage follows October 6 company release; price or valuation analysis is not another independent deal.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        829
+      ],
+      "analyst_action",
+      "candidate_timing_unresolved",
+      "amd_jefferies_upgrade",
+      "Specific analyst upgrade after agreement; original note/public-report minute unresolved.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        835,
+        906
+      ],
+      "analyst_action",
+      "candidate_timing_unresolved",
+      "",
+      "Specific analyst upgrades/downgrades; original note dissemination and public first-report times unverified.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        837
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "ibm_amd_zyphra",
+      "Investment interpretation follows October 1 company collaboration announcement.",
+      [
+        "zyphra"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        841,
+        847,
+        900
+      ],
+      "analyst_research",
+      "new_detail_candidate",
+      "amd_openai_analysts",
+      "Analyst reactions may add forecasts to older deal facts; original note publication and new detail timings unresolved.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        843
+      ],
+      "original_interview",
+      "new_detail_candidate",
+      "micron_ms_upgrade",
+      "Interview with upgrade author may add analysis to October 6 action; first broadcast and new claims need validation.",
+      [],
+      "",
+      "possible_ai_memory_context"
+    ],
+    [
+      [
+        867
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "anthropic_india",
+      "Planned India expansion corroborated by company; reported Reliance talks require independent claim-specific history.",
+      [
+        "reject_anthropic_india"
+      ],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        874
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "google_gemini_redesign",
+      "Specific app test/report, not necessarily global launch; original report and rollout timing unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        877,
+        895
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "apps_devday",
+      "Previous-day company apps announcement precedes follow-up. Additional AgentKit/model claims need separate anchors.",
+      [
+        "reject_apps_devday"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        878,
+        909
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "oracle_margins",
+      "Price/market reporting follows located 15:00 UTC original margin report.",
+      [
+        "oracle_margins"
+      ],
+      "",
+      "possible_nvda_customer_economics_context"
+    ],
+    [
+      [
+        893
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "facebook_reels",
+      "Specific recommendation product update; original company first-public minute unresolved. Distinct from AI-conversation advertising policy.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        894
+      ],
+      "legal_reporting",
+      "candidate_timing_unresolved",
+      "google_adtech_remedies",
+      "Current remedies proceedings may disclose new positions despite older antitrust judgment; original court/source availability unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        907
+      ],
+      "speech_reporting",
+      "followup_reporting",
+      "amd_openai_interviews",
+      "Later article recaps previous-day CEO interview; individual statement novelty and first broadcast time unresolved.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        919
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "intel_pantherlake_preview",
+      "Sources report upcoming technical disclosure; report itself can be new before product event. Original wire minute and prior leak history unresolved.",
+      [],
+      "",
+      "possible_semiconductor_competition_context"
+    ],
+    [
+      [
+        777
+      ],
+      "legal_reporting",
+      "followup_reporting",
+      "google_play_order",
+      "Saved summary reports previous-day Supreme Court procedural decision; original order availability minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ]
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "sources": {
+    "dgxspark": {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-dgx-spark-arrives-for-worlds-ai-developers/",
+      "time": "2025-10-13",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Announces October 15 availability, not a newly conceived product."
+    },
+    "oracle_amd": {
+      "url": "https://newsroom.amd.com/news/oracle-and-amd-expand-partnership-to-help-customers-ach/",
+      "time": "2025-10-14",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Confirms 50,000 MI450 initial deployment from Q3 2026."
+    },
+    "nscale_microsoft": {
+      "url": "https://www.nscale.com/press-releases/nscale-microsoft-2025",
+      "time": "2025-10-15",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Confirms expanded approximately 200,000 GPU agreement."
+    },
+    "aligned": {
+      "url": "https://www.macquarie.com/is/en/about/news/2025/macquarie-asset-management-to-lead-sale-of-aligned-data-centers-at-an-enterprise-value-of-us-40-billion.html",
+      "time": "2025-10-15",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Seller confirms acquisition agreement, not completed ownership transfer."
+    },
+    "tsmc_q3": {
+      "url": "https://pr.tsmc.com/english/news/3264",
+      "time": "2025-10-16",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Actual results, distinct from earlier monthly revenue disclosure."
+    },
+    "blackwell_us": {
+      "url": "https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+      "time": "2025-10-17",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Ceremonial wafer milestone; earlier production plans existed."
+    },
+    "blackwell_april": {
+      "url": "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/",
+      "time": "2025-04-14",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Earlier company statement says Arizona Blackwell production started."
+    },
+    "firmus": {
+      "url": "https://www.bloomberg.com/news/articles/2025-10-16/nvidia-partners-in-2-9-billion-australia-data-center-drive",
+      "time": "2025-10-16T04:40:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Original report timestamp precedes afternoon sampled story."
+    },
+    "micron_china": {
+      "url": "https://finance.yahoo.com/news/exclusive-micron-exit-server-chips-054826446.html",
+      "time": "2025-10-17",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Planned exit reporting differs from the 2023 ban."
+    },
+    "broadcom_openai": {
+      "url": "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/",
+      "time": "2025-10-13",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Confirms ten-gigawatt collaboration."
+    },
+    "google_india": {
+      "url": "https://blog.google/intl/en-in/company-news/our-first-ai-hub-in-india-powered-by-a-15-billion-investment/",
+      "time": "2025-10-14",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Confirms 15 billion dollars; preserve earlier 10 billion reporting separately."
+    },
+    "coreweave_poolside": {
+      "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Partnership-with-Foundation-Model-Company-Poolside-to-Deliver-AI-Cloud-Services/default.aspx",
+      "time": "2025-10-15",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Confirms cloud partnership; NVIDIA funding is a separate claim."
+    },
+    "meta_blueowl": {
+      "url": "https://about.fb.com/news/2025/10/meta-blue-owl-capital-develop-hyperion-data-center/",
+      "time": "2025-10-21",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Later confirmation does not establish earlier report availability."
+    },
+    "heron": {
+      "url": "https://www.globenewswire.com/news-release/2025/10/13/3165715/0/en/Heron-Power-Reinvents-the-Power-Foundation-for-Gigascale-AI.html",
+      "time": "2025-10-13T17:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company wire displays 13:00 ET."
+    },
+    "asus_gx10": {
+      "url": "https://press.asus.com/news/press-releases/asus-ascent-gx10-ai-supercomputer/",
+      "time": "2025-10-14",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Availability announced for October 15; earlier previews/preorders existed."
+    },
+    "navitas": {
+      "url": "https://www.globenewswire.com/news-release/2025/10/13/3165822/0/en/index.html",
+      "time": "2025-10-13",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Progress update precedes next-day price commentary; partnership predates October."
+    },
+    "gtt": {
+      "url": "https://markets.financialcontent.com/stocks/article/bizwire-2025-10-16-gtt-partners-with-insight-to-fast-track-journey-from-software-defined-to-ai-powered-networking-and-security-as-a-service-with-nvidia-accelerated-computing-and-software",
+      "time": "2025-10-16T12:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company wire syndication displays 08:00 EDT."
+    }
+  },
+  "groups": [
+    [
+      [
+        403,
+        405,
+        408,
+        410,
+        413,
+        416,
+        419,
+        422,
+        424,
+        425,
+        431,
+        435,
+        438,
+        443,
+        444,
+        447,
+        448,
+        452,
+        454,
+        458,
+        460,
+        462,
+        464,
+        466,
+        471,
+        472,
+        473,
+        475,
+        479,
+        480,
+        482,
+        488,
+        489,
+        491,
+        493,
+        494,
+        495,
+        498,
+        504,
+        506,
+        513,
+        515,
+        517,
+        520,
+        523,
+        529,
+        532,
+        533,
+        534,
+        536,
+        537,
+        539,
+        543,
+        544,
+        546,
+        548,
+        549,
+        550,
+        554,
+        555,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        566,
+        567,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        580,
+        581,
+        582,
+        583,
+        585,
+        586,
+        588,
+        590,
+        591,
+        593,
+        595,
+        596,
+        598,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        610
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Available headline/summary excerpt primarily supplies investment opinion, recommendations, profiles or background; embedded facts are not certified old.",
+      [],
+      ""
+    ],
+    [
+      [
+        401,
+        402,
+        404,
+        406,
+        409,
+        411,
+        412,
+        415,
+        426,
+        429,
+        442,
+        446,
+        449,
+        450,
+        455,
+        456,
+        457,
+        465,
+        477,
+        478,
+        481,
+        484,
+        497,
+        499,
+        500,
+        505,
+        507,
+        508,
+        509,
+        510,
+        512,
+        518,
+        522,
+        526,
+        527,
+        528,
+        530,
+        531,
+        535,
+        541,
+        542,
+        545,
+        558,
+        565,
+        568,
+        571,
+        578,
+        579,
+        587,
+        589
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Observed price moves or roundups dominate; embedded new facts need separate source-time checks.",
+      [],
+      ""
+    ],
+    [
+      [
+        407
+      ],
+      "development_reporting",
+      "release_time_supported",
+      "heron_power",
+      "Company-issued release matches saved minute.",
+      [
+        "heron"
+      ],
+      ""
+    ],
+    [
+      [
+        414
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "broadcom_openai",
+      "Same-date deal coverage, original release minute unresolved.",
+      [
+        "broadcom_openai"
+      ],
+      ""
+    ],
+    [
+      [
+        417,
+        420,
+        421
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "dgxspark",
+      "New availability date can be incremental to previously announced hardware.",
+      [
+        "dgxspark"
+      ],
+      "Actual availability is October 15"
+    ],
+    [
+      [
+        418
+      ],
+      "supplier_results",
+      "candidate_timing_unresolved",
+      "samsung_prelim",
+      "Preliminary supplier guidance; original release minute unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        423
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "asus_gx10",
+      "Vendor confirms availability, first minute unresolved.",
+      [
+        "asus_gx10"
+      ],
+      ""
+    ],
+    [
+      [
+        427,
+        428
+      ],
+      "development_reporting",
+      "revision_history_unresolved",
+      "google_india",
+      "Confirmed amount differs from earlier saved headline; preserve original versions.",
+      [
+        "google_india"
+      ],
+      "Do not substitute later 15 billion figure into earlier 10 billion headline"
+    ],
+    [
+      [
+        430
+      ],
+      "company_showcase",
+      "candidate_timing_unresolved",
+      "asus_ocp",
+      "Specific product showcase; original release and prior product history unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        432,
+        433,
+        501
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "navitas800",
+      "Price narrative follows prior-day progress release.",
+      [
+        "navitas"
+      ],
+      ""
+    ],
+    [
+      [
+        434,
+        440,
+        502
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "spectrum_adoption",
+      "Follows October 13 customer-adoption announcement.",
+      [
+        "spectrum"
+      ],
+      ""
+    ],
+    [
+      [
+        436
+      ],
+      "background_recap",
+      "not_established",
+      "trendforce_capex",
+      "Weekly recap of research, first research publication minute unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        437
+      ],
+      "company_showcase",
+      "candidate_timing_unresolved",
+      "amd_helios",
+      "Specific rack-scale showcase; first announcement history unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        439,
+        453
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "oracle_amd",
+      "Company confirms initial order and expected deployment; first minute unresolved.",
+      [
+        "oracle_amd"
+      ],
+      ""
+    ],
+    [
+      [
+        441
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "broadcom_openai",
+      "Next-day report of prior-day deal.",
+      [
+        "broadcom_openai"
+      ],
+      ""
+    ],
+    [
+      [
+        445
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "boost_carahsoft",
+      "Specific distribution partnership; original publication history unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        451,
+        496,
+        556
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "powi800",
+      "Price interpretation follows company technology release.",
+      [
+        "powi800"
+      ],
+      ""
+    ],
+    [
+      [
+        459,
+        463,
+        467,
+        469
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "nscale_microsoft",
+      "Same-date expanded-contract coverage; first minute unresolved.",
+      [
+        "nscale_microsoft"
+      ],
+      ""
+    ],
+    [
+      [
+        470,
+        483,
+        487,
+        490,
+        492
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "aligned",
+      "Company confirms acquisition agreement; first minute unresolved.",
+      [
+        "aligned"
+      ],
+      "Factbox is not a separate transaction"
+    ],
+    [
+      [
+        474
+      ],
+      "company_social_post",
+      "earlier_disclosure_found",
+      "dgxspark",
+      "Shipping-date confirmation follows availability announcement; incremental fulfillment facts remain possible.",
+      [
+        "dgxspark"
+      ],
+      "Post not independently archived"
+    ],
+    [
+      [
+        476,
+        584
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "uae_approval",
+      "Reprises preceding-week approval report.",
+      [
+        "uae_approval"
+      ],
+      ""
+    ],
+    [
+      [
+        485
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "coreweave_poolside",
+      "Same-date company-confirmed cloud partnership.",
+      [
+        "coreweave_poolside"
+      ],
+      ""
+    ],
+    [
+      [
+        486
+      ],
+      "company_showcase",
+      "candidate_timing_unresolved",
+      "liteon_ocp",
+      "OCP showcase, first product-publication history unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        503
+      ],
+      "earnings_preview",
+      "not_established",
+      "tsmc_preview",
+      "Forecast of forthcoming results, not actual results.",
+      [],
+      ""
+    ],
+    [
+      [
+        511,
+        521
+      ],
+      "supplier_results",
+      "candidate_timing_unresolved",
+      "tsmc_q3",
+      "Company confirms actual results on same date; minute unresolved.",
+      [
+        "tsmc_q3"
+      ],
+      ""
+    ],
+    [
+      [
+        514,
+        519
+      ],
+      "original_interview",
+      "new_detail_candidate",
+      "",
+      "Executive interpretation or updated guidance may add facts; interview time unresolved.",
+      [],
+      "Distinct interview topics, not one shared event"
+    ],
+    [
+      [
+        516,
+        570
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "nscale_microsoft",
+      "Later coverage of October 15 agreement.",
+      [
+        "nscale_microsoft"
+      ],
+      ""
+    ],
+    [
+      [
+        524
+      ],
+      "financial_product_release",
+      "candidate_timing_unresolved",
+      "bmo_cdr",
+      "Depositary-receipt release; peripheral NVDA business relevance, first minute unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        525
+      ],
+      "development_reporting",
+      "release_time_supported",
+      "gtt_insight",
+      "Company-wire syndication aligns with saved minute.",
+      [
+        "gtt"
+      ],
+      ""
+    ],
+    [
+      [
+        538
+      ],
+      "development_reporting",
+      "not_established",
+      "stargate_background",
+      "Multi-site plans require separating earlier announcements and newly sourced details.",
+      [],
+      ""
+    ],
+    [
+      [
+        540
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "firmus_australia",
+      "04:40 UTC original report precedes saved afternoon coverage.",
+      [
+        "firmus"
+      ],
+      ""
+    ],
+    [
+      [
+        547
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "china_customs",
+      "Explicitly recaps October 10 report.",
+      [
+        "customs"
+      ],
+      ""
+    ],
+    [
+      [
+        551
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "reflection_oct",
+      "Summary dates funding announcement October 9.",
+      [
+        "reflection_oct"
+      ],
+      ""
+    ],
+    [
+      [
+        552
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "meta_blueowl",
+      "Pre-confirmation funding report may be new; later company release cannot date earlier reporting.",
+      [
+        "meta_blueowl"
+      ],
+      ""
+    ],
+    [
+      [
+        553
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "vertiv800",
+      "Price/valuation coverage after engineering milestone.",
+      [
+        "vertiv800"
+      ],
+      ""
+    ],
+    [
+      [
+        557
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "micron_china",
+      "Planned exit reporting differs from older ban.",
+      [
+        "micron_china"
+      ],
+      ""
+    ],
+    [
+      [
+        569
+      ],
+      "company_social_post",
+      "not_established",
+      "planet_jetson",
+      "Product detail may be incremental; original disclosure history unverified.",
+      [],
+      ""
+    ],
+    [
+      [
+        592,
+        599
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "blackwell_us",
+      "Ceremonial milestone confirmed but earlier production statement exists.",
+      [
+        "blackwell_us",
+        "blackwell_april"
+      ],
+      ""
+    ],
+    [
+      [
+        594
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "broadcom_openai",
+      "Retrospective stock analysis after October 13 deal.",
+      [
+        "broadcom_openai"
+      ],
+      ""
+    ],
+    [
+      [
+        597
+      ],
+      "reactive_reporting",
+      "candidate_timing_unresolved",
+      "micron_china",
+      "Recent exit price analysis; exact original-report timing unresolved.",
+      [
+        "micron_china"
+      ],
+      ""
+    ],
+    [
+      [
+        609
+      ],
+      "speech_reporting",
+      "new_detail_candidate",
+      "huang_wafer",
+      "Ceremony comments may add commitment details beyond prior plans.",
+      [
+        "blackwell_us",
+        "blackwell_april"
+      ],
+      ""
+    ],
+    [
+      [
+        461
+      ],
+      "background_recap",
+      "not_established",
+      "google_india",
+      "Weekly compilation includes company-confirmed India announcement.",
+      [
+        "google_india"
+      ],
+      ""
+    ],
+    [
+      [
+        468
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "aws_trainium",
+      "Specific claimed deployment statement; first interview/source history unresolved.",
+      [],
+      ""
+    ]
+  ]
+}

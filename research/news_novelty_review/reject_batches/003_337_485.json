@@ -1,0 +1,636 @@
+{
+  "sources": {
+    "reject_hitachi_later": {
+      "url": "https://www.hitachi.com/en/press/articles/2025/10/1021c/",
+      "time": "2025-10-21 publication; October 2 signature",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Later official confirmation supports event identity only. Signature date does not establish when October 3 reporting first became public.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_credo_hyperlume": {
+      "url": "https://investors.credosemi.com/news-events/news/news-details/2025/Credo-to-Acquire-Hyperlume-Inc-/default.aspx",
+      "time": "2025-09-29",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company disclosure predates October 3 recap.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_cipher_fluidstack": {
+      "url": "https://www.globenewswire.com/de/news-release/2025/09/25/3156107/0/en/Cipher-Mining-Signs-168-MW-10-Year-AI-Hosting-Agreement-with-Fluidstack.html",
+      "time": "2025-09-25T10:19:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company wire establishes earlier 168 MW/10-year hosting agreement; new contract terms must be distinguished.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_army_risk": {
+      "url": "https://www.investing.com/news/stock-market-news/anduril-and-palantir-battlefield-communication-system-has-deep-flaws-army-memo-says-4270090",
+      "time": "2025-10-03 reporting; original first minute unresolved",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Reuters attributes initial memo reporting to Breaking Defense. Memo date is not public disclosure date; later rebuttal can be new.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_nvdx_identity": {
+      "url": "https://www.cboe.com/us/equities/listings/listed_products/symbols/NVDX/",
+      "time": "current listing checked 2026-10-26; not article publication evidence",
+      "precision": "instrument_identity_only",
+      "note": "Exchange confirms NVDX is NVIDIA-linked. This supports relevance only, not novelty or October historical fund terms.",
+      "checked_on": "2026-10-26"
+    }
+  },
+  "groups": [
+    [
+      [
+        337,
+        339,
+        342,
+        343,
+        350,
+        353,
+        355,
+        356,
+        359,
+        360,
+        364,
+        367,
+        373,
+        375,
+        376,
+        377,
+        380,
+        383,
+        385,
+        386,
+        387,
+        388,
+        394,
+        396,
+        397,
+        398,
+        400,
+        401,
+        408,
+        411,
+        413,
+        415,
+        417,
+        418,
+        420,
+        421,
+        427,
+        428,
+        429,
+        430,
+        431,
+        434,
+        435,
+        436,
+        441,
+        444,
+        446,
+        449,
+        450,
+        454,
+        456,
+        461,
+        462,
+        464,
+        466,
+        470,
+        471,
+        477,
+        479,
+        480,
+        485
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Saved headline and summary/excerpt primarily background, forecast, recommendation, investment interpretation or retrospective commentary. Original novelty of embedded facts remains unchecked.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        345,
+        346,
+        347,
+        348,
+        351,
+        357,
+        362,
+        368,
+        372,
+        374,
+        378,
+        382,
+        389,
+        390,
+        391,
+        393,
+        402,
+        426,
+        433,
+        437,
+        440,
+        445,
+        451,
+        455,
+        457,
+        460,
+        465,
+        469,
+        473,
+        474,
+        475,
+        476,
+        478,
+        481
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Observed prices, live commentary, recap or multi-event roundup dominates available text. Does not establish absence of new embedded information.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        338,
+        425
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "coreweave_meta",
+      "Valuation or growth narrative follows September Meta capacity disclosure.",
+      [
+        "coreweave_meta"
+      ],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        340
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "microsoft_microfluidics",
+      "Saved text dates funding/cooling announcement September 25; Microsoft September post corroborates prior cooling disclosure.",
+      [
+        "reject_microfluidics"
+      ],
+      "Funding details have their own disclosure history",
+      "possible_ai_datacenter_context"
+    ],
+    [
+      [
+        341
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "microsoft_shizen",
+      "New PPAs distinct from initial 2023 deal; source statement versus prior Bloomberg report timing unresolved.",
+      [],
+      "",
+      "possible_ai_power_context"
+    ],
+    [
+      [
+        344,
+        379,
+        381,
+        423
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "google_arkansas",
+      "Government investment announcement published October 2 before these October 3 recaps.",
+      [
+        "reject_arkansas"
+      ],
+      "Utility-specific additions need separate first-release assessment",
+      "possible_ai_datacenter_context"
+    ],
+    [
+      [
+        349
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "hitachi_openai",
+      "Potentially material infrastructure memorandum; later company release confirms identity but cannot establish earlier first public availability.",
+      [
+        "reject_hitachi_later"
+      ],
+      "",
+      "possible_ai_infrastructure_context"
+    ],
+    [
+      [
+        352,
+        371,
+        384,
+        399,
+        424,
+        439
+      ],
+      "peripheral_company_release",
+      "candidate_timing_unresolved",
+      "",
+      "Specific recall, company strategy, award, research/analyst publicity, product or promotion; original disclosure history and direct NVDA relevance unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        354,
+        447
+      ],
+      "analyst_research",
+      "candidate_timing_unresolved",
+      "",
+      "Specific analyst industry forecast or company analysis; dissemination minute and new content need original-note verification.",
+      [],
+      "",
+      "possible_ai_industry_context"
+    ],
+    [
+      [
+        358,
+        463
+      ],
+      "event_preview",
+      "not_established",
+      "",
+      "Upcoming event publicity; speaker participation is not an established material NVDA development.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        361
+      ],
+      "security_reporting",
+      "new_detail_candidate",
+      "oracle_extortion",
+      "Claims of confirmed leaks may add to prior-day extortion report; original confirmation and source chronology unresolved.",
+      [],
+      "",
+      "possible_ai_cloud_context"
+    ],
+    [
+      [
+        363
+      ],
+      "benchmark_reporting",
+      "new_detail_candidate",
+      "huawei_910c_teardown",
+      "Fresh teardown evidence can be new despite older components; original TechInsights public statement and first minute not recovered.",
+      [],
+      "Do not conflate old die manufacturing date with public teardown evidence date",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        365,
+        412,
+        438,
+        442
+      ],
+      "speech_reporting",
+      "candidate_timing_unresolved",
+      "",
+      "Executive/investor comments or interview may be new speech; original broadcast/event first availability unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        366
+      ],
+      "development_reporting",
+      "revision_history_unresolved",
+      "microsoft_neocloud_details",
+      "Explicit updated item adds stock moves to underlying earlier report; current text must not be assumed available at initial timestamp.",
+      [
+        "nebius_detail"
+      ],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        369
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "microsoft_unify_report",
+      "Research product publicity; original report and underlying product first availability unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        370
+      ],
+      "company_personnel",
+      "not_established",
+      "nice_comstock",
+      "Saved summary identifies September 26 announcement and October 1 effective date. Original public history not independently checked.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        392
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "apple_glasses",
+      "Follows October 1 saved reports attributing headset strategy change to Bloomberg; original release minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        395
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "peak_aio_funding",
+      "Specific storage funding report; original company/investor first availability unresolved.",
+      [],
+      "",
+      "possible_ai_storage_context"
+    ],
+    [
+      [
+        403,
+        406
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "cipher_fluidstack",
+      "Hosting terms match September company release; later stock move is not a new contract.",
+      [
+        "reject_cipher_fluidstack"
+      ],
+      "",
+      "possible_ai_datacenter_context"
+    ],
+    [
+      [
+        404
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "google_gemini_flash",
+      "Specific model/tool claim may conflate launches and current popularity; original release and version need verification.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        405
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "digitalocean_ecosystem",
+      "Interprets previous-day vendor launch.",
+      [
+        "reject_digitalocean"
+      ],
+      "",
+      "nvda_gpu_link_confirmed_in_external_source"
+    ],
+    [
+      [
+        407
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "comet_compute",
+      "Semafor-attributed reporting may add compute-capacity details beyond free availability; original report content/time unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        409
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "credo_hyperlume",
+      "Company disclosed acquisition September 29 before this October 3 recap.",
+      [
+        "reject_credo_hyperlume"
+      ],
+      "",
+      "possible_ai_networking_context"
+    ],
+    [
+      [
+        410
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "google_arkansas",
+      "Utility/price follow-up to prior-day investment announcement.",
+      [
+        "reject_arkansas"
+      ],
+      "Additional utility terms may need separate verification",
+      "possible_ai_power_context"
+    ],
+    [
+      [
+        414
+      ],
+      "background_recap",
+      "not_established",
+      "avenuecode",
+      "Weekly recap of AI-services program; initial release timing unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        416
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "meta_retail_assistant",
+      "Specific service expansion distinct from AI-conversation advertising policy; original announcement history unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        419,
+        422
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "intel_amd_foundry",
+      "Later interpretation follows October 1 Semafor talks report.",
+      [
+        "reject_intel_amd"
+      ],
+      "",
+      "possible_semiconductor_competition_context"
+    ],
+    [
+      [
+        432
+      ],
+      "analyst_action",
+      "candidate_timing_unresolved",
+      "apple_jefferies",
+      "Specific downgrade potentially new; analyst note and original public report minute not independently established.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        443
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "meta_pembina",
+      "Attributes potential datacenter deal to The Logic; original page returned 403. Negotiations not a signed agreement.",
+      [],
+      "Original public report minute and historical full text unresolved",
+      "possible_ai_datacenter_context"
+    ],
+    [
+      [
+        448,
+        482
+      ],
+      "security_reporting",
+      "followup_reporting",
+      "army_ngc2",
+      "Reuters identifies earlier Breaking Defense memo reporting; original source chronology and incremental Reuters detail unresolved.",
+      [
+        "reject_army_risk"
+      ],
+      "Internal memo date is not first public availability",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        452
+      ],
+      "obituary_profile",
+      "not_established",
+      "",
+      "Obituary/profile; no material NVDA announcement identified from saved headline and summary.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        453,
+        458
+      ],
+      "mixed_price_development",
+      "candidate_timing_unresolved",
+      "",
+      "Price reporting includes a specific analyst action potentially new; original note/public-report timeline unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        459
+      ],
+      "opinion_background",
+      "not_established",
+      "nvdx_etf",
+      "NVDA-linked leveraged ETF strategy; empty summary prevents reliable claim-level novelty assessment.",
+      [
+        "reject_nvdx_identity"
+      ],
+      "Upstream not-relevant label deserves correction for direct instrument linkage",
+      "nvda_link_explicit_in_instrument"
+    ],
+    [
+      [
+        467
+      ],
+      "analyst_action",
+      "timestamp_conflict",
+      "meta_citi_target",
+      "Headline says target $195 but summary says $915 and dates reiteration September 24. Source text conflict must be resolved.",
+      [],
+      "Do not silently correct headline or use as numeric target label",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        468
+      ],
+      "policy_reporting",
+      "candidate_timing_unresolved",
+      "h1b_industry_letter",
+      "Specific industry letter responding to existing visa policy; new response differs from old fee announcement. Original letter release minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        472
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "intel_amd_rebuttal",
+      "Competing publication rebuttal is potentially incremental to earlier talks report; claims of no agreement do not necessarily refute existence of talks.",
+      [
+        "reject_intel_amd"
+      ],
+      "Original SemiAccurate report minute not recovered",
+      "possible_semiconductor_competition_context"
+    ],
+    [
+      [
+        483
+      ],
+      "background_recap",
+      "not_established",
+      "smart_home_ai",
+      "Feature comparing Alexa+/Gemini capabilities; individual launch and feature timelines not fully verified.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        484
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "army_ngc2_rebuttal",
+      "Company response can be new after earlier security memo coverage; timing of public rebuttal needs separate validation.",
+      [
+        "reject_army_risk"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ]
+  ]
+}

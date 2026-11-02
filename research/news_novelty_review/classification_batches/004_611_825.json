@@ -1,0 +1,904 @@
+{
+  "sources": {
+    "google_g4": {
+      "url": "https://cloud.google.com/blog/products/compute/g4-vms-powered-by-nvidia-rtx-6000-blackwell-gpus-are-ga/",
+      "time": "2025-10-20",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company general-availability release confirms product milestone."
+    },
+    "uniphore": {
+      "url": "https://ebs.publicnow.com/view/0C742B110BB292C43AB3727D48D35787DAAB26DB",
+      "time": "2025-10-22",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Syndicated company announcement confirms funding; minute unresolved."
+    },
+    "hyperscale": {
+      "url": "https://www.prnewswire.com/news-releases/hyperscale-data-to-launch-on-demand-nvidia-gpu-cloud-from-michigan-ai-campus-302592318.html",
+      "time": "2025-10-23",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company announces intended launch, not live service; saved early-clock time needs provenance check."
+    },
+    "superx_micro": {
+      "url": "https://www.superx.sg/news/2025-10/66",
+      "time": "2025-10-24",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms investment."
+    },
+    "qualcomm_early": {
+      "url": "https://www.streetinsider.com/Reuters/Qualcomm%2Bannounces%2Bnew%2BAI%2Bchips%2Bin%2Bdata%2Bcenter%2Bpush%2C%2Bshares%2Bsurge/25504129.html",
+      "time": "2025-10-27T14:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Earlier Reuters syndication; current Qualcomm page displays next day."
+    },
+    "telekom_report": {
+      "url": "https://www.bloomberg.com/news/articles/2025-10-27/nvidia-deutsche-telekom-plan-1-billion-data-center-in-germany",
+      "time": "2025-10-27T19:27:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Current original-page time conflicts with saved 15:34 UTC item; initial versions unresolved."
+    },
+    "nokia_investment": {
+      "url": "https://www.nokia.com/newsroom/inside-information-nvidia-to-make-usd-1-billion-equity-investment-in-nokia-in-addition-to-new-strategic-partnership-nokias-board-resolved-on-directed-share-issuance-to-nvidia/",
+      "time": "2025-10-28T14:30:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Corporate index displays 15:30 Europe/Amsterdam, after saved 11:31 UTC item; inspect original versions."
+    },
+    "nokia_partnership": {
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Nokia-to-Pioneer-the-AI-Platform-for-6G--Powering-Americas-Return-to-Telecommunications-Leadership/default.aspx",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms alliance; first keynote disclosure minute unresolved."
+    },
+    "uber_robotaxi": {
+      "url": "https://www.globenewswire.com/news-release/2025/10/28/3175830/0/en/nvidia-makes-the-world-robotaxi-ready-with-uber-partnership-to-support-global-expansion.html",
+      "time": "2025-10-28T17:48:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Wire release displays 13:48 ET; earlier saved deal headlines require keynote/original-wire validation."
+    },
+    "nvqlink": {
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Introduces-NVQLink--Connecting-Quantum-and-GPU-Computing-for-17-Quantum-Builders-and-Nine-Scientific-Labs/default.aspx",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms architecture announcement."
+    },
+    "lilly": {
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-partners-nvidia-build-industrys-most-powerful-ai",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms pharmaceutical AI supercomputer collaboration."
+    },
+    "doe": {
+      "url": "https://www.energy.gov/nnsa/articles/nnsa-announces-two-new-supercomputers-los-alamos-national-laboratory-propelling",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Government confirms two Los Alamos systems; does not alone verify every system or total booking claim."
+    },
+    "joby": {
+      "url": "https://www.jobyaviation.com/news/joby-taps-nvidia-to-accelerate-next-era-autonomous-flight-named-launch-partner-of-igx-thor",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms platform launch-partner selection."
+    },
+    "stellantis": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2025/october/28-10-25/en/EN-20251028-Stellantits-Nvidia-Uber-Foxconn.pdf",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company describes exploration/plans, not deployed autonomous fleet."
+    },
+    "accenture": {
+      "url": "https://newsroom.accenture.com/news/2025/accenture-launches-physical-ai-orchestrator-to-help-manufacturers-build-software-defined-facilities",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms solution launch."
+    },
+    "zoom": {
+      "url": "https://news.zoom.com/zoom-nvidia-enterprise-ai/",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms integration announcement."
+    },
+    "vail": {
+      "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/10/town-of-vail-to-deploy-hpe-ai-solution-to-make-city-smarter-safer-and-more-sustainable.html",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms planned adoption, not completed city deployment."
+    },
+    "utah": {
+      "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/10/university-of-utah-and-the-state-of-utah-to-accelerate-medical-research-and-expand-regional-economic-development-with-a-sovereign-ai-factory-powered-by-hpe-and-nvidia.html",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms planned AI factory."
+    },
+    "keysight": {
+      "url": "https://www.keysight.com/ca/en/about/newsroom/news-releases/2025/1028_pr25-125-keysight-to-showcase-quantum-ai-collaboration-at-GTC-2025-with-nvidia-nvqlink.html",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms hybrid quantum showcase."
+    },
+    "flex": {
+      "url": "https://investors.flex.com/news/news-details/2025/Flex-to-Accelerate-Deployment-of-Giga-Scale-AI-Factories-with-NVIDIA/default.aspx",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms modular systems and cuOpt work."
+    },
+    "infleqtion": {
+      "url": "https://infleqtion.com/infleqtion-nvidia-nvqlink-connecting-our-sqale-quantum-computer-to-ai-supercomputers-in-real-time/",
+      "time": "2025-10-28; also displays November 3",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company post shows multiple dates; preserve revision uncertainty."
+    },
+    "vertiv_dsx": {
+      "url": "https://investors.vertiv.com/news/news-details/2025/Delivering-Flexibility-at-Gigawatt-Scale-Vertiv-Announces-Rapidly-Deployed-System-Level-Reference-Architectures-for-the-NVIDIA-Omniverse-DSX-Blueprint/",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company architecture release; source syndication appears later than saved early-clock item."
+    },
+    "pure_cisco": {
+      "url": "https://www.streetinsider.com/PRNewswire/Pure%2BStorage%2Band%2BCisco%2BDeliver%2BAI%2BFactories%2Bfor%2Bthe%2BEnterprise%2Bwith%2BNVIDIA/25512489.html",
+      "time": "2025-10-28",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company-wire announcement confirms new validated design; older FlashStack product existed."
+    }
+  },
+  "groups": [
+    [
+      [
+        611,
+        612,
+        614,
+        615,
+        616,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        626,
+        630,
+        633,
+        635,
+        637,
+        638,
+        639,
+        641,
+        642,
+        647,
+        648,
+        651,
+        652,
+        653,
+        656,
+        658,
+        663,
+        664,
+        665,
+        667,
+        668,
+        670,
+        672,
+        673,
+        675,
+        677,
+        678,
+        680,
+        684,
+        685,
+        687,
+        688,
+        690,
+        693,
+        695,
+        697,
+        703,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        715,
+        717,
+        718,
+        719,
+        720,
+        722,
+        723,
+        724,
+        726,
+        728,
+        729,
+        731,
+        735,
+        739,
+        741,
+        742,
+        744,
+        745,
+        751,
+        752,
+        753,
+        754,
+        755,
+        759,
+        761,
+        763,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        774,
+        783,
+        784,
+        785,
+        790,
+        792,
+        806,
+        816,
+        819,
+        824
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Headline and saved summary/excerpt primarily supply opinions, recommendations, previews, company profiles or background. Novelty of embedded facts is not certified.",
+      [],
+      ""
+    ],
+    [
+      [
+        625,
+        627,
+        629,
+        636,
+        643,
+        649,
+        655,
+        657,
+        659,
+        671,
+        674,
+        676,
+        683,
+        686,
+        689,
+        691,
+        694,
+        698,
+        699,
+        701,
+        702,
+        727,
+        732,
+        737,
+        740,
+        746,
+        747,
+        750,
+        756,
+        760,
+        764,
+        771,
+        773,
+        776,
+        779,
+        780,
+        782,
+        802,
+        803,
+        805,
+        807,
+        808,
+        812,
+        813,
+        815,
+        817,
+        818,
+        821,
+        823
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Price moves or roundups dominate available text; do not infer absence of newly disclosed details.",
+      [],
+      ""
+    ],
+    [
+      [
+        613,
+        696,
+        716,
+        820,
+        825
+      ],
+      "speech_reporting",
+      "candidate_timing_unresolved",
+      "",
+      "Specific executive/policy comments or expectations; source speech/report time unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        617
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "gtt_insight",
+      "Investment interpretation follows October 16 collaboration release.",
+      [
+        "gtt"
+      ],
+      ""
+    ],
+    [
+      [
+        628
+      ],
+      "financial_product_filing",
+      "candidate_timing_unresolved",
+      "leveraged_etfs",
+      "Reports fund filing; filing time and substantive NVDA relevance unverified.",
+      [],
+      ""
+    ],
+    [
+      [
+        631,
+        654
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "google_g4",
+      "Vendor confirms same-date availability; initial minute unresolved.",
+      [
+        "google_g4"
+      ],
+      ""
+    ],
+    [
+      [
+        632
+      ],
+      "mixed_roundup",
+      "earlier_disclosure_found",
+      "uae_approval",
+      "Includes earlier UAE approval plus unrelated Neuralink item.",
+      [
+        "uae_approval"
+      ],
+      "Separate the disclosure histories"
+    ],
+    [
+      [
+        634,
+        640
+      ],
+      "background_recap",
+      "earlier_disclosure_found",
+      "dgxspark",
+      "Discusses previously announced product availability/co-design.",
+      [
+        "dgxspark",
+        "asus_gx10"
+      ],
+      "Co-design specifics may have earlier histories than shipping announcement"
+    ],
+    [
+      [
+        644
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "zadara_msg",
+      "Specific partnership release; targeted original-history check unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        645
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "openai_backstop",
+      "WSJ-attributed new debt guarantee detail may be incremental to older partnership; original source history unresolved.",
+      [
+        "openai"
+      ],
+      "Do not assume older partnership makes proposed guarantee old"
+    ],
+    [
+      [
+        646
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "ai_server_report",
+      "Research-product announcement; original report availability unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        650
+      ],
+      "benchmark_reporting",
+      "candidate_timing_unresolved",
+      "ionq_fidelity",
+      "Specific quantum benchmark claim; NVIDIA is comparison, not announcement subject.",
+      [],
+      ""
+    ],
+    [
+      [
+        660
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "uniphore",
+      "Company-issued funding announcement corroborated; first minute unresolved.",
+      [
+        "uniphore"
+      ],
+      ""
+    ],
+    [
+      [
+        661
+      ],
+      "background_recap",
+      "not_established",
+      "zadara_msg",
+      "Weekly recap of partnership; original minute unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        662,
+        692
+      ],
+      "earnings_preview",
+      "not_established",
+      "intel_preview",
+      "Preview of future earnings, not an actual results release.",
+      [],
+      ""
+    ],
+    [
+      [
+        666
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "meta_blueowl",
+      "Coverage follows company October 21 confirmation.",
+      [
+        "meta_blueowl"
+      ],
+      ""
+    ],
+    [
+      [
+        669
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "metagenomi_aws",
+      "Specific customer adoption report; original release chronology unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        679
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "nextsilicon",
+      "Specific processor announcement; original company release not recovered in bounded check.",
+      [],
+      ""
+    ],
+    [
+      [
+        681
+      ],
+      "supplier_results",
+      "candidate_timing_unresolved",
+      "besi_results",
+      "Supplier results and guidance; original results-release minute unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        682
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "hyperscale_cloud",
+      "Company confirms planned cloud service, not an operational platform.",
+      [
+        "hyperscale"
+      ],
+      "Saved early-clock time needs original-wire validation"
+    ],
+    [
+      [
+        700
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "superx_micro",
+      "Company confirms same-date investment; first minute unresolved.",
+      [
+        "superx_micro"
+      ],
+      ""
+    ],
+    [
+      [
+        704
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "heron_funding",
+      "Potential funding news is distinct from earlier engineering release; original investment-report history unresolved.",
+      [
+        "heron"
+      ],
+      "Do not use engineering-release time as funding-news time"
+    ],
+    [
+      [
+        714
+      ],
+      "opinion_background",
+      "not_established",
+      "luminar",
+      "Investment narrative mixes ongoing partnerships and planned product milestones; announcement history unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        721
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "superx_micro",
+      "Investment interpretation includes earlier company-confirmed investment; joint-venture timing separately unresolved.",
+      [
+        "superx_micro"
+      ],
+      ""
+    ],
+    [
+      [
+        725
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "roscon",
+      "Specific open-source robotics developments; original conference/source timeline unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        730,
+        733,
+        734,
+        736,
+        738,
+        748,
+        749,
+        757
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "qualcomm_launch",
+      "Later reporting follows located 14:00 UTC public chip-launch report.",
+      [
+        "qualcomm_early"
+      ],
+      "Exact company first release not established; saved/website dates can differ"
+    ],
+    [
+      [
+        743
+      ],
+      "development_reporting",
+      "timestamp_conflict",
+      "telekom_report",
+      "Saved 15:34 UTC item predates current original-page 19:27 UTC publication. Initial versions unresolved.",
+      [
+        "telekom_report"
+      ],
+      "Do not silently shift timestamp"
+    ],
+    [
+      [
+        758
+      ],
+      "company_personnel",
+      "candidate_timing_unresolved",
+      "globalfoundries_cfo",
+      "Specific CFO change; NVIDIA is contextual, first release unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        762
+      ],
+      "supplier_investment",
+      "candidate_timing_unresolved",
+      "foxconn_supercomputer",
+      "Specific supplier capex claim; source release time unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        772
+      ],
+      "development_reporting",
+      "timestamp_conflict",
+      "nokia_investment",
+      "Saved 11:31 UTC precedes company index publication 14:30 UTC.",
+      [
+        "nokia_investment"
+      ],
+      "Timestamp provenance requires resolution before return matching"
+    ],
+    [
+      [
+        775,
+        777,
+        781
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "nokia_partnership",
+      "Company confirms alliance but early saved keynote headlines need original-version/speech validation.",
+      [
+        "nokia_partnership",
+        "nokia_investment"
+      ],
+      ""
+    ],
+    [
+      [
+        778
+      ],
+      "company_workforce",
+      "candidate_timing_unresolved",
+      "amazon_layoffs",
+      "Specific workforce announcement; earlier rumor versus official confirmation must be separated.",
+      [],
+      ""
+    ],
+    [
+      [
+        786,
+        787,
+        793
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "uber_robotaxi",
+      "Company confirms planned collaborations; earlier saved times may precede wire publication and need speech-level validation.",
+      [
+        "uber_robotaxi",
+        "stellantis"
+      ],
+      "Plans are not completed vehicle deployment"
+    ],
+    [
+      [
+        788
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "vertiv_dsx",
+      "Company confirms reference architectures; saved versus wire times need validation.",
+      [
+        "vertiv_dsx"
+      ],
+      ""
+    ],
+    [
+      [
+        789
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "lucid_l4",
+      "Specific future autonomy plan; independently timed Lucid source still needed.",
+      [
+        "uber_robotaxi"
+      ],
+      "Uber source supplies context, not Lucid-specific first disclosure"
+    ],
+    [
+      [
+        791
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "accenture_orchestrator",
+      "Company confirms launch on same date; first minute unresolved.",
+      [
+        "accenture"
+      ],
+      ""
+    ],
+    [
+      [
+        794
+      ],
+      "company_showcase",
+      "candidate_timing_unresolved",
+      "keysight_quantum",
+      "Company confirms same-date hybrid quantum showcase.",
+      [
+        "keysight"
+      ],
+      ""
+    ],
+    [
+      [
+        795
+      ],
+      "company_showcase",
+      "candidate_timing_unresolved",
+      "synopsys_gtc",
+      "GTC showcase notice; original notice and product publication histories unresolved.",
+      [],
+      ""
+    ],
+    [
+      [
+        796
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "zoom_nemotron",
+      "Company confirms integration; initial minute unresolved.",
+      [
+        "zoom"
+      ],
+      ""
+    ],
+    [
+      [
+        797
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "hpe_vail",
+      "Company confirms intended adoption; initial minute unresolved.",
+      [
+        "vail"
+      ],
+      ""
+    ],
+    [
+      [
+        798
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "pure_cisco",
+      "Company confirms new validated design; saved versus release timing unresolved.",
+      [
+        "pure_cisco"
+      ],
+      ""
+    ],
+    [
+      [
+        799
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "hpe_utah",
+      "Company confirms planned infrastructure; first minute unresolved.",
+      [
+        "utah"
+      ],
+      ""
+    ],
+    [
+      [
+        800
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "flex_nvidia",
+      "Company confirms deployment/collaboration; first minute unresolved.",
+      [
+        "flex"
+      ],
+      ""
+    ],
+    [
+      [
+        801
+      ],
+      "development_reporting",
+      "revision_history_unresolved",
+      "infleqtion",
+      "Company confirms connection; page displays multiple dates and initial version timing unresolved.",
+      [
+        "infleqtion",
+        "nvqlink"
+      ],
+      ""
+    ],
+    [
+      [
+        804
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "joby_igx",
+      "Company confirms platform launch partner, first minute unresolved.",
+      [
+        "joby"
+      ],
+      ""
+    ],
+    [
+      [
+        809
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "doe_systems",
+      "Government confirms Los Alamos systems; keynote-wide system count requires separate source.",
+      [
+        "doe"
+      ],
+      ""
+    ],
+    [
+      [
+        810
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "lilly_ai",
+      "Company confirms drug-discovery supercomputer collaboration.",
+      [
+        "lilly"
+      ],
+      ""
+    ],
+    [
+      [
+        811,
+        814,
+        822
+      ],
+      "mixed_development_roundup",
+      "candidate_timing_unresolved",
+      "gtc_doebookings",
+      "Multiple keynote claims combine systems, demand guidance and policy comments; cannot assign a single clean anchor.",
+      [
+        "doe",
+        "lilly"
+      ],
+      "Government source does not independently establish total bookings amount"
+    ]
+  ]
+}

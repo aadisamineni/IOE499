@@ -1,0 +1,14 @@
+{
+  "reviewed": 50,
+  "assessment_counts": {
+    "opinion_background": 14,
+    "recap": 14,
+    "announcement_candidate": 6,
+    "reactive_reporting": 13,
+    "unclear": 3
+  },
+  "articles_with_external_evidence": 23,
+  "confirmed_first_releases": 0,
+  "returns_examined": false,
+  "human_validated": false
+}

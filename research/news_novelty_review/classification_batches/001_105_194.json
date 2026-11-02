@@ -1,0 +1,320 @@
+{
+  "sources": {
+    "honhai_sept": {
+      "url": "https://www.foxconn.com.tw/en-us/press-center/press-releases/latest-news/1845",
+      "time": "2025-10-05",
+      "precision": "date_only",
+      "note": "Company monthly revenue release confirms reporting; original minute unresolved."
+    },
+    "coreweave_backstop": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+      "time": "2025-09-15 disclosure; agreement September 9",
+      "precision": "filing_disclosure_date",
+      "note": "Public coverage September 15 precedes October discussion; agreement date is not release date."
+    },
+    "amd_openai": {
+      "url": "https://newsroom.amd.com/news/amd-and-openai-announce-strategic-partnership-to-d/",
+      "time": "2025-10-06",
+      "precision": "date_only",
+      "note": "Company release confirms six-gigawatt agreement and conditional warrant, not an immediately acquired 10% stake."
+    },
+    "goldman_oct6": {
+      "url": "https://www.streetinsider.com/news.php?classic=1&id=25420655",
+      "time": "2025-10-06T06:30:00Z",
+      "precision": "minute_syndicated_analyst_action",
+      "note": "Displayed 02:30 EDT predates later-day articles; action coverage is secondary evidence."
+    },
+    "arango_gtc": {
+      "url": "https://markets.financialcontent.com/stocks/article/bizwire-2025-10-7-arango-brings-the-genai-edge-youve-been-missing-to-nvidia-gtc-washington-dc",
+      "time": "2025-10-07T15:00:00Z",
+      "precision": "minute_company_wire_syndication",
+      "note": "Company-issued showcase release matches saved time; showcase is not necessarily a new product."
+    },
+    "oracle_margins": {
+      "url": "https://www.theinformation.com/articles/internal-oracle-data-show-financial-challenge-renting-nvidia-chips",
+      "time": "2025-10-07T15:00:00Z",
+      "precision": "minute_original_reporting_metadata",
+      "note": "Original report displayed 08:00 PDT. Paywalled content not fully inspected; title and accessible metadata support report identity."
+    }
+  },
+  "groups": [
+    [
+      [
+        105,
+        106,
+        107,
+        110,
+        111,
+        114,
+        115,
+        116,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        126,
+        128,
+        130,
+        131,
+        133,
+        135,
+        136,
+        139,
+        141,
+        143,
+        147,
+        150,
+        151,
+        152,
+        155,
+        157,
+        159,
+        160,
+        161,
+        163,
+        165,
+        170,
+        173,
+        179,
+        180,
+        188,
+        189,
+        191,
+        192,
+        193
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Available headline/summary primarily supplies forecasts, investment interpretation, recommendations or background. Novelty of embedded facts is not certified.",
+      [],
+      ""
+    ],
+    [
+      [
+        108
+      ],
+      "supplier_results",
+      "candidate_timing_unresolved",
+      "honhai_sept_revenue",
+      "Specific supplier revenue report confirmed by company; first publication minute remains unresolved.",
+      [
+        "honhai_sept"
+      ],
+      ""
+    ],
+    [
+      [
+        109
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "nvidia_intel_investment",
+      "Recommendation based on previously disclosed investment.",
+      [
+        "intel"
+      ],
+      ""
+    ],
+    [
+      [
+        112
+      ],
+      "mixed_opinion_price",
+      "earlier_disclosure_found",
+      "uipath_nvidia",
+      "Investment interpretation follows September collaboration release.",
+      [
+        "uipath"
+      ],
+      ""
+    ],
+    [
+      [
+        113
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "coreweave_backstop",
+      "Discusses September-disclosed capacity backstop; no additional fact established.",
+      [
+        "coreweave_backstop"
+      ],
+      ""
+    ],
+    [
+      [
+        117,
+        118,
+        125,
+        127,
+        140,
+        154,
+        162,
+        166,
+        167,
+        175,
+        194
+      ],
+      "reactive_reporting",
+      "not_established",
+      "",
+      "Available text reports market moves, technical levels, prior news or investor sentiment. No independently timed new business fact established.",
+      [],
+      ""
+    ],
+    [
+      [
+        129,
+        132,
+        134,
+        137,
+        142,
+        144,
+        145,
+        149,
+        153
+      ],
+      "mixed_price_development",
+      "candidate_timing_unresolved",
+      "amd_openai",
+      "Same-day reporting of AMD-OpenAI deal, with price reaction or interpretation. Company date confirmed but exact first-release minute not yet recovered.",
+      [
+        "amd_openai"
+      ],
+      "Conditional warrant is not an immediately acquired stake; do not label every article a separate announcement"
+    ],
+    [
+      [
+        138,
+        146
+      ],
+      "analyst_action",
+      "earlier_disclosure_found",
+      "goldman_target_oct6",
+      "Same target increase covered earlier that day.",
+      [
+        "goldman_oct6"
+      ],
+      ""
+    ],
+    [
+      [
+        148
+      ],
+      "original_interview",
+      "new_detail_candidate",
+      "amd_openai",
+      "CEO interview may add interpretation or details to same-day announcement; incremental facts need transcript verification.",
+      [
+        "amd_openai"
+      ],
+      ""
+    ],
+    [
+      [
+        156,
+        158,
+        172,
+        174
+      ],
+      "followup_reporting",
+      "earlier_disclosure_found",
+      "amd_openai",
+      "Next-day coverage or transcript of prior-day agreement.",
+      [
+        "amd_openai"
+      ],
+      ""
+    ],
+    [
+      [
+        164
+      ],
+      "analyst_action",
+      "not_established",
+      "intel_deutsche_target",
+      "Summary explicitly dates action September 29, preceding publication. No independent analyst-note source verified.",
+      [
+        "intel"
+      ],
+      "Earlier investment context verified; analyst-action date is summary-only"
+    ],
+    [
+      [
+        168
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "superx_b300",
+      "Price and investment analysis follows October 3 company product release.",
+      [
+        "superx"
+      ],
+      ""
+    ],
+    [
+      [
+        169
+      ],
+      "mixed_price_development",
+      "not_established",
+      "amd_openai",
+      "Price reporting combines prior-day agreement with analyst expectations about policy; timing of possible new policy commentary unresolved.",
+      [
+        "amd_openai"
+      ],
+      ""
+    ],
+    [
+      [
+        171
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "coreweave_meta",
+      "Valuation discussion of contract disclosed in September.",
+      [
+        "coreweave_meta"
+      ],
+      ""
+    ],
+    [
+      [
+        176
+      ],
+      "company_showcase",
+      "release_time_supported",
+      "arango_gtc",
+      "Company-issued GTC showcase release matches minute.",
+      [
+        "arango_gtc"
+      ],
+      "Does not establish original product availability or material NVDA impact"
+    ],
+    [
+      [
+        177,
+        178,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        190
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "oracle_margins",
+      "Reports observed declines while attributing news to an earlier original report.",
+      [
+        "oracle_margins"
+      ],
+      "Linked source timing is report metadata; unavailable full text may contain additional details"
+    ]
+  ]
+}

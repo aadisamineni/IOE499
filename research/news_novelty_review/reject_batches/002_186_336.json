@@ -1,0 +1,429 @@
+{
+  "sources": {
+    "reject_digitalocean": {
+      "url": "https://investors.digitalocean.com/news/news-details/2025/DigitalOcean-Expands-AI-Ecosystem-Launches-Partner-Program-to-Accelerate-Innovation-and-Empower-Startups-and-Builders/default.aspx",
+      "time": "2025-10-02",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company release mentions AMD and NVIDIA GPU access; saved summaries omit this connection. First minute unresolved.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_arkansas": {
+      "url": "https://www.arkansasedc.com/news-events/newsroom/detail/2025/10/02/google-locating-new-data-center-in-west-memphis--arkansas-with-multi-billion-dollar-investment",
+      "time": "2025-10-02",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Government development agency confirms planned investment; original public minute unresolved.",
+      "checked_on": "2026-10-26"
+    }
+  },
+  "groups": [
+    [
+      [
+        191,
+        192,
+        193,
+        194,
+        195,
+        198,
+        199,
+        201,
+        202,
+        203,
+        205,
+        206,
+        207,
+        209,
+        218,
+        219,
+        223,
+        224,
+        226,
+        227,
+        230,
+        232,
+        233,
+        234,
+        238,
+        239,
+        240,
+        245,
+        249,
+        251,
+        254,
+        258,
+        263,
+        265,
+        266,
+        269,
+        271,
+        274,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        287,
+        292,
+        295,
+        296,
+        300,
+        301,
+        305,
+        317,
+        320,
+        324,
+        325,
+        327,
+        329,
+        330,
+        331,
+        333,
+        334,
+        336
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Saved headline and summary/excerpt primarily interpretation, recommendation, retrospective commentary, economic background or stock-selection discussion. Novelty of embedded facts not independently established.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        187,
+        189,
+        196,
+        200,
+        208,
+        215,
+        217,
+        220,
+        222,
+        228,
+        229,
+        231,
+        241,
+        252,
+        253,
+        261,
+        267,
+        273,
+        275,
+        284,
+        286,
+        288,
+        291,
+        294,
+        306,
+        307,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        321,
+        322,
+        323,
+        326
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Observed prices, wealth statistics, roundups, live coverage or tangential topic dominates available text; novelty not independently certified.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        186,
+        197,
+        212,
+        216,
+        225,
+        236,
+        237,
+        244,
+        247,
+        290,
+        293,
+        328,
+        335
+      ],
+      "peripheral_company_release",
+      "candidate_timing_unresolved",
+      "",
+      "Specific event, service, transaction, personnel or legal update; original public release minute not independently established and NVDA linkage unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        188,
+        190,
+        211
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "music_ai_licensing",
+      "Attributes negotiations to Financial Times; proposed deals differ from completed agreements. Original FT release/version not recovered.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        204,
+        250,
+        272
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "digitalocean_ecosystem",
+      "Company confirms GPU/AI ecosystem and partner program; exact original public minute unresolved.",
+      [
+        "reject_digitalocean"
+      ],
+      "Do not infer three independent announcements from repeated coverage",
+      "nvda_gpu_link_confirmed_in_external_source"
+    ],
+    [
+      [
+        210,
+        270,
+        297
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "coreweave_meta",
+      "Investment interpretation follows September public disclosure of Meta capacity agreement.",
+      [
+        "coreweave_meta"
+      ],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        213
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "meta_ai_ads",
+      "Previous-day company policy announcement predates this follow-up.",
+      [
+        "reject_meta_chats"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        214
+      ],
+      "legal_reporting",
+      "revision_history_unresolved",
+      "xai_antitrust",
+      "Headline explicitly updates earlier report with additional court-filing details; do not assume updated details existed at original publication minute.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        221
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "comet_free",
+      "New general-access milestone can be incremental to July launch. Linked company URL could not be retrieved; exact first minute unresolved.",
+      [],
+      "Availability change is not an entirely new browser launch",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        235,
+        246,
+        308
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "stargate_korea",
+      "AI-memory demand narrative follows previous-day OpenAI agreements.",
+      [
+        "stargate_korea"
+      ],
+      "",
+      "possible_ai_supply_chain_context"
+    ],
+    [
+      [
+        242
+      ],
+      "security_reporting",
+      "revision_history_unresolved",
+      "oracle_extortion",
+      "Updated Google-sourced report; initial versus revised claims and original incident-report time require reconstruction.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        243
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "amazon_grocery",
+      "Same grocery-brand rollout already in prior-day saved coverage; original company release minute not independently recovered.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        248,
+        289,
+        303,
+        318
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "intel_amd_foundry",
+      "Price follow-up to October 1 Semafor early-talk report.",
+      [
+        "reject_intel_amd"
+      ],
+      "Talks are not confirmation of contract",
+      "possible_semiconductor_competition_context"
+    ],
+    [
+      [
+        255,
+        256,
+        257,
+        262
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "",
+      "Research-product announcement or industry report; report availability may predate promotional release. Original availability unresolved.",
+      [],
+      "",
+      "possible_ai_industry_context"
+    ],
+    [
+      [
+        259
+      ],
+      "mixed_price_development",
+      "not_established",
+      "broadcom_custom_chips",
+      "Price discussion names customer-demand drivers without timed concrete new disclosure in saved excerpt.",
+      [],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        260,
+        264,
+        309
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "openai_secondary_valuation",
+      "Located October 1 share-sale report predates later-day valuation coverage.",
+      [
+        "valuation"
+      ],
+      "Completed transaction distinct from previously proposed valuation",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        268
+      ],
+      "speech_reporting",
+      "candidate_timing_unresolved",
+      "instagram_eavesdropping",
+      "Executive denial potentially current commentary; original speech or interview first availability unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        285
+      ],
+      "security_reporting",
+      "new_detail_candidate",
+      "oracle_extortion",
+      "Specific incident/ransom reporting potentially incremental; original security advisory, victim notification and report chronology unresolved.",
+      [],
+      "",
+      "possible_ai_cloud_context"
+    ],
+    [
+      [
+        298
+      ],
+      "company_personnel",
+      "candidate_timing_unresolved",
+      "anthropic_cto",
+      "Specific executive hire/report; original announcement and public minute unresolved.",
+      [],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        299
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "microsoft_neocloud_details",
+      "Video discussion may add details to earlier original same-day Bloomberg reporting; retain source distinction.",
+      [
+        "nebius_detail"
+      ],
+      "Do not equate older contracts with novelty of new usage details",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        302,
+        319,
+        332
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "google_arkansas",
+      "Government agency confirms planned datacenter investment; original disclosure minute and incremental utility specifics unresolved.",
+      [
+        "reject_arkansas"
+      ],
+      "",
+      "possible_ai_datacenter_context"
+    ],
+    [
+      [
+        304
+      ],
+      "background_recap",
+      "followup_reporting",
+      "apple_glasses",
+      "Video analysis follows previous-day Bloomberg-attributed strategy reporting; original first minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ]
+  ]
+}

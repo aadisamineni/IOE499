@@ -1,0 +1,1147 @@
+{
+  "scope": "Saved articles ordinal 590-689 (October 4-6 UTC)",
+  "assessment_method": "Assistant read each complete saved headline and summary; compared substantive claims with preceding saved records; no web or similarity labels used.",
+  "assessments": [
+    {
+      "article_id": "136969851",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Meta: I'm Buying This Stock On Strong Ad Impressions (Rating Upgrade)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980432",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Microsoft's Least Exciting Business Line Is Its Most Important, and Investors Shouldn't Overlook It",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136970173",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Neo-Clouds With Gold AI Linings",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980431",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Stock Of The Day, Key Supplier For Meta And Microsoft, Climbs To Record High",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980430",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Magnificent Seven surpass EU GDP: Is this a tech bubble warning?",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136971397",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Here's How I'm Positioning For The Biggest Market Disruption Of My Lifetime",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136995195",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Think AI is a bubble? Here’s how to position your stock portfolio.",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138550186",
+      "label": "old_news_recap",
+      "main_factual_claim": "Weekly Benzinga roundup of prior Intel, Rumble and DraftKings stories.",
+      "current_supporting_passage": "Benzinga Bulls And Bears: Intel, Rumble, DraftKings — And Markets Shrug Off The Shutdown",
+      "new_information": "",
+      "explanation": "The article explicitly presents a look back over the last week rather than a newly dated company disclosure.",
+      "evidence_basis": "article_explicitly_recaps_an_earlier_announcement",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136971550",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "5 Relatively Secure And Cheap Dividend Stocks, Yields Up To 8% (Oct. 2025)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136971551",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "5 Dividend Stocks I Can't Wait To Buy In October (Plus Macro Update)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980467",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Dangbei joined Amazon Italy Prime Big Deal Days with projector discounts through October 10.",
+      "current_supporting_passage": "Dangbei, a leading innovator in smart projection technology, will join Amazon Italy’s Prime Big Deal Days from October 4 to 10, 2025",
+      "new_information": "Dangbei joined Amazon Italy Prime Big Deal Days with projector discounts through October 10.",
+      "explanation": "Specific promotion participation, dates and discounts are a concrete announcement first encountered in the saved coverage.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Peripheral consumer-promotion item; no implication of an Amazon strategic or NVDA operating event.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136971689",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "The Trade Desk: Market's Extreme Pessimism Is A Great Buying Opportunity",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136971719",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Why Celestica Can Grow Into Its (Seemingly) Sky-High Valuation",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980466",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "3 Must Own Artificial Intelligence (AI) Stocks to Buy Before 2025 Is Over",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980480",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "2 Genius Trillion-Dollar Companies to Buy Like There's No Tomorrow",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980518",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Investors question Reddit's AI gamble",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138888132",
+      "label": "old_news_recap",
+      "main_factual_claim": "Weekly roundup of retail-investor buzz about TSLA, OPEN, GME, AMD and INTC.",
+      "current_supporting_passage": "5 Stocks That Dominated Investor Buzz This Week",
+      "new_information": "",
+      "explanation": "The headline explicitly frames this as a weekly retrospective, not a newly dated company disclosure.",
+      "evidence_basis": "article_explicitly_recaps_an_earlier_announcement",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980429",
+      "label": "new_information_candidate",
+      "main_factual_claim": "OpenAI CEO Sam Altman is seeking financing and manufacturing partners during an Asia/Middle East fundraising tour.",
+      "current_supporting_passage": "Altman has embarked on a global fundraising initiative spanning East Asia and the Middle East, seeking financing and manufacturing partners",
+      "new_information": "OpenAI CEO Sam Altman is seeking financing and manufacturing partners during an Asia/Middle East fundraising tour.",
+      "explanation": "Specific current fundraising/partner-seeking activity is first identified in the saved prefix.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "The report attributes the initiative to WSJ; exact financing terms and original report time are not supplied.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980465",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Jeff Bezos agrees with OpenAI’s Sam Altman: We’re in an AI bubble. But Amazon’s founder says the benefits will be ‘gigantic’",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "137006479",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Nvidia And These AI Plays Lead 5 Stocks Near Buy Points",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980517",
+      "label": "mixed",
+      "main_factual_claim": "Reddit shares fall as ChatGPT references to Reddit drop to 2% from nearly 10%.",
+      "current_supporting_passage": "which recently fell to 2%, down from nearly 10% last month",
+      "new_information": "ChatGPT references to Reddit reportedly fell to 2% from nearly 10%.",
+      "explanation": "The observed stock decline is reactive, while the precise 2%-versus-nearly-10% metric is an additional quantified observation beyond the earlier saved citation-share report.",
+      "evidence_basis": "content_and_earlier_dataset_comparison",
+      "caveat": "Metric source and release time are not supplied; this is not proof of causality beyond the article framing.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980491",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "3 Tech Stocks Perfect for Gen Xers to Add to Their Portfolios",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136972360",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "October Dogs Of The Dow Flash One Ideal 'Safer' Dividend Buy",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136975567",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "My 3 Favorite Stocks to Buy Right Now",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980428",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Why Fears of a Trillion-Dollar AI Bubble Are Growing",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980778",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Micron reported fiscal-year record revenue of $37.38B, net income of $8.54B and a dividend hike.",
+      "current_supporting_passage": "Micron Technology recently reported all-time high annual revenue of US$37.38 billion and net income of US$8.54 billion",
+      "new_information": "Micron reported fiscal-year record revenue of $37.38B, net income of $8.54B and a dividend hike.",
+      "explanation": "Specific reported financial results and dividend change are first encountered here; earlier saved text does not contain these figures.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Historical results may have been available before this article; this is dataset-relative.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980427",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Mastercard unveiled Commerce Media and expanded digital identity/cross-border payment collaborations.",
+      "current_supporting_passage": "Mastercard unveiled Mastercard Commerce Media, an advanced digital media network",
+      "new_information": "Mastercard unveiled Commerce Media and expanded digital identity/cross-border payment collaborations.",
+      "explanation": "Named product network and partner expansions are concrete company developments not present in earlier saved coverage.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "The saved summary names Citi, WPP, American Airlines, Microsoft, Smile ID and Corpay but provides no launch date beyond “in recent days.”",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980516",
+      "label": "new_information_candidate",
+      "main_factual_claim": "PayPal entered a multiyear Google partnership as primary payments processor and is building AI shopping agents.",
+      "current_supporting_passage": "PayPal Holdings (PYPL) is making headlines following its new multiyear partnership with Google",
+      "new_information": "PayPal entered a multiyear Google partnership as primary payments processor and is building AI shopping agents.",
+      "explanation": "Specific partnership role and AI-shopping scope are first encountered here.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "The article is an analysis of a reported partnership; exact agreement announcement time is not supplied.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980426",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Prediction: 1 Artificial Intelligence (AI) Stock Will Be Worth More Than Alphabet and Amazon Combined by 2030 (Hint: Not Nvidia)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980462",
+      "label": "old_news_recap",
+      "main_factual_claim": "Amazon Grocery private label unifies Amazon Fresh and Happy Belly, announced October 1.",
+      "current_supporting_passage": "On October 1, Amazon announced the launch of a new private label brand, Amazon Grocery",
+      "new_information": "",
+      "explanation": "The summary explicitly dates the announcement to October 1; the same launch and brand-unification facts are already in saved coverage.",
+      "evidence_basis": "earlier_dataset_passage",
+      "caveat": "",
+      "earlier_evidence": [
+        {
+          "article_id": "136947088",
+          "supporting_passage": "Amazon Rolls Out 'Amazon Grocery' to Challenge Costco and Walmart Store Brands",
+          "relationship": "repeated_fact"
+        },
+        {
+          "article_id": "136952079",
+          "supporting_passage": "Amazon streamlines private label grocery portfolio",
+          "relationship": "repeated_fact"
+        }
+      ]
+    },
+    {
+      "article_id": "136980777",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Jim Cramer on Micron: “I Think This Stock’s Got $200 Written All Over It”",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980461",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Jim Cramer on Peloton: “They’re a Little Bit Too Hype Oriented for Me”",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980425",
+      "label": "old_news_recap",
+      "main_factual_claim": "Microsoft introduced an AI/productivity bundle and stopped promoting a consumer AI subscription, reported October 1.",
+      "current_supporting_passage": "On October 1, CNBC, while quoting Microsoft Corporation",
+      "new_information": "",
+      "explanation": "The article explicitly recaps an October 1 CNBC report; no later implementation term is supplied.",
+      "evidence_basis": "earlier_dataset_passage",
+      "caveat": "",
+      "earlier_evidence": [
+        {
+          "article_id": "136952035",
+          "supporting_passage": "Microsoft to Lean More on Its Own AI Chips as Demand Outpaces Supply",
+          "relationship": "repeated_fact"
+        }
+      ]
+    },
+    {
+      "article_id": "136980514",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Morgan Stanley raised Alphabet price target to $270 from $210 while retaining Overweight.",
+      "current_supporting_passage": "Morgan Stanley lifted the price target on the company’s stock to $270 from $210",
+      "new_information": "Morgan Stanley raised Alphabet price target to $270 from $210 while retaining Overweight.",
+      "explanation": "Specific broker action and target figures are first encountered in the saved prefix.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "The summary dates the action to October 2; this is a dataset-relative candidate, not proof of first public disclosure.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980720",
+      "label": "old_news_recap",
+      "main_factual_claim": "IBM and AMD collaboration delivers MI300X infrastructure to Zyphra.",
+      "current_supporting_passage": "On October 1, International Business Machines Corporation (NYSE:IBM) and AMD announced a collaboration focused on delivering advanced AI infrastructure to Zyphra",
+      "new_information": "",
+      "explanation": "Same named collaboration, customer and date are already in the earliest saved report.",
+      "evidence_basis": "earlier_dataset_passage",
+      "caveat": "",
+      "earlier_evidence": [
+        {
+          "article_id": "136944101",
+          "supporting_passage": "Under a multi-year agreement between IBM and Zyphra, IBM is positioned to deliver a large cluster of AMD Instinct™ MI300X GPUs on IBM Cloud",
+          "relationship": "repeated_fact"
+        }
+      ]
+    },
+    {
+      "article_id": "136980489",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Larry Ellison Dropped Out of College Twice and Now Has $349.5 Billion — How He Did It",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136975674",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "The 1-Minute Market Report - October 5, 2025",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980513",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "These Quantum Computing Stocks Could Be the Secret Winners of the AI Boom",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138582221",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Jeff Bezos Predicts Gigawatt-Scale Orbital Data Centers In 10–20 Years, Compares AI Boom To Early 2000s Dot-Com Era",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980460",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Beta Technologies filed for a US IPO while expanding as an Amazon-backed electric-aircraft company.",
+      "current_supporting_passage": "on Monday filed for an initial public offering in the U.S.",
+      "new_information": "Beta Technologies filed for a US IPO while expanding as an Amazon-backed electric-aircraft company.",
+      "explanation": "Specific IPO filing is first encountered in saved coverage.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Filing is an announced process, not a completed IPO or evidence of Amazon operating involvement.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138610814",
+      "label": "old_news_recap",
+      "main_factual_claim": "OpenAI fundraising campaign seeks chips, partners and funding for trillion-dollar expansion.",
+      "current_supporting_passage": "OpenAI CEO Sam Altman launches campaign to secure chips, partners, and funding",
+      "new_information": "",
+      "explanation": "This repeats the Asia/Middle East fundraising initiative reported earlier on October 4 without a distinct additional term.",
+      "evidence_basis": "earlier_dataset_passage",
+      "caveat": "",
+      "earlier_evidence": [
+        {
+          "article_id": "136980429",
+          "supporting_passage": "Altman has embarked on a global fundraising initiative spanning East Asia and the Middle East, seeking financing and manufacturing partners",
+          "relationship": "repeated_fact"
+        }
+      ]
+    },
+    {
+      "article_id": "136980424",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Bravent expanded its South Florida AI presence through corporate/university partnerships.",
+      "current_supporting_passage": "deepening its Florida presence",
+      "new_information": "Bravent expanded its South Florida AI presence through corporate/university partnerships.",
+      "explanation": "Specific regional expansion and partnership activity are first encountered here, though the saved summary is truncated.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Peripheral press-release item; partner names and terms are unavailable.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138432344",
+      "label": "new_information_candidate",
+      "main_factual_claim": "California law grants Uber and Lyft drivers a legal right to unionize.",
+      "current_supporting_passage": "California Governor Newsom signs bill granting Uber and Lyft drivers the legal right to unionize",
+      "new_information": "California law grants Uber and Lyft drivers a legal right to unionize.",
+      "explanation": "Specific signed legislation affecting about 800,000 gig workers is first encountered in saved coverage.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Policy event is outside NVDA-specific operating news; implementation details are not supplied.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980512",
+      "label": "old_news_recap",
+      "main_factual_claim": "Wolfe Research reiterated Alphabet Outperform and a $220 target on September 30.",
+      "current_supporting_passage": "On September 30, Wolfe Research reiterated an ‘Outperform’ rating",
+      "new_information": "",
+      "explanation": "The summary explicitly dates the analyst action to September 30, so this is a recap of an earlier decision.",
+      "evidence_basis": "article_explicitly_recaps_an_earlier_announcement",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980479",
+      "label": "old_news_recap",
+      "main_factual_claim": "KeyBanc reiterated Broadcom Overweight and raised its target to $420 from $400 on September 30.",
+      "current_supporting_passage": "KeyBanc Capital Lifts Broadcom Inc. (AVGO) Price Target amid Growing AI Opportunity",
+      "new_information": "",
+      "explanation": "The summary explicitly dates the target action to September 30; no fresh action is described.",
+      "evidence_basis": "article_explicitly_recaps_an_earlier_announcement",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980423",
+      "label": "old_news_recap",
+      "main_factual_claim": "CoreWeave signed a $14.2B cloud deal with Meta.",
+      "current_supporting_passage": "Should You Buy CoreWeave Stock After the $14 Billion Meta Deal?",
+      "new_information": "",
+      "explanation": "The Meta deal is already in earlier saved coverage; this article supplies a filing reference but no additional term.",
+      "evidence_basis": "earlier_dataset_passage",
+      "caveat": "",
+      "earlier_evidence": [
+        {
+          "article_id": "136952087",
+          "supporting_passage": "new $14 billion dollar deal with Facebook owner, Meta Platforms Inc.",
+          "relationship": "repeated_fact"
+        }
+      ]
+    },
+    {
+      "article_id": "136980416",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "The Best Trillion-Dollar AI Stock to Buy Now, According to Wall Street (Hint: Not Nvidia)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980415",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Hon Hai met sales estimates amid strong AI demand, supporting Nvidia-server infrastructure activity.",
+      "current_supporting_passage": "Hon Hai’s results may lend more weight to bets on the sustainability of the post-ChatGPT boom in AI infrastructure construction",
+      "new_information": "Hon Hai met sales estimates amid strong AI demand, supporting Nvidia-server infrastructure activity.",
+      "explanation": "Specific current results/estimates from a key Nvidia server supplier are first encountered here.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Summary does not provide revenue figures or exact release date; it is evidence about supplier results, not proof of Nvidia sales.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980414",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "While Nvidia and SoftBank Invest Billions in Intel, You Should Consider Buying This Rival Semiconductor Stock Instead",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980413",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "3 Tech Stocks With More Potential Than Any Cryptocurrency",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136978106",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "ETG: A Consistent Income Payer With Global Equity Exposure, 7.3% Yield",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980478",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Broadcom: This Is the Biggest Risk the Stock Faces",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980412",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Nvidia says data-center capital expenditure could reach $3T–$4T by 2030.",
+      "current_supporting_passage": "Nvidia believes data center capital expenditures could reach $3 trillion to $4 trillion by 2030",
+      "new_information": "Nvidia says data-center capital expenditure could reach $3T–$4T by 2030.",
+      "explanation": "Specific quantitative forecast attributed to Nvidia is first encountered in the saved prefix.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Forecast is not realized spending and source/date details are unavailable.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980509",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "What AI Stock Could Be the Market's Best Bargain Today?",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980411",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Is CoreWeave a Better Investment Than Nvidia?",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980776",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Jim Cramer on Western Digital: “It’s Good to See the Market Giving the Stock its Due”",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980410",
+      "label": "old_news_recap",
+      "main_factual_claim": "UiPath stock rises after AI partnerships with Nvidia, OpenAI, Google and Microsoft.",
+      "current_supporting_passage": "UiPath stock could have a strong upside if these partnerships can help reaccelerate revenue growth",
+      "new_information": "",
+      "explanation": "The partnerships and stock reaction were already reported in the saved October 2 article; this is another investment analysis.",
+      "evidence_basis": "earlier_dataset_passage",
+      "caveat": "",
+      "earlier_evidence": [
+        {
+          "article_id": "136959862",
+          "supporting_passage": "UiPath (PATH) Is Up 5.4% After AI Partnerships with NVIDIA, OpenAI, Google and Microsoft Announced",
+          "relationship": "repeated_fact"
+        }
+      ]
+    },
+    {
+      "article_id": "136980459",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Startups Are Eating Big Food’s Lunch",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980507",
+      "label": "old_news_recap",
+      "main_factual_claim": "Weekly crypto roundup covering the US shutdown, BNB all-time high and Cardano/Google Cloud partnership.",
+      "current_supporting_passage": "Latest Crypto News: U.S. Shutdown, BNB ATH, and Cardano’s Google Cloud Bet",
+      "new_information": "",
+      "explanation": "The headline explicitly presents a latest-news roundup of multiple already-public market and partnership topics, rather than a single new disclosure.",
+      "evidence_basis": "article_explicitly_recaps_an_earlier_announcement",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980409",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "3 Top Quantum Computing Stocks to Buy in October",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980408",
+      "label": "new_information_candidate",
+      "main_factual_claim": "CoreWeave disclosed a $6.3B backstop deal with Nvidia.",
+      "current_supporting_passage": "CoreWeave's $6.3 Billion Backstop Deal With Nvidia",
+      "new_information": "CoreWeave disclosed a $6.3B backstop deal with Nvidia.",
+      "explanation": "Specific named financing/backstop term is first encountered in saved coverage.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Headline-only saved text; deal structure, date and whether it is executed are not available.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136978739",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "SPUS: 10 Stocks To Complement This Shariah-Compliant S&P 500 ETF",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980407",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Nvidia vs. Microsoft: Which Stock Is the Better Buy After Their OpenAI Investments?",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980406",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Why Micron Stock Exploded 40% Higher in September",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136978769",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Semiconductors Winners And Losers At The Start Of Q4 2025",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980405",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Prediction: This Artificial Intelligence (AI) Stock Could Power the Next Generation of EVs",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980404",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "2 No-Brainer Artificial Intelligence (AI) Stocks to Buy Right Now",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980403",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Why tariffs should overtake government shutdown as your biggest investing concern",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980419",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Analyst on Amazon (AMZN): ‘AWS Will Accelerate’",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980402",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Wall Street, crypto industry say tokenization will reshape global markets: 'It’s going to eat the entire financial system'",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980401",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Analyst on NVIDIA (NVDA): ‘Eventually, We Will Hit a Wall’",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136979543",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Wall Street Brunch: Hooray For DevDay",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980418",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Maximor announced a $9M seed round and claims major reductions in finance close/reconciliation work.",
+      "current_supporting_passage": "Maximor on Monday announced a $9 million seed round",
+      "new_information": "Maximor announced a $9M seed round and claims major reductions in finance close/reconciliation work.",
+      "explanation": "Named startup financing and attributed customer-performance claims are first encountered here.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Claims about cutting close time and manual work are company/customer assertions, not independently validated outcomes.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980476",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Jim Cramer Was Right About Broadcom (AVGO)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980456",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "'All news is good news': Wall Street shrugs off government shutdown, jobs report delay",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980485",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Analyst Says Meta (META) Glasses Will Be a ‘Low Volume’ Product",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980400",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "4 Best Artificial Intelligence (AI) Stocks to Buy in October",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980774",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "3 Breakout Growth Stocks You Can Buy and Hold for the Next Decade",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136995171",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Here’s what’s worth streaming in October 2025 on Netflix, Hulu, HBO Max and more",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980417",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Is Nebius Stock Your Ticket to Becoming a Millionaire?",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980399",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Why Intel Rallied in September",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980504",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "1 AI Stock to Buy Before the End of 2025",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136980398",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Dow Jones Futures Loom, Palantir Looks To Rebound; More Big Tesla News Due",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136989050",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "These 2 AI Stocks Are Money-Printing Machines",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "137006478",
+      "label": "price_reaction",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Dow Jones Futures Rise; Nvidia In Buy Zone, Palantir Eyes Rebound",
+      "new_information": "",
+      "explanation": "Reports an observed stock or market move/roundup. The available text does not establish a distinct additional non-price disclosure; this label describes reporting purpose, not proven price causality.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136984808",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Marvell received a double upgrade tied to an exclusive Microsoft AI-chip partnership.",
+      "current_supporting_passage": "Marvell: Significant AI Win Coming Soon (Double Upgrade)",
+      "new_information": "Marvell received a double upgrade tied to an exclusive Microsoft AI-chip partnership.",
+      "explanation": "Specific partnership and analyst double-upgrade framing are not in earlier Marvell coverage.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "The summary does not name the analyst or quantify the partnership; treat as reported/forward-looking, not a completed revenue result.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136995099",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "How Much Longer Can the AI Bubble Last? Inside Wall Street’s Great Debate.",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136985649",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Timing The Bubble Top: The AI Mania Broadens In Late-Stage Push",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136985945",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Nvidia: At The Front Of AI Breakthroughs",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136986057",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Alphabet: Undervalued Mag-7 Stock Hiding In Plain Sight",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138447832",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Chamath Palihapitiya Warns AI Push By GOOGL, META, MSFT And AMZN Using NVDA Chips Could Double Electricity Rates",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136989049",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "How Much Longer Can the AI Bubble Last? Inside Wall Street’s Great Debate.",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136989071",
+      "label": "new_information_candidate",
+      "main_factual_claim": "A UK survey found one in 20 social-media users shop through Instagram.",
+      "current_supporting_passage": "One in 20 social media users in the UK say they shop through Instagram",
+      "new_information": "A UK survey found one in 20 social-media users shop through Instagram.",
+      "explanation": "Specific survey statistic is first encountered in saved coverage, though peripheral to NVDA.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Survey methodology and field date are unavailable.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138951582",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Mark Zuckerberg Greets UFC 320 Winner Daniel Santos Cageside Months After Meta Deepened UFC Partnership To Bring AI To The Octagon",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136995328",
+      "label": "new_information_candidate",
+      "main_factual_claim": "Alex Cooper launched an Unwell advertising agency.",
+      "current_supporting_passage": "‘Call Her Daddy’ Podcaster Alex Cooper Opens an Unwell Ad Agency",
+      "new_information": "Alex Cooper launched an Unwell advertising agency.",
+      "explanation": "Specific company launch is first encountered here, but it is peripheral to the project.",
+      "evidence_basis": "no_earlier_saved_substantive_disclosure_identified",
+      "caveat": "Headline-only saved text; launch terms are unavailable.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136986844",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "My Retirement Is Built On These Dividend Machines",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136995193",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Stocks, Gold, Bitcoin Are Soaring. This Could Reverse the Market Rally and 5 More Things to Know Today.",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "138593080",
+      "label": "mixed",
+      "main_factual_claim": "AMD will supply OpenAI hundreds of thousands of AI chips, with a potential 10% AMD stake warrant; AMD shares rise.",
+      "current_supporting_passage": "AMD To Supply OpenAi Hundreds Of Thousands Of AI Chips; AMD Expects $100B+ Revenue From OpenAi, Others As Result Of Deal",
+      "new_information": "OpenAI may receive a warrant to buy up to 10% of AMD at $0.01/share; AMD expects $100B+ revenue from OpenAI and others.",
+      "explanation": "The summary provides specific supply, revenue-expectation and warrant terms not established in earlier saved coverage; the 28% AMD move is price reaction.",
+      "evidence_basis": "content_and_earlier_dataset_comparison",
+      "caveat": "Market-news summary is terse; exact agreement conditions and original disclosure time are not available.",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136989070",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "AI Spending Could Soar to $4 Trillion: 2 No-Brainer Stocks to Buy Now (Hint: Neither Is Nvidia)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    },
+    {
+      "article_id": "136989069",
+      "label": "opinion_background",
+      "main_factual_claim": "",
+      "current_supporting_passage": "Bull of the Day: Astera Labs (ALAB)",
+      "new_information": "",
+      "explanation": "Available saved text primarily presents investment theses, recommendations, valuation, forecasts, profiles, retrospective commentary or broad sector discussion. It does not establish a distinct new factual operating disclosure as its focus.",
+      "evidence_basis": "content_reading",
+      "caveat": "",
+      "earlier_evidence": []
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # News Word Frequency Outputs
 
+The [logistic regression analysis](logistic_regression/README.md) evaluates
+word/phrase features on a later-date test period and includes a separate
+descriptive fit of the previously inspected terms.
+
 For top words before 1%/3% upward and downward movements, see
 [movement_groups/README.md](movement_groups/README.md) and open
 [movement_groups/report.html](movement_groups/report.html).

@@ -1,0 +1,19 @@
+{
+  "month": "2026-04",
+  "source_hashes": {
+    "data/raw/NVDA_hourly_2025-10-01_2026-05-31.csv": "5bca93c7c272dbf2239bdc4c14dde26ff3f36cf5648d301f2e77ce9938597bba",
+    "news data pull/processed/all_classified_articles.csv": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9",
+    "data/matched/2025-09-15_2026-05-15/collection_coverage_by_day.csv": "a739eff33ca2faa5823ff04bccddbbbaeba62fa44c57e99195ffe3ac200002b8"
+  },
+  "source_bars": 147,
+  "full_valid_hours": 126,
+  "invalid_price_bars": 0,
+  "short_bars": 21,
+  "hours_at_least_1pct": 14,
+  "events_exported": 14,
+  "event_article_pairs": 1172,
+  "unique_linked_articles": 662,
+  "ambiguous_timestamps_all_dates": 0,
+  "unverified_event_windows": 0,
+  "validation": "Pair uniqueness, phase boundaries, counts, nested windows, and unchanged input hashes checked. Source bar schedule/price validation reused from hourly_models."
+}
