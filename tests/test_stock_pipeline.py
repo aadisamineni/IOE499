@@ -3,8 +3,9 @@ import unittest
 
 import numpy as np
 import pandas as pd
+import pandas_market_calendars as mcal
 
-from NvidiaDatapull import FEATURES, derive_features, sessions, validate
+from NvidiaDatapull import FEATURES, derive_features, sessions, validate, validate_hourly
 
 
 class PipelineTests(unittest.TestCase):
@@ -73,6 +74,43 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(len(report["corporate_actions_for_review"]), 1)
         self.assertTrue((self.index.dayofweek < 5).all())
         self.assertNotIn(pd.Timestamp("2025-09-01"), self.index)
+
+    def test_hourly_validation_handles_normal_and_early_close_sessions(self):
+        schedule = mcal.get_calendar("NASDAQ").schedule(
+            start_date="2025-11-26", end_date="2025-11-28")
+        stamps = []
+        for row in schedule.itertuples():
+            count = int(np.ceil((row.market_close - row.market_open).total_seconds() / 3600))
+            stamps.extend(row.market_open + pd.to_timedelta(np.arange(count), unit="h"))
+        index = pd.DatetimeIndex(stamps).tz_convert("America/New_York")
+        close = np.arange(len(index), dtype=float) + 100
+        hourly = pd.DataFrame({
+            "ticker": "NVDA", "open": close, "high": close + 2,
+            "low": close - 2, "close": close + 1, "adjusted_close": close + 1,
+            "volume": np.arange(len(index)) + 1000,
+            "dividends": 0.0, "stock_splits": 0.0,
+        }, index=index)
+        hourly.index.name = "trading_timestamp"
+
+        report = validate_hourly(hourly, "2025-11-26", "2025-11-28")
+        self.assertTrue(report["passed"])
+        self.assertEqual(report["observed_session_count"], 2)
+
+        missing_bar = validate_hourly(hourly.drop(hourly.index[-1]),
+                                      "2025-11-26", "2025-11-28")
+        self.assertFalse(missing_bar["passed"])
+        self.assertFalse(missing_bar["checks"]["expected_bar_count_each_session"])
+        self.assertEqual(missing_bar["bar_count_review"][0]["actual_bar_count"], 3)
+
+        provider_gap = hourly.copy()
+        provider_gap.loc[provider_gap.index[-1],
+                         ["open", "high", "low", "close", "adjusted_close"]] = np.nan
+        provider_gap.loc[provider_gap.index[-1], "volume"] = 0
+        gap_report = validate_hourly(provider_gap, "2025-11-26", "2025-11-28")
+        self.assertFalse(gap_report["passed"])
+        self.assertTrue(gap_report["structural_validation_passed"])
+        self.assertFalse(gap_report["complete_price_data"])
+        self.assertEqual(gap_report["missing_price_bar_count"], 1)
 
 
 if __name__ == "__main__":

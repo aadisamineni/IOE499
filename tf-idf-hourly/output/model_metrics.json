@@ -1,0 +1,658 @@
+{
+  "generated_at_utc": "2026-10-05T15:39:06.834473+00:00",
+  "objective": "Predict NVDA hourly open-to-close movement using newly available news.",
+  "unit_of_analysis": "one complete regular-session hourly bar",
+  "prediction_timing": {
+    "cutoff": "start of the target hourly bar",
+    "news_window": "previous provider bar start inclusive to target bar start exclusive; overnight news is assigned to the next market-open bar",
+    "target": "target bar close / target bar open - 1",
+    "partial_bar_policy": "exclude each session's final 30-minute provider bar"
+  },
+  "targets": {
+    "direction": {
+      "encoding": {
+        "-1": "return < 0",
+        "1": "return > 0"
+      }
+    },
+    "move_band": {
+      "threshold": 0.005,
+      "encoding": {
+        "-1": "return <= -0.005",
+        "0": "-0.005 < return < 0.005",
+        "1": "return >= 0.005"
+      }
+    }
+  },
+  "news_filter": "Non-excluded direct/indirect event representatives with valid explicit publication times",
+  "coverage_policy": "Every UTC date touched by a news window must have successful collection for all tickers",
+  "coverage_tickers": [
+    "AMD",
+    "AMZN",
+    "AVGO",
+    "GOOGL",
+    "META",
+    "MSFT",
+    "MU",
+    "NVDA",
+    "TSM"
+  ],
+  "source_sha256": {
+    "data/raw/NVDA_hourly_2025-10-01_2026-05-31.csv": "5bca93c7c272dbf2239bdc4c14dde26ff3f36cf5648d301f2e77ce9938597bba",
+    "data/raw/NVDA_hourly_2025-10-01_2026-05-31_metadata.json": "b9b4488b67ac34f9cfb83aefe43649f3ac89080ca95e727a54e76c4574394387",
+    "news data pull/processed/all_classified_articles.csv": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9",
+    "data/matched/2025-09-15_2026-05-15/collection_coverage_by_day.csv": "a739eff33ca2faa5823ff04bccddbbbaeba62fa44c57e99195ffe3ac200002b8"
+  },
+  "source_files_unchanged": true,
+  "package_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.1"
+  },
+  "build_audit": {
+    "input_bars": 1156,
+    "partial_final_bars_excluded": 166,
+    "full_bars_with_missing_target_price": 8,
+    "otherwise_usable_bars_without_prior_controls": 23,
+    "bars_excluded_for_incomplete_news_coverage": 134,
+    "zero_return_bars_excluded": 0,
+    "eligible_examples": 825,
+    "examples_with_news": 724,
+    "articles_assigned_to_eligible_examples": 5843,
+    "retained_representative_articles": 6751,
+    "rejected_publication_timestamps": 0
+  },
+  "sample": {
+    "eligible_examples": 825,
+    "eligible_trading_dates": 140,
+    "date_range": [
+      "2025-10-02",
+      "2026-05-01"
+    ],
+    "train_examples": 574,
+    "train_trading_dates": 98,
+    "train_date_range": [
+      "2025-10-02",
+      "2026-02-27"
+    ],
+    "test_examples": 251,
+    "test_trading_dates": 42,
+    "test_date_range": [
+      "2026-03-02",
+      "2026-05-01"
+    ],
+    "targets": {
+      "direction": {
+        "all_class_counts": {
+          "-1": 418,
+          "1": 407
+        },
+        "train_class_counts": {
+          "-1": 298,
+          "1": 276
+        },
+        "test_class_counts": {
+          "-1": 120,
+          "1": 131
+        }
+      },
+      "move_band": {
+        "all_class_counts": {
+          "-1": 154,
+          "0": 528,
+          "1": 143
+        },
+        "train_class_counts": {
+          "-1": 115,
+          "0": 366,
+          "1": 93
+        },
+        "test_class_counts": {
+          "-1": 39,
+          "0": 162,
+          "1": 50
+        }
+      }
+    }
+  },
+  "tfidf": {
+    "text": "headline and summary concatenated within each non-overlapping news window",
+    "lowercase": true,
+    "strip_accents": "unicode",
+    "stop_words": "english",
+    "token_pattern": "(?u)\\b(?=\\w*[a-zA-Z])\\w\\w+\\b",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 3,
+    "max_df": 0.9,
+    "max_features": 500,
+    "sublinear_tf": true,
+    "norm": "l2",
+    "fit_policy": "fit independently inside each training fold and final training data"
+  },
+  "market_and_volume_features": [
+    "prior_bar_return",
+    "prior_volatility",
+    "log1p_prior_volume",
+    "log1p_article_count",
+    "minutes_from_open",
+    "minutes_from_open_squared"
+  ],
+  "classifier": "class-balanced L2 logistic regression",
+  "chronological_evaluation": {
+    "split_unit": "trading date",
+    "train_fraction_of_dates": 0.7,
+    "cv_splits": 4,
+    "c_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "selection_metric": "mean macro F1; balanced accuracy and log loss break ties",
+    "bootstrap": "500 held-out resamples of complete trading-day blocks"
+  },
+  "selected_hyperparameters": {
+    "direction": {
+      "market_volume": {
+        "c": 10.0,
+        "mean_cv_macro_f1": 0.4525977808102354,
+        "mean_cv_balanced_accuracy": 0.46016340848290505,
+        "mean_cv_log_loss": 0.7188223224785141
+      },
+      "tfidf_only": {
+        "c": 10.0,
+        "mean_cv_macro_f1": 0.4908229858023754,
+        "mean_cv_balanced_accuracy": 0.4935450446075858,
+        "mean_cv_log_loss": 0.8355262828893721
+      },
+      "market_volume_tfidf": {
+        "c": 10.0,
+        "mean_cv_macro_f1": 0.4741185120654462,
+        "mean_cv_balanced_accuracy": 0.47837228052790837,
+        "mean_cv_log_loss": 0.8798350818311794
+      }
+    },
+    "move_band": {
+      "market_volume": {
+        "c": 0.1,
+        "mean_cv_macro_f1": 0.4141174840586279,
+        "mean_cv_balanced_accuracy": 0.442132612679968,
+        "mean_cv_log_loss": 1.0144671126316194
+      },
+      "tfidf_only": {
+        "c": 0.01,
+        "mean_cv_macro_f1": 0.3786328146505935,
+        "mean_cv_balanced_accuracy": 0.39947568058077476,
+        "mean_cv_log_loss": 1.095350597334853
+      },
+      "market_volume_tfidf": {
+        "c": 1.0,
+        "mean_cv_macro_f1": 0.45277304726511597,
+        "mean_cv_balanced_accuracy": 0.4704395440393784,
+        "mean_cv_log_loss": 0.9721719971009927
+      }
+    }
+  },
+  "final_feature_counts": {
+    "direction": {
+      "market_volume": 6,
+      "tfidf_only": 500,
+      "market_volume_tfidf": 506
+    },
+    "move_band": {
+      "market_volume": 6,
+      "tfidf_only": 500,
+      "market_volume_tfidf": 506
+    }
+  },
+  "held_out_metrics": {
+    "direction": {
+      "class_prior": {
+        "n": 251,
+        "accuracy": 0.47808764940239046,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.32345013477088946,
+        "log_loss": 0.695562735803251,
+        "roc_auc": 0.5,
+        "per_class": {
+          "down": {
+            "support": 120,
+            "precision": 0.47808764940239046,
+            "recall": 1.0,
+            "f1": 0.6469002695417789
+          },
+          "up": {
+            "support": 131,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.4214309428950863,
+            "high": 0.5357142857142857
+          },
+          "balanced_accuracy": {
+            "low": 0.5,
+            "high": 0.5
+          },
+          "macro_f1": {
+            "low": 0.29648334194012804,
+            "high": 0.3488372093023256
+          },
+          "log_loss": {
+            "low": 0.6911431980372802,
+            "high": 0.6999078871105272
+          },
+          "roc_auc": {
+            "low": 0.5,
+            "high": 0.5
+          }
+        }
+      },
+      "market_volume": {
+        "n": 251,
+        "accuracy": 0.450199203187251,
+        "balanced_accuracy": 0.4480916030534351,
+        "macro_f1": 0.447665518561041,
+        "log_loss": 0.693864218522497,
+        "roc_auc": 0.47849872773536894,
+        "per_class": {
+          "down": {
+            "support": 120,
+            "precision": 0.42105263157894735,
+            "recall": 0.4,
+            "f1": 0.41025641025641024
+          },
+          "up": {
+            "support": 131,
+            "precision": 0.4744525547445255,
+            "recall": 0.4961832061068702,
+            "f1": 0.48507462686567165
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.39233067729083665,
+            "high": 0.513020717131474
+          },
+          "balanced_accuracy": {
+            "low": 0.3887503674100201,
+            "high": 0.511983627679303
+          },
+          "macro_f1": {
+            "low": 0.3881953673351806,
+            "high": 0.5111278735632184
+          },
+          "log_loss": {
+            "low": 0.6891654220297959,
+            "high": 0.6984420246281408
+          },
+          "roc_auc": {
+            "low": 0.4071634067979586,
+            "high": 0.542376280492926
+          }
+        }
+      },
+      "tfidf_only": {
+        "n": 251,
+        "accuracy": 0.5258964143426295,
+        "balanced_accuracy": 0.5237595419847327,
+        "macro_f1": 0.5234456020549803,
+        "log_loss": 0.8030679320423234,
+        "roc_auc": 0.5089058524173028,
+        "per_class": {
+          "down": {
+            "support": 120,
+            "precision": 0.504424778761062,
+            "recall": 0.475,
+            "f1": 0.4892703862660944
+          },
+          "up": {
+            "support": 131,
+            "precision": 0.5434782608695652,
+            "recall": 0.5725190839694656,
+            "f1": 0.5576208178438662
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.46825396825396826,
+            "high": 0.5825448207171314
+          },
+          "balanced_accuracy": {
+            "low": 0.4630582072688305,
+            "high": 0.5820162097571593
+          },
+          "macro_f1": {
+            "low": 0.46117614776287585,
+            "high": 0.5801093879227326
+          },
+          "log_loss": {
+            "low": 0.7458778373212587,
+            "high": 0.8717702133411899
+          },
+          "roc_auc": {
+            "low": 0.44032939352088285,
+            "high": 0.5704850894203835
+          }
+        }
+      },
+      "market_volume_tfidf": {
+        "n": 251,
+        "accuracy": 0.5298804780876494,
+        "balanced_accuracy": 0.5272264631043257,
+        "macro_f1": 0.5265664961636829,
+        "log_loss": 0.8041287637366492,
+        "roc_auc": 0.5126590330788804,
+        "per_class": {
+          "down": {
+            "support": 120,
+            "precision": 0.509090909090909,
+            "recall": 0.4666666666666667,
+            "f1": 0.48695652173913045
+          },
+          "up": {
+            "support": 131,
+            "precision": 0.5460992907801419,
+            "recall": 0.5877862595419847,
+            "f1": 0.5661764705882353
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.47498565691336775,
+            "high": 0.5828564257028113
+          },
+          "balanced_accuracy": {
+            "low": 0.47267782168779976,
+            "high": 0.5801246446756769
+          },
+          "macro_f1": {
+            "low": 0.4711530972713885,
+            "high": 0.5790101541771969
+          },
+          "log_loss": {
+            "low": 0.7308869401915031,
+            "high": 0.8775946591447092
+          },
+          "roc_auc": {
+            "low": 0.4382329593051201,
+            "high": 0.5827716734230401
+          }
+        }
+      }
+    },
+    "move_band": {
+      "class_prior": {
+        "n": 251,
+        "accuracy": 0.6454183266932271,
+        "balanced_accuracy": 0.3333333333333333,
+        "macro_f1": 0.26150121065375304,
+        "log_loss": 0.9027930310811167,
+        "macro_ovr_auc": 0.5,
+        "per_class": {
+          "down": {
+            "support": 39,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "neutral": {
+            "support": 162,
+            "precision": 0.6454183266932271,
+            "recall": 1.0,
+            "f1": 0.784503631961259
+          },
+          "up": {
+            "support": 50,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.5784852652880542,
+            "high": 0.7078266299879845
+          },
+          "balanced_accuracy": {
+            "low": 0.3333333333333333,
+            "high": 0.3333333333333333
+          },
+          "macro_f1": {
+            "low": 0.24432071976041828,
+            "high": 0.27630671653927463
+          },
+          "log_loss": {
+            "low": 0.823933234279877,
+            "high": 0.9905646636503455
+          },
+          "macro_ovr_auc": {
+            "low": 0.5,
+            "high": 0.5
+          }
+        }
+      },
+      "market_volume": {
+        "n": 251,
+        "accuracy": 0.47410358565737054,
+        "balanced_accuracy": 0.36336182336182343,
+        "macro_f1": 0.34863766400315677,
+        "log_loss": 1.076699567077696,
+        "macro_ovr_auc": 0.5782951707765488,
+        "per_class": {
+          "down": {
+            "support": 39,
+            "precision": 0.2,
+            "recall": 0.358974358974359,
+            "f1": 0.25688073394495414
+          },
+          "neutral": {
+            "support": 162,
+            "precision": 0.717391304347826,
+            "recall": 0.6111111111111112,
+            "f1": 0.66
+          },
+          "up": {
+            "support": 50,
+            "precision": 0.13953488372093023,
+            "recall": 0.12,
+            "f1": 0.12903225806451613
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.41512988047808763,
+            "high": 0.5418326693227091
+          },
+          "balanced_accuracy": {
+            "low": 0.3127364133512901,
+            "high": 0.4218426124244656
+          },
+          "macro_f1": {
+            "low": 0.3025286595289826,
+            "high": 0.3976570629573711
+          },
+          "log_loss": {
+            "low": 1.028910124280757,
+            "high": 1.1300452405339163
+          },
+          "macro_ovr_auc": {
+            "low": 0.5165811570172801,
+            "high": 0.639405639431314
+          }
+        }
+      },
+      "tfidf_only": {
+        "n": 251,
+        "accuracy": 0.4900398406374502,
+        "balanced_accuracy": 0.3826907249129472,
+        "macro_f1": 0.3650793650793651,
+        "log_loss": 1.0955543965401775,
+        "macro_ovr_auc": 0.5612139741157223,
+        "per_class": {
+          "down": {
+            "support": 39,
+            "precision": 0.2112676056338028,
+            "recall": 0.38461538461538464,
+            "f1": 0.2727272727272727
+          },
+          "neutral": {
+            "support": 162,
+            "precision": 0.6917808219178082,
+            "recall": 0.6234567901234568,
+            "f1": 0.6558441558441559
+          },
+          "up": {
+            "support": 50,
+            "precision": 0.20588235294117646,
+            "recall": 0.14,
+            "f1": 0.16666666666666666
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.412331746031746,
+            "high": 0.5637587301587301
+          },
+          "balanced_accuracy": {
+            "low": 0.322063385943754,
+            "high": 0.44455659342791837
+          },
+          "macro_f1": {
+            "low": 0.3034569103887555,
+            "high": 0.4254712579053458
+          },
+          "log_loss": {
+            "low": 1.0934990780169043,
+            "high": 1.0975230500149697
+          },
+          "macro_ovr_auc": {
+            "low": 0.5082346634094935,
+            "high": 0.6253758763891738
+          }
+        }
+      },
+      "market_volume_tfidf": {
+        "n": 251,
+        "accuracy": 0.5219123505976095,
+        "balanced_accuracy": 0.41570750237416904,
+        "macro_f1": 0.4056244999404184,
+        "log_loss": 1.0438482503193771,
+        "macro_ovr_auc": 0.5801020675057214,
+        "per_class": {
+          "down": {
+            "support": 39,
+            "precision": 0.20588235294117646,
+            "recall": 0.358974358974359,
+            "f1": 0.2616822429906542
+          },
+          "neutral": {
+            "support": 162,
+            "precision": 0.7342657342657343,
+            "recall": 0.6481481481481481,
+            "f1": 0.6885245901639344
+          },
+          "up": {
+            "support": 50,
+            "precision": 0.3,
+            "recall": 0.24,
+            "f1": 0.26666666666666666
+          }
+        },
+        "day_block_bootstrap_95_ci": {
+          "accuracy": {
+            "low": 0.4539900638410214,
+            "high": 0.596
+          },
+          "balanced_accuracy": {
+            "low": 0.35367677589787094,
+            "high": 0.4900930969563044
+          },
+          "macro_f1": {
+            "low": 0.3491315385645283,
+            "high": 0.45953514627202136
+          },
+          "log_loss": {
+            "low": 0.9722725512604139,
+            "high": 1.1092831607138829
+          },
+          "macro_ovr_auc": {
+            "low": 0.5309490523109403,
+            "high": 0.6402664999770602
+          }
+        }
+      }
+    }
+  },
+  "paired_difference_market_volume_tfidf_minus_market_volume": {
+    "direction": {
+      "accuracy": {
+        "estimate": 0.07968127490039839,
+        "low": 0.003984063745019917,
+        "high": 0.16539999999999994
+      },
+      "balanced_accuracy": {
+        "estimate": 0.07913486005089065,
+        "low": 0.0019036893728583506,
+        "high": 0.16651233096755433
+      },
+      "macro_f1": {
+        "estimate": 0.07890097760264192,
+        "low": 0.0030945339990052396,
+        "high": 0.16478376368542072
+      },
+      "log_loss": {
+        "estimate": 0.11026454521415219,
+        "low": 0.03784043929883272,
+        "high": 0.1849586111952243
+      },
+      "roc_auc": {
+        "estimate": 0.03416030534351144,
+        "low": -0.051062199833096414,
+        "high": 0.12881242485846062
+      }
+    },
+    "move_band": {
+      "accuracy": {
+        "estimate": 0.047808764940239,
+        "low": 0.003968253968253954,
+        "high": 0.08818554216867469
+      },
+      "balanced_accuracy": {
+        "estimate": 0.0523456790123456,
+        "low": -0.008984873524421429,
+        "high": 0.11768558432962938
+      },
+      "macro_f1": {
+        "estimate": 0.056986835937261615,
+        "low": -0.008367865796903759,
+        "high": 0.1139689666030285
+      },
+      "log_loss": {
+        "estimate": -0.03285131675831887,
+        "low": -0.06634522657509113,
+        "high": 0.0026235841803808157
+      },
+      "macro_ovr_auc": {
+        "estimate": 0.001806896729172558,
+        "low": -0.04618639176168841,
+        "high": 0.04873404320829198
+      }
+    }
+  },
+  "limitations": [
+    "Hourly bars from the same market regime remain statistically dependent even with date-blocked evaluation.",
+    "The final provider bar is only 30 minutes and is excluded rather than modeled as a full hour.",
+    "The price source contains documented provider gaps; affected targets and lagged-control rows are excluded.",
+    "Publication times are retrospective metadata and do not prove when an article first became tradable information.",
+    "Class balancing and macro-F1 model selection prioritize class decisions rather than calibrated probabilities.",
+    "TF-IDF coefficients are associations, not linguistic sentiment, causality, or trading recommendations.",
+    "Top terms are selected on the same training sample and are exploratory."
+  ]
+}

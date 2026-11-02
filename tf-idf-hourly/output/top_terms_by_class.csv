@@ -1,0 +1,201 @@
+target,model,class_label,class_name,rank,term,coefficient_toward_class
+direction,tfidf_only,-1,down,1,approval,3.39884667048982
+direction,tfidf_only,-1,down,2,firm,3.2804027437899292
+direction,tfidf_only,-1,down,3,sale,3.2575444096392814
+direction,tfidf_only,-1,down,4,capabilities,3.2551639206062313
+direction,tfidf_only,-1,down,5,click,3.1425193882365563
+direction,tfidf_only,-1,down,6,management,3.0626319211806585
+direction,tfidf_only,-1,down,7,technology,2.9709722907851464
+direction,tfidf_only,-1,down,8,fears,2.9639218749123977
+direction,tfidf_only,-1,down,9,cap,2.904661947514188
+direction,tfidf_only,-1,down,10,remains,2.8340369306129536
+direction,tfidf_only,-1,down,11,december,2.8053098648387103
+direction,tfidf_only,-1,down,12,chinese,2.6972878977113592
+direction,tfidf_only,-1,down,13,chatgpt,2.6231643067294024
+direction,tfidf_only,-1,down,14,nvidia palantir,2.518351736545913
+direction,tfidf_only,-1,down,15,access,2.50331147769038
+direction,tfidf_only,-1,down,16,ecosystem,2.4778272818276004
+direction,tfidf_only,-1,down,17,shares,2.470245786316844
+direction,tfidf_only,-1,down,18,giant,2.463049666717481
+direction,tfidf_only,-1,down,19,strategy,2.418896144892695
+direction,tfidf_only,-1,down,20,trending,2.301355896725721
+direction,tfidf_only,1,up,1,rise,4.715823230772437
+direction,tfidf_only,1,up,2,demand,4.489764390368662
+direction,tfidf_only,1,up,3,big,3.8212787207555223
+direction,tfidf_only,1,up,4,worth,3.636355435524899
+direction,tfidf_only,1,up,5,plan,3.3148763498575358
+direction,tfidf_only,1,up,6,dominance,3.115913372424642
+direction,tfidf_only,1,up,7,morning,2.8647270299127174
+direction,tfidf_only,1,up,8,talks,2.8183316709374955
+direction,tfidf_only,1,up,9,index,2.799366174892665
+direction,tfidf_only,1,up,10,server,2.7792966613182553
+direction,tfidf_only,1,up,11,microsoft,2.7508747922087093
+direction,tfidf_only,1,up,12,performance,2.6876227952853693
+direction,tfidf_only,1,up,13,billions,2.6480333626807195
+direction,tfidf_only,1,up,14,digital,2.6479199605763872
+direction,tfidf_only,1,up,15,level,2.6456315242857134
+direction,tfidf_only,1,up,16,supply,2.617905546834813
+direction,tfidf_only,1,up,17,people,2.5430770846649944
+direction,tfidf_only,1,up,18,chip,2.467258407711774
+direction,tfidf_only,1,up,19,research,2.3527066854068663
+direction,tfidf_only,1,up,20,orders,2.2640216685626693
+direction,market_volume_tfidf,-1,down,1,approval,3.3428266188075546
+direction,market_volume_tfidf,-1,down,2,capabilities,3.2904470483482515
+direction,market_volume_tfidf,-1,down,3,firm,3.2881567176278694
+direction,market_volume_tfidf,-1,down,4,sale,3.257221414298831
+direction,market_volume_tfidf,-1,down,5,click,3.215497247873
+direction,market_volume_tfidf,-1,down,6,fears,2.9614077560850953
+direction,market_volume_tfidf,-1,down,7,technology,2.957062519843178
+direction,market_volume_tfidf,-1,down,8,management,2.9056435042974202
+direction,market_volume_tfidf,-1,down,9,cap,2.844732119920765
+direction,market_volume_tfidf,-1,down,10,december,2.7554414902076423
+direction,market_volume_tfidf,-1,down,11,chinese,2.7345505872501086
+direction,market_volume_tfidf,-1,down,12,remains,2.7001069869570284
+direction,market_volume_tfidf,-1,down,13,chatgpt,2.6890143410608727
+direction,market_volume_tfidf,-1,down,14,access,2.453876684847014
+direction,market_volume_tfidf,-1,down,15,giant,2.4492912903794495
+direction,market_volume_tfidf,-1,down,16,nvidia palantir,2.447038197992662
+direction,market_volume_tfidf,-1,down,17,ecosystem,2.446887416181255
+direction,market_volume_tfidf,-1,down,18,shares,2.41455684401979
+direction,market_volume_tfidf,-1,down,19,ai data,2.256868104131099
+direction,market_volume_tfidf,-1,down,20,raised,2.1855874234503694
+direction,market_volume_tfidf,1,up,1,rise,4.786475277586659
+direction,market_volume_tfidf,1,up,2,demand,4.571581006795587
+direction,market_volume_tfidf,1,up,3,big,3.9721454731478065
+direction,market_volume_tfidf,1,up,4,worth,3.6346670671180226
+direction,market_volume_tfidf,1,up,5,plan,3.279181686101113
+direction,market_volume_tfidf,1,up,6,dominance,3.0751960202132382
+direction,market_volume_tfidf,1,up,7,server,2.859285850104298
+direction,market_volume_tfidf,1,up,8,microsoft,2.855252998330593
+direction,market_volume_tfidf,1,up,9,morning,2.8517016725300537
+direction,market_volume_tfidf,1,up,10,talks,2.7595915630224748
+direction,market_volume_tfidf,1,up,11,index,2.749069630508031
+direction,market_volume_tfidf,1,up,12,performance,2.7344294834545915
+direction,market_volume_tfidf,1,up,13,supply,2.7325613662386123
+direction,market_volume_tfidf,1,up,14,level,2.6499654826101633
+direction,market_volume_tfidf,1,up,15,billions,2.623221560380083
+direction,market_volume_tfidf,1,up,16,digital,2.5767518164291303
+direction,market_volume_tfidf,1,up,17,people,2.533054944044603
+direction,market_volume_tfidf,1,up,18,chip,2.438881214285661
+direction,market_volume_tfidf,1,up,19,research,2.3528083847568926
+direction,market_volume_tfidf,1,up,20,ai stocks,2.2722503657210593
+move_band,tfidf_only,-1,down,1,artificial intelligence,0.01750211879699501
+move_band,tfidf_only,-1,down,2,artificial,0.017311036241854153
+move_band,tfidf_only,-1,down,3,growth,0.017243161643971005
+move_band,tfidf_only,-1,down,4,intelligence,0.017107612741615295
+move_band,tfidf_only,-1,down,5,sale,0.01669527053675266
+move_band,tfidf_only,-1,down,6,firm,0.016511141942459596
+move_band,tfidf_only,-1,down,7,stock market,0.015359395622470524
+move_band,tfidf_only,-1,down,8,invest,0.015239880772974668
+move_band,tfidf_only,-1,down,9,nvidia amd,0.014591987211979473
+move_band,tfidf_only,-1,down,10,remains,0.013750380228918255
+move_band,tfidf_only,-1,down,11,said,0.013628698574607847
+move_band,tfidf_only,-1,down,12,long,0.013600955809001423
+move_band,tfidf_only,-1,down,13,chinese,0.01332710340890803
+move_band,tfidf_only,-1,down,14,nearly,0.01319573520924662
+move_band,tfidf_only,-1,down,15,click,0.013181653940003094
+move_band,tfidf_only,-1,down,16,group,0.01311303330626278
+move_band,tfidf_only,-1,down,17,biggest,0.0127940947935629
+move_band,tfidf_only,-1,down,18,center,0.01275237978626006
+move_band,tfidf_only,-1,down,19,tesla,0.012686319285124446
+move_band,tfidf_only,-1,down,20,cap,0.012599563198418108
+move_band,tfidf_only,0,neutral,1,h200,0.008849313088880846
+move_band,tfidf_only,0,neutral,2,coreweave,0.008698778429173092
+move_band,tfidf_only,0,neutral,3,morning,0.007210312101647164
+move_band,tfidf_only,0,neutral,4,making,0.005337438374896544
+move_band,tfidf_only,0,neutral,5,software,0.005279098082404783
+move_band,tfidf_only,0,neutral,6,startup,0.00518033449758011
+move_band,tfidf_only,0,neutral,7,platform,0.004406873978363186
+move_band,tfidf_only,0,neutral,8,minute,0.0041149120659948486
+move_band,tfidf_only,0,neutral,9,ai,0.003876722251909976
+move_band,tfidf_only,0,neutral,10,source,0.0038204478590230587
+move_band,tfidf_only,0,neutral,11,drive,0.0036534767538041767
+move_band,tfidf_only,0,neutral,12,points,0.002962287603137272
+move_band,tfidf_only,0,neutral,13,nvidia broadcom,0.002948413917375007
+move_band,tfidf_only,0,neutral,14,rose,0.002833128278302574
+move_band,tfidf_only,0,neutral,15,bloomberg,0.002636366073976315
+move_band,tfidf_only,0,neutral,16,h200 chips,0.002408163683854671
+move_band,tfidf_only,0,neutral,17,competition,0.0023673040349935087
+move_band,tfidf_only,0,neutral,18,comes,0.0022881858987996986
+move_band,tfidf_only,0,neutral,19,nvidia,0.002254027805812325
+move_band,tfidf_only,0,neutral,20,bet,0.002196305278924677
+move_band,tfidf_only,1,up,1,deal,0.02586223953973235
+move_band,tfidf_only,1,up,2,nvidia stock,0.02520551054372605
+move_band,tfidf_only,1,up,3,chip,0.02441844603900566
+move_band,tfidf_only,1,up,4,analyst,0.021129412968655076
+move_band,tfidf_only,1,up,5,openai,0.020305997361408493
+move_band,tfidf_only,1,up,6,stock,0.020048138091784105
+move_band,tfidf_only,1,up,7,broadcom,0.01926378140794071
+move_band,tfidf_only,1,up,8,demand,0.01657050388304535
+move_band,tfidf_only,1,up,9,big,0.016269659113005853
+move_band,tfidf_only,1,up,10,worth,0.015404026165732474
+move_band,tfidf_only,1,up,11,tuesday,0.014517807052647942
+move_band,tfidf_only,1,up,12,com,0.01432453621895604
+move_band,tfidf_only,1,up,13,analysts,0.014181312510355206
+move_band,tfidf_only,1,up,14,infrastructure,0.013780492613158458
+move_band,tfidf_only,1,up,15,nvidia,0.013310091461253917
+move_band,tfidf_only,1,up,16,deals,0.013189258250519824
+move_band,tfidf_only,1,up,17,ai infrastructure,0.013023046691648816
+move_band,tfidf_only,1,up,18,ai driven,0.012871122689277719
+move_band,tfidf_only,1,up,19,data,0.012414480263912646
+move_band,tfidf_only,1,up,20,upside,0.012396053836646203
+move_band,market_volume_tfidf,-1,down,1,sale,1.0058570437615582
+move_band,market_volume_tfidf,-1,down,2,remains,0.818831626262289
+move_band,market_volume_tfidf,-1,down,3,backed,0.744954696490101
+move_band,market_volume_tfidf,-1,down,4,better,0.7326393508324635
+move_band,market_volume_tfidf,-1,down,5,firm,0.7029876686017926
+move_band,market_volume_tfidf,-1,down,6,invest,0.6910054389918332
+move_band,market_volume_tfidf,-1,down,7,edge,0.6857037978575745
+move_band,market_volume_tfidf,-1,down,8,group,0.6769646859838037
+move_band,market_volume_tfidf,-1,down,9,cap,0.66825439718054
+move_band,market_volume_tfidf,-1,down,10,biggest,0.6078127935626578
+move_band,market_volume_tfidf,-1,down,11,stock market,0.5948655874957521
+move_band,market_volume_tfidf,-1,down,12,price,0.5891872794745154
+move_band,market_volume_tfidf,-1,down,13,led,0.5790553927978846
+move_band,market_volume_tfidf,-1,down,14,ces,0.5781487711320504
+move_band,market_volume_tfidf,-1,down,15,nearly,0.5716086942734856
+move_band,market_volume_tfidf,-1,down,16,chips china,0.564518145664768
+move_band,market_volume_tfidf,-1,down,17,risk,0.5575663589012352
+move_band,market_volume_tfidf,-1,down,18,nasdaq,0.5571889133738142
+move_band,market_volume_tfidf,-1,down,19,joins,0.5330964242820697
+move_band,market_volume_tfidf,-1,down,20,funds,0.5274815469089456
+move_band,market_volume_tfidf,0,neutral,1,platform,0.6698813584905876
+move_band,market_volume_tfidf,0,neutral,2,ai,0.6566964643127996
+move_band,market_volume_tfidf,0,neutral,3,coreweave,0.5890700661183309
+move_band,market_volume_tfidf,0,neutral,4,morning,0.584436036247296
+move_band,market_volume_tfidf,0,neutral,5,rose,0.5812371930213184
+move_band,market_volume_tfidf,0,neutral,6,wall,0.5680105180099688
+move_band,market_volume_tfidf,0,neutral,7,day,0.5474138717101109
+move_band,market_volume_tfidf,0,neutral,8,nvidia broadcom,0.5169806531495114
+move_band,market_volume_tfidf,0,neutral,9,ai chips,0.514480133969838
+move_band,market_volume_tfidf,0,neutral,10,rising,0.5094560804657896
+move_band,market_volume_tfidf,0,neutral,11,software,0.5026060636031522
+move_band,market_volume_tfidf,0,neutral,12,plans,0.49997582452761014
+move_band,market_volume_tfidf,0,neutral,13,wall street,0.4994235082905028
+move_band,market_volume_tfidf,0,neutral,14,h200,0.4969156986396217
+move_band,market_volume_tfidf,0,neutral,15,dow,0.4660168034623681
+move_band,market_volume_tfidf,0,neutral,16,story,0.4442583525414989
+move_band,market_volume_tfidf,0,neutral,17,bloomberg,0.44265384009491954
+move_band,market_volume_tfidf,0,neutral,18,startup,0.4359188114331808
+move_band,market_volume_tfidf,0,neutral,19,future,0.4332367736031641
+move_band,market_volume_tfidf,0,neutral,20,source,0.42361652838575586
+move_band,market_volume_tfidf,1,up,1,chip,1.107924916338048
+move_band,market_volume_tfidf,1,up,2,nvidia stock,0.8971117456571596
+move_band,market_volume_tfidf,1,up,3,stock,0.8775743859412896
+move_band,market_volume_tfidf,1,up,4,big,0.8342850868365065
+move_band,market_volume_tfidf,1,up,5,demand,0.8298031095015863
+move_band,market_volume_tfidf,1,up,6,tuesday,0.8243613592811933
+move_band,market_volume_tfidf,1,up,7,broadcom,0.8198863474480803
+move_band,market_volume_tfidf,1,up,8,deal,0.8146279209068561
+move_band,market_volume_tfidf,1,up,9,worth,0.7326628350892326
+move_band,market_volume_tfidf,1,up,10,rise,0.7068351201119788
+move_band,market_volume_tfidf,1,up,11,fell,0.6786872228197548
+move_band,market_volume_tfidf,1,up,12,com,0.6538476680240635
+move_band,market_volume_tfidf,1,up,13,dominance,0.6428860060463057
+move_band,market_volume_tfidf,1,up,14,billions,0.633689972969602
+move_band,market_volume_tfidf,1,up,15,new ai,0.6226541177391715
+move_band,market_volume_tfidf,1,up,16,analyst,0.6187356497820843
+move_band,market_volume_tfidf,1,up,17,week,0.6111714159910145
+move_band,market_volume_tfidf,1,up,18,analysts,0.5960037582296893
+move_band,market_volume_tfidf,1,up,19,xai,0.5802472419257235
+move_band,market_volume_tfidf,1,up,20,ai infrastructure,0.5771969398398017

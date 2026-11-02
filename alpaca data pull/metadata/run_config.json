@@ -1,0 +1,29 @@
+{
+  "script_version": 1,
+  "symbol": "NVDA",
+  "start_inclusive": "2025-10-01",
+  "end_inclusive": "2026-05-01",
+  "kinds": [
+    "bars",
+    "trades",
+    "quotes",
+    "auctions",
+    "corporate_actions"
+  ],
+  "selected_feeds": [
+    "sip",
+    "boats"
+  ],
+  "feed_probe": {
+    "sip": "available",
+    "boats": "available"
+  },
+  "raw_output": "alpaca data pull/raw",
+  "credentials_source": "APCA environment variables when set; otherwise local ignored Alpaca_api_key files",
+  "credentials_logged": false,
+  "daily_partition_timezone": "UTC",
+  "end_policy": "daily upper bound is 23:59:59.999999999 UTC",
+  "workers": 4,
+  "requests_per_minute_cap": 190,
+  "complete": false
+}

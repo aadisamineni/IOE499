@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-09-21T15:45:11.955183+00:00",
+  "stock_path": "data/processed/NVDA_daily_features_2025-10-01_2026-05-31.csv",
+  "news_path": "news data pull/processed/all_classified_articles.csv",
+  "source_sha256": {
+    "data/processed/NVDA_daily_features_2025-10-01_2026-05-31.csv": "d1786c3c736567ca124a6d0fab727d5b7aabed4621e19ea7b3c952d07cb8df27",
+    "news data pull/processed/all_classified_articles.csv": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9",
+    "news data pull/config.json": "ded82ac6771845b1e116a44250f18390d59904ab0027fb6348c388830e9dcabc"
+  },
+  "source_files_unchanged": true,
+  "package_versions": {
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  },
+  "matching_rule": "For stock trading date t, include direct/indirect articles whose explicit publication timestamp has New York calendar date t minus one calendar day.",
+  "weekend_rule": "A Monday stock session matches Sunday only, not the entire weekend.",
+  "feature": {
+    "name": "price_move_2pct",
+    "source": "adjusted_close_return_1d",
+    "encoding": {
+      "-1": "return <= -2.00%",
+      "0": "-2.00% < return < 2.00%",
+      "1": "return >= 2.00%"
+    }
+  },
+  "stock_session_count": 166,
+  "stock_date_range": [
+    "2025-10-01",
+    "2026-05-29"
+  ],
+  "eligible_unique_article_count": 9740,
+  "event_article_pair_count": 7722,
+  "stock_sessions_with_matches": 147,
+  "stock_sessions_without_matches": 19,
+  "sessions_outside_complete_configured_utc_collection_range": 20,
+  "price_move_2pct_counts": {
+    "-1": 26,
+    "0": 112,
+    "1": 28
+  },
+  "exact_duplicate_news_rows_removed": 0,
+  "timestamp_review_rows": 0,
+  "december_2_example": [
+    {
+      "trading_date": "2025-12-02",
+      "matched_news_date": "2025-12-01",
+      "price_move_2pct": 0,
+      "matched_article_count": 50
+    }
+  ],
+  "validation": {
+    "all_stock_sessions_present": true,
+    "one_summary_row_per_stock_session": true,
+    "matches_use_exact_previous_new_york_calendar_date": true,
+    "price_move_2pct_recalculated_and_verified": true,
+    "unique_stock_session_article_pairs": true,
+    "summary_article_counts_consistent": true
+  },
+  "limitations": [
+    "A previous calendar day is not a rolling 24-hour window and is not the previous trading session.",
+    "Only existing direct/indirect relevance classifications are included.",
+    "Configured collection range coverage does not prove complete publisher coverage.",
+    "News was retrieved retrospectively; publication timestamps do not guarantee historical article versions."
+  ]
+}

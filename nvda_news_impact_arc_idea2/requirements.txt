@@ -1,0 +1,7 @@
+numpy>=2.0,<3
+orjson>=3.10,<4
+pandas>=2.2,<4
+pandas-market-calendars>=4.4,<7
+pyarrow>=17,<24
+joblib>=1.4,<2
+scikit-learn>=1.5,<2
