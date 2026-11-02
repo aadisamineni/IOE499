@@ -1,0 +1,681 @@
+{
+  "sources": {
+    "reject_broadcom_cpo": {
+      "url": "https://www.globenewswire.com/news-release/2025/10/01/3159570/19933/en/Broadcom-Showcases-Industry-Leading-Quality-and-Reliability-of-Co-Packaged-Optics.html",
+      "time": "2025-10-01T13:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company-issued reliability milestone; older CPO technology is not the same as this new test result.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_micas_cpo": {
+      "url": "https://www.globenewswire.com/news-release/2025/10/01/3159683/0/en/Micas-Networks-Achieves-4-Million-Link-Flap-Free-Hours-in-Testing-of-Industry-s-First-51-2T-Co-Packaged-Optics-Switch.html",
+      "time": "2025-10-01T14:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company-issued switch reliability milestone; not independent verification of performance.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_althoff": {
+      "url": "https://blogs.microsoft.com/blog/2025/10/01/accelerating-our-commercial-growth/",
+      "time": "2025-10-01",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Corporate reorganization confirmed; original employee-email public availability minute unresolved.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_intel_amd": {
+      "url": "https://www.semafor.com/article/10/01/2025/intel-amd-foundry-customer-deal",
+      "time": "2025-10-01T17:58:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Original Semafor page displays 1:58pm EDT; discussions are not a signed production contract.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_meta_chats": {
+      "url": "https://about.fb.com/news/2025/10/improving-your-recommendations-apps-ai-meta/",
+      "time": "2025-10-01; also displays September 30",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms policy; multiple displayed dates and first minute unresolved. December effective date is not disclosure date.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_solidigm_lab": {
+      "url": "https://news.solidigm.com/en-WW/254753-solidigm-unveils-ai-central-lab-home-to-highest-performing-and-most-dense-storage-test-clusters/",
+      "time": "2025-10-01",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company lab opening confirmed; public-release minute unresolved.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_google_home": {
+      "url": "https://blog.google/products-and-platforms/devices/google-nest/next-era-gemini-google-home-launch/",
+      "time": "2025-10-01",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company launch details confirmed; prior platform previews exist, new hardware details need claim-level assessment.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_redis_framework": {
+      "url": "https://rss.globenewswire.com/news-release/2025/10/01/3159741/0/en/redis-expands-partnership-with-microsoft-announces-integration-of-azure-managed-redis-into-microsoft-agent-framework.html",
+      "time": "2025-10-01T15:04:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company integration release minute matches saved article.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_microfluidics": {
+      "url": "https://news.microsoft.com/de-de/durchbruch-in-der-mikrofluidik-kuehlt-bis-zu-dreimal-effektiver-direkt-am-silizium/",
+      "time": "2025-09",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company September post establishes earlier disclosure; exact minute not used.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_sora2": {
+      "url": "https://openai.com/index/sora-2/",
+      "time": "2025-09-30",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company launch precedes October interpretation; app ranking/adoption numbers may be incremental.",
+      "checked_on": "2026-10-26"
+    }
+  },
+  "groups": [
+    [
+      [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        14,
+        15,
+        16,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        30,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        40,
+        46,
+        53,
+        57,
+        58,
+        59,
+        75,
+        76,
+        78,
+        79,
+        83,
+        85,
+        86,
+        87,
+        88,
+        94,
+        95,
+        99,
+        111,
+        112,
+        114,
+        116,
+        133,
+        136,
+        140,
+        142,
+        144,
+        148,
+        159,
+        161,
+        162,
+        166,
+        167,
+        168,
+        170,
+        172,
+        173,
+        174,
+        175,
+        177,
+        181,
+        183
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Saved headline and summary primarily investment opinion, background, preview, retrospective commentary or portfolio selection; novelty of embedded facts not verified.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        9,
+        17,
+        39,
+        50,
+        56,
+        61,
+        84,
+        89,
+        100,
+        113,
+        118,
+        122,
+        123,
+        126,
+        127,
+        128,
+        129,
+        138,
+        150,
+        154,
+        157,
+        158,
+        160,
+        163,
+        165,
+        169,
+        171,
+        182,
+        184
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Observed prices, market statistics, live coverage or roundup dominates saved text. This is not a verified no-new-information label.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        3
+      ],
+      "meeting_preview",
+      "candidate_timing_unresolved",
+      "altman_korea",
+      "Scheduled meeting preview, distinct from subsequent signed letters. First public report time unresolved.",
+      [],
+      "",
+      "possible_ai_supply_chain_context"
+    ],
+    [
+      [
+        4
+      ],
+      "unclear",
+      "not_established",
+      "amazon_spend",
+      "Headline and short teaser do not identify the spending sufficiently to establish novelty.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        10,
+        34,
+        43
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "stargate_korea",
+      "Company confirms same-date memory/infrastructure agreements. Earliest saved flash is 06:12 UTC; date-only company post cannot resolve first minute.",
+      [
+        "stargate_korea"
+      ],
+      "",
+      "possible_ai_supply_chain_context"
+    ],
+    [
+      [
+        11,
+        12,
+        13,
+        145,
+        146
+      ],
+      "background_recap",
+      "not_established",
+      "",
+      "Saved summary explicitly refers to September personnel, product, financing or partnership facts; original disclosure histories not independently verified.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        18,
+        20,
+        29,
+        44,
+        45,
+        48,
+        49,
+        52,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        72,
+        80,
+        90,
+        92,
+        93,
+        102,
+        104,
+        131,
+        132,
+        135,
+        137,
+        139,
+        152,
+        153,
+        156,
+        164,
+        176,
+        60
+      ],
+      "peripheral_company_release",
+      "candidate_timing_unresolved",
+      "",
+      "Specific transaction, launch, organizational participation, event, business update or policy report; original release history not independently checked. No direct NVDA business link established from available text.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        26
+      ],
+      "unclear",
+      "not_established",
+      "",
+      "General profile/roundup teaser insufficient for claim-level novelty.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        31
+      ],
+      "original_interview",
+      "new_detail_candidate",
+      "biomap",
+      "Interview includes claimed commercial progress; benchmark validity and original interview availability unresolved.",
+      [],
+      "",
+      "possible_ai_competition_context"
+    ],
+    [
+      [
+        41,
+        105
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "made_for_germany",
+      "Specific business investment-initiative claim; first disclosure versus current publicity unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        42
+      ],
+      "legal_reporting",
+      "candidate_timing_unresolved",
+      "xai_antitrust",
+      "Motion to dismiss may be a new legal step despite older underlying lawsuit; filing acceptance and public availability need verification.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        47
+      ],
+      "event_preview",
+      "not_established",
+      "inovalon_summit",
+      "Scheduled conference publicity; participant names do not establish a material chip-demand announcement.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        51,
+        82,
+        107,
+        119
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "",
+      "Research-product or survey announcement; underlying report first availability and material NVDA relevance unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        54,
+        125,
+        141
+      ],
+      "company_personnel",
+      "candidate_timing_unresolved",
+      "microsoft_althoff",
+      "Company confirms commercial leadership reorganization; public email/blog first minute unresolved.",
+      [
+        "reject_althoff"
+      ],
+      "",
+      "possible_ai_infrastructure_context"
+    ],
+    [
+      [
+        55,
+        71,
+        73
+      ],
+      "company_personnel",
+      "candidate_timing_unresolved",
+      "",
+      "Specific personnel announcement; NVIDIA business relevance not established and original first-public minute unchecked.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        68,
+        69,
+        77,
+        109,
+        121,
+        130,
+        134
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "meta_ai_ads",
+      "Company policy corroborated; first minute and conflicting displayed September 30/October 1 dates unresolved.",
+      [
+        "reject_meta_chats"
+      ],
+      "Effective date in December must not be used as news publication time",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        70
+      ],
+      "benchmark_reporting",
+      "release_time_supported",
+      "broadcom_cpo",
+      "Company-issued reliability milestone matches saved 13:00 UTC release minute.",
+      [
+        "reject_broadcom_cpo"
+      ],
+      "Company performance claim, not independent experimental validation",
+      "possible_competing_networking_context"
+    ],
+    [
+      [
+        74
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "google_home_launch",
+      "Company confirms new hardware/platform launch; prior platform previews mean individual new claims need separation.",
+      [
+        "reject_google_home"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        81
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "cadence_tsmc",
+      "Partnership expansion and design capabilities potentially specific; original release and any incremental details unresolved.",
+      [],
+      "",
+      "possible_semiconductor_supply_chain_context"
+    ],
+    [
+      [
+        91
+      ],
+      "benchmark_reporting",
+      "release_time_supported",
+      "micas_cpo",
+      "Company wire time matches saved 14:00 UTC; new reliability test milestone differs from old product existence.",
+      [
+        "reject_micas_cpo"
+      ],
+      "",
+      "possible_competing_networking_context"
+    ],
+    [
+      [
+        96
+      ],
+      "legal_reporting",
+      "new_detail_candidate",
+      "google_lazard",
+      "A historical 2020 action can be newly disclosed by current litigation/reporting; original story and court-publication minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        97
+      ],
+      "mixed_price_development",
+      "new_detail_candidate",
+      "aes_takeover",
+      "Takeover report may be substantive new information; original report time and rumor status need verification.",
+      [],
+      "",
+      "possible_ai_power_context"
+    ],
+    [
+      [
+        98
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "amazon_grocery",
+      "Specific private-label launch; prior company announcement minute not located in targeted check.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        101,
+        103
+      ],
+      "analyst_action",
+      "candidate_timing_unresolved",
+      "marvell_td_cowen",
+      "Potentially new downgrade and custom-chip visibility concerns; note dissemination minute unresolved.",
+      [],
+      "",
+      "possible_custom_chip_competition_context"
+    ],
+    [
+      [
+        106
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "solidigm_lab",
+      "Company confirms AI storage testing-lab opening; first intraday availability not established.",
+      [
+        "reject_solidigm_lab"
+      ],
+      "",
+      "possible_ai_storage_context"
+    ],
+    [
+      [
+        108
+      ],
+      "development_reporting",
+      "release_time_supported",
+      "redis_framework",
+      "Company release time matches saved integration announcement.",
+      [
+        "reject_redis_framework"
+      ],
+      "Direct NVDA linkage not established",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        110
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "microsoft_microfluidics",
+      "Microsoft September post predates October 1 cooling-technology coverage.",
+      [
+        "reject_microfluidics"
+      ],
+      "",
+      "possible_ai_datacenter_context"
+    ],
+    [
+      [
+        115,
+        117
+      ],
+      "mixed_price_development",
+      "revision_history_unresolved",
+      "fermi_ipo",
+      "Identical-topic headline variants describe intraday debut versus completed session; historical versions required before precise price matching.",
+      [],
+      "Could be separately published variants; revision relationship not proven",
+      "possible_ai_power_context"
+    ],
+    [
+      [
+        120
+      ],
+      "policy_speech",
+      "candidate_timing_unresolved",
+      "duggan_tariffs",
+      "Specific policy interview/remarks; original statement and release time unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        124
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "huawei_production",
+      "Specific competing AI-chip production-plan claim; original statement/report history unresolved.",
+      [],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        143,
+        147,
+        149
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "intel_amd_foundry",
+      "Located original Semafor report at 17:58 UTC precedes these Reuters/price follow-ups.",
+      [
+        "reject_intel_amd"
+      ],
+      "Reported early talks are not a signed foundry contract",
+      "possible_semiconductor_competition_context"
+    ],
+    [
+      [
+        151
+      ],
+      "unclear",
+      "not_established",
+      "coreweave_deal",
+      "Teaser does not identify contract terms or counterparty; cannot safely infer which prior deal it means.",
+      [],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        155
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "sora2_launch",
+      "Product launch disclosed September 30; new adoption/ranking details may be incremental.",
+      [
+        "reject_sora2"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        178
+      ],
+      "reactive_reporting",
+      "earlier_disclosure_found",
+      "coreweave_meta",
+      "Stock coverage refers to previously disclosed Meta capacity agreement.",
+      [
+        "coreweave_meta"
+      ],
+      "",
+      "possible_ai_customer_context"
+    ],
+    [
+      [
+        179,
+        180
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "apple_glasses",
+      "Reports attribute headset strategy change to Bloomberg; original report minute and historical version unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        185
+      ],
+      "financial_disclosure",
+      "candidate_timing_unresolved",
+      "greene_trades",
+      "Congressional trade disclosure can be newly public after trades; transaction dates must not be mistaken for filing availability.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ]
+  ]
+}

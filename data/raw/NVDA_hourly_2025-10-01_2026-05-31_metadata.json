@@ -1,0 +1,239 @@
+{
+  "status": "validated_with_provider_gaps",
+  "source": "Yahoo Finance via yfinance.Ticker.history",
+  "retrieval_started_utc": "2026-09-23T20:01:30.612765+00:00",
+  "ticker": "NVDA",
+  "currency": "USD",
+  "interval": "1h",
+  "timestamp_column": "trading_timestamp",
+  "timestamp_timezone": "America/New_York with explicit UTC offset",
+  "session_scope": "regular NASDAQ session only; prepost=False",
+  "bar_timestamp_convention": "Provider timestamp marks the beginning of each hourly bar.",
+  "package_versions": {
+    "yfinance": "1.7.0",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "pandas_market_calendars": "5.4.0"
+  },
+  "python_version": "3.13.0 (main, Oct  7 2024, 05:02:14) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "requested_dates": {
+    "start_inclusive": "2025-10-01",
+    "end_inclusive": "2026-05-31",
+    "end_exclusive_sent_to_provider": "2026-06-01"
+  },
+  "download_settings": {
+    "interval": "1h",
+    "auto_adjust": false,
+    "back_adjust": false,
+    "actions": true,
+    "repair": false,
+    "keepna": true,
+    "rounding": false,
+    "prepost": false,
+    "timeout": 30
+  },
+  "exception_settings": {
+    "yf.config.debug.hide_exceptions": false
+  },
+  "adjustment_conventions": {
+    "ohlc": "Yahoo provider OHLC, generally split-adjusted, not dividend-adjusted; auto_adjust=False does not restore original pre-split traded prices.",
+    "adjusted_close": "Yahoo adjusted close reflects splits and dividend distributions; historical values may be revised after retrieval.",
+    "adjusted_open": "Computed internally as open * adjusted_close / close; intraday return = adjusted_close / adjusted_open - 1.",
+    "actions": "Provider dividends (USD/share, ex-date) and stock split ratios (new shares / old shares); provider zero denotes no action.",
+    "volume": "Provider-reported share volume for each hourly bar."
+  },
+  "calendar": "pandas_market_calendars NASDAQ; includes early-close sessions",
+  "paths": {
+    "raw": "data/raw/NVDA_hourly_2025-10-01_2026-05-31.csv",
+    "metadata": "data/raw/NVDA_hourly_2025-10-01_2026-05-31_metadata.json"
+  },
+  "documentation": [
+    "https://ranaroussi.github.io/yfinance/reference/yfinance.price_history.html",
+    "https://help.yahoo.com/kb/SLN28256.html",
+    "https://pandas-market-calendars.readthedocs.io/en/latest/usage.html"
+  ],
+  "retrieval_time_utc": "2026-09-23T20:01:30.886403+00:00",
+  "validation": {
+    "passed": false,
+    "structural_validation_passed": true,
+    "complete_price_data": false,
+    "checks": {
+      "sorted_timestamps": true,
+      "unique_timestamps": true,
+      "timezone_aware_timestamps": true,
+      "nonempty": true,
+      "no_missing_source_values": false,
+      "finite_numeric_values": false,
+      "positive_prices": false,
+      "nonnegative_volume": true,
+      "valid_ohlc_bounds": false,
+      "all_expected_sessions_present": true,
+      "no_unexpected_sessions": true,
+      "all_bars_within_regular_session": true,
+      "all_bars_aligned_to_market_open_hour_grid": true,
+      "expected_bar_count_each_session": true
+    },
+    "expected_session_count": 166,
+    "observed_session_count": 166,
+    "row_count": 1156,
+    "first_timestamp": "2025-10-01T09:30:00-04:00",
+    "last_timestamp": "2026-05-29T15:30:00-04:00",
+    "missing_sessions": [],
+    "unexpected_sessions": [],
+    "bar_count_review": [],
+    "missing_price_bar_count": 11,
+    "usable_price_bar_count": 1145,
+    "missing_price_bar_review": [
+      {
+        "trading_timestamp": "2025-11-28T12:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2025-12-24T12:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-01-30T11:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-01-30T12:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-01-30T13:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-01-30T14:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-01-30T15:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-02-02T09:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-02-02T10:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-02-02T11:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      },
+      {
+        "trading_timestamp": "2026-02-02T12:30:00-05:00",
+        "missing_fields": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "adjusted_close"
+        ],
+        "volume": 0
+      }
+    ],
+    "missing_values": {
+      "ticker": 0,
+      "open": 11,
+      "high": 11,
+      "low": 11,
+      "close": 11,
+      "adjusted_close": 11,
+      "volume": 0,
+      "dividends": 0,
+      "stock_splits": 0
+    },
+    "corporate_actions_for_review": [
+      {
+        "trading_timestamp": "2025-12-04T09:30:00-05:00",
+        "dividends": 0.01,
+        "stock_splits": 0.0
+      },
+      {
+        "trading_timestamp": "2026-03-11T09:30:00-04:00",
+        "dividends": 0.01,
+        "stock_splits": 0.0
+      }
+    ]
+  },
+  "actual_timestamps": {
+    "first": "2025-10-01T09:30:00-04:00",
+    "last": "2026-05-29T15:30:00-04:00"
+  },
+  "row_count": 1156,
+  "provider_gap_policy": "Missing provider bars are retained with null prices and zero reported volume; no price is imputed and no placeholder row is silently removed."
+}

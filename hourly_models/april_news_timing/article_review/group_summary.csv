@@ -1,0 +1,4 @@
+group,unique_articles,concrete_development_reported,existing_price_movement_any_company,existing_nvda_price_movement,opinion_or_analysis,insufficient_or_ambiguous_content,both_development_and_nvda_movement,timestamp_or_revision_warnings
+before,40,28,10,5,15,1,2,1
+during,26,17,15,8,11,4,5,2
+after,26,12,15,13,13,2,5,3

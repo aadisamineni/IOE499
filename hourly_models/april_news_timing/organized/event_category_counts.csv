@@ -1,0 +1,211 @@
+event_id,rank,phase,category,articles,existing_story_groups
+2026-04-30T13:30:00+00:00,1,before,Potentially relevant development,2,2
+2026-04-30T13:30:00+00:00,1,before,Development + price reporting,0,0
+2026-04-30T13:30:00+00:00,1,before,Price reporting,0,0
+2026-04-30T13:30:00+00:00,1,before,Background / opinion,0,0
+2026-04-30T13:30:00+00:00,1,before,Unclear,0,0
+2026-04-30T13:30:00+00:00,1,during,Potentially relevant development,1,1
+2026-04-30T13:30:00+00:00,1,during,Development + price reporting,0,0
+2026-04-30T13:30:00+00:00,1,during,Price reporting,0,0
+2026-04-30T13:30:00+00:00,1,during,Background / opinion,1,1
+2026-04-30T13:30:00+00:00,1,during,Unclear,1,1
+2026-04-30T13:30:00+00:00,1,after,Potentially relevant development,1,1
+2026-04-30T13:30:00+00:00,1,after,Development + price reporting,1,1
+2026-04-30T13:30:00+00:00,1,after,Price reporting,0,0
+2026-04-30T13:30:00+00:00,1,after,Background / opinion,0,0
+2026-04-30T13:30:00+00:00,1,after,Unclear,0,0
+2026-04-24T14:30:00+00:00,2,before,Potentially relevant development,2,2
+2026-04-24T14:30:00+00:00,2,before,Development + price reporting,0,0
+2026-04-24T14:30:00+00:00,2,before,Price reporting,0,0
+2026-04-24T14:30:00+00:00,2,before,Background / opinion,1,1
+2026-04-24T14:30:00+00:00,2,before,Unclear,1,1
+2026-04-24T14:30:00+00:00,2,during,Potentially relevant development,1,1
+2026-04-24T14:30:00+00:00,2,during,Development + price reporting,0,0
+2026-04-24T14:30:00+00:00,2,during,Price reporting,0,0
+2026-04-24T14:30:00+00:00,2,during,Background / opinion,0,0
+2026-04-24T14:30:00+00:00,2,during,Unclear,0,0
+2026-04-24T14:30:00+00:00,2,after,Potentially relevant development,1,1
+2026-04-24T14:30:00+00:00,2,after,Development + price reporting,2,2
+2026-04-24T14:30:00+00:00,2,after,Price reporting,0,0
+2026-04-24T14:30:00+00:00,2,after,Background / opinion,0,0
+2026-04-24T14:30:00+00:00,2,after,Unclear,1,1
+2026-04-10T13:30:00+00:00,3,before,Potentially relevant development,0,0
+2026-04-10T13:30:00+00:00,3,before,Development + price reporting,0,0
+2026-04-10T13:30:00+00:00,3,before,Price reporting,0,0
+2026-04-10T13:30:00+00:00,3,before,Background / opinion,2,2
+2026-04-10T13:30:00+00:00,3,before,Unclear,0,0
+2026-04-10T13:30:00+00:00,3,during,Potentially relevant development,0,0
+2026-04-10T13:30:00+00:00,3,during,Development + price reporting,1,1
+2026-04-10T13:30:00+00:00,3,during,Price reporting,0,0
+2026-04-10T13:30:00+00:00,3,during,Background / opinion,1,1
+2026-04-10T13:30:00+00:00,3,during,Unclear,0,0
+2026-04-10T13:30:00+00:00,3,after,Potentially relevant development,1,1
+2026-04-10T13:30:00+00:00,3,after,Development + price reporting,0,0
+2026-04-10T13:30:00+00:00,3,after,Price reporting,0,0
+2026-04-10T13:30:00+00:00,3,after,Background / opinion,1,1
+2026-04-10T13:30:00+00:00,3,after,Unclear,0,0
+2026-04-28T14:30:00+00:00,4,before,Potentially relevant development,0,0
+2026-04-28T14:30:00+00:00,4,before,Development + price reporting,1,1
+2026-04-28T14:30:00+00:00,4,before,Price reporting,0,0
+2026-04-28T14:30:00+00:00,4,before,Background / opinion,0,0
+2026-04-28T14:30:00+00:00,4,before,Unclear,0,0
+2026-04-28T14:30:00+00:00,4,during,Potentially relevant development,2,2
+2026-04-28T14:30:00+00:00,4,during,Development + price reporting,2,2
+2026-04-28T14:30:00+00:00,4,during,Price reporting,1,1
+2026-04-28T14:30:00+00:00,4,during,Background / opinion,1,1
+2026-04-28T14:30:00+00:00,4,during,Unclear,0,0
+2026-04-28T14:30:00+00:00,4,after,Potentially relevant development,1,1
+2026-04-28T14:30:00+00:00,4,after,Development + price reporting,0,0
+2026-04-28T14:30:00+00:00,4,after,Price reporting,1,1
+2026-04-28T14:30:00+00:00,4,after,Background / opinion,2,2
+2026-04-28T14:30:00+00:00,4,after,Unclear,0,0
+2026-04-02T14:30:00+00:00,5,before,Potentially relevant development,1,1
+2026-04-02T14:30:00+00:00,5,before,Development + price reporting,0,0
+2026-04-02T14:30:00+00:00,5,before,Price reporting,1,1
+2026-04-02T14:30:00+00:00,5,before,Background / opinion,2,2
+2026-04-02T14:30:00+00:00,5,before,Unclear,0,0
+2026-04-02T14:30:00+00:00,5,during,Potentially relevant development,0,0
+2026-04-02T14:30:00+00:00,5,during,Development + price reporting,0,0
+2026-04-02T14:30:00+00:00,5,during,Price reporting,0,0
+2026-04-02T14:30:00+00:00,5,during,Background / opinion,0,0
+2026-04-02T14:30:00+00:00,5,during,Unclear,0,0
+2026-04-02T14:30:00+00:00,5,after,Potentially relevant development,0,0
+2026-04-02T14:30:00+00:00,5,after,Development + price reporting,0,0
+2026-04-02T14:30:00+00:00,5,after,Price reporting,1,1
+2026-04-02T14:30:00+00:00,5,after,Background / opinion,1,1
+2026-04-02T14:30:00+00:00,5,after,Unclear,0,0
+2026-04-08T13:30:00+00:00,6,before,Potentially relevant development,2,2
+2026-04-08T13:30:00+00:00,6,before,Development + price reporting,0,0
+2026-04-08T13:30:00+00:00,6,before,Price reporting,0,0
+2026-04-08T13:30:00+00:00,6,before,Background / opinion,0,0
+2026-04-08T13:30:00+00:00,6,before,Unclear,0,0
+2026-04-08T13:30:00+00:00,6,during,Potentially relevant development,0,0
+2026-04-08T13:30:00+00:00,6,during,Development + price reporting,0,0
+2026-04-08T13:30:00+00:00,6,during,Price reporting,0,0
+2026-04-08T13:30:00+00:00,6,during,Background / opinion,1,1
+2026-04-08T13:30:00+00:00,6,during,Unclear,1,1
+2026-04-08T13:30:00+00:00,6,after,Potentially relevant development,0,0
+2026-04-08T13:30:00+00:00,6,after,Development + price reporting,0,0
+2026-04-08T13:30:00+00:00,6,after,Price reporting,0,0
+2026-04-08T13:30:00+00:00,6,after,Background / opinion,1,1
+2026-04-08T13:30:00+00:00,6,after,Unclear,1,1
+2026-04-28T13:30:00+00:00,7,before,Potentially relevant development,2,2
+2026-04-28T13:30:00+00:00,7,before,Development + price reporting,1,1
+2026-04-28T13:30:00+00:00,7,before,Price reporting,1,1
+2026-04-28T13:30:00+00:00,7,before,Background / opinion,2,2
+2026-04-28T13:30:00+00:00,7,before,Unclear,0,0
+2026-04-28T13:30:00+00:00,7,during,Potentially relevant development,0,0
+2026-04-28T13:30:00+00:00,7,during,Development + price reporting,1,1
+2026-04-28T13:30:00+00:00,7,during,Price reporting,0,0
+2026-04-28T13:30:00+00:00,7,during,Background / opinion,0,0
+2026-04-28T13:30:00+00:00,7,during,Unclear,0,0
+2026-04-28T13:30:00+00:00,7,after,Potentially relevant development,2,2
+2026-04-28T13:30:00+00:00,7,after,Development + price reporting,2,2
+2026-04-28T13:30:00+00:00,7,after,Price reporting,1,1
+2026-04-28T13:30:00+00:00,7,after,Background / opinion,1,1
+2026-04-28T13:30:00+00:00,7,after,Unclear,0,0
+2026-04-15T13:30:00+00:00,8,before,Potentially relevant development,9,9
+2026-04-15T13:30:00+00:00,8,before,Development + price reporting,0,0
+2026-04-15T13:30:00+00:00,8,before,Price reporting,0,0
+2026-04-15T13:30:00+00:00,8,before,Background / opinion,3,3
+2026-04-15T13:30:00+00:00,8,before,Unclear,0,0
+2026-04-15T13:30:00+00:00,8,during,Potentially relevant development,1,1
+2026-04-15T13:30:00+00:00,8,during,Development + price reporting,0,0
+2026-04-15T13:30:00+00:00,8,during,Price reporting,1,1
+2026-04-15T13:30:00+00:00,8,during,Background / opinion,1,1
+2026-04-15T13:30:00+00:00,8,during,Unclear,1,1
+2026-04-15T13:30:00+00:00,8,after,Potentially relevant development,0,0
+2026-04-15T13:30:00+00:00,8,after,Development + price reporting,0,0
+2026-04-15T13:30:00+00:00,8,after,Price reporting,2,2
+2026-04-15T13:30:00+00:00,8,after,Background / opinion,0,0
+2026-04-15T13:30:00+00:00,8,after,Unclear,0,0
+2026-04-24T13:30:00+00:00,9,before,Potentially relevant development,3,3
+2026-04-24T13:30:00+00:00,9,before,Development + price reporting,0,0
+2026-04-24T13:30:00+00:00,9,before,Price reporting,0,0
+2026-04-24T13:30:00+00:00,9,before,Background / opinion,2,2
+2026-04-24T13:30:00+00:00,9,before,Unclear,0,0
+2026-04-24T13:30:00+00:00,9,during,Potentially relevant development,2,2
+2026-04-24T13:30:00+00:00,9,during,Development + price reporting,0,0
+2026-04-24T13:30:00+00:00,9,during,Price reporting,0,0
+2026-04-24T13:30:00+00:00,9,during,Background / opinion,1,1
+2026-04-24T13:30:00+00:00,9,during,Unclear,1,1
+2026-04-24T13:30:00+00:00,9,after,Potentially relevant development,1,1
+2026-04-24T13:30:00+00:00,9,after,Development + price reporting,0,0
+2026-04-24T13:30:00+00:00,9,after,Price reporting,0,0
+2026-04-24T13:30:00+00:00,9,after,Background / opinion,0,0
+2026-04-24T13:30:00+00:00,9,after,Unclear,0,0
+2026-04-13T13:30:00+00:00,10,before,Potentially relevant development,0,0
+2026-04-13T13:30:00+00:00,10,before,Development + price reporting,0,0
+2026-04-13T13:30:00+00:00,10,before,Price reporting,0,0
+2026-04-13T13:30:00+00:00,10,before,Background / opinion,2,2
+2026-04-13T13:30:00+00:00,10,before,Unclear,0,0
+2026-04-13T13:30:00+00:00,10,during,Potentially relevant development,1,1
+2026-04-13T13:30:00+00:00,10,during,Development + price reporting,0,0
+2026-04-13T13:30:00+00:00,10,during,Price reporting,0,0
+2026-04-13T13:30:00+00:00,10,during,Background / opinion,2,2
+2026-04-13T13:30:00+00:00,10,during,Unclear,0,0
+2026-04-13T13:30:00+00:00,10,after,Potentially relevant development,0,0
+2026-04-13T13:30:00+00:00,10,after,Development + price reporting,0,0
+2026-04-13T13:30:00+00:00,10,after,Price reporting,1,1
+2026-04-13T13:30:00+00:00,10,after,Background / opinion,0,0
+2026-04-13T13:30:00+00:00,10,after,Unclear,0,0
+2026-04-02T13:30:00+00:00,11,before,Potentially relevant development,1,1
+2026-04-02T13:30:00+00:00,11,before,Development + price reporting,0,0
+2026-04-02T13:30:00+00:00,11,before,Price reporting,0,0
+2026-04-02T13:30:00+00:00,11,before,Background / opinion,0,0
+2026-04-02T13:30:00+00:00,11,before,Unclear,0,0
+2026-04-02T13:30:00+00:00,11,during,Potentially relevant development,1,1
+2026-04-02T13:30:00+00:00,11,during,Development + price reporting,0,0
+2026-04-02T13:30:00+00:00,11,during,Price reporting,1,1
+2026-04-02T13:30:00+00:00,11,during,Background / opinion,2,2
+2026-04-02T13:30:00+00:00,11,during,Unclear,0,0
+2026-04-02T13:30:00+00:00,11,after,Potentially relevant development,0,0
+2026-04-02T13:30:00+00:00,11,after,Development + price reporting,0,0
+2026-04-02T13:30:00+00:00,11,after,Price reporting,0,0
+2026-04-02T13:30:00+00:00,11,after,Background / opinion,0,0
+2026-04-02T13:30:00+00:00,11,after,Unclear,0,0
+2026-04-15T16:30:00+00:00,12,before,Potentially relevant development,1,1
+2026-04-15T16:30:00+00:00,12,before,Development + price reporting,0,0
+2026-04-15T16:30:00+00:00,12,before,Price reporting,0,0
+2026-04-15T16:30:00+00:00,12,before,Background / opinion,0,0
+2026-04-15T16:30:00+00:00,12,before,Unclear,0,0
+2026-04-15T16:30:00+00:00,12,during,Potentially relevant development,4,4
+2026-04-15T16:30:00+00:00,12,during,Development + price reporting,0,0
+2026-04-15T16:30:00+00:00,12,during,Price reporting,0,0
+2026-04-15T16:30:00+00:00,12,during,Background / opinion,0,0
+2026-04-15T16:30:00+00:00,12,during,Unclear,0,0
+2026-04-15T16:30:00+00:00,12,after,Potentially relevant development,5,5
+2026-04-15T16:30:00+00:00,12,after,Development + price reporting,0,0
+2026-04-15T16:30:00+00:00,12,after,Price reporting,0,0
+2026-04-15T16:30:00+00:00,12,after,Background / opinion,1,1
+2026-04-15T16:30:00+00:00,12,after,Unclear,0,0
+2026-04-14T13:30:00+00:00,13,before,Potentially relevant development,2,2
+2026-04-14T13:30:00+00:00,13,before,Development + price reporting,0,0
+2026-04-14T13:30:00+00:00,13,before,Price reporting,0,0
+2026-04-14T13:30:00+00:00,13,before,Background / opinion,2,2
+2026-04-14T13:30:00+00:00,13,before,Unclear,0,0
+2026-04-14T13:30:00+00:00,13,during,Potentially relevant development,2,2
+2026-04-14T13:30:00+00:00,13,during,Development + price reporting,2,2
+2026-04-14T13:30:00+00:00,13,during,Price reporting,0,0
+2026-04-14T13:30:00+00:00,13,during,Background / opinion,2,2
+2026-04-14T13:30:00+00:00,13,during,Unclear,0,0
+2026-04-14T13:30:00+00:00,13,after,Potentially relevant development,1,1
+2026-04-14T13:30:00+00:00,13,after,Development + price reporting,0,0
+2026-04-14T13:30:00+00:00,13,after,Price reporting,1,1
+2026-04-14T13:30:00+00:00,13,after,Background / opinion,1,1
+2026-04-14T13:30:00+00:00,13,after,Unclear,1,1
+2026-04-27T16:30:00+00:00,14,before,Potentially relevant development,2,2
+2026-04-27T16:30:00+00:00,14,before,Development + price reporting,0,0
+2026-04-27T16:30:00+00:00,14,before,Price reporting,2,2
+2026-04-27T16:30:00+00:00,14,before,Background / opinion,2,2
+2026-04-27T16:30:00+00:00,14,before,Unclear,0,0
+2026-04-27T16:30:00+00:00,14,during,Potentially relevant development,0,0
+2026-04-27T16:30:00+00:00,14,during,Development + price reporting,0,0
+2026-04-27T16:30:00+00:00,14,during,Price reporting,0,0
+2026-04-27T16:30:00+00:00,14,during,Background / opinion,0,0
+2026-04-27T16:30:00+00:00,14,during,Unclear,0,0
+2026-04-27T16:30:00+00:00,14,after,Potentially relevant development,0,0
+2026-04-27T16:30:00+00:00,14,after,Development + price reporting,0,0
+2026-04-27T16:30:00+00:00,14,after,Price reporting,0,0
+2026-04-27T16:30:00+00:00,14,after,Background / opinion,3,3
+2026-04-27T16:30:00+00:00,14,after,Unclear,0,0

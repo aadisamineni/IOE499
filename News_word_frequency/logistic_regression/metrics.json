@@ -1,0 +1,430 @@
+{
+  "source_sha256": {
+    "data/matched/2025-09-15_2026-05-15/event_summary.csv": "dbece60999c5055cfcb17422e90c4db2bc6e9b69ee1682f7a00e695926f73d6b",
+    "data/matched/2025-09-15_2026-05-15/event_article_matches.csv": "7b5337be3b8fbb6cc2db942d9dc5f3d9210cb03f675a30ca309732229433c1f4",
+    "News_word_frequency/distinctive_terms/top20_up.csv": "6b655e4182d6c6625c39b1191f58db9865ccf7f98a2e43e6905d3af2811a818d",
+    "News_word_frequency/distinctive_terms/top20_down.csv": "83676aee36f9bd644f2c60bdaf203459914b76bda82241beb35d7dac891f0022"
+  },
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "model": "L2 logistic regression; C=0.1 fixed before evaluation; binary presence features; threshold=0.5",
+  "target": "1 = existing 1%-up flag, 0 = existing 1%-down flag; conditional on flagged events, not all trading days",
+  "total_days": 92,
+  "train_days": 69,
+  "train_start": "2025-10-06",
+  "train_end": "2026-03-10",
+  "train_up": 38,
+  "train_down": 31,
+  "embargo_days": [],
+  "test_start": "2026-03-12",
+  "test_end": "2026-04-30",
+  "selected_features": [
+    "2b",
+    "adoption",
+    "afternoon session",
+    "ai momentum",
+    "ai spending",
+    "bullish",
+    "buy or",
+    "change",
+    "chipmaker",
+    "cycle",
+    "deals",
+    "despite",
+    "expands ai",
+    "fed",
+    "hit",
+    "invested in",
+    "is nvidia",
+    "is working",
+    "jim",
+    "jim cramer",
+    "jobs",
+    "joins",
+    "jones futures",
+    "known",
+    "making",
+    "mining",
+    "net",
+    "nvidia could",
+    "nvidia to",
+    "sale",
+    "scale ai",
+    "slides",
+    "stake",
+    "stocks like",
+    "stocks that",
+    "the afternoon",
+    "the future",
+    "the magnificent",
+    "third",
+    "updated"
+  ],
+  "test_model": {
+    "n": 23,
+    "actual_up": 13,
+    "actual_down": 10,
+    "accuracy": 0.5217391304347826,
+    "balanced_accuracy": 0.5192307692307692,
+    "roc_auc": 0.5307692307692308,
+    "log_loss": 0.6947782365840438,
+    "brier_score": 0.25119646244718913,
+    "up_precision": 0.5833333333333334,
+    "up_recall": 0.5384615384615384,
+    "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  },
+  "test_baseline": {
+    "n": 23,
+    "actual_up": 13,
+    "actual_down": 10,
+    "accuracy": 0.5652173913043478,
+    "balanced_accuracy": 0.5,
+    "roc_auc": 0.5,
+    "log_loss": 0.685041629758369,
+    "brier_score": 0.24595673177903796,
+    "up_precision": 0.5652173913043478,
+    "up_recall": 1.0,
+    "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        13
+      ]
+    ]
+  },
+  "training_model": {
+    "n": 69,
+    "actual_up": 38,
+    "actual_down": 31,
+    "accuracy": 0.9710144927536232,
+    "balanced_accuracy": 0.967741935483871,
+    "roc_auc": 0.9949066213921902,
+    "log_loss": 0.32487403766691964,
+    "brier_score": 0.0840889684660028,
+    "up_precision": 0.95,
+    "up_recall": 1.0,
+    "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+      [
+        29,
+        2
+      ],
+      [
+        0,
+        38
+      ]
+    ]
+  },
+  "expanding_window_training_diagnostics": [
+    {
+      "fold": 1,
+      "train_start": "2025-10-06",
+      "train_end": "2025-11-06",
+      "validation_start": "2025-11-11",
+      "validation_end": "2025-12-12",
+      "features": [
+        "accelerated",
+        "afternoon session",
+        "ai spending",
+        "and microsoft",
+        "benefit",
+        "benefit from",
+        "buy or",
+        "challenge",
+        "chipmaker's",
+        "co",
+        "compute",
+        "contract",
+        "devices amd",
+        "does not",
+        "end",
+        "form",
+        "fueled",
+        "gen",
+        "gpus",
+        "huang said",
+        "integration of",
+        "is not",
+        "late",
+        "losing",
+        "million",
+        "net",
+        "next gen",
+        "oct",
+        "on wednesday",
+        "or sell",
+        "parent",
+        "plans to",
+        "poised to",
+        "run",
+        "secure",
+        "sell now",
+        "the afternoon",
+        "the future",
+        "wave",
+        "wave of"
+      ],
+      "model": {
+        "n": 17,
+        "actual_up": 7,
+        "actual_down": 10,
+        "accuracy": 0.6470588235294118,
+        "balanced_accuracy": 0.6571428571428571,
+        "roc_auc": 0.7428571428571429,
+        "log_loss": 0.6719060196647739,
+        "brier_score": 0.23955526262977014,
+        "up_precision": 0.5555555555555556,
+        "up_recall": 0.7142857142857143,
+        "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+          [
+            6,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "baseline": {
+        "n": 17,
+        "actual_up": 7,
+        "actual_down": 10,
+        "accuracy": 0.4117647058823529,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5,
+        "log_loss": 0.7404370416143661,
+        "brier_score": 0.27335640138408307,
+        "up_precision": 0.4117647058823529,
+        "up_recall": 1.0,
+        "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            7
+          ]
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "train_start": "2025-10-06",
+      "train_end": "2025-12-11",
+      "validation_start": "2025-12-17",
+      "validation_end": "2026-02-02",
+      "features": [
+        "afternoon",
+        "afternoon session",
+        "ai demand",
+        "ai growth",
+        "ai spending",
+        "ai's",
+        "and microsoft",
+        "beyond",
+        "buy or",
+        "compared",
+        "designer",
+        "despite",
+        "edge",
+        "electronics",
+        "end",
+        "essential",
+        "fed",
+        "google and",
+        "inside",
+        "is nvidia",
+        "is poised",
+        "jones futures",
+        "late",
+        "list",
+        "losing",
+        "net",
+        "openai's",
+        "or sell",
+        "parent",
+        "poised",
+        "poised to",
+        "returns",
+        "sell now",
+        "the afternoon",
+        "the future",
+        "the global",
+        "updated",
+        "wave",
+        "wave of",
+        "with strong"
+      ],
+      "model": {
+        "n": 17,
+        "actual_up": 11,
+        "actual_down": 6,
+        "accuracy": 0.5882352941176471,
+        "balanced_accuracy": 0.49242424242424243,
+        "roc_auc": 0.4090909090909091,
+        "log_loss": 0.6984785045860126,
+        "brier_score": 0.25224024102465176,
+        "up_precision": 0.6428571428571429,
+        "up_recall": 0.8181818181818182,
+        "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            9
+          ]
+        ]
+      },
+      "baseline": {
+        "n": 17,
+        "actual_up": 11,
+        "actual_down": 6,
+        "accuracy": 0.6470588235294118,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5,
+        "log_loss": 0.677559249892838,
+        "brier_score": 0.24221453287197228,
+        "up_precision": 0.6470588235294118,
+        "up_recall": 1.0,
+        "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            11
+          ]
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "train_start": "2025-10-06",
+      "train_end": "2026-01-28",
+      "validation_start": "2026-02-03",
+      "validation_end": "2026-03-10",
+      "features": [
+        "accelerated",
+        "afternoon session",
+        "ai dominance",
+        "ai spending",
+        "bad",
+        "based",
+        "better",
+        "broadcom nvidia",
+        "buy or",
+        "chipmaker",
+        "compared",
+        "despite",
+        "edge",
+        "fed",
+        "futures",
+        "hit",
+        "inside",
+        "invests",
+        "is nvidia",
+        "jones futures",
+        "jumped",
+        "known",
+        "late",
+        "look at",
+        "nvidia are",
+        "nvidia could",
+        "nvidia to",
+        "or sell",
+        "powered by",
+        "report that",
+        "scale ai",
+        "sell now",
+        "the afternoon",
+        "the future",
+        "the magnificent",
+        "third",
+        "updated",
+        "updated look",
+        "wave",
+        "wave of"
+      ],
+      "model": {
+        "n": 17,
+        "actual_up": 9,
+        "actual_down": 8,
+        "accuracy": 0.5882352941176471,
+        "balanced_accuracy": 0.5694444444444444,
+        "roc_auc": 0.4722222222222222,
+        "log_loss": 0.8017720652576493,
+        "brier_score": 0.2881997708013091,
+        "up_precision": 0.5714285714285714,
+        "up_recall": 0.8888888888888888,
+        "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      "baseline": {
+        "n": 17,
+        "actual_up": 9,
+        "actual_down": 8,
+        "accuracy": 0.5294117647058824,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5,
+        "log_loss": 0.694531391739338,
+        "brier_score": 0.2506728181468666,
+        "up_precision": 0.5294117647058824,
+        "up_recall": 1.0,
+        "confusion_matrix_rows_actual_down_up_columns_predicted_down_up": [
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      }
+    }
+  ],
+  "intercept": 0.688993542014278,
+  "descriptive_intercept": 0.5536152965822162,
+  "limitations": [
+    "Small event-only sample, no neutral days and no volatility prediction.",
+    "The dataset and full-sample vocabulary were already explored, so the temporal test is exploratory, not a pristine prospective holdout.",
+    "Test labels are excluded from automated vocabulary selection and model fitting; full-sample descriptive fit is explicitly separate.",
+    "Regularized coefficients and odds ratios are conditional associations, not causal effects or significance tests; no p-values.",
+    "Correlated words, repeated news episodes and retrospective article versions limit inference.",
+    "Missing coverage days excluded. Larger separate future data is needed to establish predictive usefulness."
+  ],
+  "validation": {
+    "train_precedes_test": true,
+    "no_identical_articles_across_split": true,
+    "fold_vocabulary_training_only": true,
+    "converged": true
+  }
+}

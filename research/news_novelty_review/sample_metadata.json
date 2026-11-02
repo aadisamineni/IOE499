@@ -1,0 +1,7 @@
+{
+  "seed": 499,
+  "eligible_articles": 2038,
+  "sample_n": 50,
+  "selection": "Uniform random sample of default AVS direct regular-session representative articles; no return data read",
+  "news_sha256": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9"
+}

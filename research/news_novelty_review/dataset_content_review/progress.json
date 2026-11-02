@@ -1,0 +1,29 @@
+{
+  "total_articles": 53073,
+  "assessed_articles": 689,
+  "remaining_articles": 52384,
+  "new_article_candidates": 185,
+  "label_counts": {
+    "opinion_background": 310,
+    "new_information_candidate": 134,
+    "old_news_recap": 54,
+    "price_reaction": 129,
+    "insufficient_information": 11,
+    "mixed": 51
+  },
+  "evidence_rows": 114,
+  "assessed_through_utc": "2025-10-06T08:00:00Z",
+  "next_article": {
+    "article_id": "137006477",
+    "published_at_utc": "2025-10-06T08:00:04Z",
+    "headline": "Google Cloud's Hot Streak Turns Heads. Is Google Stock A Buy?"
+  },
+  "october_total": 5232,
+  "october_assessed": 689,
+  "input_sha256": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9",
+  "full_task_complete": false,
+  "previous_provisional_reviews_imported": false,
+  "similarity_labels_used": false,
+  "web_used": false,
+  "notes": "New means a specific dataset-relative candidate, not first public release. Historical recaps may be self-dated in the target when earlier source records are unavailable. New facts can coexist with recaps or price reaction."
+}

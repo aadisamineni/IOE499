@@ -1,0 +1,75 @@
+article_id,published_at_utc,headline,source,relevance_type,excluded,exclusion_reason,event_representative,duplicate_group_id,development,regular_session_clock,default_news_eligible
+137230590,2025-10-27T13:40:54Z,Qualcomm Vs. Nvidia And AMD: The AI Battle Just Got Bigger,SeekingAlpha,direct,False,,True,event_e8eaed5b99f3b7b6,qualcomm,True,True
+137228358,2025-10-27T14:00:24Z,"Qualcomm stock spikes more than 20% as company enters AI chip race, taking on Nvidia, AMD",Yahoo,direct,False,,True,event_9910c958b162e4a7,qualcomm,True,True
+137228357,2025-10-27T14:00:36Z,Qualcomm accelerates data center push with new AI chips launching next year,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_5a1368ed32e53ce5,qualcomm,True,False
+137228353,2025-10-27T14:20:00Z,Qualcomm Stock Soars on  New AI Servers Meant to Compete With Nvidia and AMD,Yahoo,direct,False,,True,event_823c76500f502a37,qualcomm,True,True
+137228371,2025-10-27T14:34:08Z,"Qualcomm unveils 2 new chips, part of foray into AI data centers",Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_ae138e08e98ae7be,qualcomm,True,False
+137228350,2025-10-27T14:34:58Z,Qualcomm Takes Aim at Nvidia,Yahoo,direct,False,,True,event_652f123f15061100,qualcomm,True,True
+137228348,2025-10-27T14:42:44Z,Qualcomm stock jumps after unveiling new AI chips to challenge Nvidia,Yahoo,direct,False,,True,event_90ddd0ab9bbdbcdf,qualcomm,True,True
+137230856,2025-10-27T15:43:23Z,Stock Market Today: Qualcomm Leaps After Entering AI Chip Wars,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_b400f790e4a418d7,qualcomm,True,False
+137230812,2025-10-27T16:04:48Z,Nvidia Rises While AI Rival Soars On New Data Center Chip; Is Nvidia A Buy Now?,Yahoo,direct,False,,True,event_b771ef5b20a131b7,qualcomm,True,True
+137230809,2025-10-27T16:34:44Z,Qualcomm Stock Is Soaring Today After Chipmaker Makes a Big AI Move,Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,True,event_02a9c787041126ed,qualcomm,True,False
+137230808,2025-10-27T16:35:00Z,Qualcomm Launches AI Chips to Challenge Nvidia’s Dominance,Yahoo,direct,False,,True,event_f9215fc78dcdc217,qualcomm,True,True
+137235409,2025-10-27T19:31:52Z,Qualcomm Is Going Head to Head with Nvidia on New AI Chips. Should You Buy QCOM Stock Here?,Yahoo,direct,True,generic_recommendation_or_listicle,True,event_5ad33a66fc930fb3,qualcomm,True,False
+137235397,2025-10-27T21:45:49Z,"Qualcomm (QCOM) Stock Trades Up, Here Is Why",Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_d4f68386fb08dd10,qualcomm,False,False
+137235213,2025-10-27T22:23:34Z,"Qualcomm announces new AI chips in data center push, shares surge",Yahoo,direct,False,,True,event_12309767013892a3,qualcomm,False,False
+137235211,2025-10-28T00:50:47Z,Qualcomm Just Entered AI Chip Race. Can it Catch AMD and Nvidia?,Yahoo,direct,False,,True,event_58338809468a9deb,qualcomm,False,False
+137237654,2025-10-28T12:14:00Z,Nvidia Inches Higher. What Qualcomm’s AI Chip Entry Means for the Stock.,Yahoo,direct,False,,True,event_547f5845a8f8d4fe,qualcomm,False,False
+137237588,2025-10-28T12:31:00Z,Will QCOM's New AI Inference Solutions Boost Growth Prospects?,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_d2e9f0786e9d1db2,qualcomm,False,False
+137667538,2025-12-02T16:07:20Z,Amazon releases new AI chip amid industry push to challenge Nvidia's dominance,Yahoo,direct,False,,True,event_0910489ba3899e19,amazon,True,True
+137667535,2025-12-02T16:44:32Z,Amazon unveils new AI chip in battle against Nvidia,Yahoo,direct,False,,True,event_e8638ce45c952b9b,amazon,True,True
+137667468,2025-12-02T18:31:52Z,Amazon's AI Chip Strike: Can Trainium3 Finally Crack Nvidia's Grip?,Yahoo,direct,False,,True,event_bce946bb05c359bc,amazon,True,True
+137667409,2025-12-02T19:17:00Z,Amazon Is Taking On Nvidia and Google. Why It’s a Big Deal for the Stock.,Yahoo,direct,False,,True,event_517cee73b3f9a47b,amazon,True,True
+137667457,2025-12-02T21:05:49Z,"Amazon Web Services Has Strong Partnership With Anthropic, CEO Says",Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_f7d4b58a10a67236,amazon,False,False
+137672644,2025-12-03T15:40:00Z,Nvidia Stock Drops. What Amazon’s New Chips Mean for the AI Leader.,Yahoo,direct,True,past_price_movement_without_new_information,True,event_6ba213aaa3f54c86,amazon,True,False
+137677639,2025-12-03T19:39:56Z,Amazon Stock Down 9% as Investors Bet on Trainium3 AI Chip to Challenge Nvidia,Yahoo,direct,False,,True,event_78933c07db493184,amazon,True,True
+137677636,2025-12-03T19:58:16Z,AI Chip Race Heats Up With Amazon's Trainium3,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_b1c4094f0f386c33,amazon,True,False
+138262780,2026-01-26T11:00:01Z,Microsoft reveals second generation of its AI chip in effort to bolster cloud business,CNBC,not_relevant,True,insufficient_nvidia_connection,True,event_74fe60bf095b91d0,microsoft,False,False
+138669577,2026-01-26T12:03:57Z,Microsoft Rolling Out Maia 200 Chip Fabricated On Taiwan Semiconductor's 3-Nanometer Process,Benzinga,indirect,False,,True,event_df1a82c4620f94ad,microsoft,False,False
+138669575,2026-01-26T14:01:25Z,Microsoft Escalates AI Arms Race With Next Gen Chips,Benzinga,indirect,False,,True,event_7ae7163ffdd2757d,microsoft,False,False
+138263346,2026-01-26T16:01:09Z,"Microsoft takes aim at Google, Amazon, and Nvidia with new AI chip",Yahoo,direct,False,,True,event_ab9871c9f63bd3b9,microsoft,True,True
+138263344,2026-01-26T16:03:12Z,"Microsoft rolls out next generation of its AI chips, takes aim at Nvidia's software",Yahoo,direct,False,,True,event_5e465f9fc90122cd,microsoft,True,True
+138264258,2026-01-26T19:21:07Z,"Microsoft Takes Aim at Amazon, Google AI Chips",Yahoo,indirect,False,,True,event_edc0b7992c9cec90,microsoft,True,False
+138264278,2026-01-26T19:25:56Z,Microsoft Launches Maia 200 AI Chip for Faster Model Inference,Yahoo,indirect,False,,True,event_39afaf9845ee8e20,microsoft,True,False
+138264845,2026-01-26T20:45:29Z,Microsoft debuts its next-gen AI chip,Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,True,event_c271c5560de609e4,microsoft,True,False
+138264857,2026-01-26T20:55:43Z,"AMD (AMD) Stock Trades Down, Here Is Why",Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_32336d11cbf1020c,microsoft,True,False
+138268626,2026-01-27T06:38:04Z,SK Hynix Shares Hit Record High on Microsoft Supply Deal Report,Yahoo,indirect,False,,True,event_4729e100ca894dfe,microsoft,False,False
+138509879,2026-01-27T13:26:45Z,"Broadcom Set To Dominate Custom AI Chip Market With 60% Share By 2027, Counterpoint Says",Benzinga,not_relevant,True,insufficient_nvidia_connection,True,event_e8cfaa796b76cc84,microsoft,False,False
+138270826,2026-01-27T15:01:47Z,Nvidia Gains Amid Microsoft's New AI Chip Launch ; Is Nvidia A Buy Or Sell Now?,Yahoo,direct,False,,True,event_08d9b89bf99f977c,microsoft,True,True
+138270824,2026-01-27T15:12:00Z,Microsoft’s New AI Chip Can’t Keep Nvidia Stock Down,Yahoo,direct,False,,True,event_f47a2a7af2aa251c,microsoft,True,True
+138272388,2026-01-27T16:30:48Z,"Microsoft Boosts Data Centers, Debuts Maia 200 AI Chip Before Earnings",Yahoo,indirect,True,earnings_report_preview_or_recap,True,event_2ad3d584300fd5e1,microsoft,True,False
+138272841,2026-01-27T17:49:50Z,Marvell Stock Rises With Broadcom on Hopes for Microsoft's AI Chip,Yahoo,not_relevant,True,past_price_movement_without_new_information;insufficient_nvidia_connection,True,event_61541a3ae231668a,microsoft,True,False
+138275271,2026-01-27T20:09:23Z,"Microsoft Retakes Key Level Amid New AI Chip Launch, With Earnings On Tap. Is Microsoft A Buy Now?",Yahoo,not_relevant,True,earnings_report_preview_or_recap;insufficient_nvidia_connection,True,event_21c7e96bda0927c9,microsoft,True,False
+138275250,2026-01-27T20:17:16Z,Microsoft Releases Powerful New AI Chip to Take on Nvidia,Yahoo,direct,False,,True,event_92cfdd786bcf8923,microsoft,True,True
+139232093,2026-02-26T13:08:05Z,Amazon Investment in OpenAI May Hinge on IPO or AGI Milestone,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_4628bfc0b2f62d75,openai,False,False
+139237018,2026-02-26T15:25:00Z,"The Zacks Analyst Blog Highlights Micron Technology, Oracle, Meta, NVIDIA and SoftBank",Yahoo,direct,False,,True,event_949c4209bb75bb5c,openai,True,True
+139252140,2026-02-27T08:31:11Z,"OpenAI announces $110 billion funding round with backing from Amazon, Nvidia, SoftBank",CNBC,direct,False,,True,event_14db88fe8c145476,openai,False,False
+139252210,2026-02-27T08:55:24Z,"OpenAI closes $110 billion funding round with backing from Amazon, Nvidia, Softbank",CNBC,direct,True,duplicate_event_coverage,False,event_14db88fe8c145476,openai,False,False
+139246712,2026-02-27T09:46:38Z,'OpenAI Finalizes $110 Billion Funding at $730 Billion Valuation' - Bloomberg,Benzinga,not_relevant,True,generic_recommendation_or_listicle;insufficient_nvidia_connection,True,event_f3eb97919f0d5aa6,openai,False,False
+139247119,2026-02-27T13:35:10Z,"OpenAI's $110 billion funding round draws investment from Amazon , Nvidia, SoftBank",Yahoo,direct,False,,True,event_4d289545f81b4421,openai,False,False
+139262485,2026-02-27T14:01:39Z,Inside Sam Altman's Plan To Benefit From The Hegseth-Anthropic Feud,Benzinga,not_relevant,True,insufficient_nvidia_connection,True,event_073ff7c29a3d7f29,openai,False,False
+139249938,2026-02-27T14:10:20Z,"OpenAI hits $730B valuation as Amazon, NVIDIA, and SoftBank inject $110B",Yahoo,direct,True,generic_recommendation_or_listicle,True,event_cbfbe23ef2af7e6c,openai,False,False
+139249937,2026-02-27T14:11:00Z,Amazon to Invest $50 Billion in OpenAI Under Partnership. OpenAI Valuation at $730 Billion.,Yahoo,not_relevant,True,generic_recommendation_or_listicle;insufficient_nvidia_connection,True,event_1d99230bfb43864e,openai,False,False
+139249936,2026-02-27T14:13:01Z,OpenAI raises $110B in one of the largest private funding rounds in history,Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,True,event_a95b39fcc74aac58,openai,False,False
+139249933,2026-02-27T14:48:25Z,"Amazon, Nvidia Flood OpenAI With Cash as ChatGPT Maker’s Valuation Hits $730 Billion",Yahoo,direct,True,generic_recommendation_or_listicle,True,event_4c9fe89baa5ba400,openai,True,False
+139249913,2026-02-27T14:59:25Z,"OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",Yahoo,direct,True,duplicate_event_coverage,False,event_4d289545f81b4421,openai,True,False
+139249912,2026-02-27T14:59:26Z,OpenAI raises $110 bn in record funding round,Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,True,event_8fd78a2f44fb97a0,openai,True,False
+139262992,2026-02-27T15:14:07Z,What's Behind The Drop In Microsoft Stock?,Benzinga,not_relevant,True,insufficient_nvidia_connection,True,event_35dfdcb21aedbb14,openai,True,False
+139249907,2026-02-27T15:17:48Z,"OpenAI gets $110 billon in funding from a trio of tech powerhouses, led by Amazon",Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,True,event_403bb57bf878e2ef,openai,True,False
+139254282,2026-02-27T15:42:00Z,OpenAI Raises $110 Billion as It Races Toward IPO,Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,True,event_e38639d914847880,openai,True,False
+139249897,2026-02-27T15:42:00Z,OpenAI Raises $110 Billion,Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,True,event_e1e8ce811ce24e61,openai,True,False
+139249895,2026-02-27T15:48:40Z,"Nvidia, Amazon and SoftBank Pledge New OpenAI Funding",Yahoo,direct,False,,True,event_851d02ae587fcb5e,openai,True,True
+139262484,2026-02-27T15:51:37Z,Peter Lynch's Protégé Calls OpenAI's $110 Billion Funding Round 'Borderline Criminal' - Here's Why,Benzinga,not_relevant,True,insufficient_nvidia_connection,True,event_4c5ea47ca9935e88,openai,True,False
+139254301,2026-02-27T15:53:00Z,Amazon Leads Record $110 Billion OpenAI Funding Round.  AWS Is Why.,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_e71dc3346cd6816b,openai,True,False
+139254279,2026-02-27T16:25:25Z,OpenAI Eyes Biggest US IPO in History Thanks to Nvidia and Amazon,Yahoo,direct,False,,True,event_8d6e527637e2b90f,openai,True,True
+139254294,2026-02-27T16:27:31Z,Amazon Leads OpenAI's $110 Billion Funding Round; Nvidia Commits $30 Billion,Yahoo,direct,False,,True,event_a9c325b683d03432,openai,True,True
+139254266,2026-02-27T16:37:00Z,OpenAI valuation hits $730B as it raises $100B in latest funding round,Yahoo,direct,True,generic_recommendation_or_listicle;summary_only_mention_without_material_nvidia_event,True,event_9b02afba9b7ebaa2,openai,True,False
+139254265,2026-02-27T16:37:41Z,"OpenAI Raises $110 Billion From Amazon, Nvidia, SoftBank. OpenAI And AWS Expand Partnership.",Yahoo,direct,False,,True,event_856128eac31f913e,openai,True,True
+139249939,2026-02-27T17:26:17Z,OpenAI Finalizes $110 Billion Funding at $730 Billion Value,Yahoo,indirect,False,,True,event_0c72e4708825150f,openai,True,False
+139255546,2026-02-27T18:19:47Z,OpenAI Closes Up to $110 Billion Round at $730 Billion Valuation,Yahoo,direct,True,generic_recommendation_or_listicle;summary_only_mention_without_material_nvidia_event,True,event_572182e6ce58a052,openai,True,False
+139255555,2026-02-27T18:28:17Z,OpenAI Secures $110 Billion at $730 Billion Valuation,Yahoo,direct,True,generic_recommendation_or_listicle;summary_only_mention_without_material_nvidia_event,True,event_04a41d87aec23c3a,openai,True,False
+139255524,2026-02-27T19:02:22Z,OpenAI's $110 Billion Bet Rewires AI Power,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_f0556b2fce0118ca,openai,True,False
+139255513,2026-02-27T19:31:31Z,OpenAI announces $110bn funding round that would value firm at $840bn,Yahoo,direct,False,,True,event_bb9803627093b7fd,openai,True,True
+139262052,2026-02-28T05:00:00Z,AP Top Extended Financial Headlines at 6:09 a.m. EST,Yahoo,direct,True,summary_only_mention_without_material_nvidia_event,False,event_206a478855ac08ec,openai,False,False
+139262053,2026-02-28T05:00:00Z,AP Top Financial News at 6:09 a.m. EST,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_ea0842218a05e686,openai,False,False
+139266678,2026-02-28T22:33:00Z,OpenAI just raised $110 billion and it still may not be enough,Yahoo,not_relevant,True,insufficient_nvidia_connection,True,event_b0cf81a91f47c315,openai,False,False

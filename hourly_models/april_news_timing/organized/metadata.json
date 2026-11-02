@@ -1,0 +1,14 @@
+{
+  "events": 14,
+  "articles": 115,
+  "pairs": 131,
+  "source_hashes": {
+    "hourly_models/april_news_timing/event_summary.csv": "fceae94ed7ce2e42417df899c3a46df6d2d4b2d44d7d1bb16b48ed946706b16d",
+    "hourly_models/april_news_timing/event_article_matches.csv": "b2407bdd1626771a5637545cc18bdedbdf08c39479dc10ae3898fbd593bffbb5",
+    "hourly_models/april_news_timing/april_bar_audit.csv": "37c757a90977e6ccffe6580a623c02519417ceaa0864db3afaf0b546da75d7a3",
+    "news data pull/processed/all_classified_articles.csv": "dfd81d879d8444411e3606e3b0cba3070735dcba8bad61b7cfc3d1854555caf9"
+  },
+  "validation": "Every event retained; one category per pair; category totals reconcile; unchanged inputs; no duplicate pairs",
+  "labels": "Provisional assistant review; not independently human-validated",
+  "all_selected_news_windows_coverage_verified": true
+}

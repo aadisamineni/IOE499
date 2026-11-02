@@ -1,0 +1,591 @@
+{
+  "sources": {
+    "reject_amd_openai_wire": {
+      "url": "https://www.globenewswire.com/news-release/2025/10/06/3161591/0/en/index.html",
+      "time": "2025-10-06T11:00:00Z",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company-issued 07:00 ET release anchors public circulation, not guaranteed earliest leak. Warrants and deployments conditional on milestones.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_apps_devday": {
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "time": "2025-10-06",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms apps/SDK announcement; keynote first-public minute unresolved.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_shizen": {
+      "url": "https://www.shizenenergy.net/en/2025/10/03/seg_vppa_microsoft_100mw/",
+      "time": "2025-10-03",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company confirms expanded renewable PPAs; first release minute unresolved.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_greenlight": {
+      "url": "https://kineticor.ca/wp-content/uploads/2025/10/Greenlight-Project-Update-News-Release-Oct-6-2025.pdf",
+      "time": "2025-10-06",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company project update confirms planned power facility; does not independently confirm Meta customer identity.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_instant_checkout": {
+      "url": "https://openai.com/index/buy-it-in-chatgpt/",
+      "time": "2025-09-29",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company product launch predates October 6 interpretation; not the same as October 6 apps SDK.",
+      "checked_on": "2026-10-26"
+    },
+    "reject_prime_dates": {
+      "url": "https://press.aboutamazon.com/uk/news/retail/2025/9/prime-big-deal-days-returns-on-7-8-october",
+      "time": "2025-09-16",
+      "precision": "date_only_unless_explicit_utc",
+      "note": "Company announced October 7-8 event dates earlier; new discounts and sales forecasts have separate histories.",
+      "checked_on": "2026-10-26"
+    }
+  },
+  "groups": [
+    [
+      [
+        557,
+        558,
+        559,
+        560,
+        561,
+        563,
+        566,
+        567,
+        572,
+        573,
+        575,
+        576,
+        578,
+        579,
+        580,
+        582,
+        585,
+        588,
+        591,
+        592,
+        593,
+        595,
+        598,
+        599,
+        601,
+        602,
+        603,
+        604,
+        606,
+        607,
+        609,
+        611,
+        612,
+        614,
+        617,
+        622,
+        625,
+        628,
+        629,
+        631,
+        635,
+        636,
+        637,
+        638,
+        640,
+        642,
+        647,
+        649,
+        650,
+        653,
+        656,
+        660,
+        664,
+        665,
+        666,
+        667,
+        673,
+        676,
+        678,
+        679,
+        683,
+        685,
+        686,
+        688,
+        690,
+        691,
+        692,
+        701,
+        704,
+        711,
+        714,
+        716,
+        717,
+        719,
+        724,
+        737
+      ],
+      "opinion_background",
+      "not_established",
+      "",
+      "Saved headline and available summary/excerpt primarily opinions, recommendations, background, forecasts, stock selection or retrospective analysis. Novelty of embedded facts not independently established.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        564,
+        568,
+        569,
+        574,
+        581,
+        586,
+        587,
+        594,
+        613,
+        615,
+        623,
+        624,
+        626,
+        627,
+        632,
+        634,
+        643,
+        658,
+        668,
+        670,
+        672,
+        677,
+        680,
+        682,
+        689,
+        695,
+        699,
+        705,
+        706,
+        708,
+        718,
+        720,
+        721,
+        722,
+        723,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        736,
+        738,
+        739,
+        740,
+        741
+      ],
+      "mixed_price_development",
+      "not_established",
+      "",
+      "Observed prices, rankings, roundups, live coverage or previews dominate available text. Does not rule out new facts within broader coverage.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        562,
+        584,
+        589,
+        597,
+        681,
+        694,
+        707,
+        733,
+        743
+      ],
+      "peripheral_company_release",
+      "candidate_timing_unresolved",
+      "",
+      "Specific service, personnel, financing, event, infrastructure or earnings-calendar announcement. Initial public-release history and direct NVDA linkage unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        565,
+        577
+      ],
+      "mixed_price_development",
+      "timestamp_conflict",
+      "amd_openai",
+      "Saved times 07:28/09:01 UTC precede located company release at 11:00 UTC, but current saved text contains deal details or resulting surge. Earlier leak, later update or timezone error must be checked.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "Do not silently shift clocks or treat current text as historically available",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        570
+      ],
+      "mixed_price_development",
+      "revision_history_unresolved",
+      "market_futures_oct6",
+      "Saved text explicitly says futures prices were updated; later values may not exist at initial publication time.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        571,
+        583,
+        644,
+        652,
+        661,
+        696,
+        698,
+        725
+      ],
+      "analyst_action",
+      "candidate_timing_unresolved",
+      "micron_ms_upgrade",
+      "Same Morgan Stanley upgrade and memory-demand thesis recur in multiple records; original note/public report minute unresolved.",
+      [],
+      "",
+      "possible_ai_memory_context"
+    ],
+    [
+      [
+        590,
+        605,
+        618,
+        633,
+        639,
+        646,
+        675,
+        693,
+        697
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "amd_openai",
+      "Investment interpretation follows located 11:00 UTC company release.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "Dollar figures in commentary may differ from actual contract terms; do not use headline numbers as verified deal value",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        596,
+        641
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "adobe_holiday_forecast",
+      "Holiday sales forecast may be a new research release; underlying forecast versus prior September survey and first minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        600
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "greenlight_update",
+      "Company confirms planned generation project update; original first public minute and incremental terms unresolved.",
+      [
+        "reject_greenlight"
+      ],
+      "",
+      "possible_ai_power_context"
+    ],
+    [
+      [
+        608,
+        619,
+        654,
+        657,
+        669,
+        671,
+        700,
+        702,
+        712,
+        735
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "amd_openai",
+      "Later agreement/price coverage follows company 11:00 UTC announcement.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "Repeated coverage is not a separate independent agreement",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        610
+      ],
+      "development_reporting",
+      "followup_reporting",
+      "meta_pembina",
+      "Potential Meta customer deal follows The Logic-attributed October 3 reporting; original customer confirmation remains unverified.",
+      [
+        "reject_greenlight"
+      ],
+      "Power project update does not itself establish customer contract",
+      "possible_ai_datacenter_context"
+    ],
+    [
+      [
+        616
+      ],
+      "event_preview",
+      "candidate_timing_unresolved",
+      "cxai_techweek",
+      "New publicity for an upcoming event, not evidence of a new chip-demand contract; original release history unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        620
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "apps_devday",
+      "Company confirms apps/SDK announcement; keynote first-public minute needs verification.",
+      [
+        "reject_apps_devday"
+      ],
+      "",
+      "possible_ai_workload_context"
+    ],
+    [
+      [
+        630
+      ],
+      "event_preview",
+      "earlier_disclosure_found",
+      "prime_october",
+      "Company announced event dates in September; article may add current promotions or expectations.",
+      [
+        "reject_prime_dates"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        645,
+        742
+      ],
+      "legal_reporting",
+      "candidate_timing_unresolved",
+      "",
+      "Specific court procedural decision distinct from older underlying litigation. Original order/public availability unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        648
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "mattel_sora",
+      "Conference-attributed partnership detail may be incremental to older Sora model launch; exact statement, contract status and first minute unresolved.",
+      [
+        "reject_sora2"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        651
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "xbox_ad_cloud",
+      "Specific testing claim; original report and distinction from earlier rumors unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        655
+      ],
+      "opinion_background",
+      "earlier_disclosure_found",
+      "instant_checkout",
+      "Discusses September 29 company product launch, distinct from same-day apps SDK announcement.",
+      [
+        "reject_instant_checkout"
+      ],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        659
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "supermemory_funding",
+      "Specific startup backing and product claim; company/investor first-public chronology unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        662
+      ],
+      "reactive_reporting",
+      "followup_reporting",
+      "california_gig_union",
+      "Price reporting follows signed-law coverage already in October 5 saved records; original government signing/publication history not checked.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        663
+      ],
+      "reactive_reporting",
+      "followup_reporting",
+      "plug_upgrade",
+      "Saved summary explicitly follows previous-session analyst catalyst; original note/public-report minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        674
+      ],
+      "original_interview",
+      "candidate_timing_unresolved",
+      "avepoint_interview",
+      "October 2 interview event date differs from public release date; potentially incremental claims need exact publication history.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        684
+      ],
+      "development_reporting",
+      "candidate_timing_unresolved",
+      "tesla_fsd14",
+      "Expected release and teased announcement distinct from confirmed release; original posts and version availability need verification.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        687
+      ],
+      "mixed_price_development",
+      "earlier_disclosure_found",
+      "sora2_launch",
+      "Price interpretation follows September 30 model/app launch.",
+      [
+        "reject_sora2"
+      ],
+      "Adoption/ranking changes could still be incremental",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        703
+      ],
+      "analyst_action",
+      "candidate_timing_unresolved",
+      "meta_citizens",
+      "Specific target reiteration potentially current; original research-note and public report time unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        709
+      ],
+      "development_reporting",
+      "new_detail_candidate",
+      "xbox_exit_denial",
+      "Company denial can be new after rumors even if existing product line is old; original statement minute unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ],
+    [
+      [
+        710
+      ],
+      "analyst_research",
+      "new_detail_candidate",
+      "amd_openai",
+      "Analyst reaction follows company announcement but may add forecasts; original note availability unresolved.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        713,
+        734
+      ],
+      "original_interview",
+      "new_detail_candidate",
+      "amd_openai_interviews",
+      "CEO interviews can add details beyond earlier company release; time and novelty of individual answers require transcript review.",
+      [
+        "reject_amd_openai_wire"
+      ],
+      "",
+      "possible_ai_chip_competition_context"
+    ],
+    [
+      [
+        715
+      ],
+      "development_reporting",
+      "earlier_disclosure_found",
+      "microsoft_shizen",
+      "Company October 3 expanded PPA disclosure precedes October 6 recap.",
+      [
+        "reject_shizen"
+      ],
+      "",
+      "possible_ai_power_context"
+    ],
+    [
+      [
+        621
+      ],
+      "research_release",
+      "candidate_timing_unresolved",
+      "image_recognition_report",
+      "Research-publisher report announcement; first report availability and NVDA relevance unresolved.",
+      [],
+      "",
+      "no_direct_nvda_link_established"
+    ]
+  ]
+}

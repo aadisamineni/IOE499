@@ -1,0 +1,136 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Hourly NVDA models</title><style>body{font:16px system-ui;max-width:1300px;margin:30px auto;padding:20px}img{width:100%}td,th{padding:8px;border:1px solid #ddd}table{border-collapse:collapse}</style><h1>Hourly NVDA news models</h1>
+<p>Logistic threshold: absolute hourly move ≥1%. Train: 550 hours. Test: 246 hours. News ends strictly before each full-hour price interval.</p>
+<img src="model_comparison.png" alt="Model performance graphs"><h2>Logistic regression: test</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>n</th>
+      <th>positive_events</th>
+      <th>prevalence</th>
+      <th>roc_auc</th>
+      <th>average_precision</th>
+      <th>accuracy</th>
+      <th>balanced_accuracy</th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>brier_score</th>
+      <th>log_loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>constant</th>
+      <td>246</td>
+      <td>35</td>
+      <td>0.1423</td>
+      <td>0.5000</td>
+      <td>0.1423</td>
+      <td>0.8577</td>
+      <td>0.5000</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.1220</td>
+      <td>0.4091</td>
+    </tr>
+    <tr>
+      <th>market_only</th>
+      <td>246</td>
+      <td>35</td>
+      <td>0.1423</td>
+      <td>0.7110</td>
+      <td>0.2658</td>
+      <td>0.8537</td>
+      <td>0.4976</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.1145</td>
+      <td>0.3771</td>
+    </tr>
+    <tr>
+      <th>market_plus_news_count</th>
+      <td>246</td>
+      <td>35</td>
+      <td>0.1423</td>
+      <td>0.7133</td>
+      <td>0.2676</td>
+      <td>0.8537</td>
+      <td>0.4976</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.1146</td>
+      <td>0.3767</td>
+    </tr>
+    <tr>
+      <th>market_plus_news_words</th>
+      <td>246</td>
+      <td>35</td>
+      <td>0.1423</td>
+      <td>0.7114</td>
+      <td>0.2712</td>
+      <td>0.8496</td>
+      <td>0.4953</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>0.1155</td>
+      <td>0.3804</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Ridge regression: test (returns are fractions)</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>mae</th>
+      <th>rmse</th>
+      <th>r2</th>
+      <th>mean_prediction</th>
+      <th>negative_raw_test_predictions_clipped</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>training_mean</th>
+      <td>0.003667</td>
+      <td>0.005472</td>
+      <td>-0.000131</td>
+      <td>0.005064</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>training_median</th>
+      <td>0.003440</td>
+      <td>0.005810</td>
+      <td>-0.127309</td>
+      <td>0.003174</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>market_only</th>
+      <td>0.003617</td>
+      <td>0.005294</td>
+      <td>0.064007</td>
+      <td>0.005165</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>market_plus_news_count</th>
+      <td>0.003626</td>
+      <td>0.005289</td>
+      <td>0.065772</td>
+      <td>0.005280</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>market_plus_news_words</th>
+      <td>0.003632</td>
+      <td>0.005379</td>
+      <td>0.033745</td>
+      <td>0.004972</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>Negative R² means worse squared error than predicting the test mean. That is a diagnostic, not an available training baseline. Smaller MAE, RMSE, Brier and log loss are better.</p>
+<p>Exploratory historical results; no causal claims. See metrics.json and README.md for coverage exclusions and day-bootstrap uncertainty.</p></html>
