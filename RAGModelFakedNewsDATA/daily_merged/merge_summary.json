@@ -1,0 +1,19 @@
+{
+  "start_date_utc": "2025-05-01",
+  "end_date_utc": "2026-11-05",
+  "calendar_days": 554,
+  "days_without_articles": 2,
+  "articles_by_provider": {
+    "alpaca": 25610,
+    "finnhub": 82668
+  },
+  "input_symbol_rows_by_provider": {
+    "alpaca": 28062,
+    "finnhub": 89181
+  },
+  "weight_seed": 499,
+  "weight_precision": "0.0001",
+  "weights_are_synthetic": true,
+  "deduplication": "Within each provider by article ID; queried symbols are combined. Cross-provider records are kept separately.",
+  "generated_at_utc": "2026-11-05T16:47:12.434242+00:00"
+}

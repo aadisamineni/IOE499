@@ -1,0 +1,2 @@
+daily_merged/news_with_daily_weights.csv filter=lfs diff=lfs merge=lfs -text
+alpaca/processed/NVDA_news.csv filter=lfs diff=lfs merge=lfs -text

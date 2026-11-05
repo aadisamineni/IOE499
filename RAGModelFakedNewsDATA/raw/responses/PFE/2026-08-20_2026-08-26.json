@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "PFE",
+    "from": "2026-08-20",
+    "to": "2026-08-26"
+  },
+  "retrieved_at_utc": "2026-11-05T16:28:54Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Thu, 05 Nov 2026 16:28:54 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "43",
+    "x-ratelimit-reset": "1793896176"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1787767501,
+      "headline": "Explore the S&P500 index on Wednesday and find out which stocks are the most active in today's session.",
+      "id": 141324202,
+      "image": "https://www.chartmill.com/images/uploads/CM_Most_Active_Stocks_Small_free_fec0650b7f.webp",
+      "related": "PFE",
+      "source": "ChartMill",
+      "summary": "Stay informed about the most active stocks in the S&P500 index on Wednesday's session. Discover the stocks that are generating the highest trading volume and driving market activity.",
+      "url": "https://finnhub.io/api/news?id=c710f4da94ba6b1816de5555e8b2151446aae51f52ce20fa254d5a2921bdc8fd"
+    },
+    {
+      "category": "company",
+      "datetime": 1787672452,
+      "headline": "FDA Approves Drug To Treat HIV Infection in Newborns",
+      "id": 141323879,
+      "image": "",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-hiv-infection-newborns",
+      "url": "https://finnhub.io/api/news?id=e494ff8179b9d0c70eba42a3a19b517dc0f4693d908e9afdf3f84acf6ae499fb"
+    },
+    {
+      "category": "company",
+      "datetime": 1787643564,
+      "headline": "Wall Street's Most Accurate Analysts Spotlight On 3 Health Care Stocks Delivering High-Dividend Yields",
+      "id": 141316607,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/25/United-States-Treasury-Check-Surrounded-.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "Benzinga readers can review the latest analyst takes on high-yielding stocks in health care sector. Top analysts &amp; recent news on PRGO, PFE, BMY.",
+      "url": "https://finnhub.io/api/news?id=f649b9f86ef6cc42c05b0e00dc7665d58e101cc4a89153527c255679d3750e45"
+    },
+    {
+      "category": "company",
+      "datetime": 1787578524,
+      "headline": "10 Health Care Stocks Whale Activity In Today’s Session",
+      "id": 141310292,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_1.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
+      "url": "https://finnhub.io/api/news?id=51e21f3e9e89a69ade69beb2705a25f5ef509f927e49a56f97601ab66eb255f0"
+    },
+    {
+      "category": "company",
+      "datetime": 1787464368,
+      "headline": "Prelude Therapeutics: A Prognosis After Year-Long Rally",
+      "id": 141300403,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2286515404/image_2286515404.jpg?io=getty-c-w1536",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "Prelude Therapeutics has rebounded 500% in 12 months after a $60M option deal with Incyte for its JAK2 inhibitor program. Read why PRLD stock is a Hold.",
+      "url": "https://finnhub.io/api/news?id=423ff622523781f562142ed7b0b7d87cfe74dfb95cf04deb4b282bc564269b75"
+    },
+    {
+      "category": "company",
+      "datetime": 1787412900,
+      "headline": "Prediction: This Is Where Pfizer Stock Will Be in 2030",
+      "id": 141297020,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Pfizer is facing material patent expirations over the next two years, but that will be over by 2030.",
+      "url": "https://finnhub.io/api/news?id=11288d4e55ab8bdea17b48cac5b6f8da22ec3e49a92777d34caf5213b1b641d7"
+    },
+    {
+      "category": "company",
+      "datetime": 1787400834,
+      "headline": "Buy 4 Barron's Better Bets (Than T-Bills) Out Of 11 'Safer' August DiviDogs",
+      "id": 141294197,
+      "image": "",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=9920479acaf24aa724842791b54472c02592d99d6bd156b129117a03ccd429fb"
+    },
+    {
+      "category": "company",
+      "datetime": 1787345039,
+      "headline": "This 'Dynamo' Biotech Puts AI-Fueled Breakout In Motion",
+      "id": 141279214,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "After skyrocketing 1,027% off a low, Relay Therapeutics taps AI and machine learning to fuel more gains.",
+      "url": "https://finnhub.io/api/news?id=2786289cd80629a85c4beb9b2b703fa1debdc3f8f0ee3af73c8134554ef335cd"
+    },
+    {
+      "category": "company",
+      "datetime": 1787342040,
+      "headline": "Can mRNA Cure Cancer? Inside the Pipeline Risks for Biotech’s Biggest Players",
+      "id": 141278397,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "The success of Moderna and Merck’s intismeran autogene doesn’t guarantee smooth sailing for other mRNA vaccine developers",
+      "url": "https://finnhub.io/api/news?id=38dd0d7e7c6eb6285ae70cc42b7302f86dda418041d32af3c76017a0115b343f"
+    },
+    {
+      "category": "company",
+      "datetime": 1787341256,
+      "headline": "Lilly's Multiple Assumes Less Growth Than You Think",
+      "id": 141278028,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Consensus asks Eli Lilly for far less growth than it is delivering, and for margins to keep climbing from a level it only just reached.",
+      "url": "https://finnhub.io/api/news?id=b85cf2c4c1752d6b68a87ce0e31deed248fb731b2165e96279cc313ac08ca183"
+    },
+    {
+      "category": "company",
+      "datetime": 1787340947,
+      "headline": "2 Reasons to Watch PFE and 1 to Stay Cautious",
+      "id": 141279211,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Pfizer has been treading water for the past six months, recording a small return of 2.6% while holding steady at $27.76. The stock also fell short of the S&P 500’s 12.7% gain during that period.",
+      "url": "https://finnhub.io/api/news?id=ca6f2c7d9ec1e90d62aaba8967fad5a833bf772134237c2edb5e2eff87bc99f3"
+    },
+    {
+      "category": "company",
+      "datetime": 1787338129,
+      "headline": "Most Of What Moves AbbVie Stock Has Nothing To Do With The Market",
+      "id": 141278037,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "What AbbVie sells, and who pays for it, is the useful way to read its low correlation to the index.",
+      "url": "https://finnhub.io/api/news?id=2171816a642cf2107b69f459ff8b534241a7636c5e34d5621c3285981f97c7b3"
+    },
+    {
+      "category": "company",
+      "datetime": 1787328060,
+      "headline": "Can Eliquis Cushion Bristol Myers' Legacy Portfolio Erosion?",
+      "id": 141278407,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "BMY's legacy portfolio faces generic pressure, but stronger Eliquis sales prompt a brighter 2026 revenue outlook.",
+      "url": "https://finnhub.io/api/news?id=d2ae63aea5848dbdb0dc5c06d23db65d6bf8f8dc67b166696e8cd91b37bc9c48"
+    },
+    {
+      "category": "company",
+      "datetime": 1787325900,
+      "headline": "Form 8.3",
+      "id": 141270900,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "LONDON, August 21, 2026-- FORM 8.3",
+      "url": "https://finnhub.io/api/news?id=67fc0cda3f30767031f5016da359dec985328384ec1d4cc47c9ca40e6784c840"
+    },
+    {
+      "category": "company",
+      "datetime": 1787323104,
+      "headline": "Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls",
+      "id": 141278607,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls",
+      "url": "https://finnhub.io/api/news?id=9c1f430fce17af8d010b3fb1eaee8275436eef26d8278df820a98e773e87580b"
+    },
+    {
+      "category": "company",
+      "datetime": 1787322227,
+      "headline": "3 Unpopular Stocks That Fall Short",
+      "id": 141279223,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Wall Street has issued downbeat forecasts for the stocks in this article. These predictions are rare - financial institutions typically hesitate to say bad things about a company because it can jeopardize their other revenue-generating business lines like M&A advisory.",
+      "url": "https://finnhub.io/api/news?id=4655c88fe2a76e33cf900b32f5588227e71a01a98f847568ac876f0e3b9f8ec9"
+    },
+    {
+      "category": "company",
+      "datetime": 1787317680,
+      "headline": "Pharma Stocks Have Rallied. 2 Stocks to Avoid—and 2 to Buy.",
+      "id": 141278039,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "The  exchange-traded fund, home to some large pharma companies and many smaller biotechs, has risen over 6% this week.  The main catalyst was  Moderna  and  Merck  announcement of  successful trial data for a melanoma vaccine that reduces the risk patients will experience recurrence.  “The read-through [from Merck and Moderna] to the others is probably indicative of a broader tailwind of pharma taking some strong actions to improve their long-term growth profiles,” says Cantor Fitzgerald analyst Carter Gould.",
+      "url": "https://finnhub.io/api/news?id=e68f6a3a542ae07d07afd9a4c2837484ae1d71fbd4f4419f681e7005fbb1abf7"
+    },
+    {
+      "category": "company",
+      "datetime": 1787316947,
+      "headline": "3 Unprofitable Stocks with Warning Signs",
+      "id": 141278874,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Unprofitable companies face headwinds as they struggle to keep operating expenses under control. Some may be investing heavily, but the majority fail to convert spending into sustainable growth.",
+      "url": "https://finnhub.io/api/news?id=f1cfa27b08b3320e0d54e72acabf3bda27149596fd23f590c510bfb693a62658"
+    },
+    {
+      "category": "company",
+      "datetime": 1787315770,
+      "headline": "Why Is Arbutus Biopharma Stock Gaining Friday?",
+      "id": 141271592,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/21/Stock-And-Buyback-Write-On-Sticky-Notes-.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "Arbutus Biopharma (ABUS) stock rises after announcing a $230M stock buyback via a modified Dutch auction. Get the offer details.",
+      "url": "https://finnhub.io/api/news?id=4ccb9bd36bb8a00713c20c640e27a331b45cc37108e9197b705e906827562b67"
+    },
+    {
+      "category": "company",
+      "datetime": 1787313600,
+      "headline": "Christina Lake Cannabis Announces Non-Binding Letter of Intent",
+      "id": 141279225,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "VANCOUVER, British Columbia, Aug. 21, 2026 (GLOBE NEWSWIRE) -- Christina Lake Cannabis Corp. (the “Company” or “CLC” or “Christina Lake Cannabis”) (CSE: CLC) (OTCQB: CLCFF) (FRANKFURT: CLB) announces that it has entered into a non-binding letter of intent dated August 20, 2026 (the \"LOI\") with a private Alberta corporation (the \"Purchaser\"), to engage in due diligence and negotiations regarding the terms of a proposed transaction (the \"Proposed Transaction\") whereby the Purchaser would acquire a",
+      "url": "https://finnhub.io/api/news?id=dc9417d67189d08e4ddf4d001034c1198822004e2536f5ec575061c15079eb67"
+    },
+    {
+      "category": "company",
+      "datetime": 1787308571,
+      "headline": "Pfizer: Patient Investors Will Be Rewarded",
+      "id": 141270205,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1341266246/image_1341266246.jpg?io=getty-c-w1536",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "Pfizer remains undervalued, demonstrating robust profitability and offering an attractive forward dividend yield above 6%. Read more on PFE stock here.",
+      "url": "https://finnhub.io/api/news?id=23e59dcb08810ef906b9d8c4095721cedc97b70ed29be51e108c14c6448651c6"
+    },
+    {
+      "category": "company",
+      "datetime": 1787263260,
+      "headline": "NurExone Announces Closing of C$1,066,078 Private Placement",
+      "id": 141271351,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "TORONTO, and HAIFA, Israel, Aug. 21, 2026 (GLOBE NEWSWIRE) -- NurExone Biologic Inc. (TSXV: NRX) (OTCQB: NRXBF) (FSE: J90) (“NurExone” or the “Company”), a biopharmaceutical company developing exosome-based regenerative therapies, is pleased to announce that it has closed a non-brokered private placement of 1,938,326 units (“Units”) at a price of C$0.55 per Unit for aggregate gross proceeds of approximately C$1,066,078.02 (the “Offering”), subject to final acceptance of the TSX Venture Exchange",
+      "url": "https://finnhub.io/api/news?id=0d2bd602fc0af6f80875672bbeb36319182caadd7697ff5dcd2b44015c9cda19"
+    },
+    {
+      "category": "company",
+      "datetime": 1787263200,
+      "headline": "BioSyent Releases Financial Results for Q2 and H1 2026",
+      "id": 141279227,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "MISSISSAUGA, Ontario, Aug. 20, 2026 (GLOBE NEWSWIRE) -- BioSyent Inc. (“BioSyent”, TSX Venture: RX) released today its consolidated financial results for the three months (Q2), six months (H1), and trailing twelve months (TTM) ended June 30, 2026. Key highlights include: (CAD)Q2 2026 % Changevs. Q2 2025 H1 2026 % Changevs. H1 2025 TTMJun 30, 2026 % Changevs. TTMJun 30, 2025 Pharmaceutical Sales11,110,365 +14% 21,913,472 +7% 42,325,508 +11% Oral Health Sales8,224,402 n/a 11,209,375 n/a 11,209,375",
+      "url": "https://finnhub.io/api/news?id=b18929ccd31c6bd204951919b48f6712b73ed0ed4f532ff0775b35400c7e02a9"
+    },
+    {
+      "category": "company",
+      "datetime": 1787257320,
+      "headline": "Why investors should be paying attention to biotech",
+      "id": 141279228,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "The healthcare sector is making a comeback, with biotech stocks leading the charge. Moderna (MRNA) has been at the forefront following positive results from a melanoma vaccine trial. Yahoo Finance Markets and Data Editor Jared Blikre joins Josh Lipton on Market Domination to break down the rotation into healthcare and what it could mean for investors.",
+      "url": "https://finnhub.io/api/news?id=eb48d8ce00fd23b5900a7747b5ea59c5a63689f1286ecaeeb657892422f5fdf7"
+    },
+    {
+      "category": "company",
+      "datetime": 1787256000,
+      "headline": "4 High-Growth GARP Stocks With Discounted PEG Ratios for 2026",
+      "id": 141264734,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "PEG-driven GARP picks EnerSys, Globus Medical, DoubleVerify and Match Group pair discounted valuations with strong growth potential.",
+      "url": "https://finnhub.io/api/news?id=041a4c9f6cc5c0075988551d144200319109982857e66b39b37960f7eccb86a1"
+    },
+    {
+      "category": "company",
+      "datetime": 1787253674,
+      "headline": "Moderna's Melanoma Result Landed On A Market Positioned The Other Way",
+      "id": 141279219,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "The trial met both endpoints in the readout, removing the inconclusive outcome management itself had flagged, and short sellers in the stock took a record single-session loss.",
+      "url": "https://finnhub.io/api/news?id=8e4f93afb58f02fe18472f5ac741ac7ae74680e83c227351cf368f555f334703"
+    },
+    {
+      "category": "company",
+      "datetime": 1787250436,
+      "headline": "Merck Stock Ran On A Checklist Published In Advance",
+      "id": 141278041,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "The products meant to offset the KEYTRUDA patent expiry were named, and two were already booking revenue, before the stock moved.",
+      "url": "https://finnhub.io/api/news?id=b6b8b6bb83ce7842471b2d3ff17fd226a74f65641d1cab1c940ba182d5fc7a99"
+    },
+    {
+      "category": "company",
+      "datetime": 1787248494,
+      "headline": "Pfizer Stock Is A Race Between New Drugs And Old Patents",
+      "id": 141278042,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "The medicines Pfizer has launched and acquired are arriving at close to the scale of the revenue its expiring patents will take away.",
+      "url": "https://finnhub.io/api/news?id=a185f67366da2df6e04ff21b866c03090a3bb454dfce33b84acf2978013b48e7"
+    }
+  ]
+}

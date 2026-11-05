@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "PFE",
+    "from": "2026-11-05",
+    "to": "2026-11-05"
+  },
+  "retrieved_at_utc": "2026-11-05T16:37:35Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Thu, 05 Nov 2026 16:37:35 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "47",
+    "x-ratelimit-reset": "1793896661"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1793893787,
+      "headline": "Moderna Soared 8% on Cancer Data. Friday’s Report Shows Whether It Can Afford the Pipeline",
+      "id": 143537843,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Key TakeawaysModerna stock jumped 13% on Wednesday to a new 52-week high on early multiple myeloma data and an Ebola vaccine recommendation, then gave back 5% on Thursday ahead of Friday’s report. Pfizer’s Comirnaty sales fell 29% operationally in the third quarter, and BioNTech’s revenue fell 15%.",
+      "url": "https://finnhub.io/api/news?id=74cb67858032af1398cb1bb162739fc436950bc2206e2852b972d9bfa81751bf"
+    },
+    {
+      "category": "company",
+      "datetime": 1793885560,
+      "headline": "Are Your Dividends Safe? 4 Companies Whose Debt Is Competing With the Payout",
+      "id": 143533914,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Bondholders get paid first, and shareholders get whatever the board leaves behind. Four high-yield stocks, from a hospital landlord to a telecom giant, are now squeezed between rising interest costs and the checks sent to investors. Which payout bends first?",
+      "url": "https://finnhub.io/api/news?id=9cf6f514ea6658247edc95dd4f5efc4a34567425b110c359928497254abf1abf"
+    },
+    {
+      "category": "company",
+      "datetime": 1793884359,
+      "headline": "What Changed In Bristol Myers Squibb's Story?",
+      "id": 143533673,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "For questions about this article or underlying research, email help@trefis.com.",
+      "url": "https://finnhub.io/api/news?id=8fae970b95fc6740d2f14e0b531f89644b6005dd2d4480c74dc7fea79bebd3f1"
+    },
+    {
+      "category": "company",
+      "datetime": 1793875001,
+      "headline": "Is Regeneron Stock Riskier Than It Looks?",
+      "id": 143529923,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "For questions about this article or underlying research, email help@trefis.com.",
+      "url": "https://finnhub.io/api/news?id=d066ee2f6c6487791b188a8bf1136d16b6445710b9f8e4931e6900c1ad86a790"
+    },
+    {
+      "category": "company",
+      "datetime": 1793874937,
+      "headline": "Why Did Pfizer Stop Talking Up This Business?",
+      "id": 143528734,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "For questions about this article or underlying research, email help@trefis.com.",
+      "url": "https://finnhub.io/api/news?id=0a960b6db9681819d1d5aa224598f6d3b64ce4a57bdfb37de5fda46f53792f2d"
+    },
+    {
+      "category": "company",
+      "datetime": 1793869200,
+      "headline": "European Enterprises Face Growing Pressure to Turn AI Investment into Business Value, ISG Says",
+      "id": 143523231,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "PARIS, November 05, 2026--The ISG AI Impact Summit will explore operating models and data and governance frameworks to scale AI, November 9–10 at the Pullman Paris Tour Eiffel.",
+      "url": "https://finnhub.io/api/news?id=add1641e0aaa4a4c5f58f8056adfc655bc2656a504e6745d9c25b697e302604e"
+    },
+    {
+      "category": "company",
+      "datetime": 1793862887,
+      "headline": "Adaptive Biotechnologies Corp (ADPT) Q3 2026 Earnings Call Highlights: First Profitable Quarter ...",
+      "id": 143517102,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Adaptive Biotechnologies Corp (ADPT) posted $83.9 million in quarterly revenue, swung to positive adjusted EBITDA of $14.3 million, and raised full-year MRD guidance on strong ClonoSeq volume growth.",
+      "url": "https://finnhub.io/api/news?id=00d66f3e164856a0d17fecdc99e5cef385aaeac54ff6b23abbab1f1f69278350"
+    },
+    {
+      "category": "company",
+      "datetime": 1793856219,
+      "headline": "Pfizer: The Portfolio Transformation Is Gaining Momentum",
+      "id": 143526783,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2244980373/image_2244980373.jpg?io=getty-c-w1536",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "Pfizer remains a Buy as its robust pipeline and strategic acquisitions drive portfolio adaptation ahead of the LOE cliff. Learn more about PFE stock here.",
+      "url": "https://finnhub.io/api/news?id=233e93c0257446b656263234fa6c4bc9956406254f39620c9eb461a5b90719e6"
+    },
+    {
+      "category": "company",
+      "datetime": 1793856004,
+      "headline": "OPKO Health Inc (OPK) (Q3 2026) Earnings Call Highlights: Revenue Climbs 16% as LabCorp Deal ...",
+      "id": 143510709,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "OPKO Health Inc (OPK) posted $65.4 million in Q3 2026 revenue and a $722 million LabCorp cash windfall, while widening biotech losses and a delayed CAR-T timeline tempered the outlook.",
+      "url": "https://finnhub.io/api/news?id=c9cd248968521097df858bb14104ba682bfaf2f1560b8986e06d5bd39432867f"
+    },
+    {
+      "category": "company",
+      "datetime": 1793844604,
+      "headline": "Pfizer (PFE) Q3 Earnings Rebuild Confidence As New Drugs Gain Ground",
+      "id": 143507356,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Pfizer just put Q3 2026 on the table and the first instinctive verdict from traders was a modest nod, with the stock up about 2.6% to roughly $30.80 after the release. Headlines are all about a clean return to profitability, with basic earnings per share at $0.57 on revenue of $16.6b, and an adjusted earnings beat that quickly caught the eye. The mood in the market looks cautiously optimistic rather than euphoric, even as that EPS rebound and a raised full year earnings outlook suggest the...",
+      "url": "https://finnhub.io/api/news?id=133c310996dd6e1173382e254f3009d731f3d5a0aec4646ebbc23f80697f836d"
+    },
+    {
+      "category": "company",
+      "datetime": 1793837910,
+      "headline": "Missed Out On Pfizer's Run? Here Is What Holders Saw",
+      "id": 143503409,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "If Pfizer sat on your watchlist instead of in your portfolio, the past few months may feel like a missed call. Holding Pfizer from the start of the year would have returned 28.6%, including dividends. That outcome followed fresh oncology approvals, obesity data and a new China-focused cancer partnership that grabbed headlines late in the period. Back on 1 January 2026, what confidence in Pfizer’s aging-population and emerging-market earnings story could have justified acting sooner? If the...",
+      "url": "https://finnhub.io/api/news?id=261491f169498ec5d59786f8582b47cd156dfb7b5614dd13a355ac9d76933e16"
+    }
+  ]
+}

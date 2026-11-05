@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "SPY",
+    "from": "2025-05-15",
+    "to": "2025-05-21"
+  },
+  "retrieved_at_utc": "2026-11-05T16:39:54Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Thu, 05 Nov 2026 16:39:54 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "51",
+    "x-ratelimit-reset": "1793896845"
+  },
+  "collection_status": "success_empty_unverified",
+  "terminal_window": true,
+  "response": []
+}

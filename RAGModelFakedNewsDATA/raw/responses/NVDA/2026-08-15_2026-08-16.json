@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "NVDA",
+    "from": "2026-08-15",
+    "to": "2026-08-16"
+  },
+  "retrieved_at_utc": "2026-11-05T16:29:01Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Thu, 05 Nov 2026 16:29:01 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "37",
+    "x-ratelimit-reset": "1793896176"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1786921069,
+      "headline": "Harvard Reveals $2.2 Billion SpaceX Stake, Its Largest Public Equity Holding: University's Bet on Elon Musk-led Company Outshines Amazon and Nvidia",
+      "id": 141238642,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/17/Cambridge--Ma---May-29-Students-Of-Harva.jpg?width=2048&height=1536",
+      "related": "NVDA",
+      "source": "Benzinga",
+      "summary": "Harvard disclosed a $2.2 billion stake in SpaceX, an early bet on Musk&#39;s rocket company that has grown since its June debut. ",
+      "url": "https://finnhub.io/api/news?id=9742b277d7848162f1c7f1ef48c56a3199028e7d5af96ceb58227c218eb3783a"
+    },
+    {
+      "category": "company",
+      "datetime": 1786904314,
+      "headline": "S&P 500 edges lower as traders weigh AI optimism vs. Iran tensions: Live updates ",
+      "id": 141238933,
+      "image": "https://image.cnbcfm.com/api/v1/image/108350383-1786978173263-gettyimages-2290362061-AFP_C4UU7NQ.jpeg?v=1786978202&w=1920&h=1080",
+      "related": "NVDA",
+      "source": "CNBC",
+      "summary": "The stock market remains near all-time highs.",
+      "url": "https://finnhub.io/api/news?id=51492f1ac0a8317cd0b7abf846785d8d7c6878980a493b5b12e2b6fa84097b16"
+    },
+    {
+      "category": "company",
+      "datetime": 1786888825,
+      "headline": "SanDisk Flips Crucial Resistance as Experts, Technicals Predict More Gains",
+      "id": 141241635,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/16/Milpitas--Ca---Feb--12--2017-Sandisk---A.jpg?width=2048&height=1536",
+      "related": "NVDA",
+      "source": "Benzinga",
+      "summary": "SanDisk stock has flipped an important resistance level, the upper side of the bullish flag pattern, pointing to more gains.",
+      "url": "https://finnhub.io/api/news?id=d05151e84395d89217f23fd480cdd2e29a7bd1ed6622f93de53385030ad15b1f"
+    },
+    {
+      "category": "company",
+      "datetime": 1786818000,
+      "headline": "Eli Lilly Is Building a Weight Loss Drug for Every Kind of Patient",
+      "id": 141226305,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "The company's peers in the pharmaceutical industry should be worried.",
+      "url": "https://finnhub.io/api/news?id=06ee74d265a0bb77590f79394eb0d293a79e06593c6c9612d2e3604d328fc044"
+    },
+    {
+      "category": "company",
+      "datetime": 1786817700,
+      "headline": "Iren Won't Have to Raise Capital for Much Longer After the Horizon 1 Delivery",
+      "id": 141226306,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Iren is starting to make money from its Microsoft deal, and that will make it less reliant on issuing corporate bonds.",
+      "url": "https://finnhub.io/api/news?id=cd43b191a9417f18312accd23c0414768a3f063a21b70acd588ee77fa7c80475"
+    },
+    {
+      "category": "company",
+      "datetime": 1786813908,
+      "headline": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
+      "id": 141226307,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Five monthly paying ETFs are pulling income from covered calls, preferred stock, and junk bond coupons at yields that dwarf the 10-year Treasury, but the engine behind each payout changes everything about which one belongs in your portfolio.",
+      "url": "https://finnhub.io/api/news?id=ac5ae008cd1c7b76d6138106b448ed1cf2fd03311b8b1548a08fd4ef4d7a8048"
+    },
+    {
+      "category": "company",
+      "datetime": 1786813830,
+      "headline": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
+      "id": 141227390,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Bucharest--Romania---16-03-2020-Close-up.jpg?width=2048&height=1536",
+      "related": "NVDA",
+      "source": "Benzinga",
+      "summary": "Dell stock rally has paused in the past two days, but the recent Supermicro and Lenovo earnings show it has more upside",
+      "url": "https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d"
+    },
+    {
+      "category": "company",
+      "datetime": 1786813500,
+      "headline": "Everyone's Watching Oklo and NuScale for Nuclear Exposure. This Overlooked Stock Is Building One Too.",
+      "id": 141226308,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "GE Vernova is quietly building embedded value with its long-term SMR investments.",
+      "url": "https://finnhub.io/api/news?id=c1f6c4844d5b6e0325b18f6876b0a0412413ba9e9bbe4c198e96a2d293f2d36a"
+    },
+    {
+      "category": "company",
+      "datetime": 1786812600,
+      "headline": "Prediction: Costco Will Beat the S&P 500 Again",
+      "id": 141226309,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Costco's membership model and consistent growth make it a strong investment candidate, but its high valuation leaves little room for disappointment.",
+      "url": "https://finnhub.io/api/news?id=5836561ad23d365fdfd3990d87b56f3486d6db6bb60ea443ee9a24d42e8c78de"
+    },
+    {
+      "category": "company",
+      "datetime": 1786811700,
+      "headline": "Worried About an AI Bubble? These Tech Stocks Are Well-Suited to Survive an AI Bust.",
+      "id": 141226303,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "History shows that investors cannot rule out an AI bust, but with the technology likely here to stay, selling everything is probably not the answer.",
+      "url": "https://finnhub.io/api/news?id=d6d617ac5de18693798bc48cdfe0043844ee36b521b142b4d29e22f91f3485a7"
+    },
+    {
+      "category": "company",
+      "datetime": 1786810320,
+      "headline": "Jim Cramer Is Selling His Bitcoin, Citing the Quantum Threat. Here's Why He's Wrong.",
+      "id": 141226314,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Bitcoin's developer community is already working to combat the potential threat posed by quantum computers.",
+      "url": "https://finnhub.io/api/news?id=a4aadfeab10cccc69a29830a626f035fb1e4a477fac7dd1188895332d92d695f"
+    },
+    {
+      "category": "company",
+      "datetime": 1786810260,
+      "headline": "Prediction: Even After Soaring 180%, a Stock Split Isn't on the Horizon for AMD. Here's Why.",
+      "id": 141226304,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "AMD stock has significantly outperformed Nvidia over the last year.",
+      "url": "https://finnhub.io/api/news?id=7eb6b710f98361094fb0482b3e863d02d650957e44c8a46688f5169437b22dbb"
+    },
+    {
+      "category": "company",
+      "datetime": 1786809540,
+      "headline": "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
+      "id": 141226310,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Sandisk can still deliver a multibagger performance over the next five years.",
+      "url": "https://finnhub.io/api/news?id=d55509f750695fba0a1c1e7083166589dcd47eb4d4c90c536a5319c44415a254"
+    },
+    {
+      "category": "company",
+      "datetime": 1786809000,
+      "headline": "Alphabet Is Facing Thousands of Lawsuits. History Says This Is What May Happen",
+      "id": 141226315,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Can the company navigate these legal troubles?",
+      "url": "https://finnhub.io/api/news?id=58d1f9744430996a7cacd4781546bd679477f1e6e5891dc06d8bc0f27c6b28e2"
+    },
+    {
+      "category": "company",
+      "datetime": 1786808820,
+      "headline": "Meet the Dividend Stock That Warren Buffett Backed for Decades. Here's Why It Just Hit an All-Time High Under Greg Abel.",
+      "id": 141226316,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "The reasons Buffett loves it are the same reasons the market is loving it right now.",
+      "url": "https://finnhub.io/api/news?id=7352806761808b35c0c8f1f992c6d8fbf7e870ab25f76811bbaf1219835f2891"
+    },
+    {
+      "category": "company",
+      "datetime": 1786808473,
+      "headline": "AMD’s $566 Million SpaceX Stake Raises a Bigger Question Than AI Chip Orders",
+      "id": 141226317,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "SpaceX just told the world it will build its AI infrastructure exclusively on Nvidia chips, yet AMD quietly poured more than half a billion dollars into Elon Musk's company anyway. The reason has nothing to do with GPU contracts, and everything to do with where SpaceX is actually headed.",
+      "url": "https://finnhub.io/api/news?id=aa7a5708e0136be0318ae41b357bc3baf892600390d2b9826ab5e377747e3a9a"
+    },
+    {
+      "category": "company",
+      "datetime": 1786806300,
+      "headline": "Under 35? Here's the Average Retirement Savings for People Your Age",
+      "id": 141226318,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "They may be young, but many of them are off to a solid start. Even if you're not keeping pace, however, there's plenty of time to do something about it.",
+      "url": "https://finnhub.io/api/news?id=b99dd0a25a478759c6d34dd9eebfac336131577ebfb632113524190fe4d283df"
+    },
+    {
+      "category": "company",
+      "datetime": 1786805640,
+      "headline": "Reddit Joins the S&P 500 Tuesday. Here's What History Says Could Come Next -- and What Investors Should Know.",
+      "id": 141226311,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Shares of the social media company jumped double digits on the news. Decades of research say the pop is usually the whole prize.",
+      "url": "https://finnhub.io/api/news?id=a93a560e9fd9d3860e2c393b5cdb4ffb7418bc2073339229b87051dfd43e31f5"
+    },
+    {
+      "category": "company",
+      "datetime": 1786805400,
+      "headline": "CEO Elon Musk Just Announced Great News for SpaceX Stock Investors",
+      "id": 141226312,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "The CEO of SpaceX is never shy about making projections.",
+      "url": "https://finnhub.io/api/news?id=a98e15c2a9cafae26749193fc7ad47e6d93f4966fa53af7891bf6870f8108f4d"
+    },
+    {
+      "category": "company",
+      "datetime": 1786805018,
+      "headline": "Social Media Went Negative on Memory Stocks like SanDisk & Micron Last Weekend. Then They Rallied.",
+      "id": 141226313,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "NVDA",
+      "source": "Yahoo",
+      "summary": "Social media turned sharply bearish on memory stocks like SanDisk and Micron last weekend, and some analysts were calling time on the sector. Then something happened that flipped the entire trade on its head.",
+      "url": "https://finnhub.io/api/news?id=e00f83e95b5e09585ae8ff990bd6bd6f2585dd5c7b3e839a5c1172d45683761c"
+    },
+    {
+      "category": "company",
+      "datetime": 1786798280,
+      "headline": "These Three Metrics Explain Why S&P 500 Index Has Hit Record High",
+      "id": 141225768,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Wall-Street-Bull.jpg?width=2048&height=1536",
+      "related": "NVDA",
+      "source": "Benzinga",
+      "summary": "The S&amp;P 500 Index has jumped to a record high, and some crucial metrics show that it has more upside to go in the near term",
+      "url": "https://finnhub.io/api/news?id=d0ebc82da0e30ec080135ef8555241856b0b5f6fe56d64438ebd4e32b1672f73"
+    },
+    {
+      "category": "company",
+      "datetime": 1786787515,
+      "headline": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
+      "id": 141225133,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/15/Person-Holds-Futuristic-Digital-Icons-Re.jpg?width=2048&height=1536",
+      "related": "NVDA",
+      "source": "Benzinga",
+      "summary": "AI spending continues reshaping technology as Nvidia, AMD, Cisco, Intel and semiconductor companies announce new investments, partnerships and infrastructure initiatives.",
+      "url": "https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f"
+    },
+    {
+      "category": "company",
+      "datetime": 1786781400,
+      "headline": "How To Invest $100,000 In A Retiree's SWAN Income Portfolio",
+      "id": 141224230,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1503342678/image_1503342678.jpg?io=getty-c-w1536",
+      "related": "NVDA",
+      "source": "SeekingAlpha",
+      "summary": "A SWAN income portfolio aims for consistent income, growth, and lower volatility through diversification and strategic planning. Read how to build one here.",
+      "url": "https://finnhub.io/api/news?id=378bd32677ead84815eb5c03e6e3830b56b7b1e398114ef6ed1b456b3a5bcb95"
+    },
+    {
+      "category": "company",
+      "datetime": 1786780489,
+      "headline": "The Market Is Taking The AI Bubble Naysayers For A Ride",
+      "id": 141224166,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2260260651/image_2260260651.jpg?io=getty-c-w1536",
+      "related": "NVDA",
+      "source": "SeekingAlpha",
+      "summary": "Nvidia and Wall Street back a $500B AI infrastructure fund as hyperscalers boost CapEx and AI neoclouds monetize compute. Click here to read more.",
+      "url": "https://finnhub.io/api/news?id=85367708773a724ca107c57bfef0b2f4e512dbb821aec9e77c23850ebbecea1f"
+    }
+  ]
+}

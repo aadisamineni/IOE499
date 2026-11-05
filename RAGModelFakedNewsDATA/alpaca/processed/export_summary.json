@@ -1,0 +1,31 @@
+{
+  "requested_start_utc": "2025-05-01",
+  "requested_end_utc": "2026-11-05",
+  "generated_at_utc": "2026-11-05T16:37:43.023325+00:00",
+  "symbols": {
+    "NVDA": {
+      "article_count": 8539,
+      "with_content": 7021,
+      "first_publication_utc": "2025-05-01T01:03:27Z",
+      "last_publication_utc": "2026-11-05T16:00:23Z"
+    },
+    "SPY": {
+      "article_count": 13943,
+      "with_content": 2757,
+      "first_publication_utc": "2025-05-01T07:17:38Z",
+      "last_publication_utc": "2026-11-05T16:00:23Z"
+    },
+    "META": {
+      "article_count": 4853,
+      "with_content": 3791,
+      "first_publication_utc": "2025-05-01T04:40:40Z",
+      "last_publication_utc": "2026-11-05T15:06:36Z"
+    },
+    "PFE": {
+      "article_count": 727,
+      "with_content": 430,
+      "first_publication_utc": "2025-05-01T10:10:07Z",
+      "last_publication_utc": "2026-11-05T16:02:14Z"
+    }
+  }
+}

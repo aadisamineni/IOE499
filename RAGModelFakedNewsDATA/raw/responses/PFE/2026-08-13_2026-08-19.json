@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "PFE",
+    "from": "2026-08-13",
+    "to": "2026-08-19"
+  },
+  "retrieved_at_utc": "2026-11-05T16:29:05Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Thu, 05 Nov 2026 16:29:05 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "33",
+    "x-ratelimit-reset": "1793896176"
+  },
+  "collection_status": "success",
+  "terminal_window": true,
+  "response": [
+    {
+      "category": "company",
+      "datetime": 1787182165,
+      "headline": "Moderna Stock Cools Off After-Hours, Following Massive 177% Cancer Vaccine Rally — Merck, Pfizer and BioNTech Among mRNA Names Trending Tonight",
+      "id": 141261727,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/20/Two-Vials-Of-The-Moderna-Vaccine-With-A-.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "Healthcare stocks saw mixed after-hours moves, with Moderna and Merck cooling after explosive gains on positive cancer trial results.",
+      "url": "https://finnhub.io/api/news?id=593eab7b6696fb79c76c1ab87310ffe191bf52224478eb4fdd74003a3801cac6"
+    },
+    {
+      "category": "company",
+      "datetime": 1787162702,
+      "headline": "What's going on in today's session: S&P500 most active stocks",
+      "id": 141254987,
+      "image": "https://www.chartmill.com/images/uploads/CM_Most_Active_Stocks_Small_free_fec0650b7f.webp",
+      "related": "PFE",
+      "source": "ChartMill",
+      "summary": "Curious about the most active S&P500 stocks in today's session? Get insights into the stocks that are leading the way in terms of trading volume and market attention.",
+      "url": "https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4"
+    },
+    {
+      "category": "company",
+      "datetime": 1787149875,
+      "headline": "Merck Just Raised the Stakes for Pfizer's Cancer Vaccine Ambitions",
+      "id": 141255461,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Shanghai--China--Nov--6--2022-Pfizer-Sig.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "Merck&#39;s deeper push into personalized cancer vaccines raises the competitive bar for Pfizer, BioNTech in biotech&#39;s fastest-growing race.",
+      "url": "https://finnhub.io/api/news?id=8a923a2aeedb4a03f6cfb97eb0cbbceddf7628f540dbe08c20e1ddf7577c5e35"
+    },
+    {
+      "category": "company",
+      "datetime": 1787147774,
+      "headline": "Pfizer Stock Rises Wednesday: What's Going On?",
+      "id": 141255462,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/19/Logo-Pfizer-Inc--Is-An-American-Multinat.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "Pfizer Inc (NYSE:PFE) shares are trading higher Wednesday, moving in sympathy with mRNA cancer vaccine-related companies after Merck &amp; Co Inc (NYSE:MRK) and Moderna Inc (NASDAQ:MRNA) announced that their combination therapy of intismeran autogene and Keytruda showed positive recurrence-free survival results in melanoma patients.",
+      "url": "https://finnhub.io/api/news?id=2b286492921519f765948c500cb6a5dbb1095b7ae86a0c930813419698ce748e"
+    },
+    {
+      "category": "company",
+      "datetime": 1787141736,
+      "headline": "ImmunityBio Expands Commercial Access For ANKTIVA Bladder And Lung Cancer Treatment To Saudi Arabia",
+      "id": 139941575,
+      "image": "",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=987aa0ba24b74bed168e38bd5d8117088eb5cd2a1d0eaeb67de7b61cd2be93c4"
+    },
+    {
+      "category": "company",
+      "datetime": 1787131330,
+      "headline": "AstraZeneca Vs. Bristol-Myers Squibb: Who's The Better Bargain For Investors?",
+      "id": 141253313,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1688769969/image_1688769969.jpg?io=getty-c-w1536",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "Rumors of an AstraZeneca PLC-Bristol-Myers Squibb Company merger are cooling. Click here for risks and drug portfolio insights on BMY and AZN stock.",
+      "url": "https://finnhub.io/api/news?id=2e1130e90380ab9807504bf240b0038a51a19924cdacc932dd13f4834b335bfb"
+    },
+    {
+      "category": "company",
+      "datetime": 1787076302,
+      "headline": "Curious about the most active S&P500 stocks in today's session?",
+      "id": 141247293,
+      "image": "https://www.chartmill.com/images/uploads/CM_Most_Active_Stocks_Small_free_fec0650b7f.webp",
+      "related": "PFE",
+      "source": "ChartMill",
+      "summary": "Looking for the most active S&P500 stocks in today's session? Join us as we dive into the US markets on Tuesday and discover the stocks that are dominating the trading activity and setting the pace for the market.",
+      "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
+    },
+    {
+      "category": "company",
+      "datetime": 1787044500,
+      "headline": "The 9% Portfolio That Retires Your Paycheck",
+      "id": 141245599,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2279213066/image_2279213066.jpg?io=getty-c-w1536",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "Build a durable 9% yield retirement income portfolioâdividends to cover expenses without forced sales. Read the full analysis here.",
+      "url": "https://finnhub.io/api/news?id=af9e9891c36a35905a94feb76585bb6875f18fcb3e7f02310634986236b6873c"
+    },
+    {
+      "category": "company",
+      "datetime": 1787036663,
+      "headline": "Pfizer: Still Cheap Valuation Meets A Looming Patent Cliff",
+      "id": 141245137,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2178115949/image_2178115949.jpg?io=getty-c-w1536",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "Pfizer reported second quarter results, and the company did beat analystsâ estimates for revenue as well as earnings per share. Read why PFE stock is a buy.",
+      "url": "https://finnhub.io/api/news?id=cb69904af5d30282ff1a8d170381797b4c39dcaeece33b4ccb352f2b52a2ecac"
+    },
+    {
+      "category": "company",
+      "datetime": 1786989900,
+      "headline": "These S&P500 stocks are the most active in today's session",
+      "id": 141239369,
+      "image": "https://www.chartmill.com/images/uploads/CM_Most_Active_Stocks_Small_free_fec0650b7f.webp",
+      "related": "PFE",
+      "source": "ChartMill",
+      "summary": "Looking for the most active stocks in the S&P500 index on Monday? Dive into today's session and discover the stocks that are dominating the trading activity and setting the pace for the market.",
+      "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
+    },
+    {
+      "category": "company",
+      "datetime": 1786973716,
+      "headline": "4 Health Care Stocks With Whale Alerts In Today’s Session",
+      "id": 141239729,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/aggregated_options_3.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
+      "url": "https://finnhub.io/api/news?id=ccd2ea8851c0b4b01e6bcf4847b75690ef0993697f38657d9476c66c127a9022"
+    },
+    {
+      "category": "company",
+      "datetime": 1786861929,
+      "headline": "Wall Street Week Ahead",
+      "id": 141230802,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/472209441/image_472209441.jpg?io=getty-c-w1536",
+      "related": "PFE",
+      "source": "SeekingAlpha",
+      "summary": "Preview key market catalysts: Walmart, Target & Home Depot earnings, Fed minutes, PMI data, and S&P 500 changes.",
+      "url": "https://finnhub.io/api/news?id=f27678b5a5ecd46e15edc0e77302ec2996e442f4cec8d95c252a55f426f58c84"
+    },
+    {
+      "category": "company",
+      "datetime": 1786711574,
+      "headline": "European Regulator Validates Pfizer and Valneva's Lyme Disease Vaccine Application",
+      "id": 141218823,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/14/Vaccine.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "Valneva (VALN) stock surges after EMA validates MAA for Lyme disease vaccine candidate developed with Pfizer (PFE). Phase 3 trial showed efficacy and no safety concerns, pending regulatory approval.",
+      "url": "https://finnhub.io/api/news?id=7bfe534a70390038e10d17cbb2c82f1b487ed3146bc75f42546c6b75ccffa9f2"
+    },
+    {
+      "category": "company",
+      "datetime": 1786705331,
+      "headline": "Recent Filing Shows That Rep. Carol Miller Sold Over $60K Worth of Pfizer Stock",
+      "id": 141220994,
+      "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/insider_trade_1.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "A August filing shows that Representative Carol Miller reported a sale in Pfizer (NYSE:PFE), valued between $60,004 and $200,000. The transaction date is listed as March 10, 2025, with the report published on August 13,",
+      "url": "https://finnhub.io/api/news?id=abeeb106c459bfd415bf320c72c4c775eac1ff0d43af0e5b952acb0865b61db0"
+    },
+    {
+      "category": "company",
+      "datetime": 1786683600,
+      "headline": "Pfizer and Valneva’s Lyme Disease Vaccine Candidate Marketing Authorization Application Validated by European Medicines Agency",
+      "id": 141215069,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "NEW YORK & LYON, France, August 14, 2026--Pfizer Inc. (NYSE: PFE) and Valneva SE (Nasdaq: VALN; Euronext Paris: VLA) today announced that the European Medicines Agency (EMA) has validated the Marketing Authorization Application (MAA) for PF-07307405, the companies’ 6-valent outer surface protein A (OspA)-based Lyme disease vaccine candidate and will begin its assessment of the application.",
+      "url": "https://finnhub.io/api/news?id=f7114945d59b91775591be93c045ca3633988fe3d1b6f5898f2a030ec0259ef8"
+    },
+    {
+      "category": "company",
+      "datetime": 1786682245,
+      "headline": "Why Eton Pharmaceuticals Shares Are Trading Higher By 22%; Here Are 20 Stocks Moving Premarket",
+      "id": 141216490,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/08/14/The-Real-Villains-No-Longer-Hide.jpg?width=2048&height=1536",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "Eton Pharmaceuticals Inc (NASDAQ: ETON) rose in pre-market trading after reporting strong Q2 results and issuing FY26 revenue guidance above estimates.",
+      "url": "https://finnhub.io/api/news?id=c2c51ff900748cc919958f244e5ad7f758483c9476ba1a33f0011d2bf799c198"
+    },
+    {
+      "category": "company",
+      "datetime": 1786669587,
+      "headline": "Valneva shares are trading lower after the company announced with Pfizer topline results from the Phase 3 VALOR \"Vaccine Against Lyme for Outdoor Recreationists\" clinical trial. The vaccine candidate PF-07307405 demonstrated efficacy of more than 70% in preventing Lyme disease in individuals aged five years and above.",
+      "id": 140013274,
+      "image": "",
+      "related": "PFE",
+      "source": "Benzinga",
+      "summary": "",
+      "url": "https://finnhub.io/api/news?id=c5cbe2f06e69173640b9cf6c14e9d85950201555291b56af9a7688f8df4a16fb"
+    },
+    {
+      "category": "company",
+      "datetime": 1786647861,
+      "headline": "Valneva Q2 Earnings Call Highlights",
+      "id": 141209482,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Valneva (NASDAQ:VALN) reported lower first-half revenue and wider losses for 2026, while maintaining its full-year sales outlook and emphasizing its cash position, restructuring measures and expectations for regulatory progress on its Lyme disease vaccine candidate with Pfizer. CEO Thomas Lingelbac",
+      "url": "https://finnhub.io/api/news?id=ae5bdda631a70f2a87b44e4b66f3b5b884b69988e3004f5e5d804963bbdbc05f"
+    },
+    {
+      "category": "company",
+      "datetime": 1786647540,
+      "headline": "Gene Therapy Remains Top-of-Mind in Hemophilia Despite Recent Market Contraction, as Physicians and Patients Raise the Bar for Success",
+      "id": 141209483,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Nearly nine in ten EU4+UK hematologists now require longer-term efficacy data before referring patients with hemophilia A for gene therapy, while Spherix patient research reveals continued interest in the modality.Exton, PA, Aug. 13, 2026 (GLOBE NEWSWIRE) -- The hemophilia gene therapy market is contracting commercially, but physician and patient interest in the modality has not disappeared. Recent commercial developments, including the discontinuation of BEQVEZ® (Pfizer), withdrawal of ROCTAVIA",
+      "url": "https://finnhub.io/api/news?id=3c50b192e42afc7959b9d6c5187a3c0d70a3787a21eaf75845d638618c8d799a"
+    },
+    {
+      "category": "company",
+      "datetime": 1786637411,
+      "headline": "The Sharpest Exchanges From ABBV's Earnings Call",
+      "id": 141207923,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "AbbVie's growth engine is firing on all cylinders, but on its latest earnings call, analysts focused on whether the company can defend its turf and execute on its next big pipeline bet.",
+      "url": "https://finnhub.io/api/news?id=88a90702b18759d550549111dea289f1d88362148d397438d1ad60ef07c20c75"
+    },
+    {
+      "category": "company",
+      "datetime": 1786633961,
+      "headline": "How Pfizer’s Higher 2026 Guidance And LITFULO Trial Results At Pfizer (PFE) Have Changed Its Investment Story",
+      "id": 141206622,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "In early August 2026, Pfizer Inc. reported second-quarter results showing revenue of US$15,034 million and a net loss of US$248 million, alongside US$4.30 billion in non-cash intangible asset impairments and a modest increase in full-year 2026 revenue guidance to US$60.50–US$62.50 billion. A key offsetting highlight was the positive Phase 3 data for Pfizer’s autoimmune drug LITFULO in nonsegmental vitiligo, underlining the growing importance of its non-COVID portfolio and broader immunology...",
+      "url": "https://finnhub.io/api/news?id=834e68a730234edefb17d792b46fff00c1c6f2944ccc0a22b3f604a8b4eb6da1"
+    },
+    {
+      "category": "company",
+      "datetime": 1786633320,
+      "headline": "The Advertising Research Foundation Announces 2026 ARF David Ogilvy Awards Finalists",
+      "id": 141206444,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "The Advertising Research Foundation (ARF) today announced the finalists for the 2026 ARF David Ogilvy Awards, honoring excellence in research-driven advertising and marketing.",
+      "url": "https://finnhub.io/api/news?id=52bfa7e35dde7a9ac989f6330dfa4e876871b264aac6960fbbbe3c1c17a70378"
+    },
+    {
+      "category": "company",
+      "datetime": 1786623646,
+      "headline": "Pfizer CEO Buys $1 Million of Stock",
+      "id": 141205587,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Albert Bourla adds 38,000 shares.",
+      "url": "https://finnhub.io/api/news?id=ee149afdd7845ac06c38622b9bf67674688ee202ce2eb54f27125b46d8f5e47b"
+    },
+    {
+      "category": "company",
+      "datetime": 1786622460,
+      "headline": "This Healthcare Services Stock Has 37% Upside",
+      "id": 141205521,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Well-known pharmaceutical companies such as  Merck  and  Pfizer  typically manage this complex process in house.  Medpace Holdings  which targets oncology, metabolic, cardiology, central nervous system, and anti-infective therapies, raised its 2026 revenue guidance on July’s second-quarter conference call to a midpoint of $2.85 billion, corresponding to a year-over-year increase of 13%.  Three months later, Medpace is in the pink: On the heels of second-quarter earnings, the stock is up 14%.",
+      "url": "https://finnhub.io/api/news?id=6832e14b21f0874656f33283932f5bb0210df135957773398747c23a6f14a2bd"
+    },
+    {
+      "category": "company",
+      "datetime": 1786597284,
+      "headline": "Spero Therapeutics Inc (SPRO) (Q2 2026) Earnings Call Highlights: FDA Approval of Utebzi and ...",
+      "id": 141201259,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "SPRO strengthens its balance sheet and extends cash runway into 2029 while advancing its new SP001 immunology pipeline following the landmark approval of the first oral carbapenem antibiotic.",
+      "url": "https://finnhub.io/api/news?id=f4d58bf3a8eb3297142ff265493be229f5d1f5432c1e0a32c3ed66281ef8c7fb"
+    },
+    {
+      "category": "company",
+      "datetime": 1786597200,
+      "headline": "Valneva Reports Half Year 2026 Financial Results and  Provides Corporate Updates",
+      "id": 141201260,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Total product sales of €64.0 million In-line with expectations; full-year guidance of €135 -150 million reaffirmed Solid cash position of €121.5 million as of end June 2026 Reflects disciplined cash management and proceeds from the recent reserved offering1 Restructuring program implemented with positive P&L and cash flow impacts expected in the second half of the year and beyond Regulatory decisions for Lyme disease vaccine candidate expected in the next twelve months2 Pfizer remains optimistic",
+      "url": "https://finnhub.io/api/news?id=5323415d0a54de4967d0a77becd945f6a79d31103a9dbf185d6c475d5b5955d7"
+    },
+    {
+      "category": "company",
+      "datetime": 1786588140,
+      "headline": "5 Insightful Analyst Questions From Pfizer’s Q2 Earnings Call",
+      "id": 141201261,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "PFE",
+      "source": "Yahoo",
+      "summary": "Pfizer’s second quarter results reflected stability in its core business despite ongoing challenges in COVID-related product demand. The company’s performance was shaped by strong execution in its non-COVID portfolio, with management highlighting robust revenue contributions from acquired brands and recent launches. CEO Albert Bourla attributed operational progress to “continued strategic progress” and emphasized the value generated by recent acquisitions such as Seagen and Biohaven. Management",
+      "url": "https://finnhub.io/api/news?id=cf8edf845ef0b119e311ea0f406e1111fbe27c66b2cf07b31caba82f0c18d6f6"
+    }
+  ]
+}

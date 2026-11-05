@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "request": {
+    "endpoint": "/company-news",
+    "symbol": "NVDA",
+    "from": "2025-06-26",
+    "to": "2025-07-02"
+  },
+  "retrieved_at_utc": "2026-11-05T16:39:26Z",
+  "http_status": 200,
+  "response_headers": {
+    "date": "Thu, 05 Nov 2026 16:39:27 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1793896785"
+  },
+  "collection_status": "success_empty_unverified",
+  "terminal_window": true,
+  "response": []
+}
