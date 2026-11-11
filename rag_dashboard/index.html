@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signal Desk · IOE 499</title>
+  <link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#overview"><span class="brand-icon">s<span>·</span></span><span>SIGNAL DESK<small>NEWS → EVIDENCE → INSIGHT</small></span></a>
+    <div class="workspace-label">RESEARCH WORKSPACE</div>
+    <nav aria-label="Main navigation">
+      <a href="#overview" class="nav-link active" data-view="overview"><span>▦</span> Overview <i>01</i></a>
+      <a href="#pipeline" class="nav-link" data-view="pipeline"><span>⌘</span> Pipeline & provenance <i>02</i></a>
+    </nav>
+    <div class="sidebar-project"><span class="eyebrow">THE PROJECT</span><h3>Making sense<br>of market news.</h3><p>Sentiment analysis for portfolio rebalancing and hedging.</p><span class="project-tag">IOE 499 · SENIOR DESIGN</span></div>
+    <div class="sidebar-bottom"><span class="school-mark">M</span><div>MICHIGAN ENGINEERING<small>Industrial & Operations Engineering</small></div></div>
+  </aside>
+  <main>
+    <header class="topbar"><div><span class="eyebrow">IOE 499 / FINANCIAL NEWS RESEARCH</span><span class="breadcrumb" id="breadcrumb">Workspace overview</span></div><div class="connection"><span class="status-dot"></span> Local research environment</div></header>
+    <div class="page">
+      <section class="page-heading"><div><div class="eyebrow gold">FROM INFORMATION TO UNDERSTANDING</div><h1 id="page-title">The signal, in context.</h1><p id="page-subtitle">Explore the news behind your portfolio. Trace every insight back to its source.</p></div><button id="export" class="button secondary">↓ Export daily snapshot</button></section>
+      <div class="filters"><div class="date-field"><label for="date">RESEARCH DATE <span>UTC</span></label><div><button id="previous-day" aria-label="Previous day">‹</button><input type="date" id="date"><button id="next-day" aria-label="Next day">›</button></div></div><div class="filter-divider"></div><div class="asset-field"><label>ASSET UNIVERSE</label><div class="asset-buttons" id="assets"><button class="selected" data-symbol="">All assets</button><button data-symbol="NVDA">NVDA</button><button data-symbol="SPY">SPY</button><button data-symbol="META">META</button><button data-symbol="PFE">PFE</button></div></div><span class="snapshot-badge">◷ Historical snapshot</span></div>
+      <div id="global-error" class="alert error" role="alert" hidden></div>
+      <div id="loading" class="loading">Loading the research dataset…</div>
+      <div id="coverage-note" class="coverage-note" hidden></div>
+
+      <div id="overview-view" class="view" hidden>
+        <div class="metrics metrics-compact"><article class="metric"><span>TRACKED ASSETS <span class="metric-icon">⌁</span></span><strong>04</strong><small>Technology, market & healthcare</small></article><article class="metric accent"><span>NEWS ON SELECTED DAY <span class="metric-icon">↗</span></span><strong id="metric-day">—</strong><small id="metric-day-sub">Across both news providers</small></article></div>
+        <div class="overview-grid"><section class="panel allocation"><div class="panel-heading"><div><span class="eyebrow">PIPELINE RESULTS</span><h2>Portfolio allocation</h2></div><span class="pill">Pending</span></div><div class="empty"><h3>Awaiting pipeline connection.</h3><p>No allocations have been calculated. This panel will display actual outputs once the pipeline is connected.</p></div><div class="panel-footnote">No allocation values or performance results are assigned.</div></section>
+        <section class="panel activity"><div class="panel-heading"><div><span class="eyebrow">INFORMATION FLOW</span><h2>News activity</h2></div><select id="chart-range" aria-label="Chart range"><option value="14">14 days</option><option value="30" selected>30 days</option><option value="90">90 days</option></select></div><div class="chart-key"><span><i class="key alpaca"></i>Alpaca</span><span><i class="key finnhub"></i>Finnhub</span><span class="chart-total" id="chart-total"></span></div><div id="activity-chart" class="activity-chart"></div><div class="panel-footnote">Daily provider records · UTC publication dates · Click a bar to explore</div></section></div>
+        <div class="journey"><div class="journey-intro"><span class="eyebrow">THE RESEARCH PATH</span><strong>Follow the evidence.</strong></div><div class="journey-step"><span>01</span><div>Collect<small>Alpaca + Finnhub</small></div></div><b>→</b><div class="journey-step"><span>02</span><div>Organize<small>Deduplicate & align</small></div></div><b>→</b><div class="journey-step"><span>03</span><div>Retrieve<small>Search source records</small></div></div><b>→</b><div class="journey-step"><span>04</span><div>Explain<small>Local Qwen briefing</small></div></div></div>
+      </div>
+
+      <section id="evidence-section" class="evidence-grid" hidden>
+        <div class="panel evidence-panel"><div class="panel-heading"><div><span class="eyebrow">SOURCE MATERIAL</span><h2>Evidence feed <span id="evidence-count" class="count-pill">0</span></h2></div><select id="provider" aria-label="News provider"><option value="">All providers</option><option value="alpaca">Alpaca</option><option value="finnhub">Finnhub</option></select></div><form id="search-form" class="search"><span>⌕</span><input id="query" type="search" placeholder="Search headlines and summaries…" aria-label="Search news"><button type="submit">Search</button></form><p class="feed-context" id="feed-context"></p><div id="article-list" class="article-list" aria-live="polite"></div><div class="pagination"><span id="page-info"></span><div><button id="page-prev" class="small-button">← Previous</button><button id="page-next" class="small-button">Next →</button></div></div></div>
+        <aside class="panel briefing"><div class="panel-heading"><div><span class="eyebrow">PLANNED MODEL OUTPUT</span><h2>Research brief</h2></div><span class="pill">Pending</span></div><p class="panel-description">Reserved for the actual pipeline's explanations and supporting evidence.</p><div class="model-status" id="model-status">Pipeline not connected · No model results</div><label class="question-label" for="question">RESEARCH QUESTION</label><textarea id="question" maxlength="1000" rows="4" disabled placeholder="Available after the pipeline is connected"></textarea><button id="generate" class="button primary" disabled>Awaiting pipeline connection</button><p class="briefing-note">The news feed previews saved input records. No model results have been produced.</p><div id="answer" class="answer" aria-live="polite"></div></aside>
+      </section>
+
+      <section id="pipeline-view" class="view" hidden><div class="panel provenance"><div class="panel-heading"><div><span class="eyebrow">INPUT DATA & PLANNED WORKFLOW</span><h2>Data, methods & availability</h2></div><span class="pill">Pipeline pending</span></div><div class="method-grid"><article><span class="step-number">01 / INPUT NEWS</span><h3>Saved provider records.</h3><p>The preview reads Alpaca and Finnhub news from the fetched rag-pipeline Git branch. These input records are not model outputs.</p></article><article><span class="step-number">02 / ALLOCATION</span><h3>Awaiting pipeline connection.</h3><p>No portfolio allocations, hedge recommendations or performance results are currently displayed.</p></article><article><span class="step-number">03 / INPUT SEARCH</span><h3>Inspect the source records.</h3><p>The frontend supports keyword search and date, ticker and provider filters for reviewing available input news.</p></article><article><span class="step-number">04 / MODEL OUTPUT</span><h3>Results pending.</h3><p>Briefing generation is disabled until the actual pipeline and its output format are agreed and connected.</p></article></div><div id="audit-details"></div></div></section>
+      <footer><span>UNIVERSITY OF MICHIGAN <i>/</i> IOE 499</span><span>Research prototype · Provider snapshots, not a live trading system</span></footer>
+    </div>
+  </main>
+</body>
+</html>
