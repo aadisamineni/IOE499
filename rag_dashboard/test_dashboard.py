@@ -1,4 +1,4 @@
-"""Offline checks for the dashboard's data boundaries and model integration."""
+"""Checks for the local CSV-to-Qwen dashboard integration."""
 import csv
 import importlib.util
 import json
@@ -17,62 +17,67 @@ class DashboardTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        fields = ['article_id', 'published_at_utc', 'headline', 'summary', 'source', 'url']
-        for prefix in ['processed', 'alpaca/processed']:
-            folder = self.root / prefix
-            folder.mkdir(parents=True)
-            for symbol in app.SYMBOLS:
-                with (folder / f'{symbol}_news.csv').open('w', newline='') as handle:
-                    writer = csv.DictWriter(handle, fieldnames=fields)
-                    writer.writeheader()
-                    # Same-provider identity is shared across symbol exports.
-                    writer.writerow(dict(article_id='1', published_at_utc='2026-11-05T10:00:00Z',
-                        headline='<b>Chip partnership</b>', summary='Revenue grew,\nwith new demand.',
-                        source='Example publisher', url='https://example.com/1'))
-        with (self.root / 'processed/NVDA_news.csv').open('a', newline='') as handle:
-            writer = csv.DictWriter(handle, fieldnames=fields)
-            writer.writerow(dict(article_id='2',published_at_utc='2026-11-06T10:00:00Z',
-                headline='Future chip news', summary='Future detail',source='Example',url=''))
-        self.source = app.Source(folder=self.root)
-        self.db, self.audit = app.build_index(self.source, self.root / 'cache')
+        self.csv = self.root / 'news.csv'
+        fields = ['date_utc', *[f'weight_{s}' for s in app.SYMBOLS], 'provider', 'article_id',
+                  'query_symbols', 'related_symbols', 'published_at_utc', 'headline', 'summary',
+                  'publisher', 'url', 'retrieved_at_utc', 'content_html']
+        rows = [
+            ['2026-01-01', '.2', '.4', '.2', '.2', 'alpaca', 'a1', 'NVDA', 'NVDA', '2026-01-01T10:00:00Z', 'Chip news', 'First story', 'Example', 'https://example.com/a', '2026-11-01T00:00:00Z', '<p>Long content</p>'],
+            ['2026-01-01', '.2', '.4', '.2', '.2', 'finnhub', 'b2', 'META', 'META', '2026-01-01T11:00:00Z', 'Meta update', 'Second story', 'Example', '', '2026-11-01T00:00:00Z', 'content'],
+            ['2026-01-02', '.2', '.4', '.2', '.2', 'alpaca', 'c3', 'NVDA', 'NVDA', '2026-01-02T10:00:00Z', 'Future news', 'Future story', 'Example', '', '2026-11-01T00:00:00Z', 'content'],
+        ]
+        with self.csv.open('w', newline='') as handle:
+            writer = csv.writer(handle)
+            writer.writerow(fields)
+            writer.writerows(rows)
+        self.db = app.build_index(self.csv, self.root / 'cache')
+        self.output = {'date_utc':'2026-01-01', 'target_weights':{'NVDA':.2,'SPY':.4,'META':.2,'PFE':.2},
+                       'reasoning':{s:'Explanation' for s in app.SYMBOLS}, 'supporting_article_ids':['a1'],
+                       'portfolio_reasoning':'An illustrative allocation.'}
 
-    def test_dedup_preserves_symbols_and_separates_providers(self):
-        result = app.search_articles(self.db, '2026-11-05', symbol='META')
-        self.assertEqual(result['total'], 2)
-        self.assertEqual({r['provider'] for r in result['articles']}, {'alpaca', 'finnhub'})
-        self.assertEqual(result['articles'][0]['symbols'], 'NVDA,SPY,META,PFE')
+    def test_news_filtering_and_calendar_use_merged_csv(self):
+        self.assertEqual(app.overview(self.db)['total'], 3)
+        result = app.search_articles(self.db, '2026-01-01', symbol='META', provider='finnhub', query='Meta')
+        self.assertEqual(result['total'], 1)
+        self.assertEqual(result['articles'][0]['article_id'], 'b2')
+        self.assertNotIn('content_html', result['articles'][0])
+        self.assertEqual(app.search_articles(self.db, '2026-01-01', query='Future')['total'], 0)
+        self.assertEqual(app.search_articles(self.db, '2026-01-01', query='%')['total'], 0)
 
-    def test_search_is_day_bounded_and_handles_query_syntax_as_text(self):
-        result = app.search_articles(self.db, '2026-11-05', query='chip " OR *')
-        self.assertEqual(result['total'], 2)
-        self.assertTrue(all(r['article_id'] == '1' for r in result['articles']))
-        self.assertEqual(app.search_articles(self.db, '2026-11-05', provider='alpaca')['total'], 1)
-        self.assertEqual(app.search_articles(self.db, '2026-11-04')['total'], 0)
-        with self.assertRaises(ValueError):
-            app.search_articles(self.db, 'invalid')
+    def test_analysis_calls_existing_qwen_with_one_matching_record(self):
+        with patch.object(app.local_qwen, 'ask_ollama', return_value=json.dumps(self.output)) as model:
+            result = app.analyze(self.db, {'date':'2026-01-01', 'symbol':'NVDA'})
+        payload = model.call_args.args[0]
+        self.assertEqual(payload['model'], app.local_qwen.MODEL)
+        self.assertIn('a1', payload['messages'][1]['content'])
+        self.assertNotIn('Future news', payload['messages'][1]['content'])
+        self.assertNotIn('Long content', payload['messages'][1]['content'])
+        self.assertEqual(result['output'], self.output)
+        self.assertEqual(result['warnings'], [])
+        self.assertEqual(result['evidence'][0]['retrieved_at_utc'], '2026-11-01T00:00:00Z')
 
-    def test_text_is_plain_and_multiline_csv_is_preserved(self):
-        row = app.search_articles(self.db, '2026-11-05')['articles'][0]
-        self.assertEqual(row['headline'], 'Chip partnership')
-        self.assertEqual(row['summary'], 'Revenue grew,\nwith new demand.')
+    def test_flags_invalid_weights_and_citations(self):
+        self.output['target_weights']['SPY'] = .1
+        self.output['supporting_article_ids'] = ['not-in-input']
+        with patch.object(app.local_qwen, 'ask_ollama', return_value=json.dumps(self.output)):
+            result = app.analyze(self.db, {'date':'2026-01-01'})
+        self.assertTrue(any('100%' in warning for warning in result['warnings']))
+        self.assertTrue(any('constraints' in warning for warning in result['warnings']))
+        self.assertTrue(any('article' in warning for warning in result['warnings']))
 
-    def test_lfs_pointer_is_reported_and_not_indexed_as_news(self):
-        (self.root / 'alpaca/processed/NVDA_news.csv').write_text(
-            'version https://git-lfs.github.com/spec/v1\noid sha256:123\nsize 1234\n')
-        _, audit = app.build_index(self.source, self.root / 'cache', refresh=True)
-        self.assertEqual(len(audit['missing']), 1)
-        self.assertEqual(audit['missing'][0]['file'], 'alpaca/processed/NVDA_news.csv')
+    def test_cluster_qwen_requests_a_json_answer_without_thinking(self):
+        with patch.object(app.local_qwen, 'ask_ollama', return_value=json.dumps(self.output)) as model:
+            app.analyze(self.db, {'date': '2026-01-01'}, model='qwen3:32b')
+        payload = model.call_args.args[0]
+        self.assertFalse(payload['think'])
+        self.assertEqual(payload['format'], 'json')
 
-    def test_brief_uses_only_retrieved_text_and_flags_unknown_citations(self):
-        with patch.object(app, 'ollama_request', return_value={
-                'message': {'content': 'Evidence [alpaca:1]. Unsupported [alpaca:999].'}}) as model:
-            result = app.brief(self.db, {'date': '2026-11-05', 'question': 'What changed?'})
-        self.assertEqual(result['unknown_citations'], ['alpaca:999'])
-        payload = model.call_args.args[1]
-        evidence = json.loads(payload['messages'][1]['content'].split('Evidence:\n')[1])
-        self.assertTrue(all(r['article_id'] == '1' for r in result['evidence']))
-        self.assertNotIn('Future detail', json.dumps(evidence))
-        self.assertTrue(result['has_citations'])
+    def test_rejects_invalid_model_output_and_empty_evidence(self):
+        with patch.object(app.local_qwen, 'ask_ollama', return_value='not JSON'):
+            with self.assertRaisesRegex(ValueError, 'invalid JSON'):
+                app.analyze(self.db, {'date':'2026-01-01'})
+        with self.assertRaisesRegex(ValueError, 'No articles'):
+            app.analyze(self.db, {'date':'2026-01-01', 'query':'missing'})
 
 
 if __name__ == '__main__':
